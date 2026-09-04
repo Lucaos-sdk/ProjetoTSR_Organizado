@@ -1,9 +1,6 @@
 #include "pch.h"
 #include "D3D12_Hooks.h"
 
-// ===== ADICIONADO PARA O TSR =====
-#include "TSRManager.h"
-
 #include <Util.h>
 #include <Config.h>
 
@@ -26,35 +23,6 @@
 #include "Hook_Utils.h"
 
 #pragma intrinsic(_ReturnAddress)
-
-// ===== ADICIONADO PARA O TSR =====
-TSRManager g_TSRManager;
-static bool g_TSRInitialized = false;
-
-// Funções auxiliares para controle do TSR
-void InitTSR(ID3D12Device* device, ID3D12CommandQueue* commandQueue)
-{
-    if (!g_TSRInitialized && device != nullptr)
-    {
-        g_TSRInitialized = g_TSRManager.Inicializar(device, commandQueue, L"tsr_ultralight_540p.onnx", 1920, 1080);
-        if (g_TSRInitialized)
-        {
-            LOG_INFO("TSR Engine inicializado com sucesso!");
-        }
-        else
-        {
-            LOG_ERROR("Falha ao inicializar o TSR Engine!");
-        }
-    }
-}
-
-void ExecuteTSRFrame(ID3D12GraphicsCommandList* cmdList)
-{
-    if (g_TSRInitialized && cmdList != nullptr)
-    {
-        g_TSRManager.ExecutarFrame(cmdList);
-    }
-}
 
 using PFN_CheckFeatureSupport = rewrite_signature<decltype(&ID3D12Device::CheckFeatureSupport)>::type;
 using PFN_CreateSampler = rewrite_signature<decltype(&ID3D12Device::CreateSampler)>::type;
@@ -2428,10 +2396,6 @@ bool D3D12Hooks::RestoreGraphicsRootState(ID3D12GraphicsCommandList* cmdList)
 
 void D3D12Hooks::RestoreRoot(ID3D12GraphicsCommandList* cmdList)
 {
-    // ===== ADICIONADO PARA O TSR =====
-    // Executa o frame TSR no ciclo de restore do command list
-    ExecuteTSRFrame(cmdList);
-
     const bool restoreComputeSignature = Config::Instance()->RestoreComputeSignature.value_or_default();
     const bool restoreGraphicSignature = Config::Instance()->RestoreGraphicSignature.value_or_default();
 

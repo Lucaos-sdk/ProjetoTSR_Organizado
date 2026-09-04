@@ -1,62 +1,64 @@
+"""Synchronized host-observed ONNX latency, not GPU timestamps or full TSR frame time."""
+import argparse
 import time
 import numpy as np
-import onnxruntime as ort
+from contract import DEFAULT_MODEL, INPUTS, OUTPUTS, HEIGHT, WIDTH, validate_model
 
-def run_io_binding_benchmark():
-    onnx_filename = "tsr_ultralight_540p_fp16.onnx"
-    
-    # Inicializa a sessão com DirectML
-    providers = ['DmlExecutionProvider', 'CPUExecutionProvider']
-    session = ort.InferenceSession(onnx_filename, providers=providers)
 
-    print(f"Executando benchmark VRAM pura via: {session.get_providers()[0]}")
+def benchmark(path, iterations=200, warmup=30, allow_untrained=False):
+    import onnxruntime as ort
+    if iterations < 1 or warmup < 0:
+        raise ValueError('iterations must be positive and warmup nonnegative')
+    validate_model(path, require_checkpoint=not allow_untrained)
+    if 'DmlExecutionProvider' not in ort.get_available_providers():
+        raise RuntimeError('DirectML unavailable; CPU fallback cannot measure this GPU experiment')
+    options = ort.SessionOptions()
+    options.enable_mem_pattern = False
+    options.execution_mode = ort.ExecutionMode.ORT_SEQUENTIAL
+    options.add_session_config_entry('session.disable_cpu_ep_fallback', '1')
+    session = ort.InferenceSession(str(path), sess_options=options, providers=['DmlExecutionProvider'])
+    session.disable_fallback()
+    binding = session.io_binding()
+    rng = np.random.default_rng(0)
+    # Keep these alive until every run and synchronization has finished.
+    values = []
+    try:
+        for name, channels in INPUTS.items():
+            data = rng.normal(0, .1, (1, channels, HEIGHT, WIDTH)).astype(np.float16)
+            value = ort.OrtValue.ortvalue_from_numpy(data, 'dml', 0)
+            values.append(value)
+            binding.bind_ortvalue_input(name, value)
+        for name in OUTPUTS:
+            binding.bind_output(name, 'dml', 0)
+    except Exception as exc:
+        raise RuntimeError('This ONNX Runtime build does not support Python DML device binding; use a native D3D12 harness. No CPU substitute was measured.') from exc
+    binding.synchronize_inputs()
+    session.run_with_iobinding(binding)
+    binding.synchronize_outputs()
+    outputs = binding.get_outputs()
+    for name, value in zip(OUTPUTS, outputs):
+        binding.bind_ortvalue_output(name, value)
+    samples = []
+    for i in range(warmup + iterations):
+        start = time.perf_counter_ns()
+        session.run_with_iobinding(binding)
+        binding.synchronize_outputs()
+        elapsed = (time.perf_counter_ns() - start) / 1e6
+        if i >= warmup:
+            samples.append(elapsed)
+    for output in binding.copy_outputs_to_cpu():
+        if not np.isfinite(output).all():
+            raise RuntimeError('Non-finite output invalidates the benchmark')
+    print(f'ORT {ort.__version__}; model={path}; n={iterations}; synchronized host latency')
+    print(f'mean={np.mean(samples):.3f} ms; median={np.median(samples):.3f} ms; p95={np.percentile(samples,95):.3f} ms')
+    print('Excludes PrePack, reprojection, reconstruction and game integration. Does not establish image quality.')
 
-    # Cria matrizes iniciais NumPy em FP16
-    packed_np = np.random.randn(1, 16, 540, 960).astype(np.float16)
-    history_np = np.random.randn(1, 8, 540, 960).astype(np.float16)
 
-    # Inicializa o objeto I/O Binding do ONNX Runtime
-    io_binding = session.io_binding()
-
-    # Move os tensores de entrada para a VRAM (dispositivo DirectML)
-    packed_input_ort = ort.OrtValue.ortvalue_from_numpy(packed_np, 'dml', 0)
-    warped_history_ort = ort.OrtValue.ortvalue_from_numpy(history_np, 'dml', 0)
-
-    io_binding.bind_ortvalue_input('packed_input', packed_input_ort)
-    io_binding.bind_ortvalue_input('warped_history', warped_history_ort)
-
-    # Instrui o DirectML a alocar os tensores de saída diretamente na VRAM
-    io_binding.bind_output('confidence_mask', 'dml')
-    io_binding.bind_output('new_history', 'dml')
-    io_binding.bind_output('reconstruction_coeffs', 'dml')
-
-    # Warm-up (aquecimento da GPU)
-    print("Aquecendo a GPU com tensores fixados na VRAM...")
-    for _ in range(30):
-        session.run_with_iobinding(io_binding)
-
-    # Medição de tempo sem o gargalo do barramento PCIe
-    num_iterations = 200
-    times = []
-
-    print(f"Iniciando {num_iterations} iterações (Sem cópia CPU <-> GPU)...")
-    for _ in range(num_iterations):
-        start_time = time.perf_counter()
-        session.run_with_iobinding(io_binding)
-        end_time = time.perf_counter()
-        
-        elapsed_ms = (end_time - start_time) * 1000.0
-        times.append(elapsed_ms)
-
-    avg_time = np.mean(times)
-    min_time = np.min(times)
-    max_time = np.max(times)
-
-    print("\n--- Resultados do Benchmark VRAM (I/O Binding / DirectML) ---")
-    print(f"Tempo médio de inferência: {avg_time:.3f} ms")
-    print(f"Tempo mínimo:              {min_time:.3f} ms")
-    print(f"Tempo máximo:              {max_time:.3f} ms")
-    print("-------------------------------------------------------------")
-
-if __name__ == "__main__":
-    run_io_binding_benchmark()
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--model', type=str, default=str(DEFAULT_MODEL))
+    parser.add_argument('--iterations', type=int, default=200)
+    parser.add_argument('--warmup', type=int, default=30)
+    parser.add_argument('--allow-untrained', action='store_true')
+    args = parser.parse_args()
+    benchmark(args.model, args.iterations, args.warmup, args.allow_untrained)

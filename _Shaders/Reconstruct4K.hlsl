@@ -16,7 +16,7 @@ SamplerState g_LinearSampler           : register(s0);
 RWTexture2D<float4> g_OutputColor4K    : register(u0); // Buffer final exibido na tela (4K)
 
 [numthreads(8, 8, 1)]
-void main(uint33 dispatchThreadID : SV_DispatchThreadID)
+void main(uint3 dispatchThreadID : SV_DispatchThreadID)
 {
     uint2 pos4K = dispatchThreadID.xy;
     

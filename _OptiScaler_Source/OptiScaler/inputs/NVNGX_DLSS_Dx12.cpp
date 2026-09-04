@@ -21,15 +21,6 @@
 #include "detours/detours.h"
 #include <ankerl/unordered_dense.h>
 #include <misc/IdentifyGpu.h>
-#include <onnxruntime_cxx_api.h>
-
-// ===== INTEGRAÇÃO DO TSR =====
-#include "TSRManager.h"
-
-static TSRManager g_TSRManager;
-static bool g_TSRInited = false;
-// =============================
-
 static ankerl::unordered_dense::map<unsigned int, ContextData<IFeature_Dx12>> Dx12Contexts;
 static std::unordered_map<unsigned int, NVSDK_NGX_Feature> HandleToFeature;
 
@@ -730,19 +721,7 @@ static NVSDK_NGX_Result TryEvaluateOptiFeature(ID3D12GraphicsCommandList* InCmdL
     State& state = State::Instance();
     const Config& cfg = *Config::Instance();
 
-    // ===== INTEGRAÇÃO DO TSR MANAGER =====
-    if (!g_TSRInited && D3D12Device != nullptr)
-    {
-        g_TSRInited = g_TSRManager.Inicializar(D3D12Device, nullptr, L"tsr_ultralight_540p.onnx", 1920, 1080);
-    }
-
-    if (g_TSRInited)
-    {
-        g_TSRManager.ExecutarFrame(InCmdList);
-        return NVSDK_NGX_Result_Success;
-    }
-    // ====================================
-
+    // TSR is not yet a complete IFeature_Dx12 backend. Preserve normal evaluation.
     const uint32_t handleId = InFeatureHandle->Id;
     auto ctxIt = Dx12Contexts.find(handleId);
 

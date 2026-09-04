@@ -19,8 +19,8 @@ float3 RGB_To_YCoCg_Log(float3 rgb)
     float cg = -0.25f* rgb.r + 0.5f * rgb.g - 0.25f * rgb.b;
     
     // Compressão de luminância para evitar perdas em HDR
-    float y_log = log1p(max(0.0f, y));
-    return float3(y_log, co, cg);
+    float3 ycocg = float3(y, co, cg);
+    return sign(ycocg) * log(1.0f + abs(ycocg));
 }
 
 [numthreads(8, 8, 1)]
