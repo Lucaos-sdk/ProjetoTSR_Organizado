@@ -3,3 +3,4 @@ __pycache__/
 .venv/
 _IA_Python/*_fp16.onnx
 _IA_Python/*.onnx.data
+/build/

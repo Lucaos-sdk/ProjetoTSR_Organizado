@@ -45,3 +45,13 @@ O benchmark não inclui os shaders nem a integração ao jogo. Não é uma medi�
 | `_Build_Final_Jogo` | Conteúdo legado incompleto; não é uma distribuição validada |
 
 Não há DLL nova validada nesta revisão. O antigo `build.bat` aponta para um arquivo movido e não constitui um build reproduzível. Consulte a auditoria antes de tentar distribuir o projeto.
+
+## Baseline nativo e atualização local
+
+O novo [baseline espacial DX12](native/baseline/README.md) compila separadamente do fork e compara saída bilinear GPU/CPU, com modo WARP e execução em hardware. Ele ainda não implementa TSR temporal.
+
+Para atualizar um clone Git limpo no Windows, execute `powershell -File .\tools\Update-Local.ps1`. O script verifica o origin, recusa alterações locais e atualiza somente por fast-forward. Não executa reset, clean ou stash. Se sua pasta veio de ZIP, faça um clone novo em outra pasta, preservando os arquivos anteriores:
+
+```powershell
+git clone --branch fix/tsr-validation-and-safe-fallback https://github.com/Lucaos-sdk/ProjetoTSR_Organizado.git ProjetoTSR_Atualizado
+```

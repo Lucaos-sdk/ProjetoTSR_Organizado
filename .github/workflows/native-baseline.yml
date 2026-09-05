@@ -1,0 +1,19 @@
+name: Native spatial baseline
+on: [push, pull_request]
+jobs:
+  build-and-test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: cmake -S native/baseline -B build/native -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build build/native --config Release
+      - run: ctest --test-dir build/native -C Release --output-on-failure
+      - name: Package Windows test executable
+        if: runner.os == 'Windows'
+        uses: actions/upload-artifact@v4
+        with:
+          name: tsr-dx12-baseline-windows
+          path: build/native/Release/tsr_dx12_baseline.exe
