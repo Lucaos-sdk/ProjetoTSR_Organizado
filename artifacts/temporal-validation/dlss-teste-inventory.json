@@ -1,0 +1,44 @@
+[
+  {
+    "Path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\dlss teste\\version.dll",
+    "Bytes": 7161856,
+    "Modified": "2026-09-07T23:58:05.4608648-03:00",
+    "SHA256": "8230DD8B4687914AD95FE1FC4D9DF7AADFCA8243D7DCDED87B02BA34DBFDE592"
+  },
+  {
+    "Path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\dlss teste\\dlssnr_on_amd_setup.exe",
+    "Bytes": 7401714,
+    "Modified": "2026-09-07T23:56:44.3707350-03:00",
+    "SHA256": "66B910DA005E000070256B55C41DD5D0E1AE1EA6A8C3A9D0B76EDC1749438092"
+  },
+  {
+    "Path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\dlss teste\\dlssnr_on_amd.ini",
+    "Bytes": 210,
+    "Modified": "2026-09-07T23:58:05.4608648-03:00",
+    "SHA256": "175C1CA1644A2E1CAD9663FF201D47AA8B5B9B4379B1655BC5A19FB1E145FEB8"
+  },
+  {
+    "Path": "C:\\Users\\Administrator\\Downloads\\dlss teste\\version.dll",
+    "Bytes": 7161856,
+    "Modified": "2026-09-07T23:58:05.4608648-03:00",
+    "SHA256": "8230DD8B4687914AD95FE1FC4D9DF7AADFCA8243D7DCDED87B02BA34DBFDE592"
+  },
+  {
+    "Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Palworld\\Engine\\Binaries\\Win64\\version.dll",
+    "Bytes": 7161856,
+    "Modified": "2026-09-08T00:03:49.5929266-03:00",
+    "SHA256": "8230DD8B4687914AD95FE1FC4D9DF7AADFCA8243D7DCDED87B02BA34DBFDE592"
+  },
+  {
+    "Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Palworld\\Engine\\Binaries\\Win64\\dlssnr_on_amd.ini",
+    "Bytes": 210,
+    "Modified": "2026-09-08T00:03:49.5939274-03:00",
+    "SHA256": "175C1CA1644A2E1CAD9663FF201D47AA8B5B9B4379B1655BC5A19FB1E145FEB8"
+  },
+  {
+    "Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Witcher 3\\bin\\x64_dx12\\dxgi.dll",
+    "Bytes": 25632768,
+    "Modified": "2026-09-07T23:40:07.0392756-03:00",
+    "SHA256": "211A8296918FCA4BF2237636BD5948AD68F996EF662C58F581D5F44A1426FB63"
+  }
+]

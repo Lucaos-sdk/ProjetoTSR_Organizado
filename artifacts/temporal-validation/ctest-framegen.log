@@ -1,0 +1,77 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+      Start  1: frame_generation_policy
+ 1/36 Test  #1: frame_generation_policy ..........   Passed    0.02 sec
+      Start  2: frame_slots
+ 2/36 Test  #2: frame_slots ......................   Passed    0.01 sec
+      Start  3: submission_observer
+ 3/36 Test  #3: submission_observer ..............   Passed    0.01 sec
+      Start  4: texture_regions
+ 4/36 Test  #4: texture_regions ..................   Passed    0.02 sec
+      Start  5: reference
+ 5/36 Test  #5: reference ........................   Passed    0.02 sec
+      Start  6: frame_contract
+ 6/36 Test  #6: frame_contract ...................   Passed    0.01 sec
+      Start  7: temporal_reference
+ 7/36 Test  #7: temporal_reference ...............   Passed    0.01 sec
+      Start  8: reconstruction
+ 8/36 Test  #8: reconstruction ...................   Passed    0.01 sec
+      Start  9: output_history_reference
+ 9/36 Test  #9: output_history_reference .........   Passed    0.02 sec
+      Start 10: runtime_options
+10/36 Test #10: runtime_options ..................   Passed    0.02 sec
+      Start 11: ngx_frame_adapter
+11/36 Test #11: ngx_frame_adapter ................   Passed    0.01 sec
+      Start 12: command_list_lifetime_warp
+12/36 Test #12: command_list_lifetime_warp .......   Passed    0.37 sec
+      Start 13: input_adapter_warp
+13/36 Test #13: input_adapter_warp ...............   Passed    0.24 sec
+      Start 14: input_chain_warp
+14/36 Test #14: input_chain_warp .................   Passed    0.40 sec
+      Start 15: input_chain_fp16_warp
+15/36 Test #15: input_chain_fp16_warp ............   Passed    0.32 sec
+      Start 16: input_regions_warp
+16/36 Test #16: input_regions_warp ...............   Passed    0.21 sec
+      Start 17: input_regions_fp16_warp
+17/36 Test #17: input_regions_fp16_warp ..........   Passed    0.24 sec
+      Start 18: gpu_context_warp
+18/36 Test #18: gpu_context_warp .................   Passed    0.28 sec
+      Start 19: gpu_context_fp16_warp
+19/36 Test #19: gpu_context_fp16_warp ............   Passed    0.19 sec
+      Start 20: ngx_current_frame_warp
+20/36 Test #20: ngx_current_frame_warp ...........   Passed    0.18 sec
+      Start 21: gpu_stage_timing_warp
+21/36 Test #21: gpu_stage_timing_warp ............   Passed    0.21 sec
+      Start 22: frame_slots_warp
+22/36 Test #22: frame_slots_warp .................   Passed    0.20 sec
+      Start 23: benchmark_output_history_warp
+23/36 Test #23: benchmark_output_history_warp ....   Passed    0.24 sec
+      Start 24: benchmark_bilinear_warp
+24/36 Test #24: benchmark_bilinear_warp ..........   Passed    0.15 sec
+      Start 25: temporal_warp
+25/36 Test #25: temporal_warp ....................   Passed    0.20 sec
+      Start 26: temporal_warp_full
+26/36 Test #26: temporal_warp_full ...............   Passed    4.64 sec
+      Start 27: temporal_cubic_warp
+27/36 Test #27: temporal_cubic_warp ..............   Passed    0.20 sec
+      Start 28: temporal_cubic_warp_full
+28/36 Test #28: temporal_cubic_warp_full .........   Passed   22.60 sec
+      Start 29: output_history_warp
+29/36 Test #29: output_history_warp ..............   Passed    0.24 sec
+      Start 30: output_history_warp_full
+30/36 Test #30: output_history_warp_full .........   Passed    6.13 sec
+      Start 31: output_history_1080p_warp
+31/36 Test #31: output_history_1080p_warp ........   Passed    1.47 sec
+      Start 32: output_history_fractional_wide
+32/36 Test #32: output_history_fractional_wide ...   Passed    0.22 sec
+      Start 33: dx12_warp
+33/36 Test #33: dx12_warp ........................   Passed    0.17 sec
+      Start 34: dx12_warp_full
+34/36 Test #34: dx12_warp_full ...................   Passed    0.67 sec
+      Start 35: dx12_texture_warp
+35/36 Test #35: dx12_texture_warp ................   Passed    0.12 sec
+      Start 36: dx12_texture_warp_full
+36/36 Test #36: dx12_texture_warp_full ...........   Passed    0.61 sec
+
+100% tests passed, 0 tests failed out of 36
+
+Total Test time (real) =  42.55 sec

@@ -1,0 +1,1003 @@
+[01:57:35.431644] [W] OptiScaler v10.0.0-dev (07af11e) (20260907_015054) loaded
+[01:57:35.431701] [W] ---------------------------------
+[01:57:35.431709] [W] OptiScaler is freely downloadable from
+[01:57:35.431713] [W] GitHub : https://github.com/optiscaler/OptiScaler/releases
+[01:57:35.431717] [W] Nexus  : https://www.nexusmods.com/site/mods/986
+[01:57:35.431722] [W] If you paid for these files, you've been scammed!
+[01:57:35.431726] [W] DO NOT USE IN MULTIPLAYER GAMES
+[01:57:35.431730] [I] 
+[01:57:35.431739] [I] LogLevel: 2
+[01:57:35.431746] [I] 
+[01:57:35.431770] [I] Windows version: Windows 11 (10.0.26200)
+[01:57:35.431775] [I] 
+[01:57:35.431779] [I] Config parameters:
+[01:57:35.431786] [I] Upscalers.Dx12Upscaler: ffx
+[01:57:35.431793] [I] FrameGen.Enabled: true
+[01:57:35.431797] [I] FrameGen.FGInput: Upscaler
+[01:57:35.431801] [I] FrameGen.FGOutput: XeFG
+[01:57:35.431805] [I] OptiFG.DisableHUDFix: true
+[01:57:35.431810] [I] OptiFG.HUDFixRelaxedResolutionCheck: true
+[01:57:35.431814] [I] Log.LogToFile: true
+[01:57:35.431818] [I] Log.LogLevel: 2
+[01:57:35.431823] [I] Log.LogFileName: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\TSR_FrameGen.log
+[01:57:35.431827] [I] Sharpness.OverrideSharpness: true
+[01:57:35.431832] [I] Sharpness.Sharpness: 0.000000
+[01:57:35.431836] [I] Magnifier.Size: 11.000000
+[01:57:35.431840] [I] Magnifier.BorderSize: 0.730000
+[01:57:35.431844] [I] fakenvapi.LatencyFlexMode: 1
+[01:57:35.431848] [I] Libraries.FfxDx12SRPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[01:57:35.431853] [I] Libraries.XeFGPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxess_fg.dll
+[01:57:35.431857] [I] Libraries.XeLLPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxell.dll
+[01:57:35.431862] [I] 
+[01:57:35.431867] [I] Setting DllPath to C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler
+[01:57:35.431871] [I] 
+[01:57:35.431914] [I] 
+[01:57:35.431933] [W] IsRunningOnWine Wine not detected
+[01:57:35.431993] [I] 
+[01:57:35.431999] [I] Check for DLSS files
+[01:57:35.432174] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[01:57:35.433287] [I] Util::FindFilePath nvngx_dlssg.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[01:57:35.433297] [I] 
+[01:57:35.433429] [I] CheckQuirks Game's Exe: witcher3.exe
+[01:57:35.433438] [I] CheckQuirks Game Name: The Witcher 3
+[01:57:35.433443] [I] CheckQuirks Game Version: 4.0.0.103190(Build Machine)
+[01:57:35.433452] [I] CheckQuirks Game Engine: Other
+[01:57:35.433566] [I] Quirk: Dxgi spoofing disabled by default
+[01:57:35.433574] [I] Quirk: Create SL on the 2nd device
+[01:57:35.433579] [I] 
+[01:57:35.434261] [I] CheckWorkingMode OptiScaler working as dxgi.dll, system dll loaded
+[01:57:35.434317] [W] Config::CheckUpscalerFiles nvngx.dll not found!
+[01:57:35.434338] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[01:57:35.434351] [I] Config::CheckUpscalerFiles libxess.dll found in game folder
+[01:57:35.435089] [I] StreamlineHooks::hookInterposer Streamline version: 1.0.0
+[01:57:35.435104] [I] StreamlineHooks::hookInterposer SL1 exports - slInit: true, slSetTag: true, slSetConstants: true, slEvaluateFeature: true
+[01:57:35.437833] [I] Util::LoadProxyLibrary libxess.dll already loaded at memory: 7FFBC2180000
+[01:57:35.524844] [I] Util::LoadProxyLibrary libxess.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[01:57:35.524875] [I] XeSSProxy::InitXeSS Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[01:57:35.527114] [I] XeSSProxy::InitXeSS LoadResult: true
+[01:57:35.527326] [I] 
+[01:57:35.529734] [I] Util::LoadProxyLibrary amd_fidelityfx_loader_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[01:57:35.529755] [I] FfxApiProxy::InitFfxDx12 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[01:57:35.529811] [I] 
+[01:57:35.531290] [I] Util::LoadProxyLibrary amd_fidelityfx_upscaler_dx12.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[01:57:35.534379] [I] FfxApiProxy::InitFfxDx12_SR Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[01:57:35.534436] [I] FfxApiProxy::InitFfxDx12_SR LoadResult: true
+[01:57:35.534442] [I] 
+[01:57:35.540452] [I] Util::LoadProxyLibrary amd_fidelityfx_framegeneration_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[01:57:35.540471] [I] FfxApiProxy::InitFfxDx12_FG Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[01:57:35.540505] [I] FfxApiProxy::InitFfxDx12_FG LoadResult: true
+[01:57:35.540511] [I] 
+[01:57:35.540817] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[01:57:35.540832] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[01:57:35.540837] [I] 
+[01:57:35.541048] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[01:57:35.541061] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[01:57:35.541067] [I] FfxApiProxy::InitFfxDx12 LoadResult: true
+[01:57:35.541072] [I] 
+[01:57:35.541278] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[01:57:35.541287] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[01:57:35.541291] [I] 
+[01:57:35.541495] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[01:57:35.541503] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[01:57:35.545316] [I] Util::LoadProxyLibrary libxess_dx11.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[01:57:35.545329] [I] XeSSProxy::InitXeSSDx11 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[01:57:35.545405] [I] XeSSProxy::InitXeSSDx11 LoadResult: true
+[01:57:35.548354] [I] Util::LoadProxyLibrary libxess_fg.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxess_fg.dll
+[01:57:35.548383] [I] XeFGProxy::InitXeFG Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxess_fg.dll
+[01:57:35.548389] [I] 
+[01:57:35.548407] [I] XeFGProxy::HookXeFG LoadResult: true
+[01:57:35.549338] [I] Util::LoadProxyLibrary libxell.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxell.dll
+[01:57:35.549364] [I] XeLLProxy::InitXeLLProper Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxell.dll
+[01:57:35.549369] [I] 
+[01:57:35.549382] [I] XeLLProxy::HookXeLL LoadResult: true
+[01:57:35.549428] [I] NVNGXProxy::InitNVNGX 
+[01:57:35.549762] [W] Util::LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!
+[01:57:35.549984] [W] Util::LoadProxyLibrary Can't find nvngx.dll, returning nullptr!
+[01:57:35.549993] [I] Util::NvngxPath trying to load nvngx from registry path!
+[01:57:35.550101] [I] 
+[01:57:35.550127] [I] HookFSR2ExeInputs Trying to hook FSR2 methods
+[01:57:35.550222] [I] HookFSR3ExeInputs Trying to hook FSR3 methods
+[01:57:35.550281] [I] 
+[01:57:35.550287] [I] Init done
+[01:57:35.550292] [I] ---------------------------------------------
+[01:57:35.550296] [I] 
+[01:57:35.674742] [I] Amdxc64Hooks::Init amdxc64.dll loaded
+[01:57:35.675880] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:57:35.861468] [I] Detected GPUs:
+                      AMD Radeon RX 7600
+                          vendorId: 1002, deviceId: 7480, VRAM: 8150MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: int8, dlss: false
+                      Microsoft Basic Render Driver
+                          vendorId: 1414, deviceId: 8C, VRAM: 0MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: false, dlss: false
+
+[01:57:35.881378] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:1108[PluginManager] Streamline v1.5.6.0c67e1bd - built on Mon May 15 11:13:07 2023
+[01:57:35.882159] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:410[findPlugins] Looking for plugins in C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\ ...
+[01:57:35.919870] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]commoninterface.cpp:127[getGPUInfo] Enumerating up to 8 adapters but only one of them can be used to create a device - no mGPU support in this SDK
+[01:57:35.921581] [W] DxgiSpoofing::AttachToAdapter DxgiSpoofing and DxgiVRAM is disabled, skipping hooking
+[01:57:35.925852] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]commonentry.cpp:1235[getOSVersionAndUpdateTimerResolution] Changed high resolution timer resolution to 5000 [100 ns units]
+[01:57:35.925891] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]commonentry.cpp:1278[updateEmbeddedJSON] Detected Windows OS version 10.0.26200
+[01:57:35.926069] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.common' - version 1.5.6.0c67e1bd - id 4294967295 - priority 0 - adapter mask 0x1 - interposer 'no'
+[01:57:35.934909] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][warn]dlssentry.cpp:185[updateEmbeddedJSON] Failed to obtain DLSS min spec requirements from NGX, using SL defaults
+[01:57:35.935049] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss' - version 1.5.6.0c67e1bd - id 0 - priority 1 - adapter mask 0x1 - interposer 'no'
+[01:57:35.945053] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][warn]dlss_gentry.cpp:513[updateEmbeddedJSON] Failed to obtain DLSS-G min spec requirements from NGX, using SL defaults
+[01:57:35.945092] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][warn]dlss_gentry.cpp:582[updateEmbeddedJSON] Disabling DLSS-G since it is not supported on current hardware
+[01:57:35.945295] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss_g' - version 1.5.6.0c67e1bd - id 1000 - priority 100 - adapter mask 0x0 - interposer 'no'
+[01:57:35.954329] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.reflex' - version 1.5.6.0c67e1bd - id 3 - priority 1 - adapter mask 0x1 - interposer 'no'
+[01:57:35.954369] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][warn]pluginmanager.cpp:704[loadPlugins] Ignoring plugin 'sl.dlss_g' since it is not supported on this platform
+[01:57:35.954474] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:805[loadPlugins] Plugin execution order based on priority:
+[01:57:35.954487] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:808[loadPlugins] P0 - sl.common
+[01:57:35.954500] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.dlss
+[01:57:35.954510] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.reflex
+[01:57:35.954978] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[01:57:35.955611] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-35][streamline][warn]dxgi.cpp:334[CreateDXGIFactoryInternal] Streamline interposer has been disabled
+[01:57:35.956893] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:57:36.246758] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:57:36.909521] [I] `anonymous-namespace'::RunVersionCheck OptiScaler is up to date (current 10.0.0)
+[01:57:42.913494] [I] XeSSProxy::Version XeSS Version: v2.0.2
+[01:57:42.920472] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:57:42.942540] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:57:43.069658] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[01:57:43.069694] [I] NvApiHooks::Hook NvAPI_QueryInterface found, hooking!
+[01:57:43.129947] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:986[initializePlugins] Initializing plugins - api 0.0.1 - application ID 100883811
+[01:57:43.131074] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel fonts.cs:main hash 10788421720787293069
+[01:57:43.131113] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.fontTexture), m_allocCount=1, currentSize 0.0 MB, totalSize 0.0 MB
+[01:57:43.131889] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicText), m_allocCount=2, currentSize 0.0 MB, totalSize 0.0 MB
+[01:57:43.132648] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicTextUpload), m_allocCount=3, currentSize 0.0 MB, totalSize 0.0 MB
+[01:57:43.133411] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel copy_to_buffer.cs:main hash 12564409127886710297
+[01:57:43.133435] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]commonentry.cpp:869[slOnPluginStartup] At least one plugin requires NGX, trying to initialize ...
+[01:57:43.380321] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[01:57:43.381262] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]commonentry.cpp:995[slOnPluginStartup] NGX loaded - app id 100883811 - application data path C:\Users\ADMINI~1\AppData\Local\Temp\
+[01:57:43.381316] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCreateImage:after - skipped
+[01:57:43.381330] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkPresent:before - skipped
+[01:57:43.381342] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindPipeline:after - skipped
+[01:57:43.381353] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindDescriptorSets:after - skipped
+[01:57:43.381363] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkBeginCommandBuffer:after - skipped
+[01:57:43.381416] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookResizeSwapChainPre:before - OK
+[01:57:43.381432] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent:before - OK
+[01:57:43.381444] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent1:before - OK
+[01:57:43.381514] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel mvec.cs:main hash 6390113509883505821
+[01:57:43.424609] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[01:57:43.424654] [I] NVSDK_NGX_UpdateFeature Update ApplicationId: 6035D63
+[01:57:43.424684] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.dlss:slSetConstants:0x7ffc0e180d30
+[01:57:43.424696] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.dlss:slGetSettings:0x7ffc0e182df0
+[01:57:43.424707] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.dlss:slAllocateResources:0x7ffc0e183180
+[01:57:43.424717] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.dlss:slFreeResources:0x7ffc0e183210
+[01:57:43.424735] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.dlss' has no registered hooks
+[01:57:43.424798] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.reflex:slSetConstants:0x7ffbc0a0feb0
+[01:57:43.424809] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.reflex:slGetSettings:0x7ffc0e150300
+[01:57:43.424819] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.reflex:slAllocateResources:0x0
+[01:57:43.424828] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.reflex:slFreeResources:0x0
+[01:57:43.424841] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-57-43][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.reflex' has no registered hooks
+[01:57:43.427398] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[01:57:43.490191] [I] AntiLag2::init FSR Anti-Lag 2.0 DX12 initialized
+[01:57:43.490224] [I] LowLatency::update_low_latency_tech LowLatency algo: FSR Anti-Lag 2.0
+[01:57:44.015244] [I] XeFG_Dx12::CreateSwapchainContext XeFG context created
+[01:57:44.015295] [I] AntiLag2::deinit FSR Anti-Lag 2.0 DX12 deinitialized
+[01:57:44.032319] [I] LowLatency::update_low_latency_tech LowLatency algo: XeLL (forced)
+[01:57:44.032386] [I] XeFG Log: libxell.dll version 1.3.2
+[01:57:44.032412] [I] XeFG_Dx12::CreateSwapchain1 Max supported interpolations: 1
+[01:57:44.113269] [I] WrappedIDXGISwapChain4::WrappedIDXGISwapChain4 1 created, real: BD74DDD10, refCount: 1
+[01:57:44.242279] [I] XeFG_Dx12::CreateSwapchain1 XeFG swapchain created
+[01:57:44.242324] [I] FGHooks::HookFGSwapchain Hooking FG SwapChain present
+[01:57:44.259610] [I] IFeature::SetHandle Handle: 1000000
+[01:57:44.259658] [I] IFeature::SetInitParameters SharpenEnabled flag overrided by user: true
+[01:57:44.259670] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[01:57:44.259678] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[01:57:44.259684] [I] IFeature::SetInitParameters Init Flag IsHdr: true
+[01:57:44.259690] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[01:57:44.259696] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[01:57:44.259702] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: true
+[01:57:44.259744] [I] Config::SaveXeFG Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[01:57:44.260694] [I] IFeature::SetInitParameters Render Resolution: 1476x830, Display Resolution 1920x1080, Quality: 4
+[01:57:44.260714] [I] FFXFeatureDx12::FFXFeatureDx12 amd_fidelityfx_dx12.dll methods loaded!
+[01:57:44.260762] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[01:57:44.261231] [W] Util::LoadProxyLibrary Can't find amdxcffx64.dll, returning nullptr!
+[01:57:44.268066] [I] AmdExtFfxApi::UpdateFfxApiProvider amdxcffx64 loaded from C:\Windows\System32\DriverStore\FileRepository\u0203304.inf_amd64_a6e5a337568ce3f0\B026373\amdxcffx64.dll
+[01:57:44.364812] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[01:57:44.364868] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:57:44.385117] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:57:44.388550] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[01:57:44.388591] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[01:57:44.388604] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:57:44.392174] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:57:44.396043] [I] FFXFeatureDx12::InitFFX TSR FFX: selected provider=4.1.1 explicit_upscale_api_4_1_1=true (provider identity, not a quality claim)
+[01:57:44.396074] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[01:57:44.396107] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[01:57:44.396125] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:57:44.424982] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=1 color=0xb9d700cc0 depth=0xb9d6fe400
+[01:57:44.425025] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=1 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.244856,-0.1484375 color_format=10 color_size=1920x1080 color_origin=0,0 depth_format=19 depth_size=1920x1080 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:57:44.432745] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1, _lastDispatchedFrame: 0
+[01:57:44.445963] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:57:44.502804] [I] OptiInput::Initialize Initialize requested target:0xb0994 input:0x0 isUwp:0 useSubclass:1 currentPid:16404
+[01:57:44.502844] [I] OptiInput::SetTargetWindow target window set hwnd:0xb0994 root:0xb0994 pid:16404 tid:17064 currentPid:16404 external:0 isUwp:0 useSubclass:1
+[01:57:44.502855] [I] OptiInput::SetInputWindow input window set hwnd:0xb0994 root:0xb0994 pid:16404 tid:17064 explicitInput:0 useSubclass:1
+[01:57:44.502869] [I] OptiInput::InstallWindowSubclass subclass installed hwnd:0xb0994 previousWndProc:140696071275760 optiWndProc:140719244849776
+[01:57:44.502881] [I] OptiInput::InstallHooks installing Win32 input hooks currentPid:16404 targetPid:16404 inputPid:16404
+[01:57:44.502948] [I] OptiInput::InstallHooks Win32 message hooks installed
+[01:57:44.503003] [I] OptiInput::InstallHooks Win32 key state hooks installed
+[01:57:44.503045] [I] OptiInput::InstallHooks Win32 GetMessagePos hooks installed
+[01:57:44.503078] [I] OptiInput::InstallHooks Win32 clip cursor hooks installed
+[01:57:44.503134] [I] OptiInput::InstallHooks Win32 message hooks installed
+[01:57:44.503176] [I] OptiInput::InstallHooks Win32 raw input hooks installed
+[01:57:44.503216] [I] OptiInput::InstallHooks Win32 windows input hooks installed
+[01:57:44.503248] [I] OptiInput::InstallHooks Win32 position input hooks installed
+[01:57:44.503257] [I] OptiInput::Initialize Initialize completed hooksInstalled:1 target:0xb0994 targetPid:16404 input:0xb0994 inputPid:16404 externalTarget:0 subclassed:1
+[01:57:44.503313] [I] OptiInput::UpdateXInputIntegrationLocked XInput hooks installed module:0x7ffc48450000 getState:1 getStateEx:1 getKeystroke:1 setState:1
+[01:57:44.503358] [I] OptiInput::`anonymous-namespace'::InstallDirectInputExportHookLocked DirectInput8Create hook installed module:0x7ffc305d0000
+[01:57:44.646616] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=2 color=0xb9d700cc0 depth=0xb9d6fe400
+[01:57:44.646653] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=2 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.244856,-0.1484375 color_format=10 color_size=1920x1080 color_origin=0,0 depth_format=19 depth_size=1920x1080 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:57:44.646687] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2, _lastDispatchedFrame: 0
+[01:57:44.646812] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=2 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:57:44.647641] [I] ReflexHooks::setFPSLimit Set FPS Limit to: 0
+[01:57:44.647682] [I] CreateRenderTargetDx12 done!
+[01:57:44.662558] [W] FGHooks::hkResizeBuffers SwapChainFlags changed from 842 to 802
+[01:57:44.662582] [W] FGHooks::hkResizeBuffers Preventing flag change for XeFG!
+[01:57:44.892285] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=3 color=0xb9e332380 depth=0xb9e18e9e0
+[01:57:44.892332] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=3 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.244856,-0.1484375 color_format=10 color_size=1920x1080 color_origin=0,0 depth_format=19 depth_size=1920x1080 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:57:44.892652] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:57:44.899666] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 4, _lastDispatchedFrame: 0
+[01:57:44.904521] [I] CreateRenderTargetDx12 done!
+[01:58:01.342577] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 6, _lastDispatchedFrame: 3
+[01:58:37.452409] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 8, _lastDispatchedFrame: 5
+[01:58:37.526379] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10, _lastDispatchedFrame: 7
+[01:58:37.599363] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 12, _lastDispatchedFrame: 9
+[01:58:37.670617] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 14, _lastDispatchedFrame: 11
+[01:58:37.706763] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:58:37.706795] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 15, _lastDispatchedFrame: 0
+[01:58:37.707512] [I] XeFGProxy::Version XeFG Version: v1.3.1
+[01:58:37.712413] [I] XeFG_Dx12::Present TSR FG previous-present: sample=1 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:58:37.712431] [I] XeFG_Dx12::SetInterpolatedFrameCount::<lambda_1>::operator () TSR FG count: requested_generated=1 maximum_generated=1 API_result=0
+[01:58:37.712454] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:58:37.812834] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 18, _lastDispatchedFrame: 15
+[01:58:37.884144] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 20, _lastDispatchedFrame: 17
+[01:58:37.955689] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 22, _lastDispatchedFrame: 19
+[01:58:38.027155] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 24, _lastDispatchedFrame: 21
+[01:58:38.098174] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 26, _lastDispatchedFrame: 23
+[01:58:38.133868] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:58:38.133897] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 27, _lastDispatchedFrame: 0
+[01:58:38.134192] [I] XeFG_Dx12::Present TSR FG previous-present: sample=2 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:58:38.171576] [I] XeFG_Dx12::Present TSR FG previous-present: sample=3 query_result=0 enabled=1 frames_sent=1 interpolation_result=3 max_generated=1
+[01:58:49.093765] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=600 color=0xb9e333790 depth=0xb9e18aab0
+[01:58:49.093824] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.08299041,-0.26660156 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:58:49.094021] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:58:49.465016] [I] XeFG_Dx12::Present TSR FG previous-present: sample=600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:58:54.186946] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0xb0994 target:0xb0994
+[01:58:54.186977] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0xb0994 target:0xb0994
+[01:58:54.186990] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:58:58.802455] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=1200 color=0xb9e333790 depth=0xb9e18aab0
+[01:58:58.802548] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=1200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.008459032,-0.36767578 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:58:58.802858] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:58:59.061424] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:58:59.220703] [I] XeFG_Dx12::Present TSR FG previous-present: sample=1200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:59:04.087506] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:08.712228] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=1800 color=0xb9e333790 depth=0xb9e18aab0
+[01:59:08.712374] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=1800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.07796067,-0.2944336 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:59:08.712724] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:59:08.960364] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:09.112005] [I] XeFG_Dx12::Present TSR FG previous-present: sample=1800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:59:09.254069] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:59:09.276053] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1836, _lastDispatchedFrame: 1833
+[01:59:09.299406] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1838, _lastDispatchedFrame: 1835
+[01:59:09.320104] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1840, _lastDispatchedFrame: 1837
+[01:59:09.344837] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1842, _lastDispatchedFrame: 1839
+[01:59:09.398550] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1844, _lastDispatchedFrame: 1841
+[01:59:09.424292] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1846, _lastDispatchedFrame: 1843
+[01:59:09.452211] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1848, _lastDispatchedFrame: 1845
+[01:59:09.480774] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1850, _lastDispatchedFrame: 1847
+[01:59:09.509347] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1852, _lastDispatchedFrame: 1849
+[01:59:09.534381] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1854, _lastDispatchedFrame: 1851
+[01:59:09.563942] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1856, _lastDispatchedFrame: 1853
+[01:59:09.591608] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1858, _lastDispatchedFrame: 1855
+[01:59:09.617705] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1860, _lastDispatchedFrame: 1857
+[01:59:09.645068] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1862, _lastDispatchedFrame: 1859
+[01:59:09.672607] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1864, _lastDispatchedFrame: 1861
+[01:59:09.699631] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1866, _lastDispatchedFrame: 1863
+[01:59:09.725588] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1868, _lastDispatchedFrame: 1865
+[01:59:09.754365] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1870, _lastDispatchedFrame: 1867
+[01:59:09.781111] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1872, _lastDispatchedFrame: 1869
+[01:59:09.808895] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1874, _lastDispatchedFrame: 1871
+[01:59:09.835491] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1876, _lastDispatchedFrame: 1873
+[01:59:09.863906] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1878, _lastDispatchedFrame: 1875
+[01:59:09.890638] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1880, _lastDispatchedFrame: 1877
+[01:59:09.916779] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1882, _lastDispatchedFrame: 1879
+[01:59:09.944051] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1884, _lastDispatchedFrame: 1881
+[01:59:09.971894] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1886, _lastDispatchedFrame: 1883
+[01:59:09.997822] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1888, _lastDispatchedFrame: 1885
+[01:59:10.027053] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1890, _lastDispatchedFrame: 1887
+[01:59:10.055177] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1892, _lastDispatchedFrame: 1889
+[01:59:10.081702] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1894, _lastDispatchedFrame: 1891
+[01:59:10.107745] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1896, _lastDispatchedFrame: 1893
+[01:59:10.136043] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1898, _lastDispatchedFrame: 1895
+[01:59:10.163070] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1900, _lastDispatchedFrame: 1897
+[01:59:10.189257] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1902, _lastDispatchedFrame: 1899
+[01:59:10.217078] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1904, _lastDispatchedFrame: 1901
+[01:59:10.245816] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1906, _lastDispatchedFrame: 1903
+[01:59:10.271516] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1908, _lastDispatchedFrame: 1905
+[01:59:10.296944] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1910, _lastDispatchedFrame: 1907
+[01:59:10.325264] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1912, _lastDispatchedFrame: 1909
+[01:59:10.351640] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1914, _lastDispatchedFrame: 1911
+[01:59:10.378981] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1916, _lastDispatchedFrame: 1913
+[01:59:10.405892] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1918, _lastDispatchedFrame: 1915
+[01:59:10.434913] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1920, _lastDispatchedFrame: 1917
+[01:59:10.459157] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1922, _lastDispatchedFrame: 1919
+[01:59:10.488709] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1924, _lastDispatchedFrame: 1921
+[01:59:10.515745] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1926, _lastDispatchedFrame: 1923
+[01:59:10.541365] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1928, _lastDispatchedFrame: 1925
+[01:59:10.559288] [I] Config::SaveIni Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[01:59:10.569370] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1930, _lastDispatchedFrame: 1927
+[01:59:10.595505] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1932, _lastDispatchedFrame: 1929
+[01:59:10.622894] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1934, _lastDispatchedFrame: 1931
+[01:59:10.650914] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1936, _lastDispatchedFrame: 1933
+[01:59:10.678552] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1938, _lastDispatchedFrame: 1935
+[01:59:10.705513] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1940, _lastDispatchedFrame: 1937
+[01:59:10.733112] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1942, _lastDispatchedFrame: 1939
+[01:59:10.759771] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1944, _lastDispatchedFrame: 1941
+[01:59:10.787584] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1946, _lastDispatchedFrame: 1943
+[01:59:10.812390] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1948, _lastDispatchedFrame: 1945
+[01:59:10.839211] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1950, _lastDispatchedFrame: 1947
+[01:59:10.868783] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1952, _lastDispatchedFrame: 1949
+[01:59:10.896703] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1954, _lastDispatchedFrame: 1951
+[01:59:10.922497] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1956, _lastDispatchedFrame: 1953
+[01:59:10.949891] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1958, _lastDispatchedFrame: 1955
+[01:59:10.978479] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1960, _lastDispatchedFrame: 1957
+[01:59:11.004707] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1962, _lastDispatchedFrame: 1959
+[01:59:11.030944] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1964, _lastDispatchedFrame: 1961
+[01:59:11.059566] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1966, _lastDispatchedFrame: 1963
+[01:59:11.086612] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1968, _lastDispatchedFrame: 1965
+[01:59:11.112691] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1970, _lastDispatchedFrame: 1967
+[01:59:11.140945] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1972, _lastDispatchedFrame: 1969
+[01:59:11.167805] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1974, _lastDispatchedFrame: 1971
+[01:59:11.194341] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1976, _lastDispatchedFrame: 1973
+[01:59:11.221902] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1978, _lastDispatchedFrame: 1975
+[01:59:11.250479] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1980, _lastDispatchedFrame: 1977
+[01:59:11.277059] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1982, _lastDispatchedFrame: 1979
+[01:59:11.303320] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1984, _lastDispatchedFrame: 1981
+[01:59:11.330383] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1986, _lastDispatchedFrame: 1983
+[01:59:11.358844] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1988, _lastDispatchedFrame: 1985
+[01:59:11.385271] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1990, _lastDispatchedFrame: 1987
+[01:59:11.411220] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1992, _lastDispatchedFrame: 1989
+[01:59:11.438321] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1994, _lastDispatchedFrame: 1991
+[01:59:11.465122] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1996, _lastDispatchedFrame: 1993
+[01:59:11.491478] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1998, _lastDispatchedFrame: 1995
+[01:59:11.520607] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2000, _lastDispatchedFrame: 1997
+[01:59:11.548188] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2002, _lastDispatchedFrame: 1999
+[01:59:11.572734] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2004, _lastDispatchedFrame: 2001
+[01:59:11.599878] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2006, _lastDispatchedFrame: 2003
+[01:59:11.628311] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2008, _lastDispatchedFrame: 2005
+[01:59:11.657076] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2010, _lastDispatchedFrame: 2007
+[01:59:11.683870] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2012, _lastDispatchedFrame: 2009
+[01:59:11.710153] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2014, _lastDispatchedFrame: 2011
+[01:59:11.738109] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2016, _lastDispatchedFrame: 2013
+[01:59:11.765595] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2018, _lastDispatchedFrame: 2015
+[01:59:11.792583] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2020, _lastDispatchedFrame: 2017
+[01:59:11.819954] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2022, _lastDispatchedFrame: 2019
+[01:59:11.845912] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2024, _lastDispatchedFrame: 2021
+[01:59:11.873248] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2026, _lastDispatchedFrame: 2023
+[01:59:11.900015] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2028, _lastDispatchedFrame: 2025
+[01:59:11.926294] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2030, _lastDispatchedFrame: 2027
+[01:59:11.954327] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2032, _lastDispatchedFrame: 2029
+[01:59:11.982075] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2034, _lastDispatchedFrame: 2031
+[01:59:12.008820] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2036, _lastDispatchedFrame: 2033
+[01:59:12.035831] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2038, _lastDispatchedFrame: 2035
+[01:59:12.062789] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2040, _lastDispatchedFrame: 2037
+[01:59:12.090506] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2042, _lastDispatchedFrame: 2039
+[01:59:12.117056] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2044, _lastDispatchedFrame: 2041
+[01:59:12.146538] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2046, _lastDispatchedFrame: 2043
+[01:59:12.174021] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2048, _lastDispatchedFrame: 2045
+[01:59:12.199193] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2050, _lastDispatchedFrame: 2047
+[01:59:12.227794] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2052, _lastDispatchedFrame: 2049
+[01:59:12.254409] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2054, _lastDispatchedFrame: 2051
+[01:59:12.283731] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2056, _lastDispatchedFrame: 2053
+[01:59:12.310715] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2058, _lastDispatchedFrame: 2055
+[01:59:12.336058] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2060, _lastDispatchedFrame: 2057
+[01:59:12.364094] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2062, _lastDispatchedFrame: 2059
+[01:59:12.390801] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2064, _lastDispatchedFrame: 2061
+[01:59:12.417335] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2066, _lastDispatchedFrame: 2063
+[01:59:12.444962] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2068, _lastDispatchedFrame: 2065
+[01:59:12.472956] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2070, _lastDispatchedFrame: 2067
+[01:59:12.500317] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2072, _lastDispatchedFrame: 2069
+[01:59:12.528136] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2074, _lastDispatchedFrame: 2071
+[01:59:12.554803] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2076, _lastDispatchedFrame: 2073
+[01:59:12.579128] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2078, _lastDispatchedFrame: 2075
+[01:59:12.608385] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2080, _lastDispatchedFrame: 2077
+[01:59:12.636476] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2082, _lastDispatchedFrame: 2079
+[01:59:12.662891] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2084, _lastDispatchedFrame: 2081
+[01:59:12.690208] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2086, _lastDispatchedFrame: 2083
+[01:59:12.717919] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2088, _lastDispatchedFrame: 2085
+[01:59:12.745055] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2090, _lastDispatchedFrame: 2087
+[01:59:12.772267] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2092, _lastDispatchedFrame: 2089
+[01:59:12.798696] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2094, _lastDispatchedFrame: 2091
+[01:59:12.826730] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2096, _lastDispatchedFrame: 2093
+[01:59:12.853954] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2098, _lastDispatchedFrame: 2095
+[01:59:12.881750] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2100, _lastDispatchedFrame: 2097
+[01:59:12.907805] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2102, _lastDispatchedFrame: 2099
+[01:59:12.936417] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2104, _lastDispatchedFrame: 2101
+[01:59:12.962122] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2106, _lastDispatchedFrame: 2103
+[01:59:12.988870] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2108, _lastDispatchedFrame: 2105
+[01:59:13.016865] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2110, _lastDispatchedFrame: 2107
+[01:59:13.043885] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2112, _lastDispatchedFrame: 2109
+[01:59:13.070280] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2114, _lastDispatchedFrame: 2111
+[01:59:13.099494] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2116, _lastDispatchedFrame: 2113
+[01:59:13.127529] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2118, _lastDispatchedFrame: 2115
+[01:59:13.153950] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2120, _lastDispatchedFrame: 2117
+[01:59:13.183411] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2122, _lastDispatchedFrame: 2119
+[01:59:13.207656] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2124, _lastDispatchedFrame: 2121
+[01:59:13.234133] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2126, _lastDispatchedFrame: 2123
+[01:59:13.264519] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2128, _lastDispatchedFrame: 2125
+[01:59:13.292687] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2130, _lastDispatchedFrame: 2127
+[01:59:13.317474] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2132, _lastDispatchedFrame: 2129
+[01:59:13.345830] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2134, _lastDispatchedFrame: 2131
+[01:59:13.373643] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2136, _lastDispatchedFrame: 2133
+[01:59:13.400738] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2138, _lastDispatchedFrame: 2135
+[01:59:13.428342] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2140, _lastDispatchedFrame: 2137
+[01:59:13.453516] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2142, _lastDispatchedFrame: 2139
+[01:59:13.481095] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2144, _lastDispatchedFrame: 2141
+[01:59:13.508121] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2146, _lastDispatchedFrame: 2143
+[01:59:13.536787] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2148, _lastDispatchedFrame: 2145
+[01:59:13.564435] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2150, _lastDispatchedFrame: 2147
+[01:59:13.591499] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2152, _lastDispatchedFrame: 2149
+[01:59:13.617746] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2154, _lastDispatchedFrame: 2151
+[01:59:13.644129] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2156, _lastDispatchedFrame: 2153
+[01:59:13.673772] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2158, _lastDispatchedFrame: 2155
+[01:59:13.698737] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2160, _lastDispatchedFrame: 2157
+[01:59:13.725823] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2162, _lastDispatchedFrame: 2159
+[01:59:13.753238] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2164, _lastDispatchedFrame: 2161
+[01:59:13.780075] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2166, _lastDispatchedFrame: 2163
+[01:59:13.805822] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2168, _lastDispatchedFrame: 2165
+[01:59:13.834423] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2170, _lastDispatchedFrame: 2167
+[01:59:13.861631] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2172, _lastDispatchedFrame: 2169
+[01:59:13.896009] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2174, _lastDispatchedFrame: 2171
+[01:59:13.925463] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2176, _lastDispatchedFrame: 2173
+[01:59:13.954149] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2178, _lastDispatchedFrame: 2175
+[01:59:13.981700] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2180, _lastDispatchedFrame: 2177
+[01:59:14.009053] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2182, _lastDispatchedFrame: 2179
+[01:59:14.036473] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2184, _lastDispatchedFrame: 2181
+[01:59:14.063527] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2186, _lastDispatchedFrame: 2183
+[01:59:14.089987] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2188, _lastDispatchedFrame: 2185
+[01:59:14.118569] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2190, _lastDispatchedFrame: 2187
+[01:59:14.145276] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2192, _lastDispatchedFrame: 2189
+[01:59:14.170535] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2194, _lastDispatchedFrame: 2191
+[01:59:14.199837] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2196, _lastDispatchedFrame: 2193
+[01:59:14.227840] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2198, _lastDispatchedFrame: 2195
+[01:59:14.255080] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2200, _lastDispatchedFrame: 2197
+[01:59:14.281963] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2202, _lastDispatchedFrame: 2199
+[01:59:14.314097] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2204, _lastDispatchedFrame: 2201
+[01:59:14.344348] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2206, _lastDispatchedFrame: 2203
+[01:59:14.374647] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2208, _lastDispatchedFrame: 2205
+[01:59:14.404107] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2210, _lastDispatchedFrame: 2207
+[01:59:14.430839] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2212, _lastDispatchedFrame: 2209
+[01:59:14.455151] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2214, _lastDispatchedFrame: 2211
+[01:59:14.485585] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2216, _lastDispatchedFrame: 2213
+[01:59:14.513044] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2218, _lastDispatchedFrame: 2215
+[01:59:14.538418] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2220, _lastDispatchedFrame: 2217
+[01:59:14.568323] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2222, _lastDispatchedFrame: 2219
+[01:59:14.596233] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2224, _lastDispatchedFrame: 2221
+[01:59:14.621526] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2226, _lastDispatchedFrame: 2223
+[01:59:14.649548] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2228, _lastDispatchedFrame: 2225
+[01:59:14.676681] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2230, _lastDispatchedFrame: 2227
+[01:59:14.704510] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2232, _lastDispatchedFrame: 2229
+[01:59:14.732352] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2234, _lastDispatchedFrame: 2231
+[01:59:14.758869] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2236, _lastDispatchedFrame: 2233
+[01:59:14.785537] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2238, _lastDispatchedFrame: 2235
+[01:59:14.813045] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2240, _lastDispatchedFrame: 2237
+[01:59:14.841329] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2242, _lastDispatchedFrame: 2239
+[01:59:14.868354] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2244, _lastDispatchedFrame: 2241
+[01:59:14.895053] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2246, _lastDispatchedFrame: 2243
+[01:59:14.922403] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2248, _lastDispatchedFrame: 2245
+[01:59:14.950576] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2250, _lastDispatchedFrame: 2247
+[01:59:14.978985] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2252, _lastDispatchedFrame: 2249
+[01:59:15.004753] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2254, _lastDispatchedFrame: 2251
+[01:59:15.033419] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2256, _lastDispatchedFrame: 2253
+[01:59:15.061473] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2258, _lastDispatchedFrame: 2255
+[01:59:15.086400] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2260, _lastDispatchedFrame: 2257
+[01:59:15.113141] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2262, _lastDispatchedFrame: 2259
+[01:59:15.144152] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2264, _lastDispatchedFrame: 2261
+[01:59:15.170739] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2266, _lastDispatchedFrame: 2263
+[01:59:15.195601] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2268, _lastDispatchedFrame: 2265
+[01:59:15.224925] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2270, _lastDispatchedFrame: 2267
+[01:59:15.252083] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2272, _lastDispatchedFrame: 2269
+[01:59:15.276720] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2274, _lastDispatchedFrame: 2271
+[01:59:15.304122] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2276, _lastDispatchedFrame: 2273
+[01:59:15.333779] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2278, _lastDispatchedFrame: 2275
+[01:59:15.360162] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2280, _lastDispatchedFrame: 2277
+[01:59:15.386970] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2282, _lastDispatchedFrame: 2279
+[01:59:15.414384] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2284, _lastDispatchedFrame: 2281
+[01:59:15.442144] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2286, _lastDispatchedFrame: 2283
+[01:59:15.469462] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2288, _lastDispatchedFrame: 2285
+[01:59:15.495199] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2290, _lastDispatchedFrame: 2287
+[01:59:15.523711] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2292, _lastDispatchedFrame: 2289
+[01:59:15.549341] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2294, _lastDispatchedFrame: 2291
+[01:59:15.575141] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2296, _lastDispatchedFrame: 2293
+[01:59:15.605468] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2298, _lastDispatchedFrame: 2295
+[01:59:15.630625] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2300, _lastDispatchedFrame: 2297
+[01:59:15.656485] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2302, _lastDispatchedFrame: 2299
+[01:59:15.685806] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2304, _lastDispatchedFrame: 2301
+[01:59:15.713423] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2306, _lastDispatchedFrame: 2303
+[01:59:15.739134] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2308, _lastDispatchedFrame: 2305
+[01:59:15.766922] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2310, _lastDispatchedFrame: 2307
+[01:59:15.795359] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2312, _lastDispatchedFrame: 2309
+[01:59:15.821729] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2314, _lastDispatchedFrame: 2311
+[01:59:15.847692] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2316, _lastDispatchedFrame: 2313
+[01:59:15.875249] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2318, _lastDispatchedFrame: 2315
+[01:59:15.903116] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2320, _lastDispatchedFrame: 2317
+[01:59:15.929602] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2322, _lastDispatchedFrame: 2319
+[01:59:15.956025] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2324, _lastDispatchedFrame: 2321
+[01:59:15.983977] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2326, _lastDispatchedFrame: 2323
+[01:59:16.011037] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2328, _lastDispatchedFrame: 2325
+[01:59:16.038515] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2330, _lastDispatchedFrame: 2327
+[01:59:16.066623] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2332, _lastDispatchedFrame: 2329
+[01:59:16.093023] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2334, _lastDispatchedFrame: 2331
+[01:59:16.120179] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2336, _lastDispatchedFrame: 2333
+[01:59:16.147173] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2338, _lastDispatchedFrame: 2335
+[01:59:16.175991] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2340, _lastDispatchedFrame: 2337
+[01:59:16.201461] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2342, _lastDispatchedFrame: 2339
+[01:59:16.228158] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2344, _lastDispatchedFrame: 2341
+[01:59:16.255994] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2346, _lastDispatchedFrame: 2343
+[01:59:16.284537] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2348, _lastDispatchedFrame: 2345
+[01:59:16.310364] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2350, _lastDispatchedFrame: 2347
+[01:59:16.337351] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2352, _lastDispatchedFrame: 2349
+[01:59:16.365868] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2354, _lastDispatchedFrame: 2351
+[01:59:16.391394] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2356, _lastDispatchedFrame: 2353
+[01:59:16.417769] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2358, _lastDispatchedFrame: 2355
+[01:59:16.446399] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2360, _lastDispatchedFrame: 2357
+[01:59:16.474365] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2362, _lastDispatchedFrame: 2359
+[01:59:16.499643] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2364, _lastDispatchedFrame: 2361
+[01:59:16.528515] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2366, _lastDispatchedFrame: 2363
+[01:59:16.556100] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2368, _lastDispatchedFrame: 2365
+[01:59:16.581936] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2370, _lastDispatchedFrame: 2367
+[01:59:16.608556] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2372, _lastDispatchedFrame: 2369
+[01:59:16.636670] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2374, _lastDispatchedFrame: 2371
+[01:59:16.663915] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2376, _lastDispatchedFrame: 2373
+[01:59:16.690565] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2378, _lastDispatchedFrame: 2375
+[01:59:16.718195] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2380, _lastDispatchedFrame: 2377
+[01:59:16.745386] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2382, _lastDispatchedFrame: 2379
+[01:59:16.772969] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2384, _lastDispatchedFrame: 2381
+[01:59:16.798490] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2386, _lastDispatchedFrame: 2383
+[01:59:16.827234] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2388, _lastDispatchedFrame: 2385
+[01:59:16.855037] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2390, _lastDispatchedFrame: 2387
+[01:59:16.880198] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2392, _lastDispatchedFrame: 2389
+[01:59:16.907864] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2394, _lastDispatchedFrame: 2391
+[01:59:16.936538] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2396, _lastDispatchedFrame: 2393
+[01:59:16.937853] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:16.962253] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2398, _lastDispatchedFrame: 2395
+[01:59:16.989154] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=2400 color=0xb9e333790 depth=0xb9e18aab0
+[01:59:16.989275] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=2400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.15858865,-0.33032227 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:59:16.989358] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2400, _lastDispatchedFrame: 2397
+[01:59:16.989601] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=2400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:59:17.017963] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2402, _lastDispatchedFrame: 2399
+[01:59:17.045140] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2404, _lastDispatchedFrame: 2401
+[01:59:17.070256] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2406, _lastDispatchedFrame: 2403
+[01:59:17.099560] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2408, _lastDispatchedFrame: 2405
+[01:59:17.126380] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2410, _lastDispatchedFrame: 2407
+[01:59:17.152222] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2412, _lastDispatchedFrame: 2409
+[01:59:17.180442] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2414, _lastDispatchedFrame: 2411
+[01:59:17.208368] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2416, _lastDispatchedFrame: 2413
+[01:59:17.233249] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2418, _lastDispatchedFrame: 2415
+[01:59:17.261505] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2420, _lastDispatchedFrame: 2417
+[01:59:17.289486] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2422, _lastDispatchedFrame: 2419
+[01:59:17.316408] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2424, _lastDispatchedFrame: 2421
+[01:59:17.342720] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2426, _lastDispatchedFrame: 2423
+[01:59:17.369888] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2428, _lastDispatchedFrame: 2425
+[01:59:17.396896] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2430, _lastDispatchedFrame: 2427
+[01:59:17.425474] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2432, _lastDispatchedFrame: 2429
+[01:59:17.451012] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2434, _lastDispatchedFrame: 2431
+[01:59:17.479410] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2436, _lastDispatchedFrame: 2433
+[01:59:17.507653] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2438, _lastDispatchedFrame: 2435
+[01:59:17.533452] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2440, _lastDispatchedFrame: 2437
+[01:59:17.561206] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2442, _lastDispatchedFrame: 2439
+[01:59:17.589975] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2444, _lastDispatchedFrame: 2441
+[01:59:17.615676] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2446, _lastDispatchedFrame: 2443
+[01:59:17.643139] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2448, _lastDispatchedFrame: 2445
+[01:59:17.671292] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2450, _lastDispatchedFrame: 2447
+[01:59:17.699000] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2452, _lastDispatchedFrame: 2449
+[01:59:17.725066] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2454, _lastDispatchedFrame: 2451
+[01:59:17.752851] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2456, _lastDispatchedFrame: 2453
+[01:59:17.779256] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2458, _lastDispatchedFrame: 2455
+[01:59:17.804611] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2460, _lastDispatchedFrame: 2457
+[01:59:17.833742] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2462, _lastDispatchedFrame: 2459
+[01:59:17.861323] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2464, _lastDispatchedFrame: 2461
+[01:59:17.887252] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2466, _lastDispatchedFrame: 2463
+[01:59:17.915266] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2468, _lastDispatchedFrame: 2465
+[01:59:17.942302] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2470, _lastDispatchedFrame: 2467
+[01:59:17.969498] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2472, _lastDispatchedFrame: 2469
+[01:59:17.996405] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2474, _lastDispatchedFrame: 2471
+[01:59:18.024310] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2476, _lastDispatchedFrame: 2473
+[01:59:18.051474] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2478, _lastDispatchedFrame: 2475
+[01:59:18.077925] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2480, _lastDispatchedFrame: 2477
+[01:59:18.104402] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2482, _lastDispatchedFrame: 2479
+[01:59:18.132225] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2484, _lastDispatchedFrame: 2481
+[01:59:18.160569] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2486, _lastDispatchedFrame: 2483
+[01:59:18.184880] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2488, _lastDispatchedFrame: 2485
+[01:59:18.212764] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2490, _lastDispatchedFrame: 2487
+[01:59:18.242419] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2492, _lastDispatchedFrame: 2489
+[01:59:18.268661] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2494, _lastDispatchedFrame: 2491
+[01:59:18.294308] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2496, _lastDispatchedFrame: 2493
+[01:59:18.322569] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2498, _lastDispatchedFrame: 2495
+[01:59:18.350111] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2500, _lastDispatchedFrame: 2497
+[01:59:18.375642] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2502, _lastDispatchedFrame: 2499
+[01:59:18.404536] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2504, _lastDispatchedFrame: 2501
+[01:59:18.430738] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2506, _lastDispatchedFrame: 2503
+[01:59:18.456467] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2508, _lastDispatchedFrame: 2505
+[01:59:18.483162] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2510, _lastDispatchedFrame: 2507
+[01:59:18.511345] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2512, _lastDispatchedFrame: 2509
+[01:59:18.538688] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2514, _lastDispatchedFrame: 2511
+[01:59:18.565934] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2516, _lastDispatchedFrame: 2513
+[01:59:18.593103] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2518, _lastDispatchedFrame: 2515
+[01:59:18.619965] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2520, _lastDispatchedFrame: 2517
+[01:59:18.648089] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2522, _lastDispatchedFrame: 2519
+[01:59:18.673989] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2524, _lastDispatchedFrame: 2521
+[01:59:18.702349] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2526, _lastDispatchedFrame: 2523
+[01:59:18.729253] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:59:18.729307] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2528, _lastDispatchedFrame: 0
+[01:59:20.412399] [I] Config::SaveIni Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[01:59:22.460408] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:26.205886] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=3000 color=0xb9e333790 depth=0xb9e18aab0
+[01:59:26.205975] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=3000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.042600185,-0.25708008 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:59:26.206254] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:59:27.211370] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:28.088028] [I] XeFG_Dx12::Present TSR FG previous-present: sample=2400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:59:31.967886] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:35.709492] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=3600 color=0xb9e333790 depth=0xb9e18aab0
+[01:59:35.709585] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=3600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.09746987,-0.3581543 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:59:35.709898] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:59:36.712083] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:37.589652] [I] XeFG_Dx12::Present TSR FG previous-present: sample=3000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:59:41.455774] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:45.195790] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=4200 color=0xb9e333790 depth=0xb9e18aab0
+[01:59:45.195886] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=4200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.096403,-0.29699707 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:59:45.196203] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=4200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:59:46.205854] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:47.092468] [I] XeFG_Dx12::Present TSR FG previous-present: sample=3600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:59:50.967027] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:54.717961] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=4800 color=0xb9e333790 depth=0xb9e18aab0
+[01:59:54.718037] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=4800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.036656022,-0.31750488 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[01:59:54.718278] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=4800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:59:55.723234] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:59:56.604187] [I] XeFG_Dx12::Present TSR FG previous-present: sample=4200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:00:00.476328] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[02:00:04.231939] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=5400 color=0xb9e333790 depth=0xb9e18aab0
+[02:00:04.232037] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=5400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.16453284,-0.2779541 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:00:04.232362] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=5400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:00:05.239653] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[02:00:06.118010] [I] XeFG_Dx12::Present TSR FG previous-present: sample=4800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:00:09.987371] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[02:00:13.740595] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=6000 color=0xb9e333790 depth=0xb9e18aab0
+[02:00:13.740700] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=6000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.07323581,-0.36291504 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:00:13.741053] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=6000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:00:14.752143] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[02:00:15.630908] [I] XeFG_Dx12::Present TSR FG previous-present: sample=5400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:00:19.526742] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[02:00:23.277272] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=6600 color=0xb9e333790 depth=0xb9e18aab0
+[02:00:23.277359] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=6600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.018366158,-0.2874756 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:00:23.277673] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=6600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:00:24.283641] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[02:00:25.163577] [I] XeFG_Dx12::Present TSR FG previous-present: sample=6000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:00:29.039632] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[02:00:32.786032] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=7200 color=0xb9e333790 depth=0xb9e18aab0
+[02:00:32.786121] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=7200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.08568305,-0.34313965 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:00:32.786440] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=7200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:00:33.789686] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[02:00:34.670740] [I] XeFG_Dx12::Present TSR FG previous-present: sample=6600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:00:38.543369] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xb0994 foreground:0xb0994 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[02:00:40.403246] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0xb0994 target:0xb0994
+[02:00:40.403296] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:0 deferredNull:0 hasSaved:1 savedActive:0
+[02:00:42.247184] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=7800 color=0xb9e333790 depth=0xb9e18aab0
+[02:00:42.247270] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=7800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.15208554,-0.25964355 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:00:42.247546] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=7800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:00:43.993119] [I] XeFG_Dx12::Present TSR FG previous-present: sample=7200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:00:51.244348] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=8400 color=0xb9e333790 depth=0xb9e18aab0
+[02:00:51.244446] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=8400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.04910326,-0.3477173 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:00:51.244669] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=8400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:00:52.989844] [I] XeFG_Dx12::Present TSR FG previous-present: sample=7800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:00:59.972042] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=9000 color=0xb9e333790 depth=0xb9e18aab0
+[02:00:59.972153] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=9000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.10885027,-0.30963135 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:00:59.972365] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=9000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:01:01.732912] [I] XeFG_Dx12::Present TSR FG previous-present: sample=8400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:01:09.111539] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=9600 color=0xb9e333790 depth=0xb9e18aab0
+[02:01:09.111616] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=9600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.11794436,-0.32281494 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:01:09.111852] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=9600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:01:10.794204] [I] XeFG_Dx12::Present TSR FG previous-present: sample=9000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:01:17.605214] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=10200 color=0xb9e333790 depth=0xb9e18aab0
+[02:01:17.605290] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=10200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.030152917,-0.27301025 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:01:17.605471] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=10200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:01:19.278286] [I] XeFG_Dx12::Present TSR FG previous-present: sample=9600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:01:21.637475] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:01:22.010685] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:01:22.023643] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10482, _lastDispatchedFrame: 0
+[02:01:22.051705] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10484, _lastDispatchedFrame: 10481
+[02:01:22.073950] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10486, _lastDispatchedFrame: 10483
+[02:01:22.098914] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10488, _lastDispatchedFrame: 10485
+[02:01:22.128764] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10490, _lastDispatchedFrame: 10487
+[02:01:22.156854] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10492, _lastDispatchedFrame: 10489
+[02:01:26.649096] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=10800 color=0xb9e333790 depth=0xb9e18aab0
+[02:01:26.649201] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=10800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.47093946,-0.45440674 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:01:26.649547] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=10800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:01:27.766396] [I] XeFG_Dx12::Present TSR FG previous-present: sample=10200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:01:35.080501] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=11400 color=0xb9e333790 depth=0xb9e18aab0
+[02:01:35.080599] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=11400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.31242692,-0.3796997 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:01:35.080869] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=11400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:01:36.102037] [I] XeFG_Dx12::Present TSR FG previous-present: sample=10800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:01:43.157915] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=12000 color=0xb9e333790 depth=0xb9e18aab0
+[02:01:43.157969] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=12000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.2100035,-0.48223877 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:01:43.158146] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=12000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:01:44.258358] [I] XeFG_Dx12::Present TSR FG previous-present: sample=11400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:01:51.711846] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=12600 color=0xb9e333790 depth=0xb9e18aab0
+[02:01:51.711976] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=12600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.4477722,-0.42401123 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:01:51.712296] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=12600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:01:52.929526] [I] XeFG_Dx12::Present TSR FG previous-present: sample=12000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:02:01.007652] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=13200 color=0xb9e333790 depth=0xb9e18aab0
+[02:02:01.007723] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=13200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.37664485,-0.44451904 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:02:01.008002] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=13200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:02:02.141320] [I] XeFG_Dx12::Present TSR FG previous-present: sample=12600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:02:10.806793] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=13800 color=0xb9e333790 depth=0xb9e18aab0
+[02:02:10.806865] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=13800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.19008791,-0.40496826 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:02:10.807038] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=13800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:02:12.161050] [I] XeFG_Dx12::Present TSR FG previous-present: sample=13200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:02:21.208754] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=14400 color=0xb9e333790 depth=0xb9e18aab0
+[02:02:21.208811] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=14400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.41688263,-0.48480225 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:02:21.209026] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=14400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:02:22.437364] [I] XeFG_Dx12::Present TSR FG previous-present: sample=13800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:02:30.367932] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=15000 color=0xb9e333790 depth=0xb9e18aab0
+[02:02:30.368010] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=15000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.32543314,-0.41156006 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:02:30.368197] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=15000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:02:31.518716] [I] XeFG_Dx12::Present TSR FG previous-present: sample=14400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:02:39.363572] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=15600 color=0xb9e333790 depth=0xb9e18aab0
+[02:02:39.363636] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=15600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.25471222,-0.46575928 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:02:39.363883] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=15600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:02:40.538884] [I] XeFG_Dx12::Present TSR FG previous-present: sample=15000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:02:48.371167] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=16200 color=0xb9e333790 depth=0xb9e18aab0
+[02:02:48.371203] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=16200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.49248087,-0.3866577 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:02:48.371407] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=16200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:02:49.548917] [I] XeFG_Dx12::Present TSR FG previous-present: sample=15600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:02:57.752000] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=16800 color=0xb9e333790 depth=0xb9e18aab0
+[02:02:57.752062] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=16800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.291292,-0.4746399 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:02:57.752363] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=16800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:02:59.068417] [I] XeFG_Dx12::Present TSR FG previous-present: sample=16200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:03:07.765774] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=17400 color=0xb9e333790 depth=0xb9e18aab0
+[02:03:07.765868] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=17400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.2364223,-0.43655396 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:03:07.766099] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=17400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:03:09.028024] [I] XeFG_Dx12::Present TSR FG previous-present: sample=16800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:03:13.083939] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:03:16.124994] [I] XeFG_Dx12::Present TSR FG previous-present: sample=17400 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[02:03:20.992460] [I] XeFG_Dx12::Present TSR FG previous-present: sample=18000 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[02:03:25.871715] [I] XeFG_Dx12::Present TSR FG previous-present: sample=18600 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[02:03:30.090113] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:03:30.110765] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 17695, _lastDispatchedFrame: 0
+[02:03:30.132270] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 17697, _lastDispatchedFrame: 17694
+[02:03:30.155135] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 17699, _lastDispatchedFrame: 17696
+[02:03:30.184352] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 17701, _lastDispatchedFrame: 17698
+[02:03:30.218801] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 17703, _lastDispatchedFrame: 17700
+[02:03:30.245640] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 17705, _lastDispatchedFrame: 17702
+[02:03:31.112652] [I] XeFG_Dx12::Present TSR FG previous-present: sample=19200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:03:34.890728] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=18000 color=0xb9e333790 depth=0xb9e18aab0
+[02:03:34.890830] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=18000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.3367796,-0.021270752 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:03:34.891057] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=18000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[02:03:40.232912] [I] XeFG_Dx12::Present TSR FG previous-present: sample=19800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:03:43.898557] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=18600 color=0xb9e333790 depth=0xb9e18aab0
+[02:03:43.898629] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=18600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.26727802,-0.12124634 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:03:49.282440] [I] XeFG_Dx12::Present TSR FG previous-present: sample=20400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:03:52.957410] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=19200 color=0xb9e333790 depth=0xb9e18aab0
+[02:03:52.957473] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=19200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.47212493,-0.042144775 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:03:58.571869] [I] XeFG_Dx12::Present TSR FG previous-present: sample=21000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:04:01.980404] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=19800 color=0xb9e333790 depth=0xb9e18aab0
+[02:04:01.980496] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=19800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.30263847,-0.084625244 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:04:07.558922] [I] XeFG_Dx12::Present TSR FG previous-present: sample=21600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:04:11.095709] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=20400 color=0xb9e333790 depth=0xb9e18aab0
+[02:04:11.095807] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=20400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.21484697,-0.00039672852 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:04:16.509988] [I] XeFG_Dx12::Present TSR FG previous-present: sample=22200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:04:20.300753] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=21000 color=0xb9e333790 depth=0xb9e18aab0
+[02:04:20.300822] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=21000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.4416417,-0.10293579 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:04:25.676245] [I] XeFG_Dx12::Present TSR FG previous-present: sample=22800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:04:29.498344] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=21600 color=0xb9e333790 depth=0xb9e18aab0
+[02:04:29.498416] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=21600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.38311404,-0.05166626 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:04:35.194053] [I] XeFG_Dx12::Present TSR FG previous-present: sample=23400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:04:38.990676] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=22200 color=0xb9e333790 depth=0xb9e18aab0
+[02:04:38.990807] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=22200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.18070585,-0.0663147 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:04:44.646567] [I] XeFG_Dx12::Present TSR FG previous-present: sample=24000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:04:48.462951] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=22800 color=0xb9e333790 depth=0xb9e18aab0
+[02:04:48.463031] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=22800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.4184745,-0.025482178 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:04:53.969350] [I] XeFG_Dx12::Present TSR FG previous-present: sample=24600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:04:57.830842] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=23400 color=0xb9e333790 depth=0xb9e18aab0
+[02:04:57.830909] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=23400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.31605107,-0.11630249 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:05:03.373796] [I] XeFG_Dx12::Present TSR FG previous-present: sample=25200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:05:07.159431] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=24000 color=0xb9e333790 depth=0xb9e18aab0
+[02:05:07.159543] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=24000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.2611814,-0.032806396 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:05:12.727081] [I] XeFG_Dx12::Present TSR FG previous-present: sample=25800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:05:16.434460] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=24600 color=0xb9e333790 depth=0xb9e18aab0
+[02:05:16.434523] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=24600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.4973243,-0.08627319 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:05:21.963730] [I] XeFG_Dx12::Present TSR FG previous-present: sample=26400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:05:25.675293] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=25200 color=0xb9e333790 depth=0xb9e18aab0
+[02:05:25.675345] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=25200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.29613537,-0.013031006 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:05:31.201561] [I] XeFG_Dx12::Present TSR FG previous-present: sample=27000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:05:34.981169] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=25800 color=0xb9e333790 depth=0xb9e18aab0
+[02:05:34.981234] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=25800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.23760772,-0.0965271 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:05:40.773505] [I] XeFG_Dx12::Present TSR FG previous-present: sample=27600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:05:44.676350] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=26400 color=0xb9e333790 depth=0xb9e18aab0
+[02:05:44.676404] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=26400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.4302613,-0.058441162 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:05:50.644759] [I] XeFG_Dx12::Present TSR FG previous-present: sample=28200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:05:54.752037] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=27000 color=0xb9e333790 depth=0xb9e18aab0
+[02:05:54.752099] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=27000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.3753916,-0.0763855 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:06:01.110530] [I] XeFG_Dx12::Present TSR FG previous-present: sample=28800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:06:05.361225] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=27600 color=0xb9e333790 depth=0xb9e18aab0
+[02:06:05.361449] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=27600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.17420274,-0.016326904 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:06:11.435946] [I] XeFG_Dx12::Present TSR FG previous-present: sample=29400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:06:15.612858] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=28200 color=0xb9e333790 depth=0xb9e18aab0
+[02:06:15.612910] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=28200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.41197145,-0.11886597 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:06:21.517598] [I] XeFG_Dx12::Present TSR FG previous-present: sample=30000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:06:25.076711] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=28800 color=0xb9e333790 depth=0xb9e18aab0
+[02:06:25.076782] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=28800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.34125042,-0.043426514 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:06:30.253723] [I] XeFG_Dx12::Present TSR FG previous-present: sample=30600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:06:33.860956] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=29400 color=0xb9e333790 depth=0xb9e18aab0
+[02:06:33.861017] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=29400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.24980098,-0.08151245 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:06:39.299510] [I] XeFG_Dx12::Present TSR FG previous-present: sample=31200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:06:42.792922] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=30000 color=0xb9e333790 depth=0xb9e18aab0
+[02:06:42.793025] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=30000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.47659576,-0.00680542 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:06:48.111130] [I] XeFG_Dx12::Present TSR FG previous-present: sample=31800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:06:51.757073] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=30600 color=0xb9e333790 depth=0xb9e18aab0
+[02:06:51.757300] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=30600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.29003876,-0.10934448 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:06:57.224721] [I] XeFG_Dx12::Present TSR FG previous-present: sample=32400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:07:00.726790] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=31200 color=0xb9e333790 depth=0xb9e18aab0
+[02:07:00.726852] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=31200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.21891141,-0.04786682 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:07:06.274546] [I] XeFG_Dx12::Present TSR FG previous-present: sample=33000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:07:10.288467] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=31800 color=0xb9e333790 depth=0xb9e18aab0
+[02:07:10.288551] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=31800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.45668006,-0.06690979 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:07:16.120480] [I] XeFG_Dx12::Present TSR FG previous-present: sample=33600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:07:20.014559] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=32400 color=0xb9e333790 depth=0xb9e18aab0
+[02:07:20.014649] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=32400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.3542567,-0.028823853 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:07:25.865169] [I] XeFG_Dx12::Present TSR FG previous-present: sample=34200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:07:29.784770] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=33000 color=0xb9e333790 depth=0xb9e18aab0
+[02:07:29.784847] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=33000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.19574422,-0.111587524 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:07:35.764092] [I] XeFG_Dx12::Present TSR FG previous-present: sample=34800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:07:39.708641] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=33600 color=0xb9e333790 depth=0xb9e18aab0
+[02:07:39.708726] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=33600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.38961715,-0.038345337 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:07:45.386692] [I] XeFG_Dx12::Present TSR FG previous-present: sample=35400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[02:07:48.983469] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=34200 color=0xb9e333790 depth=0xb9e18aab0
+[02:07:48.983551] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=34200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.33474737,-0.092544556 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:07:49.141753] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:07:51.618111] [I] XeFG_Dx12::Present TSR FG previous-present: sample=36000 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[02:07:55.683449] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:07:55.705242] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34207, _lastDispatchedFrame: 0
+[02:07:55.741374] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34209, _lastDispatchedFrame: 34206
+[02:07:55.774723] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34211, _lastDispatchedFrame: 34208
+[02:07:55.814579] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34213, _lastDispatchedFrame: 34210
+[02:07:55.850029] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34215, _lastDispatchedFrame: 34212
+[02:07:55.901821] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34217, _lastDispatchedFrame: 34214
+[02:08:05.461579] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=34800 color=0xb9e333790 depth=0xb9e18aab0
+[02:08:05.461636] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=34800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.19864011,0.16490173 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:08:15.036286] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=35400 color=0xb9e333790 depth=0xb9e18aab0
+[02:08:15.036365] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=35400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.39251304,0.24839783 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:08:25.452679] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=36000 color=0xb9e333790 depth=0xb9e18aab0
+[02:08:25.452775] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=36000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.33398533,0.14805603 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:08:35.871958] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=36600 color=0xb9e333790 depth=0xb9e18aab0
+[02:08:35.872079] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=36600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.27369642,0.19786072 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:08:46.289183] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=37200 color=0xb9e333790 depth=0xb9e18aab0
+[02:08:46.289265] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=37200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.46756935,0.18467712 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:08:56.632158] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=37800 color=0xb9e333790 depth=0xb9e18aab0
+[02:08:56.632265] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=37800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.31393415,0.22276306 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:09:06.887827] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=38400 color=0xb9e333790 depth=0xb9e18aab0
+[02:09:06.887905] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=38400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.21151078,0.13468933 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:09:17.408937] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=39000 color=0xb9e333790 depth=0xb9e18aab0
+[02:09:17.409020] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=39000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.4480601,0.21818542 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:09:27.835516] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=39600 color=0xb9e333790 depth=0xb9e18aab0
+[02:09:27.835647] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=39600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.37855846,0.16252136 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:09:37.530027] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=40200 color=0xb9e333790 depth=0xb9e18aab0
+[02:09:37.530153] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=40200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.18834358,0.23796082 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:09:46.973134] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=40800 color=0xb9e333790 depth=0xb9e18aab0
+[02:09:46.973214] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=40800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.41391897,0.15299988 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:09:56.342255] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=41400 color=0xb9e333790 depth=0xb9e18aab0
+[02:09:56.342327] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=41400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.3261274,0.19255066 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:10:05.459066] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=42000 color=0xb9e333790 depth=0xb9e18aab0
+[02:10:05.459157] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=42000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.25662583,0.17204285 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:10:14.593460] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=42600 color=0xb9e333790 depth=0xb9e18aab0
+[02:10:14.593521] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=42600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.49439454,0.23320007 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:10:20.680282] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:11:18.434860] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:11:18.463225] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 43004, _lastDispatchedFrame: 0
+[02:11:18.489154] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 43006, _lastDispatchedFrame: 43003
+[02:11:18.521297] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 43008, _lastDispatchedFrame: 43005
+[02:11:18.559853] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 43010, _lastDispatchedFrame: 43007
+[02:11:18.599140] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 43012, _lastDispatchedFrame: 43009
+[02:11:18.630631] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 43014, _lastDispatchedFrame: 43011
+[02:11:21.591428] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=43200 color=0xb9e333790 depth=0xb9e18aab0
+[02:11:21.591643] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=43200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.17704785,0.23225403 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:11:30.952339] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=43800 color=0xb9e333790 depth=0xb9e18aab0
+[02:11:30.952416] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=43800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.36726278,0.12971497 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:11:40.293822] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=44400 color=0xb9e333790 depth=0xb9e18aab0
+[02:11:40.293900] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=44400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.4379837,0.204422 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:11:50.005575] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=45000 color=0xb9e333790 depth=0xb9e18aab0
+[02:11:50.005617] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=45000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.22947893,0.17146301 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:11:59.185696] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=45600 color=0xb9e333790 depth=0xb9e18aab0
+[02:11:59.185766] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=45600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.2989805,0.2447052 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:12:07.980561] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=46200 color=0xb9e333790 depth=0xb9e18aab0
+[02:12:07.980613] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=46200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.4891954,0.14363098 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:12:16.074618] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=46800 color=0xb9e333790 depth=0xb9e18aab0
+[02:12:16.074680] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=46800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.26362002,0.19929504 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:12:24.367899] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=47400 color=0xb9e333790 depth=0xb9e18aab0
+[02:12:24.368001] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=47400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.3221477,0.18153381 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:12:33.663966] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=48000 color=0xb9e333790 depth=0xb9e18aab0
+[02:12:33.664031] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=48000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.4245711,0.21961975 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:12:37.200789] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:13:02.158653] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:13:02.180471] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48221, _lastDispatchedFrame: 0
+[02:13:02.205615] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48223, _lastDispatchedFrame: 48220
+[02:13:02.233666] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48225, _lastDispatchedFrame: 48222
+[02:13:02.262955] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48227, _lastDispatchedFrame: 48224
+[02:13:02.290885] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48229, _lastDispatchedFrame: 48226
+[02:13:02.323095] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48231, _lastDispatchedFrame: 48228
+[02:13:08.511968] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=48600 color=0xb9e333790 depth=0xb9e18aab0
+[02:13:08.512047] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=48600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.40322167,-0.26878357 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:13:13.797691] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:13:19.742759] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:13:19.778356] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48918, _lastDispatchedFrame: 0
+[02:13:19.868905] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48920, _lastDispatchedFrame: 48917
+[02:13:19.943422] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48922, _lastDispatchedFrame: 48919
+[02:13:20.010166] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48924, _lastDispatchedFrame: 48921
+[02:13:20.084416] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48926, _lastDispatchedFrame: 48923
+[02:13:20.155433] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 48928, _lastDispatchedFrame: 48925
+[02:13:26.449013] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=49200 color=0xb9e333790 depth=0xb9e18aab0
+[02:13:26.449065] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=49200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.23631504,-0.46922302 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:13:35.371806] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=49800 color=0xb9e333790 depth=0xb9e18aab0
+[02:13:35.371861] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=49800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.29118472,-0.43113708 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:13:38.520815] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:15:05.993826] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:15:06.007548] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50003, _lastDispatchedFrame: 0
+[02:15:06.027969] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50005, _lastDispatchedFrame: 50002
+[02:15:06.046775] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50007, _lastDispatchedFrame: 50004
+[02:15:06.075103] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50009, _lastDispatchedFrame: 50006
+[02:15:06.103747] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50011, _lastDispatchedFrame: 50008
+[02:15:06.127849] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50013, _lastDispatchedFrame: 50010
+[02:15:11.458342] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=50400 color=0xb9e333790 depth=0xb9e18aab0
+[02:15:11.458400] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=50400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.22606367,0.26091766 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:15:13.869542] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:15:28.076380] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:15:28.097288] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50556, _lastDispatchedFrame: 0
+[02:15:28.122648] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50558, _lastDispatchedFrame: 50555
+[02:15:28.146868] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50560, _lastDispatchedFrame: 50557
+[02:15:28.173350] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50562, _lastDispatchedFrame: 50559
+[02:15:28.205474] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50564, _lastDispatchedFrame: 50561
+[02:15:28.234742] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 50566, _lastDispatchedFrame: 50563
+[02:15:34.979011] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=51000 color=0xb9e333790 depth=0xb9e18aab0
+[02:15:34.979115] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=51000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.3655467,0.20146942 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:15:36.737919] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:16:45.271553] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:16:45.286186] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51095, _lastDispatchedFrame: 0
+[02:16:45.313149] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51097, _lastDispatchedFrame: 51094
+[02:16:45.340301] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51099, _lastDispatchedFrame: 51096
+[02:16:45.362697] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51101, _lastDispatchedFrame: 51098
+[02:16:45.389029] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51103, _lastDispatchedFrame: 51100
+[02:16:45.421318] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51105, _lastDispatchedFrame: 51102
+[02:16:50.196709] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:16:50.958815] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:16:50.970097] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51408, _lastDispatchedFrame: 0
+[02:16:50.992451] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51410, _lastDispatchedFrame: 51407
+[02:16:51.018047] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51412, _lastDispatchedFrame: 51409
+[02:16:51.048754] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51414, _lastDispatchedFrame: 51411
+[02:16:51.081355] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51416, _lastDispatchedFrame: 51413
+[02:16:51.107563] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 51418, _lastDispatchedFrame: 51415
+[02:16:53.982426] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=51600 color=0xb9e333790 depth=0xb9e18aab0
+[02:16:53.982479] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=51600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.23274174,0.446373 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[02:16:55.376686] [W] OptiInput::`anonymous-namespace'::LogQueryWindowFailure ValidateTargetWindow rejected hwnd:0xb0994 isWindow:0 root:0x0 pid:0 tid:0 currentPid:16404
+[02:16:55.376743] [W] OptiInput::ClearTargetWindowLocked clearing target window hwnd:0xb0994 pid:16404 tid:17064
+[02:16:55.376764] [W] OptiInput::RemoveWindowSubclass RemoveWindowSubclass did not restore because current WndProc changed input:0xb0994 current:0 opti:140719244849776
+[02:16:55.376782] [W] OptiInput::ClearInputWindowLocked clearing input window hwnd:0xb0994 pid:16404 tid:17064 subclassed:0
+[02:16:55.377162] [W] OptiInput::`anonymous-namespace'::LogQueryWindowFailure SetTargetWindow rejected hwnd:0xb0994 isWindow:0 root:0x0 pid:0 tid:0 currentPid:16404
+[02:16:55.377380] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[02:16:55.410847] [W] OptiInput::`anonymous-namespace'::LogQueryWindowFailure SetTargetWindow rejected hwnd:0xb0994 isWindow:0 root:0x0 pid:0 tid:0 currentPid:16404
+[02:17:02.273553] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]pluginmanager.cpp:817[unloadPlugins] Unloading all plugins ...
+[02:17:02.276409] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel mvec.cs
+[02:17:02.279871] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]commonentry.cpp:1090[slOnPluginShutdown] Shutting down NGX
+[02:17:02.281085] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel copy_to_buffer.cs
+[02:17:02.281638] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]d3d12.cpp:820[shutdown] Destroying kernel fonts.cs
+[02:17:02.284345] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d6b38e0(sl.chi.fontTexture) at frame 3 (current frame 0)
+[02:17:02.284368] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d66e550(sl.chi.dynamicText) at frame 3 (current frame 0)
+[02:17:02.284382] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d66e910(sl.chi.dynamicTextUpload) at frame 3 (current frame 0)
+[02:17:02.284871] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d6b38e0(sl.chi.fontTexture) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.03MB
+[02:17:02.285284] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d66e550(sl.chi.dynamicText) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.02MB
+[02:17:02.285689] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d66e910(sl.chi.dynamicTextUpload) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.00MB
+[02:17:02.285711] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 02-17-02][streamline][info]generic.cpp:285[shutdown] Delayed destroy resource list count 0
+[02:17:02.574902] [I] 
+[02:17:02.574926] [I] DLL_PROCESS_DETACH
+[02:17:02.575596] [I] Unloading OptiScaler

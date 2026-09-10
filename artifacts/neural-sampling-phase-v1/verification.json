@@ -1,0 +1,8 @@
+{
+  "baseline_exact": true,
+  "repeated_phase_exact": true,
+  "protected_exact": true,
+  "inputs_unchanged": true,
+  "sources_unchanged": true,
+  "checkpoints_unchanged": true
+}

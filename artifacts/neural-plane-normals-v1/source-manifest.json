@@ -1,0 +1,7 @@
+{
+  "_IA_Python/neural_lighting_scene.py": "f6cd3354ab99567ca3881f8511420823862ed5d22e8f1e985bba8786c3110516",
+  "_IA_Python/neural_lighting_diagnostics.py": "eb13f322ffe951fbcca6d19ced0ecf08767b414b7afb78e4d0f9478d2adc3722",
+  "tools/diagnose_fitted_normals.py": "7a165171b00437a50a048e0e17cc36d83126b2612657d60516d08b7238e90280",
+  "tools/diagnose_neural_lighting.py": "21e265d363188432d362ecd57923dc16506edb82409060f92f0e8dd248e36594",
+  "tests/test_neural_lighting_diagnostics.py": "ef7424a4a878b647a03e089b4413fb7e4585f2fae7a382ea94537f1159860d03"
+}

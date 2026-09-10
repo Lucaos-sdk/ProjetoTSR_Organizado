@@ -1,0 +1,271 @@
+[19:46:31.500018] [W] OptiScaler v10.0.0-dev (07af11e) (20260906_143215) loaded
+[19:46:31.500078] [W] ---------------------------------
+[19:46:31.500092] [W] OptiScaler is freely downloadable from
+[19:46:31.500102] [W] GitHub : https://github.com/optiscaler/OptiScaler/releases
+[19:46:31.500111] [W] Nexus  : https://www.nexusmods.com/site/mods/986
+[19:46:31.500121] [W] If you paid for these files, you've been scammed!
+[19:46:31.500130] [W] DO NOT USE IN MULTIPLAYER GAMES
+[19:46:31.500140] [I] 
+[19:46:31.500153] [I] LogLevel: 2
+[19:46:31.500166] [I] 
+[19:46:31.500194] [I] Windows version: Windows 11 (10.0.26200)
+[19:46:31.500206] [I] 
+[19:46:31.500215] [I] Config parameters:
+[19:46:31.500226] [I] Upscalers.Dx12Upscaler: ffx
+[19:46:31.500847] [I] FrameGen.Enabled: false
+[19:46:31.500856] [I] FrameGen.FGInput: nofg
+[19:46:31.500860] [I] FrameGen.FGOutput: nofg
+[19:46:31.500864] [I] OptiFG.HUDFix: true
+[19:46:31.500868] [I] OptiFG.HUDFixRelaxedResolutionCheck: true
+[19:46:31.500873] [I] FSR.UpscalerIndex: 0
+[19:46:31.500877] [I] Log.LogToFile: true
+[19:46:31.500881] [I] Log.LogLevel: 2
+[19:46:31.500885] [I] Log.LogFileName: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\TSR_FSR411.log
+[19:46:31.500891] [I] Sharpness.Shader: rcas
+[19:46:31.500895] [I] Sharpness.OverrideSharpness: true
+[19:46:31.500899] [I] Sharpness.Sharpness: 0.0
+[19:46:31.500904] [I] CAS.Enabled: false
+[19:46:31.500908] [I] CAS.MotionSharpnessEnabled: false
+[19:46:31.500912] [I] CAS.ContrastEnabled: false
+[19:46:31.500916] [I] CAS.SharpenerDebug: false
+[19:46:31.500921] [I] Magnifier.Size: 11.000000
+[19:46:31.500925] [I] Magnifier.BorderSize: 0.730000
+[19:46:31.500929] [I] fakenvapi.LatencyFlexMode: 1
+[19:46:31.500934] [I] Libraries.FfxDx12SRPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[19:46:31.500939] [I] 
+[19:46:31.500944] [I] Setting DllPath to C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler
+[19:46:31.500949] [I] 
+[19:46:31.500995] [I] 
+[19:46:31.501012] [W] IsRunningOnWine Wine not detected
+[19:46:31.501065] [I] 
+[19:46:31.501071] [I] Check for DLSS files
+[19:46:31.502420] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[19:46:31.506445] [I] Util::FindFilePath nvngx_dlssg.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[19:46:31.506467] [I] 
+[19:46:31.506620] [I] CheckQuirks Game's Exe: witcher3.exe
+[19:46:31.506631] [I] CheckQuirks Game Name: The Witcher 3
+[19:46:31.506639] [I] CheckQuirks Game Version: 4.0.0.103190(Build Machine)
+[19:46:31.506646] [I] CheckQuirks Game Engine: Other
+[19:46:31.506797] [I] Quirk: Dxgi spoofing disabled by default
+[19:46:31.506808] [I] Quirk: Create SL on the 2nd device
+[19:46:31.506815] [I] 
+[19:46:31.507722] [I] CheckWorkingMode OptiScaler working as dxgi.dll, system dll loaded
+[19:46:31.507788] [W] Config::CheckUpscalerFiles nvngx.dll not found!
+[19:46:31.507811] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[19:46:31.507824] [I] Config::CheckUpscalerFiles libxess.dll found in game folder
+[19:46:31.508608] [I] StreamlineHooks::hookInterposer Streamline version: 1.0.0
+[19:46:31.508624] [I] StreamlineHooks::hookInterposer SL1 exports - slInit: true, slSetTag: true, slSetConstants: true, slEvaluateFeature: true
+[19:46:31.511431] [I] Util::LoadProxyLibrary libxess.dll already loaded at memory: 7FFBEDB10000
+[19:46:31.610673] [I] Util::LoadProxyLibrary libxess.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[19:46:31.610706] [I] XeSSProxy::InitXeSS Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[19:46:31.613084] [I] XeSSProxy::InitXeSS LoadResult: true
+[19:46:31.613303] [I] 
+[19:46:31.614899] [I] Util::LoadProxyLibrary amd_fidelityfx_loader_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[19:46:31.614947] [I] FfxApiProxy::InitFfxDx12 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[19:46:31.614999] [I] 
+[19:46:31.616760] [I] Util::LoadProxyLibrary amd_fidelityfx_upscaler_dx12.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[19:46:31.619482] [I] FfxApiProxy::InitFfxDx12_SR Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[19:46:31.619518] [I] FfxApiProxy::InitFfxDx12_SR LoadResult: true
+[19:46:31.619524] [I] 
+[19:46:31.629364] [I] Util::LoadProxyLibrary amd_fidelityfx_framegeneration_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[19:46:31.629390] [I] FfxApiProxy::InitFfxDx12_FG Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[19:46:31.629426] [I] FfxApiProxy::InitFfxDx12_FG LoadResult: true
+[19:46:31.629432] [I] 
+[19:46:31.629734] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[19:46:31.629750] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[19:46:31.629755] [I] 
+[19:46:31.629972] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[19:46:31.629984] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[19:46:31.629989] [I] FfxApiProxy::InitFfxDx12 LoadResult: true
+[19:46:31.629994] [I] 
+[19:46:31.630209] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[19:46:31.630218] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[19:46:31.630222] [I] 
+[19:46:31.630424] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[19:46:31.630431] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[19:46:31.636500] [I] Util::LoadProxyLibrary libxess_dx11.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[19:46:31.636516] [I] XeSSProxy::InitXeSSDx11 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[19:46:31.637003] [I] XeSSProxy::InitXeSSDx11 LoadResult: true
+[19:46:31.678443] [I] Util::LoadProxyLibrary libxess_fg.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_fg.dll
+[19:46:31.678476] [I] XeFGProxy::InitXeFG Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_fg.dll
+[19:46:31.678482] [I] 
+[19:46:31.678963] [I] XeFGProxy::HookXeFG LoadResult: true
+[19:46:31.688449] [I] Util::LoadProxyLibrary libxell.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxell.dll
+[19:46:31.688481] [I] XeLLProxy::InitXeLLProper Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxell.dll
+[19:46:31.688487] [I] 
+[19:46:31.688934] [I] XeLLProxy::HookXeLL LoadResult: true
+[19:46:31.689003] [I] NVNGXProxy::InitNVNGX 
+[19:46:31.689332] [W] Util::LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!
+[19:46:31.689545] [W] Util::LoadProxyLibrary Can't find nvngx.dll, returning nullptr!
+[19:46:31.689552] [I] Util::NvngxPath trying to load nvngx from registry path!
+[19:46:31.689593] [I] 
+[19:46:31.689617] [I] HookFSR2ExeInputs Trying to hook FSR2 methods
+[19:46:31.689714] [I] HookFSR3ExeInputs Trying to hook FSR3 methods
+[19:46:31.689776] [I] 
+[19:46:31.689781] [I] Init done
+[19:46:31.689786] [I] ---------------------------------------------
+[19:46:31.689833] [I] 
+[19:46:31.806116] [I] LibraryLoadHooks::LoadLibraryCheckW Calling CreateDxgiFactory methods for overlay!
+[19:46:31.840775] [I] Amdxc64Hooks::Init amdxc64.dll loaded
+[19:46:31.843283] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[19:46:32.486345] [I] Detected GPUs:
+                      AMD Radeon RX 7600
+                          vendorId: 1002, deviceId: 7480, VRAM: 8150MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: int8, dlss: false
+                      Microsoft Basic Render Driver
+                          vendorId: 1414, deviceId: 8C, VRAM: 0MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: false, dlss: false
+
+[19:46:32.580368] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:1108[PluginManager] Streamline v1.5.6.0c67e1bd - built on Mon May 15 11:13:07 2023
+[19:46:32.581708] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:410[findPlugins] Looking for plugins in C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\ ...
+[19:46:32.627892] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]commoninterface.cpp:127[getGPUInfo] Enumerating up to 8 adapters but only one of them can be used to create a device - no mGPU support in this SDK
+[19:46:32.631254] [W] DxgiSpoofing::AttachToAdapter DxgiSpoofing and DxgiVRAM is disabled, skipping hooking
+[19:46:32.641864] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]commonentry.cpp:1235[getOSVersionAndUpdateTimerResolution] Changed high resolution timer resolution to 5000 [100 ns units]
+[19:46:32.641924] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]commonentry.cpp:1278[updateEmbeddedJSON] Detected Windows OS version 10.0.26200
+[19:46:32.642119] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.common' - version 1.5.6.0c67e1bd - id 4294967295 - priority 0 - adapter mask 0x1 - interposer 'no'
+[19:46:32.652966] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]dlssentry.cpp:185[updateEmbeddedJSON] Failed to obtain DLSS min spec requirements from NGX, using SL defaults
+[19:46:32.653230] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss' - version 1.5.6.0c67e1bd - id 0 - priority 1 - adapter mask 0x1 - interposer 'no'
+[19:46:32.664390] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]dlss_gentry.cpp:513[updateEmbeddedJSON] Failed to obtain DLSS-G min spec requirements from NGX, using SL defaults
+[19:46:32.664434] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]dlss_gentry.cpp:582[updateEmbeddedJSON] Disabling DLSS-G since it is not supported on current hardware
+[19:46:32.664645] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss_g' - version 1.5.6.0c67e1bd - id 1000 - priority 100 - adapter mask 0x0 - interposer 'no'
+[19:46:32.675587] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.reflex' - version 1.5.6.0c67e1bd - id 3 - priority 1 - adapter mask 0x1 - interposer 'no'
+[19:46:32.675629] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]pluginmanager.cpp:704[loadPlugins] Ignoring plugin 'sl.dlss_g' since it is not supported on this platform
+[19:46:32.675720] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:805[loadPlugins] Plugin execution order based on priority:
+[19:46:32.675736] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:808[loadPlugins] P0 - sl.common
+[19:46:32.675747] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.dlss
+[19:46:32.675756] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.reflex
+[19:46:32.676210] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[19:46:32.677827] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]dxgi.cpp:334[CreateDXGIFactoryInternal] Streamline interposer has been disabled
+[19:46:32.679640] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[19:46:33.003248] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[19:46:33.073698] [I] `anonymous-namespace'::RunVersionCheck OptiScaler is up to date (current 10.0.0)
+[19:46:43.142222] [I] XeSSProxy::Version XeSS Version: v2.0.2
+[19:46:43.180352] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[19:46:43.208846] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[19:46:43.358498] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[19:46:43.358536] [I] NvApiHooks::Hook NvAPI_QueryInterface found, hooking!
+[19:46:43.422665] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:986[initializePlugins] Initializing plugins - api 0.0.1 - application ID 100883811
+[19:46:43.423426] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel fonts.cs:main hash 10788421720787293069
+[19:46:43.423461] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.fontTexture), m_allocCount=1, currentSize 0.0 MB, totalSize 0.0 MB
+[19:46:43.424101] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicText), m_allocCount=2, currentSize 0.0 MB, totalSize 0.0 MB
+[19:46:43.424763] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicTextUpload), m_allocCount=3, currentSize 0.0 MB, totalSize 0.0 MB
+[19:46:43.425322] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel copy_to_buffer.cs:main hash 12564409127886710297
+[19:46:43.425348] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]commonentry.cpp:869[slOnPluginStartup] At least one plugin requires NGX, trying to initialize ...
+[19:46:43.700648] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[19:46:43.701872] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]commonentry.cpp:995[slOnPluginStartup] NGX loaded - app id 100883811 - application data path C:\Users\ADMINI~1\AppData\Local\Temp\
+[19:46:43.701927] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCreateImage:after - skipped
+[19:46:43.701940] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkPresent:before - skipped
+[19:46:43.701952] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindPipeline:after - skipped
+[19:46:43.701962] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindDescriptorSets:after - skipped
+[19:46:43.701973] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkBeginCommandBuffer:after - skipped
+[19:46:43.702027] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookResizeSwapChainPre:before - OK
+[19:46:43.702041] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent:before - OK
+[19:46:43.702052] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent1:before - OK
+[19:46:43.702120] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel mvec.cs:main hash 6390113509883505821
+[19:46:43.743023] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[19:46:43.743442] [I] NVSDK_NGX_UpdateFeature Update ApplicationId: 6035D63
+[19:46:43.743478] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.dlss:slSetConstants:0x7ffc16140d30
+[19:46:43.743493] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.dlss:slGetSettings:0x7ffc16142df0
+[19:46:43.743509] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.dlss:slAllocateResources:0x7ffc16143180
+[19:46:43.743522] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.dlss:slFreeResources:0x7ffc16143210
+[19:46:43.743541] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.dlss' has no registered hooks
+[19:46:43.743615] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.reflex:slSetConstants:0x7ffbec3aef80
+[19:46:43.743629] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.reflex:slGetSettings:0x7ffc0b270300
+[19:46:43.743640] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.reflex:slAllocateResources:0x0
+[19:46:43.743650] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.reflex:slFreeResources:0x0
+[19:46:43.743666] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-43][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.reflex' has no registered hooks
+[19:46:43.748585] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[19:46:43.756583] [I] AntiLag2::init FSR Anti-Lag 2.0 DX12 initialized
+[19:46:43.756603] [I] LowLatency::update_low_latency_tech LowLatency algo: FSR Anti-Lag 2.0
+[19:46:44.193950] [W] FGHooks::CreateSwapChainForHwnd Can't init FG Feature or invalid FGOutput setting!
+[19:46:44.208930] [I] WrappedIDXGISwapChain4::WrappedIDXGISwapChain4 1 created, real: BD6D88B50, refCount: 2
+[19:46:44.240655] [I] IFeature::SetHandle Handle: 1000000
+[19:46:44.240703] [I] IFeature::SetInitParameters SharpenEnabled flag overrided by user: true
+[19:46:44.240763] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[19:46:44.240773] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[19:46:44.240780] [I] IFeature::SetInitParameters Init Flag IsHdr: true
+[19:46:44.240787] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[19:46:44.240793] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[19:46:44.240808] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: true
+[19:46:44.240831] [I] IFeature::SetInitParameters Render Resolution: 1280x720, Display Resolution 1920x1080, Quality: 2
+[19:46:44.240853] [I] FFXFeatureDx12::FFXFeatureDx12 amd_fidelityfx_dx12.dll methods loaded!
+[19:46:44.240913] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[19:46:44.242471] [W] Util::LoadProxyLibrary Can't find amdxcffx64.dll, returning nullptr!
+[19:46:44.264465] [I] AmdExtFfxApi::UpdateFfxApiProvider amdxcffx64 loaded from C:\Windows\System32\DriverStore\FileRepository\u0203304.inf_amd64_a6e5a337568ce3f0\B026373\amdxcffx64.dll
+[19:46:44.671637] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[19:46:44.671708] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[19:46:44.696575] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[19:46:44.701413] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[19:46:44.701463] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[19:46:44.701479] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[19:46:44.706408] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[19:46:44.711732] [I] FFXFeatureDx12::InitFFX TSR FFX: selected provider=4.1.1 explicit_upscale_api_4_1_1=true (provider identity, not a quality claim)
+[19:46:44.711759] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[19:46:44.711788] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[19:46:44.711801] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[19:46:47.303357] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:46:47.306975] [I] OptiInput::Initialize Initialize requested target:0x1940754 input:0x0 isUwp:0 useSubclass:1 currentPid:2252
+[19:46:47.307006] [I] OptiInput::SetTargetWindow target window set hwnd:0x1940754 root:0x1940754 pid:2252 tid:10572 currentPid:2252 external:0 isUwp:0 useSubclass:1
+[19:46:47.307014] [I] OptiInput::SetInputWindow input window set hwnd:0x1940754 root:0x1940754 pid:2252 tid:10572 explicitInput:0 useSubclass:1
+[19:46:47.307027] [I] OptiInput::InstallWindowSubclass subclass installed hwnd:0x1940754 previousWndProc:140696528585968 optiWndProc:140719976362512
+[19:46:47.307037] [I] OptiInput::InstallHooks installing Win32 input hooks currentPid:2252 targetPid:2252 inputPid:2252
+[19:46:47.307077] [I] OptiInput::InstallHooks Win32 message hooks installed
+[19:46:47.307099] [I] OptiInput::InstallHooks Win32 key state hooks installed
+[19:46:47.307125] [I] OptiInput::InstallHooks Win32 GetMessagePos hooks installed
+[19:46:47.307140] [I] OptiInput::InstallHooks Win32 clip cursor hooks installed
+[19:46:47.307175] [I] OptiInput::InstallHooks Win32 message hooks installed
+[19:46:47.307192] [I] OptiInput::InstallHooks Win32 raw input hooks installed
+[19:46:47.307215] [I] OptiInput::InstallHooks Win32 windows input hooks installed
+[19:46:47.307233] [I] OptiInput::InstallHooks Win32 position input hooks installed
+[19:46:47.307239] [I] OptiInput::Initialize Initialize completed hooksInstalled:1 target:0x1940754 targetPid:2252 input:0x1940754 inputPid:2252 externalTarget:0 subclassed:1
+[19:46:47.307279] [I] OptiInput::UpdateXInputIntegrationLocked XInput hooks installed module:0x7ffc48450000 getState:1 getStateEx:1 getKeystroke:1 setState:1
+[19:46:47.307307] [I] OptiInput::`anonymous-namespace'::InstallDirectInputExportHookLocked DirectInput8Create hook installed module:0x7ffc305d0000
+[19:46:47.325188] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=2 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:46:47.325347] [I] CreateRenderTargetDx12 done!
+[19:46:47.474083] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:46:47.477729] [I] CreateRenderTargetDx12 done!
+[19:47:29.722788] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x1940754 target:0x1940754
+[19:47:29.722840] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x1940754 target:0x1940754
+[19:47:29.745470] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1940754 foreground:0x1940754 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[19:47:31.274569] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=600 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:47:35.484491] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0x1940754 target:0x1940754
+[19:47:35.484583] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:0 deferredNull:0 hasSaved:1 savedActive:0
+[19:47:38.814981] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1200 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:47:46.210639] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1800 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:47:53.155242] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=2400 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:48:00.285209] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3000 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:48:07.243883] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3600 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:48:14.316713] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=4200 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:48:21.247484] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=4800 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:48:28.297238] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=5400 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:48:35.152789] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=6000 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:48:41.953244] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=6600 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:48:48.888328] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=7200 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:48:55.843928] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=7800 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:49:02.822355] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=8400 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:49:09.774124] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=9000 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:49:39.435042] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=9600 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:49:46.476324] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=10200 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:49:53.841418] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=10800 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:50:01.017437] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=11400 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:50:08.301803] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=12000 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:50:15.200133] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=12600 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:50:22.131013] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=13200 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:50:29.459097] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=13800 result=OK render=1280x720 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[19:50:31.265899] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]pluginmanager.cpp:817[unloadPlugins] Unloading all plugins ...
+[19:50:31.266226] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel mvec.cs
+[19:50:31.267703] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]commonentry.cpp:1090[slOnPluginShutdown] Shutting down NGX
+[19:50:31.268397] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel copy_to_buffer.cs
+[19:50:31.268476] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]d3d12.cpp:820[shutdown] Destroying kernel fonts.cs
+[19:50:31.268709] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9cf2e8c0(sl.chi.fontTexture) at frame 3 (current frame 0)
+[19:50:31.268732] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9cf2ec80(sl.chi.dynamicText) at frame 3 (current frame 0)
+[19:50:31.268749] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9ced0030(sl.chi.dynamicTextUpload) at frame 3 (current frame 0)
+[19:50:31.269921] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9cf2e8c0(sl.chi.fontTexture) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.03MB
+[19:50:31.270272] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9cf2ec80(sl.chi.dynamicText) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.02MB
+[19:50:31.270619] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9ced0030(sl.chi.dynamicTextUpload) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.00MB
+[19:50:31.270686] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-50-31][streamline][info]generic.cpp:285[shutdown] Delayed destroy resource list count 0
+[19:50:31.314683] [I] 
+[19:50:31.314705] [I] DLL_PROCESS_DETACH
+[19:50:31.314711] [I] Unloading OptiScaler

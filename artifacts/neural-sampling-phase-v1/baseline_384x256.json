@@ -1,0 +1,6846 @@
+{
+  "summary": {
+    "20260911_frozen": {
+      "center": {
+        "phase_mae": 0.0011844402790275408,
+        "image_mae": 0.03828201407424735,
+        "phase_by_offset": {
+          "(-0.5, 0.0)": 0.001201703677761963,
+          "(-0.25, 0.0)": 0.001201703677761963,
+          "(0.25, 0.0)": 0.0,
+          "(0.5, 0.0)": 0.0,
+          "(0.0, -0.5)": 0.0035360574383481998,
+          "(0.0, -0.25)": 0.0035360574383481998,
+          "(0.0, 0.25)": 0.0,
+          "(0.0, 0.5)": 0.0
+        },
+        "micro_temporal": 0.000988666463367166,
+        "standard_temporal": 0.005800611454520182
+      },
+      "area": {
+        "phase_mae": 0.0010992438303904315,
+        "image_mae": 0.03665814851849013,
+        "phase_by_offset": {
+          "(-0.5, 0.0)": 0.001053645436881423,
+          "(-0.25, 0.0)": 0.0005158100832691625,
+          "(0.25, 0.0)": 0.0005007622352622428,
+          "(0.5, 0.0)": 0.0009827266513206976,
+          "(0.0, -0.5)": 0.0019343165463454718,
+          "(0.0, -0.25)": 0.0009705297668865014,
+          "(0.0, 0.25)": 0.0009430719382086655,
+          "(0.0, 0.5)": 0.001893087984949287
+        },
+        "micro_temporal": 0.0006554243630503546,
+        "standard_temporal": 0.005248886952336612
+      }
+    },
+    "20260911_joint": {
+      "center": {
+        "phase_mae": 0.0006441528229582635,
+        "image_mae": 0.01854374696629672,
+        "phase_by_offset": {
+          "(-0.5, 0.0)": 0.0008922066988978118,
+          "(-0.25, 0.0)": 0.0008922066988978118,
+          "(0.25, 0.0)": 0.0,
+          "(0.5, 0.0)": 0.0,
+          "(0.0, -0.5)": 0.0016844045929352424,
+          "(0.0, -0.25)": 0.0016844045929352424,
+          "(0.0, 0.25)": 0.0,
+          "(0.0, 0.5)": 0.0
+        },
+        "micro_temporal": 0.0008731079396413496,
+        "standard_temporal": 0.005148235150083978
+      },
+      "area": {
+        "phase_mae": 0.0007024782966199312,
+        "image_mae": 0.017779735586789986,
+        "phase_by_offset": {
+          "(-0.5, 0.0)": 0.0005357697023393393,
+          "(-0.25, 0.0)": 0.0002656545446987892,
+          "(0.25, 0.0)": 0.00025705141411125516,
+          "(0.5, 0.0)": 0.0005096777841133911,
+          "(0.0, -0.5)": 0.0013634607068429509,
+          "(0.0, -0.25)": 0.0006831860996885879,
+          "(0.0, 0.25)": 0.0006676637912343688,
+          "(0.0, 0.5)": 0.0013373623299307667
+        },
+        "micro_temporal": 0.0006364017678499314,
+        "standard_temporal": 0.004576408348162421
+      }
+    },
+    "20260912_frozen": {
+      "center": {
+        "phase_mae": 0.0007205129646153365,
+        "image_mae": 0.037335961828350465,
+        "phase_by_offset": {
+          "(-0.5, 0.0)": 0.0009860174987090617,
+          "(-0.25, 0.0)": 0.0009860174987090617,
+          "(0.25, 0.0)": 0.0,
+          "(0.5, 0.0)": 0.0,
+          "(0.0, -0.5)": 0.001896034359752284,
+          "(0.0, -0.25)": 0.001896034359752284,
+          "(0.0, 0.25)": 0.0,
+          "(0.0, 0.5)": 0.0
+        },
+        "micro_temporal": 0.0008660689924466574,
+        "standard_temporal": 0.004491406929769885
+      },
+      "area": {
+        "phase_mae": 0.0008381506741450736,
+        "image_mae": 0.0358476348550817,
+        "phase_by_offset": {
+          "(-0.5, 0.0)": 0.0013514211393984418,
+          "(-0.25, 0.0)": 0.0006561683676685327,
+          "(0.25, 0.0)": 0.000615421519491875,
+          "(0.5, 0.0)": 0.001193364611507811,
+          "(0.0, -0.5)": 0.0009700937446592929,
+          "(0.0, -0.25)": 0.00048428751664774934,
+          "(0.0, 0.25)": 0.0004791599353340629,
+          "(0.0, 0.5)": 0.0009552885584528235
+        },
+        "micro_temporal": 0.0006114480544591655,
+        "standard_temporal": 0.004404850822507742
+      }
+    },
+    "20260912_joint": {
+      "center": {
+        "phase_mae": 0.0005903313720127864,
+        "image_mae": 0.019265743504680206,
+        "phase_by_offset": {
+          "(-0.5, 0.0)": 0.0009108958433040106,
+          "(-0.25, 0.0)": 0.0009108958433040106,
+          "(0.25, 0.0)": 0.0,
+          "(0.5, 0.0)": 0.0,
+          "(0.0, -0.5)": 0.001450429644747135,
+          "(0.0, -0.25)": 0.001450429644747135,
+          "(0.0, 0.25)": 0.0,
+          "(0.0, 0.5)": 0.0
+        },
+        "micro_temporal": 0.0008914786980205558,
+        "standard_temporal": 0.0047231141949909475
+      },
+      "area": {
+        "phase_mae": 0.000685571978673113,
+        "image_mae": 0.018290136556743164,
+        "phase_by_offset": {
+          "(-0.5, 0.0)": 0.0005821951529893998,
+          "(-0.25, 0.0)": 0.0002894749065284229,
+          "(0.25, 0.0)": 0.0002800842322690205,
+          "(0.5, 0.0)": 0.0005551365150087762,
+          "(0.0, -0.5)": 0.0012116369459350175,
+          "(0.0, -0.25)": 0.0006163706226407445,
+          "(0.0, 0.25)": 0.0006419227351414041,
+          "(0.0, 0.5)": 0.0013077547188721185
+        },
+        "micro_temporal": 0.0006256379015798625,
+        "standard_temporal": 0.00429260797492802
+      }
+    }
+  },
+  "assessment": {
+    "20260911_frozen": {
+      "ratios": {
+        "phase_mae": 0.9280702875901367,
+        "image_mae": 0.9575815015216347,
+        "micro_temporal": 0.6629377928104621,
+        "standard_temporal": 0.9048851131455058
+      },
+      "checks": {
+        "phase_mae": false,
+        "image_mae": true,
+        "micro_temporal": true,
+        "standard_temporal": false
+      },
+      "passed": false
+    },
+    "20260911_joint": {
+      "ratios": {
+        "phase_mae": 1.0905460188683311,
+        "image_mae": 0.9587995144187782,
+        "micro_temporal": 0.7288924300829849,
+        "standard_temporal": 0.8889276062084637
+      },
+      "checks": {
+        "phase_mae": false,
+        "image_mae": true,
+        "micro_temporal": true,
+        "standard_temporal": false
+      },
+      "passed": false
+    },
+    "20260912_frozen": {
+      "ratios": {
+        "phase_mae": 1.1632693862664094,
+        "image_mae": 0.9601369055359751,
+        "micro_temporal": 0.7060038631931803,
+        "standard_temporal": 0.9807285092142435
+      },
+      "checks": {
+        "phase_mae": false,
+        "image_mae": true,
+        "micro_temporal": true,
+        "standard_temporal": false
+      },
+      "passed": false
+    },
+    "20260912_joint": {
+      "ratios": {
+        "phase_mae": 1.161334144136022,
+        "image_mae": 0.9493605347906745,
+        "micro_temporal": 0.7017979262645674,
+        "standard_temporal": 0.9088511938755373
+      },
+      "checks": {
+        "phase_mae": false,
+        "image_mae": true,
+        "micro_temporal": true,
+        "standard_temporal": false
+      },
+      "passed": false
+    }
+  },
+  "input_summary": {
+    "center": {
+      "normal": 0.0016838867907606895,
+      "depth": 0.07799313244461402
+    },
+    "area": {
+      "normal": 0.0018382702147460837,
+      "depth": 0.051339945533065805
+    }
+  },
+  "rows": [
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 210.59784144163132,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 149.82303366810083,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 170.41200455278158,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 150.0376017689705,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 210.59784144163132,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 149.82303366810083,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 170.41200455278158,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 150.0376017689705,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 641.5192683264613,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 310.8951813057065,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 371.9765280112624,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 267.108609944582,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 641.5192683264613,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 310.8951813057065,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 371.9765280112624,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 267.108609944582,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 175.21728913486004,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 92.9657584503293,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 235.9409385547042,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 91.03495030105114,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 86.14668377488852,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 46.128893710672855,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 115.05327556282282,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 44.84671168029308,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 83.13194820284843,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 44.25192762166262,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 109.29979354888201,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 42.52896746248007,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 163.82374454289675,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 87.70340937376022,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 212.68211002647877,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 83.86503451317549,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 334.03190330415964,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 227.7710421010852,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 178.0229129269719,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 225.1812745332718,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 168.38587513566017,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 114.74109809845686,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 88.72497592121363,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 115.42323742061853,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 160.71829418092966,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 112.55558025836945,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 87.73196882754564,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 120.76930433511734,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 324.2440041527152,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 226.61125161498785,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 174.66892502456903,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 247.78910151124,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 245.58189263939857,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 213.2274111956358,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 188.7573656514287,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 176.55206076055765,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 245.58189263939857,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 213.2274111956358,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 188.7573656514287,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 176.55206076055765,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 668.490919008851,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 373.09078734368086,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 445.4395848363638,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 336.6928931251168,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 668.490919008851,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 373.09078734368086,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 445.4395848363638,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 336.6928931251168,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 299.4833777695894,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 148.0072478055954,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 428.5787733197212,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 177.62917640060186,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 145.858830653131,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 73.49717757105827,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 207.29816997796297,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 89.16277176886797,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 140.2515582665801,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 70.5216000303626,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 192.4742493480444,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 86.8398108780384,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 273.94572112709284,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 140.0039665773511,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 371.40205904841423,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 172.77443393319845,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 424.2880018800497,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 302.7454762607813,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 250.15971740335226,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 203.65787626057863,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 213.27833894640207,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 150.70050389319658,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 124.6236140653491,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 103.10309982299805,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 209.85136149823666,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 145.99450810998678,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 126.25258489698172,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 107.77178054302931,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 421.32113118469715,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 290.33194962888956,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 251.40730147063732,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 218.96548173576593,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 353.422608576715,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 262.54381097853184,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 285.0198371782899,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 290.7041168808937,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 353.422608576715,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 262.54381097853184,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 285.0198371782899,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 290.7041168808937,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 841.2953474894166,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 389.56899996101856,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 401.35859432816505,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 347.7780365794897,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 841.2953474894166,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 389.56899996101856,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 401.35859432816505,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 347.7780365794897,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 171.72696368396282,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 96.67905531078577,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 183.563086502254,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 99.92416068166494,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 84.78513269126415,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 48.012984707951546,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 89.3728730455041,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 49.6822768971324,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 83.63625756651163,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 47.1700424104929,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 85.09751275926828,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 48.573013968765736,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 165.34300151467323,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 93.73392529040575,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 165.9786682650447,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 96.65514349937439,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 381.1587200239301,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 279.61782693862915,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 188.2725481837988,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 300.6689102649689,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 191.5988980010152,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 140.46572410315275,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 94.24106308817863,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 152.09069494903088,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 187.43517111986876,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 137.621910341084,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 90.65892855077982,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 154.74883960187435,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 377.0316072702408,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 276.6084977015853,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 181.1526510939002,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 313.0687801986933,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 154.00057520717382,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 89.8341765627265,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 146.462728202343,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 113.12080508470535,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 154.00057520717382,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 89.8341765627265,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 146.462728202343,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 113.12080508470535,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 684.1316269189119,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 277.10843589901924,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 301.5869886726141,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 211.4677770063281,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 684.1316269189119,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 277.10843589901924,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 301.5869886726141,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 211.4677770063281,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 0.0,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 198.4527140110731,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 91.96237502992153,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 235.57316214591265,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 98.25304677337408,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 96.81888949126005,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 45.37975984066725,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 114.43347338587046,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 48.42774610221386,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 94.52344498038292,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 44.176705062389374,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 106.61280564963818,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 46.64767051488161,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 184.900656349957,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 87.25096543878317,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 206.8532835021615,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "output": {
+        "abs_sum": 91.849374525249,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 411.58017791062593,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 283.1757109314203,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 161.42807195335627,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "output": {
+        "abs_sum": 242.05998695641756,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 204.9697689116001,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 141.91501254588366,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 80.7430721744895,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "output": {
+        "abs_sum": 123.6283807605505,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 198.21060986071825,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 139.20355958491564,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 79.57762011140585,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "output": {
+        "abs_sum": 131.44480761140585,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 395.40236135572195,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 278.8310083821416,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 158.78262704610825,
+        "samples": 200466
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "output": {
+        "abs_sum": 268.81806644797325,
+        "samples": 200466
+      }
+    }
+  ],
+  "camera_rows": [
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 114.85477174818516,
+        "samples": 178620
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 99.17851833254099,
+        "samples": 178620
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 120.76604307442904,
+        "samples": 178620
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 97.03088308870792,
+        "samples": 178620
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 101.30734933912754,
+        "samples": 178620
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 95.24368196725845,
+        "samples": 178620
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 115.69894470274448,
+        "samples": 178620
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 92.84058028459549,
+        "samples": 178620
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 104.75895938277245,
+        "samples": 178632
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 89.0292626619339,
+        "samples": 178632
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 101.30296906083822,
+        "samples": 178632
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 87.4571383818984,
+        "samples": 178632
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 96.02212221175432,
+        "samples": 178632
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 85.00242768973112,
+        "samples": 178632
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 99.0265790745616,
+        "samples": 178632
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 93.07568249106407,
+        "samples": 178632
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 358.8342249542475,
+        "samples": 71898
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 325.4116462767124,
+        "samples": 71898
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 322.09873901307583,
+        "samples": 71898
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 297.6398452743888,
+        "samples": 71898
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 275.8578836917877,
+        "samples": 71898
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 289.052706643939,
+        "samples": 71898
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 308.3252443522215,
+        "samples": 71898
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 303.5733611509204,
+        "samples": 71898
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 358.75318425893784,
+        "samples": 71481
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 326.23674872517586,
+        "samples": 71481
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 359.7260188385844,
+        "samples": 71481
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 319.2779971510172,
+        "samples": 71481
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 291.07854084670544,
+        "samples": 71481
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 288.5183402746916,
+        "samples": 71481
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 308.6365047171712,
+        "samples": 71481
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 285.85473995655775,
+        "samples": 71481
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 180.8839272633195,
+        "samples": 178560
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 114.6420822814107,
+        "samples": 178560
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 180.9089393094182,
+        "samples": 178560
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 117.23585426807404,
+        "samples": 178560
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 156.12028854340315,
+        "samples": 178560
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 110.81284968554974,
+        "samples": 178560
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 169.024468511343,
+        "samples": 178560
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 103.394965313375,
+        "samples": 178560
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 187.4600708335638,
+        "samples": 178530
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 109.06713503599167,
+        "samples": 178530
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 165.72751795500517,
+        "samples": 178530
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 105.37316566705704,
+        "samples": 178530
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 172.43212005496025,
+        "samples": 178530
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 103.53041034191847,
+        "samples": 178530
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 182.25169914215803,
+        "samples": 178530
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 98.81477700173855,
+        "samples": 178530
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 468.9084401577711,
+        "samples": 73932
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 408.57100665569305,
+        "samples": 73932
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 471.1176166832447,
+        "samples": 73932
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 386.818658195436,
+        "samples": 73932
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 363.6032512485981,
+        "samples": 73932
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 340.7607355341315,
+        "samples": 73932
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 356.086002856493,
+        "samples": 73932
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 312.6154743209481,
+        "samples": 73932
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 467.98562099039555,
+        "samples": 73431
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 422.24801336973906,
+        "samples": 73431
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 442.69442884624004,
+        "samples": 73431
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 389.96234331279993,
+        "samples": 73431
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 349.0305222272873,
+        "samples": 73431
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 347.35315177589655,
+        "samples": 73431
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 326.71715592592955,
+        "samples": 73431
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 274.9554284363985,
+        "samples": 73431
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 271.3252569511533,
+        "samples": 178626
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 167.3069392591715,
+        "samples": 178626
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 219.43675415217876,
+        "samples": 178626
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 155.3702422901988,
+        "samples": 178626
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 231.37825578451157,
+        "samples": 178626
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 152.30050987005234,
+        "samples": 178626
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 236.59132220596075,
+        "samples": 178626
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 159.6410884410143,
+        "samples": 178626
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 300.35737981647253,
+        "samples": 178551
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 130.17148441821337,
+        "samples": 178551
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 216.47387757897377,
+        "samples": 178551
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 118.62497042119503,
+        "samples": 178551
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 250.16005531698465,
+        "samples": 178551
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 124.26246076822281,
+        "samples": 178551
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 232.14930418878794,
+        "samples": 178551
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 124.46613570302725,
+        "samples": 178551
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 431.36955766379833,
+        "samples": 72540
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 383.47979817539454,
+        "samples": 72540
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 362.2630275338888,
+        "samples": 72540
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 338.42367028445005,
+        "samples": 72540
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 353.6037524342537,
+        "samples": 72540
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 337.25987277179956,
+        "samples": 72540
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 413.1895020008087,
+        "samples": 72540
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 375.1671632602811,
+        "samples": 72540
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 422.06103529036045,
+        "samples": 72417
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 391.19419959932566,
+        "samples": 72417
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 385.18269530683756,
+        "samples": 72417
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 343.27152862399817,
+        "samples": 72417
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 355.0381362438202,
+        "samples": 72417
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 338.3102772384882,
+        "samples": 72417
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 400.309401653707,
+        "samples": 72417
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 352.3656732738018,
+        "samples": 72417
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 116.04730927944183,
+        "samples": 178677
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 116.48697385191917,
+        "samples": 178677
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 120.55615253001451,
+        "samples": 178677
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 117.13019170612097,
+        "samples": 178677
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 110.29460030049086,
+        "samples": 178677
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 105.57810781896114,
+        "samples": 178677
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 115.5275585129857,
+        "samples": 178677
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 113.8868435844779,
+        "samples": 178677
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 136.96741224080324,
+        "samples": 178653
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 110.62004987895489,
+        "samples": 178653
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 122.367152787745,
+        "samples": 178653
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 111.09958376735449,
+        "samples": 178653
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 119.76702223718166,
+        "samples": 178653
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 96.93649302423,
+        "samples": 178653
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 123.51856984943151,
+        "samples": 178653
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "temporal": {
+        "abs_sum": 107.82201721519232,
+        "samples": 178653
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 436.1093092635274,
+        "samples": 72954
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 393.71237801015377,
+        "samples": 72954
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 320.7373953908682,
+        "samples": 72954
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 285.20764742046595,
+        "samples": 72954
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 306.6011150330305,
+        "samples": 72954
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 307.6053194180131,
+        "samples": 72954
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 322.20215106010437,
+        "samples": 72954
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "temporal": {
+        "abs_sum": 299.74591390043497,
+        "samples": 72954
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 425.582824409008,
+        "samples": 72252
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 398.25088423490524,
+        "samples": 72252
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 326.81561824679375,
+        "samples": 72252
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 297.8568012267351,
+        "samples": 72252
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 314.26754081249237,
+        "samples": 72252
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 309.93946339190006,
+        "samples": 72252
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 308.21468887478113,
+        "samples": 72252
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "temporal": {
+        "abs_sum": 289.3196813762188,
+        "samples": 72252
+      }
+    }
+  ],
+  "input_rows": [
+    {
+      "scene": 26000,
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 33.62868899111943,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 38.84045806527138,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 33.62868899111943,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 38.84045806527138,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "normal": {
+        "abs_sum": 44.2268467989921,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 1269.5058575868607,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "normal": {
+        "abs_sum": 44.2268467989921,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 1269.5058575868607,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 23.539042059342982,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 22.324008867144585,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 11.769521090433972,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 11.162183582782745,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 11.651217698434996,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 11.039279624819756,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 23.302436211268358,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 22.077625170350075,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "normal": {
+        "abs_sum": 34.210178059068994,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 597.4332703351974,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "normal": {
+        "abs_sum": 17.10508939583539,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 298.7169264256954,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "normal": {
+        "abs_sum": 15.552918601006533,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 251.94493621587753,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26000,
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "normal": {
+        "abs_sum": 31.105839751296482,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 503.8894724845886,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 45.696672314933245,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 32.96937331557274,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 45.696672314933245,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 32.96937331557274,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "normal": {
+        "abs_sum": 60.78380121407361,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 1270.8141895830631,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "normal": {
+        "abs_sum": 60.78380121407361,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 1270.8141895830631,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 33.804717817548394,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 27.860987707972527,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 16.902358871994604,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 13.93066719174385,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 16.89543200262789,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 13.931299969553947,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 33.790863570751256,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 27.86168910562992,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "normal": {
+        "abs_sum": 43.88748440768367,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 598.1177040338516,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "normal": {
+        "abs_sum": 21.94374183416536,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 299.0591222047806,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "normal": {
+        "abs_sum": 20.598509144922946,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 252.31416821479797,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26001,
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "normal": {
+        "abs_sum": 41.19701885084336,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 504.62790566682816,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 47.30930035025012,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 27.73462250828743,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 47.30930035025012,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 27.73462250828743,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "normal": {
+        "abs_sum": 58.57085086630316,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 1300.3629857897758,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "normal": {
+        "abs_sum": 58.57085086630316,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 1300.3629857897758,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 29.049076762348434,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 26.405964866280556,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 14.524538383452345,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 13.203167617321014,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 14.669193118125163,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 13.135961964726448,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 29.33838728720486,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 26.271021142601967,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "normal": {
+        "abs_sum": 39.5948267473718,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 597.4984671771526,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "normal": {
+        "abs_sum": 19.797413762746046,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 298.7495183944702,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "normal": {
+        "abs_sum": 18.292598547249444,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 252.19944790005684,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26002,
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "normal": {
+        "abs_sum": 36.58519693965801,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 504.398478358984,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "center",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 15.856324037710298,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 21.29516676068306,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "center",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 15.856324037710298,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 21.29516676068306,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "center",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "center",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "normal": {
+        "abs_sum": 32.75247991632092,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 1269.6327257156372,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "center",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "normal": {
+        "abs_sum": 32.75247991632092,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 1269.6327257156372,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "center",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "center",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "normal": {
+        "abs_sum": 0.0,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 0.0,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "area",
+      "phase": [
+        -0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 18.918157079898403,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 16.74240119755268,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "area",
+      "phase": [
+        -0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 9.459078302237439,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 8.37138444185257,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "area",
+      "phase": [
+        0.25,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 9.375801073980341,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 8.372746333479881,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "area",
+      "phase": [
+        0.5,
+        0.0
+      ],
+      "normal": {
+        "abs_sum": 18.75160020401374,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 16.744546964764595,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.5
+      ],
+      "normal": {
+        "abs_sum": 29.533860898529394,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 596.2049166858196,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "area",
+      "phase": [
+        0.0,
+        -0.25
+      ],
+      "normal": {
+        "abs_sum": 14.76693085695133,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 298.1027354300022,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "area",
+      "phase": [
+        0.0,
+        0.25
+      ],
+      "normal": {
+        "abs_sum": 13.288577218717668,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 251.41802340745926,
+        "samples": 4192
+      }
+    },
+    {
+      "scene": 26003,
+      "method": "area",
+      "phase": [
+        0.0,
+        0.5
+      ],
+      "normal": {
+        "abs_sum": 26.577152510986362,
+        "samples": 12576
+      },
+      "depth": {
+        "abs_sum": 502.8356249034405,
+        "samples": 4192
+      }
+    }
+  ],
+  "image_rows": [
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "center",
+      "image": {
+        "abs_sum": 8407.72057916969,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_frozen",
+      "method": "area",
+      "image": {
+        "abs_sum": 8001.046365380287,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "center",
+      "image": {
+        "abs_sum": 4539.088101916015,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260911_joint",
+      "method": "area",
+      "image": {
+        "abs_sum": 4354.001613125205,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "center",
+      "image": {
+        "abs_sum": 8528.726100742817,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_frozen",
+      "method": "area",
+      "image": {
+        "abs_sum": 8138.517394207418,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "center",
+      "image": {
+        "abs_sum": 4891.786209613085,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26000,
+      "model": "20260912_joint",
+      "method": "area",
+      "image": {
+        "abs_sum": 4614.118914864957,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "center",
+      "image": {
+        "abs_sum": 14796.974336966872,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_frozen",
+      "method": "area",
+      "image": {
+        "abs_sum": 14083.648196935654,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "center",
+      "image": {
+        "abs_sum": 3898.5080993026495,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260911_joint",
+      "method": "area",
+      "image": {
+        "abs_sum": 3548.6477767676115,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "center",
+      "image": {
+        "abs_sum": 15287.869863711298,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_frozen",
+      "method": "area",
+      "image": {
+        "abs_sum": 14608.959823042154,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "center",
+      "image": {
+        "abs_sum": 3644.0769422128797,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26001,
+      "model": "20260912_joint",
+      "method": "area",
+      "image": {
+        "abs_sum": 3350.730675034225,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "center",
+      "image": {
+        "abs_sum": 12188.36101873964,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_frozen",
+      "method": "area",
+      "image": {
+        "abs_sum": 11910.034151814878,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "center",
+      "image": {
+        "abs_sum": 9559.654017411172,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260911_joint",
+      "method": "area",
+      "image": {
+        "abs_sum": 9374.723389022052,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "center",
+      "image": {
+        "abs_sum": 11421.669838950038,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_frozen",
+      "method": "area",
+      "image": {
+        "abs_sum": 11205.649225510657,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "center",
+      "image": {
+        "abs_sum": 10012.591452896595,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26002,
+      "model": "20260912_joint",
+      "method": "area",
+      "image": {
+        "abs_sum": 9709.406601674855,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "center",
+      "image": {
+        "abs_sum": 9766.245403781533,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_frozen",
+      "method": "area",
+      "image": {
+        "abs_sum": 9248.982869409025,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "center",
+      "image": {
+        "abs_sum": 3877.8438026681542,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260911_joint",
+      "method": "area",
+      "image": {
+        "abs_sum": 3696.456746570766,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "center",
+      "image": {
+        "abs_sum": 8805.026895485818,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_frozen",
+      "method": "area",
+      "image": {
+        "abs_sum": 8334.46431876719,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "center",
+      "image": {
+        "abs_sum": 4178.341189086437,
+        "samples": 294912
+      }
+    },
+    {
+      "scene": 26003,
+      "model": "20260912_joint",
+      "method": "area",
+      "image": {
+        "abs_sum": 3901.666817314923,
+        "samples": 294912
+      }
+    }
+  ],
+  "motion_rows": [
+    {
+      "scene": 26000,
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "visible_pixels": 59540,
+      "valid_pixels": 66822,
+      "displacement_median": 0.26488715248718764,
+      "displacement_p95": 0.3389424121141677
+    },
+    {
+      "scene": 26000,
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "visible_pixels": 59544,
+      "valid_pixels": 66822,
+      "displacement_median": 0.264876861635964,
+      "displacement_p95": 0.33893810395725493
+    },
+    {
+      "scene": 26000,
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "visible_pixels": 23966,
+      "valid_pixels": 66822,
+      "displacement_median": 10.86188153797493,
+      "displacement_p95": 14.261442781392649
+    },
+    {
+      "scene": 26000,
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "visible_pixels": 23827,
+      "valid_pixels": 66822,
+      "displacement_median": 10.861533200882436,
+      "displacement_p95": 14.260865386279999
+    },
+    {
+      "scene": 26001,
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "visible_pixels": 59520,
+      "valid_pixels": 66822,
+      "displacement_median": 0.2646210896584757,
+      "displacement_p95": 0.33894628022869017
+    },
+    {
+      "scene": 26001,
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "visible_pixels": 59510,
+      "valid_pixels": 66822,
+      "displacement_median": 0.2646176605762424,
+      "displacement_p95": 0.33894019811194975
+    },
+    {
+      "scene": 26001,
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "visible_pixels": 24644,
+      "valid_pixels": 66822,
+      "displacement_median": 10.73110034099269,
+      "displacement_p95": 14.253595556906161
+    },
+    {
+      "scene": 26001,
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "visible_pixels": 24477,
+      "valid_pixels": 66822,
+      "displacement_median": 10.779549411273752,
+      "displacement_p95": 14.253143397702381
+    },
+    {
+      "scene": 26002,
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "visible_pixels": 59542,
+      "valid_pixels": 66822,
+      "displacement_median": 0.26481424804413434,
+      "displacement_p95": 0.3389421921667084
+    },
+    {
+      "scene": 26002,
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "visible_pixels": 59517,
+      "valid_pixels": 66822,
+      "displacement_median": 0.26481914828321146,
+      "displacement_p95": 0.3389399819200262
+    },
+    {
+      "scene": 26002,
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "visible_pixels": 24180,
+      "valid_pixels": 66822,
+      "displacement_median": 10.854819307072624,
+      "displacement_p95": 14.2586250982888
+    },
+    {
+      "scene": 26002,
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "visible_pixels": 24139,
+      "valid_pixels": 66822,
+      "displacement_median": 10.81304448173493,
+      "displacement_p95": 14.257254824941986
+    },
+    {
+      "scene": 26003,
+      "scale": "micro",
+      "pair": [
+        1,
+        2
+      ],
+      "visible_pixels": 59559,
+      "valid_pixels": 66822,
+      "displacement_median": 0.2644305788935508,
+      "displacement_p95": 0.3389418921545817
+    },
+    {
+      "scene": 26003,
+      "scale": "micro",
+      "pair": [
+        2,
+        3
+      ],
+      "visible_pixels": 59551,
+      "valid_pixels": 66822,
+      "displacement_median": 0.26443420298664344,
+      "displacement_p95": 0.3389377839976573
+    },
+    {
+      "scene": 26003,
+      "scale": "standard",
+      "pair": [
+        0,
+        2
+      ],
+      "visible_pixels": 24318,
+      "valid_pixels": 66822,
+      "displacement_median": 10.778488076237133,
+      "displacement_p95": 14.256855556316948
+    },
+    {
+      "scene": 26003,
+      "scale": "standard",
+      "pair": [
+        2,
+        4
+      ],
+      "visible_pixels": 24084,
+      "valid_pixels": 66822,
+      "displacement_median": 10.822961036024543,
+      "displacement_p95": 14.258176405009499
+    }
+  ]
+}

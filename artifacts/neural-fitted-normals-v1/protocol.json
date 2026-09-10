@@ -1,0 +1,30 @@
+{
+  "ids": [
+    11000,
+    11001,
+    11002,
+    11003,
+    11004,
+    11005,
+    11006,
+    11007,
+    11008,
+    11009,
+    11010,
+    11011
+  ],
+  "checkpoint_sha256": "3bcd15745b107448b42f87cf40f7ab21e00ed510ec562bf606069edd46d3f92e",
+  "training": false,
+  "modes": [
+    "direct",
+    "fitted",
+    "oracle"
+  ],
+  "depth_noise": [
+    0.0,
+    0.002
+  ],
+  "comparison": "all modes use identical color/depth/targets and fixed weights, changing normal channels only",
+  "gate": "at least 20% lower noisy temporal error, with clean image MAE no more than 5% worse than direct",
+  "limitations": "Input-distribution intervention, not a retrained upper bound or game test; nearest reprojection retains sampling error."
+}

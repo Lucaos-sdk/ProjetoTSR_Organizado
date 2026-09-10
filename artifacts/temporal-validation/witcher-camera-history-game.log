@@ -1,0 +1,424 @@
+[09:37:27.787940] [W] OptiScaler v10.0.0-dev (07af11e) (20260907_093223) loaded
+[09:37:27.788002] [W] ---------------------------------
+[09:37:27.788010] [W] OptiScaler is freely downloadable from
+[09:37:27.788015] [W] GitHub : https://github.com/optiscaler/OptiScaler/releases
+[09:37:27.788019] [W] Nexus  : https://www.nexusmods.com/site/mods/986
+[09:37:27.788023] [W] If you paid for these files, you've been scammed!
+[09:37:27.788028] [W] DO NOT USE IN MULTIPLAYER GAMES
+[09:37:27.788032] [I] 
+[09:37:27.788041] [I] LogLevel: 2
+[09:37:27.788048] [I] 
+[09:37:27.788072] [I] Windows version: Windows 11 (10.0.26200)
+[09:37:27.788078] [I] 
+[09:37:27.788082] [I] Config parameters:
+[09:37:27.788088] [I] Upscalers.Dx12Upscaler: ffx
+[09:37:27.788092] [I] FrameGen.Enabled: true
+[09:37:27.788097] [I] FrameGen.FGInput: Upscaler
+[09:37:27.788101] [I] FrameGen.FGOutput: XeFG
+[09:37:27.788105] [I] OptiFG.DisableHUDFix: true
+[09:37:27.788110] [I] OptiFG.HUDFixRelaxedResolutionCheck: true
+[09:37:27.788114] [I] Log.LogToFile: true
+[09:37:27.788118] [I] Log.LogLevel: 2
+[09:37:27.788123] [I] Log.LogFileName: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\TSR_FrameGen.log
+[09:37:27.788127] [I] Sharpness.OverrideSharpness: true
+[09:37:27.788132] [I] Sharpness.Sharpness: 0.000000
+[09:37:27.788136] [I] Magnifier.Size: 11.000000
+[09:37:27.788140] [I] Magnifier.BorderSize: 0.730000
+[09:37:27.788145] [I] fakenvapi.LatencyFlexMode: 1
+[09:37:27.788149] [I] Libraries.FfxDx12SRPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[09:37:27.788153] [I] Libraries.XeFGPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxess_fg.dll
+[09:37:27.788158] [I] Libraries.XeLLPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxell.dll
+[09:37:27.788163] [I] 
+[09:37:27.788168] [I] Setting DllPath to C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler
+[09:37:27.788172] [I] 
+[09:37:27.788212] [I] 
+[09:37:27.788230] [W] IsRunningOnWine Wine not detected
+[09:37:27.788285] [I] 
+[09:37:27.788291] [I] Check for DLSS files
+[09:37:27.788464] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[09:37:27.789604] [I] Util::FindFilePath nvngx_dlssg.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[09:37:27.789614] [I] 
+[09:37:27.789716] [I] CheckQuirks Game's Exe: witcher3.exe
+[09:37:27.789724] [I] CheckQuirks Game Name: The Witcher 3
+[09:37:27.789729] [I] CheckQuirks Game Version: 4.0.0.103190(Build Machine)
+[09:37:27.789737] [I] CheckQuirks Game Engine: Other
+[09:37:27.789854] [I] Quirk: Dxgi spoofing disabled by default
+[09:37:27.789862] [I] Quirk: Create SL on the 2nd device
+[09:37:27.789866] [I] 
+[09:37:27.790483] [I] CheckWorkingMode OptiScaler working as dxgi.dll, system dll loaded
+[09:37:27.790539] [W] Config::CheckUpscalerFiles nvngx.dll not found!
+[09:37:27.790560] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[09:37:27.790572] [I] Config::CheckUpscalerFiles libxess.dll found in game folder
+[09:37:27.791325] [I] StreamlineHooks::hookInterposer Streamline version: 1.0.0
+[09:37:27.791338] [I] StreamlineHooks::hookInterposer SL1 exports - slInit: true, slSetTag: true, slSetConstants: true, slEvaluateFeature: true
+[09:37:27.791374] [I] StreamlineHooks::hookInterposer TSR camera hooks committed: source=SL1 constants=true tags=true evaluate=true fg_input_gate=false
+[09:37:27.795498] [I] Util::LoadProxyLibrary libxess.dll already loaded at memory: 7FFBC27D0000
+[09:37:27.800052] [I] Util::LoadProxyLibrary libxess.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[09:37:27.800159] [I] XeSSProxy::InitXeSS Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[09:37:27.800681] [I] XeSSProxy::InitXeSS LoadResult: true
+[09:37:27.800991] [I] 
+[09:37:27.801491] [I] Util::LoadProxyLibrary amd_fidelityfx_loader_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[09:37:27.801504] [I] FfxApiProxy::InitFfxDx12 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[09:37:27.801558] [I] 
+[09:37:27.802677] [I] Util::LoadProxyLibrary amd_fidelityfx_upscaler_dx12.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[09:37:27.805185] [I] FfxApiProxy::InitFfxDx12_SR Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[09:37:27.805229] [I] FfxApiProxy::InitFfxDx12_SR LoadResult: true
+[09:37:27.805235] [I] 
+[09:37:27.805903] [I] Util::LoadProxyLibrary amd_fidelityfx_framegeneration_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[09:37:27.805915] [I] FfxApiProxy::InitFfxDx12_FG Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[09:37:27.805944] [I] FfxApiProxy::InitFfxDx12_FG LoadResult: true
+[09:37:27.805949] [I] 
+[09:37:27.806255] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[09:37:27.806271] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[09:37:27.806276] [I] 
+[09:37:27.806499] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[09:37:27.806518] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[09:37:27.806525] [I] FfxApiProxy::InitFfxDx12 LoadResult: true
+[09:37:27.806530] [I] 
+[09:37:27.806750] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[09:37:27.806758] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[09:37:27.806762] [I] 
+[09:37:27.806995] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[09:37:27.807008] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[09:37:27.807385] [I] Util::LoadProxyLibrary libxess_dx11.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[09:37:27.807397] [I] XeSSProxy::InitXeSSDx11 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[09:37:27.807496] [I] XeSSProxy::InitXeSSDx11 LoadResult: true
+[09:37:27.811009] [I] Util::LoadProxyLibrary libxess_fg.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxess_fg.dll
+[09:37:27.811047] [I] XeFGProxy::InitXeFG Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxess_fg.dll
+[09:37:27.811055] [I] 
+[09:37:27.811087] [I] XeFGProxy::HookXeFG LoadResult: true
+[09:37:27.811807] [I] Util::LoadProxyLibrary libxell.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxell.dll
+[09:37:27.811827] [I] XeLLProxy::InitXeLLProper Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxell.dll
+[09:37:27.811835] [I] 
+[09:37:27.811848] [I] XeLLProxy::HookXeLL LoadResult: true
+[09:37:27.811911] [I] NVNGXProxy::InitNVNGX 
+[09:37:27.812271] [W] Util::LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!
+[09:37:27.812578] [W] Util::LoadProxyLibrary Can't find nvngx.dll, returning nullptr!
+[09:37:27.812592] [I] Util::NvngxPath trying to load nvngx from registry path!
+[09:37:27.812757] [I] 
+[09:37:27.812802] [I] HookFSR2ExeInputs Trying to hook FSR2 methods
+[09:37:27.812942] [I] HookFSR3ExeInputs Trying to hook FSR3 methods
+[09:37:27.813021] [I] 
+[09:37:27.813029] [I] Init done
+[09:37:27.813034] [I] ---------------------------------------------
+[09:37:27.813038] [I] 
+[09:37:27.833781] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:1108[PluginManager] Streamline v1.5.6.0c67e1bd - built on Mon May 15 11:13:07 2023
+[09:37:27.833846] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:410[findPlugins] Looking for plugins in C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\ ...
+[09:37:27.845015] [I] Amdxc64Hooks::Init amdxc64.dll loaded
+[09:37:27.846336] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[09:37:27.871827] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]commoninterface.cpp:127[getGPUInfo] Enumerating up to 8 adapters but only one of them can be used to create a device - no mGPU support in this SDK
+[09:37:27.873406] [W] DxgiSpoofing::AttachToAdapter DxgiSpoofing and DxgiVRAM is disabled, skipping hooking
+[09:37:27.874167] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]commonentry.cpp:1235[getOSVersionAndUpdateTimerResolution] Changed high resolution timer resolution to 5000 [100 ns units]
+[09:37:27.874197] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]commonentry.cpp:1278[updateEmbeddedJSON] Detected Windows OS version 10.0.26200
+[09:37:27.874419] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.common' - version 1.5.6.0c67e1bd - id 4294967295 - priority 0 - adapter mask 0x1 - interposer 'no'
+[09:37:27.881333] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][warn]dlssentry.cpp:185[updateEmbeddedJSON] Failed to obtain DLSS min spec requirements from NGX, using SL defaults
+[09:37:27.881484] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss' - version 1.5.6.0c67e1bd - id 0 - priority 1 - adapter mask 0x1 - interposer 'no'
+[09:37:27.888159] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][warn]dlss_gentry.cpp:513[updateEmbeddedJSON] Failed to obtain DLSS-G min spec requirements from NGX, using SL defaults
+[09:37:27.888206] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][warn]dlss_gentry.cpp:582[updateEmbeddedJSON] Disabling DLSS-G since it is not supported on current hardware
+[09:37:27.888476] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss_g' - version 1.5.6.0c67e1bd - id 1000 - priority 100 - adapter mask 0x0 - interposer 'no'
+[09:37:27.896396] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.reflex' - version 1.5.6.0c67e1bd - id 3 - priority 1 - adapter mask 0x1 - interposer 'no'
+[09:37:27.896434] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][warn]pluginmanager.cpp:704[loadPlugins] Ignoring plugin 'sl.dlss_g' since it is not supported on this platform
+[09:37:27.896545] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:805[loadPlugins] Plugin execution order based on priority:
+[09:37:27.896558] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:808[loadPlugins] P0 - sl.common
+[09:37:27.896571] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.dlss
+[09:37:27.896581] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.reflex
+[09:37:27.897017] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[09:37:27.897770] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-27][streamline][warn]dxgi.cpp:334[CreateDXGIFactoryInternal] Streamline interposer has been disabled
+[09:37:27.898871] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[09:37:27.944290] [I] Detected GPUs:
+                      AMD Radeon RX 7600
+                          vendorId: 1002, deviceId: 7480, VRAM: 8150MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: int8, dlss: false
+                      Microsoft Basic Render Driver
+                          vendorId: 1414, deviceId: 8C, VRAM: 0MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: false, dlss: false
+
+[09:37:28.106849] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[09:37:29.218884] [I] `anonymous-namespace'::RunVersionCheck OptiScaler is up to date (current 10.0.0)
+[09:37:34.161672] [I] XeSSProxy::Version XeSS Version: v2.0.2
+[09:37:34.169039] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[09:37:34.187265] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[09:37:34.296702] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[09:37:34.296739] [I] NvApiHooks::Hook NvAPI_QueryInterface found, hooking!
+[09:37:34.314279] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:986[initializePlugins] Initializing plugins - api 0.0.1 - application ID 100883811
+[09:37:34.315196] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel fonts.cs:main hash 10788421720787293069
+[09:37:34.315234] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.fontTexture), m_allocCount=1, currentSize 0.0 MB, totalSize 0.0 MB
+[09:37:34.315852] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicText), m_allocCount=2, currentSize 0.0 MB, totalSize 0.0 MB
+[09:37:34.316494] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicTextUpload), m_allocCount=3, currentSize 0.0 MB, totalSize 0.0 MB
+[09:37:34.317056] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel copy_to_buffer.cs:main hash 12564409127886710297
+[09:37:34.317086] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]commonentry.cpp:869[slOnPluginStartup] At least one plugin requires NGX, trying to initialize ...
+[09:37:34.370901] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[09:37:34.371939] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]commonentry.cpp:995[slOnPluginStartup] NGX loaded - app id 100883811 - application data path C:\Users\ADMINI~1\AppData\Local\Temp\
+[09:37:34.371991] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCreateImage:after - skipped
+[09:37:34.372005] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkPresent:before - skipped
+[09:37:34.372016] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindPipeline:after - skipped
+[09:37:34.372028] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindDescriptorSets:after - skipped
+[09:37:34.372083] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkBeginCommandBuffer:after - skipped
+[09:37:34.372099] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookResizeSwapChainPre:before - OK
+[09:37:34.372111] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent:before - OK
+[09:37:34.372122] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent1:before - OK
+[09:37:34.372196] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel mvec.cs:main hash 6390113509883505821
+[09:37:34.414413] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[09:37:34.414466] [I] NVSDK_NGX_UpdateFeature Update ApplicationId: 6035D63
+[09:37:34.414502] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.dlss:slSetConstants:0x7ffc15020d30
+[09:37:34.414519] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.dlss:slGetSettings:0x7ffc15022df0
+[09:37:34.414532] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.dlss:slAllocateResources:0x7ffc15023180
+[09:37:34.414545] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.dlss:slFreeResources:0x7ffc15023210
+[09:37:34.414567] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.dlss' has no registered hooks
+[09:37:34.414642] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.reflex:slSetConstants:0x7ffbc1060710
+[09:37:34.414657] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.reflex:slGetSettings:0x7ffc14ff0300
+[09:37:34.414667] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.reflex:slAllocateResources:0x0
+[09:37:34.414680] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.reflex:slFreeResources:0x0
+[09:37:34.414695] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-37-34][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.reflex' has no registered hooks
+[09:37:34.417708] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[09:37:34.420008] [I] AntiLag2::init FSR Anti-Lag 2.0 DX12 initialized
+[09:37:34.420028] [I] LowLatency::update_low_latency_tech LowLatency algo: FSR Anti-Lag 2.0
+[09:37:34.855641] [I] XeFG_Dx12::CreateSwapchainContext XeFG context created
+[09:37:34.855699] [I] AntiLag2::deinit FSR Anti-Lag 2.0 DX12 deinitialized
+[09:37:34.866789] [I] LowLatency::update_low_latency_tech LowLatency algo: XeLL (forced)
+[09:37:34.866845] [I] XeFG Log: libxell.dll version 1.3.2
+[09:37:34.866868] [I] XeFG_Dx12::CreateSwapchain1 Max supported interpolations: 1
+[09:37:34.908494] [I] WrappedIDXGISwapChain4::WrappedIDXGISwapChain4 1 created, real: BD6F094F0, refCount: 1
+[09:37:35.024256] [I] XeFG_Dx12::CreateSwapchain1 XeFG swapchain created
+[09:37:35.024307] [I] FGHooks::HookFGSwapchain Hooking FG SwapChain present
+[09:37:35.034906] [I] IFeature::SetHandle Handle: 1000000
+[09:37:35.034957] [I] IFeature::SetInitParameters SharpenEnabled flag overrided by user: true
+[09:37:35.034966] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[09:37:35.034971] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[09:37:35.034976] [I] IFeature::SetInitParameters Init Flag IsHdr: true
+[09:37:35.034980] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[09:37:35.034985] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[09:37:35.034989] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: true
+[09:37:35.035027] [I] Config::SaveXeFG Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[09:37:35.036137] [I] IFeature::SetInitParameters Render Resolution: 1476x830, Display Resolution 1920x1080, Quality: 4
+[09:37:35.036166] [I] FFXFeatureDx12::FFXFeatureDx12 amd_fidelityfx_dx12.dll methods loaded!
+[09:37:35.036223] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[09:37:35.036756] [W] Util::LoadProxyLibrary Can't find amdxcffx64.dll, returning nullptr!
+[09:37:35.042123] [I] AmdExtFfxApi::UpdateFfxApiProvider amdxcffx64 loaded from C:\Windows\System32\DriverStore\FileRepository\u0203304.inf_amd64_a6e5a337568ce3f0\B026373\amdxcffx64.dll
+[09:37:35.098455] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[09:37:35.098507] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[09:37:35.109475] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[09:37:35.113680] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[09:37:35.113739] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[09:37:35.113760] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[09:37:35.117711] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[09:37:35.121305] [I] FFXFeatureDx12::InitFFX TSR FFX: selected provider=4.1.1 explicit_upscale_api_4_1_1=true (provider identity, not a quality claim)
+[09:37:35.121343] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[09:37:35.121380] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[09:37:35.121397] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[09:37:35.147763] [I] tsr::game::AuditXeSSCamera TSR camera history: call=1 status=missing matches=0 size=0 input_reset=false latest_serial=0 matched_serial=0 matched_frame=0 matched_viewport=0 matched_source=0 age_ms=0 serial_lag=0 association=unverified own_neural=false
+[09:37:35.147808] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=1 color=0xb9d18d820 depth=0xb9d0f5ed0
+[09:37:35.147837] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=1 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.244856,-0.1484375 color_format=10 color_size=1920x1080 color_origin=0,0 depth_format=19 depth_size=1920x1080 depth_origin=0,0 camera_observed=false frame_association=unverified viewport_association=unverified own_neural=false
+[09:37:35.149674] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1, _lastDispatchedFrame: 0
+[09:37:35.159560] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:37:35.197115] [I] OptiInput::Initialize Initialize requested target:0x5804dc input:0x0 isUwp:0 useSubclass:1 currentPid:21320
+[09:37:35.197154] [I] OptiInput::SetTargetWindow target window set hwnd:0x5804dc root:0x5804dc pid:21320 tid:10908 currentPid:21320 external:0 isUwp:0 useSubclass:1
+[09:37:35.197165] [I] OptiInput::SetInputWindow input window set hwnd:0x5804dc root:0x5804dc pid:21320 tid:10908 explicitInput:0 useSubclass:1
+[09:37:35.197184] [I] OptiInput::InstallWindowSubclass subclass installed hwnd:0x5804dc previousWndProc:140694948447472 optiWndProc:140719251468912
+[09:37:35.197198] [I] OptiInput::InstallHooks installing Win32 input hooks currentPid:21320 targetPid:21320 inputPid:21320
+[09:37:35.197267] [I] OptiInput::InstallHooks Win32 message hooks installed
+[09:37:35.197321] [I] OptiInput::InstallHooks Win32 key state hooks installed
+[09:37:35.197359] [I] OptiInput::InstallHooks Win32 GetMessagePos hooks installed
+[09:37:35.197391] [I] OptiInput::InstallHooks Win32 clip cursor hooks installed
+[09:37:35.197447] [I] OptiInput::InstallHooks Win32 message hooks installed
+[09:37:35.197491] [I] OptiInput::InstallHooks Win32 raw input hooks installed
+[09:37:35.197531] [I] OptiInput::InstallHooks Win32 windows input hooks installed
+[09:37:35.197564] [I] OptiInput::InstallHooks Win32 position input hooks installed
+[09:37:35.197572] [I] OptiInput::Initialize Initialize completed hooksInstalled:1 target:0x5804dc targetPid:21320 input:0x5804dc inputPid:21320 externalTarget:0 subclassed:1
+[09:37:35.197630] [I] OptiInput::UpdateXInputIntegrationLocked XInput hooks installed module:0x7ffc48450000 getState:1 getStateEx:1 getKeystroke:1 setState:1
+[09:37:35.197677] [I] OptiInput::`anonymous-namespace'::InstallDirectInputExportHookLocked DirectInput8Create hook installed module:0x7ffc305d0000
+[09:37:35.326010] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=1 frame=1 viewport=0 inverted=1 ortho=0 reset=0 near=0.001 far=100 fov=1.5707964 aspect=1 jitter=0.244856,-0.1484375 basis_valid=true projection=[0.9999999,0,0,0;0,0.9999999,0,0;0,0,1.00001,1;0,0,-0.0010000101,0]
+[09:37:35.326042] [I] tsr::game::ObserveCamera TSR camera basis: serial=1 right=0.99999994,0,0 up=0,0,0.9999999 forward=0,0.99999994,0
+[09:37:35.326049] [I] tsr::game::ObserveCamera TSR camera inverse: serial=1 matrix=[1.0000001,-0,0,-0;-0,1.0000001,-0,0;0,-0,0,-999.9899;-0,0,1,999.99994]
+[09:37:35.327330] [I] tsr::game::AuditXeSSCamera TSR camera history: call=2 status=missing matches=0 size=0 input_reset=false latest_serial=1 matched_serial=0 matched_frame=0 matched_viewport=0 matched_source=0 age_ms=0 serial_lag=0 association=unverified own_neural=false
+[09:37:35.327358] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=2 color=0xb9d18d820 depth=0xb9d0f5ed0
+[09:37:35.327367] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=2 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.244856,-0.1484375 color_format=10 color_size=1920x1080 color_origin=0,0 depth_format=19 depth_size=1920x1080 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:37:35.327376] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=2 serial=1 source=SL1 frame=1 viewport=0 age_ms=0 projection_valid=false basis_valid=true jitter_delta=0,0 fx=0 fy=0 cx=0 cy=0 depth_a=0 depth_b=0 view_z_sign=0 inference=blocked_unverified_frame
+[09:37:35.327398] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2, _lastDispatchedFrame: 0
+[09:37:35.327512] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=2 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:37:35.328343] [I] ReflexHooks::setFPSLimit Set FPS Limit to: 0
+[09:37:35.328378] [I] CreateRenderTargetDx12 done!
+[09:37:35.335209] [W] FGHooks::hkResizeBuffers SwapChainFlags changed from 842 to 802
+[09:37:35.335231] [W] FGHooks::hkResizeBuffers Preventing flag change for XeFG!
+[09:37:35.552911] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=2 frame=2 viewport=0 inverted=1 ortho=0 reset=0 near=0.001 far=100 fov=1.5707964 aspect=1 jitter=0.244856,-0.1484375 basis_valid=true projection=[0.9999999,0,0,0;0,0.9999999,0,0;0,0,1.00001,1;0,0,-0.0010000101,0]
+[09:37:35.552948] [I] tsr::game::ObserveCamera TSR camera basis: serial=2 right=0.99999994,0,0 up=0,0,0.9999999 forward=0,0.99999994,0
+[09:37:35.552961] [I] tsr::game::ObserveCamera TSR camera inverse: serial=2 matrix=[1.0000001,-0,0,-0;-0,1.0000001,-0,0;0,-0,0,-999.9899;-0,0,1,999.99994]
+[09:37:35.554069] [I] tsr::game::AuditXeSSCamera TSR camera history: call=3 status=missing matches=0 size=0 input_reset=false latest_serial=2 matched_serial=0 matched_frame=0 matched_viewport=0 matched_source=0 age_ms=0 serial_lag=0 association=unverified own_neural=false
+[09:37:35.554091] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=3 color=0xb9dd92590 depth=0xb9dc10000
+[09:37:35.554100] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=3 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.244856,-0.1484375 color_format=10 color_size=1920x1080 color_origin=0,0 depth_format=19 depth_size=1920x1080 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:37:35.554110] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=3 serial=2 source=SL1 frame=2 viewport=0 age_ms=0 projection_valid=false basis_valid=true jitter_delta=0,0 fx=0 fy=0 cx=0 cy=0 depth_a=0 depth_b=0 view_z_sign=0 inference=blocked_unverified_frame
+[09:37:35.554431] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:37:35.554936] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=3 frame=3 viewport=0 inverted=1 ortho=0 reset=0 near=0.001 far=100 fov=1.5707964 aspect=1 jitter=0.244856,-0.1484375 basis_valid=true projection=[0.9999999,0,0,0;0,0.9999999,0,0;0,0,1.00001,1;0,0,-0.0010000101,0]
+[09:37:35.554963] [I] tsr::game::ObserveCamera TSR camera basis: serial=3 right=0.99999994,0,0 up=0,0,0.9999999 forward=0,0.99999994,0
+[09:37:35.554970] [I] tsr::game::ObserveCamera TSR camera inverse: serial=3 matrix=[1.0000001,-0,0,-0;-0,1.0000001,-0,0;0,-0,0,-999.9899;-0,0,1,999.99994]
+[09:37:35.558961] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 4, _lastDispatchedFrame: 0
+[09:37:35.561606] [I] CreateRenderTargetDx12 done!
+[09:37:39.803087] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=600 frame=600 viewport=0 inverted=1 ortho=0 reset=0 near=0.001 far=100 fov=1.5707964 aspect=1 jitter=0.244856,-0.1484375 basis_valid=true projection=[0.9999999,0,0,0;0,0.9999999,0,0;0,0,1.00001,1;0,0,-0.0010000101,0]
+[09:37:39.803124] [I] tsr::game::ObserveCamera TSR camera basis: serial=600 right=0.99999994,0,0 up=0,0,0.9999999 forward=0,0.99999994,0
+[09:37:39.803135] [I] tsr::game::ObserveCamera TSR camera inverse: serial=600 matrix=[1.0000001,-0,0,-0;-0,1.0000001,-0,0;0,-0,0,-999.9899;-0,0,1,999.99994]
+[09:37:42.404453] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 6, _lastDispatchedFrame: 3
+[09:38:17.140012] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 8, _lastDispatchedFrame: 5
+[09:38:17.212468] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10, _lastDispatchedFrame: 7
+[09:38:17.285020] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 12, _lastDispatchedFrame: 9
+[09:38:17.356759] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 14, _lastDispatchedFrame: 11
+[09:38:17.393307] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[09:38:17.393333] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 15, _lastDispatchedFrame: 0
+[09:38:17.394025] [I] XeFGProxy::Version XeFG Version: v1.3.1
+[09:38:17.398608] [I] XeFG_Dx12::Present TSR FG previous-present: sample=1 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[09:38:17.398624] [I] XeFG_Dx12::SetInterpolatedFrameCount::<lambda_1>::operator () TSR FG count: requested_generated=1 maximum_generated=1 API_result=0
+[09:38:17.398636] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[09:38:17.500588] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 18, _lastDispatchedFrame: 15
+[09:38:17.572429] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 20, _lastDispatchedFrame: 17
+[09:38:17.643864] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 22, _lastDispatchedFrame: 19
+[09:38:17.715303] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 24, _lastDispatchedFrame: 21
+[09:38:17.786829] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 26, _lastDispatchedFrame: 23
+[09:38:17.822472] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[09:38:17.822508] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 27, _lastDispatchedFrame: 0
+[09:38:17.822804] [I] XeFG_Dx12::Present TSR FG previous-present: sample=2 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[09:38:17.860649] [I] XeFG_Dx12::Present TSR FG previous-present: sample=3 query_result=0 enabled=1 frames_sent=1 interpolation_result=3 max_generated=1
+[09:38:19.689524] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=1200 frame=1200 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=-0.15432099,0.28125 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:38:19.689588] [I] tsr::game::ObserveCamera TSR camera basis: serial=1200 right=0.41485298,0.9098884,0 up=-0.15017432,0.068470225,0.9862856 forward=-0.89741,0.4091636,-0.16504698
+[09:38:19.689598] [I] tsr::game::ObserveCamera TSR camera inverse: serial=1200 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:38:24.322032] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x5804dc target:0x5804dc
+[09:38:24.322058] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x5804dc target:0x5804dc
+[09:38:24.322072] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x5804dc foreground:0x5804dc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[09:38:27.923613] [I] tsr::game::AuditXeSSCamera TSR camera history: call=600 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=1720 matched_serial=1719 matched_frame=1719 matched_viewport=0 matched_source=1 age_ms=32 serial_lag=1 association=unverified own_neural=false
+[09:38:27.923674] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=600 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:38:27.923688] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.08299041,-0.26660156 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:38:27.923698] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=600 serial=1720 source=SL1 frame=1720 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=-0.33333337,-0.625 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:38:27.924177] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:38:28.319559] [I] XeFG_Dx12::Present TSR FG previous-present: sample=600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:38:29.068421] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x5804dc foreground:0x5804dc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[09:38:29.183406] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=1800 frame=1800 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=0.08710563,0.31933594 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:38:29.183465] [I] tsr::game::ObserveCamera TSR camera basis: serial=1800 right=0.41485298,0.9098884,0 up=-0.15158626,0.069113985,0.9860247 forward=-0.8971725,0.40905532,-0.16659875
+[09:38:29.183476] [I] tsr::game::ObserveCamera TSR camera inverse: serial=1800 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:38:29.715685] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0x5804dc target:0x5804dc
+[09:38:29.715722] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:0 deferredNull:0 hasSaved:1 savedActive:0
+[09:38:37.056330] [I] tsr::game::AuditXeSSCamera TSR camera history: call=1200 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=2320 matched_serial=2319 matched_frame=2319 matched_viewport=0 matched_source=1 age_ms=16 serial_lag=1 association=unverified own_neural=false
+[09:38:37.056428] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=1200 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:38:37.056444] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=1200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.008459032,-0.36767578 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:38:37.056456] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=1200 serial=2320 source=SL1 frame=2320 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=-0.33333325,-0.625 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:38:37.056739] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:38:37.418963] [I] XeFG_Dx12::Present TSR FG previous-present: sample=1200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:38:38.208356] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=2400 frame=2400 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=-0.015317738,0.30029297 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:38:38.208403] [I] tsr::game::ObserveCamera TSR camera basis: serial=2400 right=-0.977094,0.2128082,0 up=0.03343652,0.15352143,0.9875794 forward=-0.21016502,-0.964958,0.15712044
+[09:38:38.208413] [I] tsr::game::ObserveCamera TSR camera inverse: serial=2400 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:38:45.984802] [I] tsr::game::AuditXeSSCamera TSR camera history: call=1800 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=2920 matched_serial=2919 matched_frame=2919 matched_viewport=0 matched_source=1 age_ms=31 serial_lag=1 association=unverified own_neural=false
+[09:38:45.984844] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=1800 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:38:45.984853] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=1800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.07796067,-0.2944336 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:38:45.984863] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=1800 serial=2920 source=SL1 frame=2920 viewport=0 age_ms=16 projection_valid=true basis_valid=true jitter_delta=-0.33333337,-0.625 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:38:45.985039] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:38:46.336194] [I] XeFG_Dx12::Present TSR FG previous-present: sample=1800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:38:47.084991] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=3000 frame=3000 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=-0.073845446,0.35595703 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:38:47.085054] [I] tsr::game::ObserveCamera TSR camera basis: serial=3000 right=0.1100568,-0.9939252,0 up=-0.5900992,-0.06534137,0.804682 forward=0.79979384,0.088560745,0.5937059
+[09:38:47.085069] [I] tsr::game::ObserveCamera TSR camera inverse: serial=3000 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:38:54.979825] [I] tsr::game::AuditXeSSCamera TSR camera history: call=2400 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=3520 matched_serial=3519 matched_frame=3519 matched_viewport=0 matched_source=1 age_ms=15 serial_lag=1 association=unverified own_neural=false
+[09:38:54.979885] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=2400 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:38:54.979894] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=2400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.15858865,-0.33032227 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:38:54.979904] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=2400 serial=3520 source=SL1 frame=3520 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=-0.33333337,-0.625 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:38:54.980122] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=2400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:38:55.372358] [I] XeFG_Dx12::Present TSR FG previous-present: sample=2400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:38:56.226083] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=3600 frame=3600 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=0.16270387,0.25561523 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:38:56.226137] [I] tsr::game::ObserveCamera TSR camera basis: serial=3600 right=-0.9537123,-0.30072036,0 up=0.049084302,-0.1556672,0.98658925 forward=0.2966875,-0.9409224,-0.1632224
+[09:38:56.226148] [I] tsr::game::ObserveCamera TSR camera inverse: serial=3600 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:39:04.108449] [I] tsr::game::AuditXeSSCamera TSR camera history: call=3000 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=4120 matched_serial=4119 matched_frame=4119 matched_viewport=0 matched_source=1 age_ms=0 serial_lag=1 association=unverified own_neural=false
+[09:39:04.108525] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=3000 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:39:04.108538] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=3000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.042600185,-0.25708008 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:39:04.108563] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=3000 serial=4120 source=SL1 frame=4120 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=-0.33333328,-0.625 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:39:04.108843] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:39:04.477471] [I] XeFG_Dx12::Present TSR FG previous-present: sample=3000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:39:05.287601] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=4200 frame=4200 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=-0.03848496,0.32885742 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:39:05.287650] [I] tsr::game::ObserveCamera TSR camera basis: serial=4200 right=0.5116436,0.8591977,0 up=-0.06988372,0.041615054,0.99668664 forward=-0.85635096,0.50994843,-0.08133602
+[09:39:05.287661] [I] tsr::game::ObserveCamera TSR camera inverse: serial=4200 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:39:12.989953] [I] tsr::game::AuditXeSSCamera TSR camera history: call=3600 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=4720 matched_serial=4719 matched_frame=4719 matched_viewport=0 matched_source=1 age_ms=16 serial_lag=1 association=unverified own_neural=false
+[09:39:12.990034] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=3600 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:39:12.990045] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=3600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=-0.09746987,-0.3581543 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:39:12.990056] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=3600 serial=4720 source=SL1 frame=4720 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=-0.33333325,-0.625 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:39:12.990315] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:39:13.376359] [I] XeFG_Dx12::Present TSR FG previous-present: sample=3600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:39:14.217079] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=4800 frame=4800 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=-0.09335464,0.29516602 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:39:14.217146] [I] tsr::game::ObserveCamera TSR camera basis: serial=4800 right=0.9796309,0.20080619,0 up=-0.03589516,0.17511417,0.9838936 forward=-0.19757195,0.96385264,-0.17875525
+[09:39:14.217159] [I] tsr::game::ObserveCamera TSR camera inverse: serial=4800 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:39:20.549262] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[09:39:21.669709] [I] XeFG_Dx12::Present TSR FG previous-present: sample=4200 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[09:39:22.051048] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=5400 frame=5400 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=0.10051823,0.37097168 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:39:22.051113] [I] tsr::game::ObserveCamera TSR camera basis: serial=5400 right=0.73772615,0.6750998,-0.0006564907 up=-0.18752651,0.20585659,0.96044624 forward=-0.6485322,0.70842326,-0.27846488
+[09:39:22.051129] [I] tsr::game::ObserveCamera TSR camera inverse: serial=5400 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:39:26.500997] [I] XeFG_Dx12::Present TSR FG previous-present: sample=4800 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[09:39:26.888036] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=6000 frame=6000 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=0.040771246,0.26843262 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:39:26.888091] [I] tsr::game::ObserveCamera TSR camera basis: serial=6000 right=0.73772615,0.6750998,-0.0006564907 up=-0.18752651,0.20585659,0.96044624 forward=-0.6485322,0.70842326,-0.27846488
+[09:39:26.888102] [I] tsr::game::ObserveCamera TSR camera inverse: serial=6000 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:39:31.578340] [I] XeFG_Dx12::Present TSR FG previous-present: sample=5400 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[09:39:31.960359] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=6600 frame=6600 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=-0.16041762,0.32556152 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:39:31.960424] [I] tsr::game::ObserveCamera TSR camera basis: serial=6600 right=0.73772615,0.6750998,-0.0006564907 up=-0.18752651,0.20585659,0.96044624 forward=-0.6485322,0.70842326,-0.27846488
+[09:39:31.960441] [I] tsr::game::ObserveCamera TSR camera inverse: serial=6600 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:39:34.477001] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[09:39:34.498068] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 4077, _lastDispatchedFrame: 0
+[09:39:34.522985] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 4079, _lastDispatchedFrame: 4076
+[09:39:34.544390] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 4081, _lastDispatchedFrame: 4078
+[09:39:34.579012] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 4083, _lastDispatchedFrame: 4080
+[09:39:34.612526] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 4085, _lastDispatchedFrame: 4082
+[09:39:34.641353] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 4087, _lastDispatchedFrame: 4084
+[09:39:36.529172] [I] tsr::game::AuditXeSSCamera TSR camera history: call=4200 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=7070 matched_serial=7069 matched_frame=7069 matched_viewport=0 matched_source=1 age_ms=15 serial_lag=1 association=unverified own_neural=false
+[09:39:36.529293] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=4200 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:39:36.529310] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=4200 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.22961438,-0.06604004 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:39:36.529325] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=4200 serial=7070 source=SL1 frame=7070 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=0.5555555,-0.25 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:39:36.529684] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=4200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:39:37.879545] [I] XeFG_Dx12::Present TSR FG previous-present: sample=6000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:39:38.545336] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=7200 frame=7200 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=0.07735103,0.3050537 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:39:38.545392] [I] tsr::game::ObserveCamera TSR camera basis: serial=7200 right=0.7360152,0.6769646,-0.0006564907 up=-0.18804687,0.20538132,0.96044624 forward=-0.650323,0.7067796,-0.27846488
+[09:39:38.545403] [I] tsr::game::ObserveCamera TSR camera inverse: serial=7200 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:39:45.818195] [I] tsr::game::AuditXeSSCamera TSR camera history: call=4800 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=7670 matched_serial=7669 matched_frame=7669 matched_viewport=0 matched_source=1 age_ms=15 serial_lag=1 association=unverified own_neural=false
+[09:39:45.818322] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=4800 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:39:45.818340] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=4800 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.43811923,-0.025756836 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:39:45.818357] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=4800 serial=7670 source=SL1 frame=7670 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=0.8518519,-0.25 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:39:45.818784] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=4800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:39:47.159497] [I] XeFG_Dx12::Present TSR FG previous-present: sample=6600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:39:47.842977] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=7800 frame=7800 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=0.0062236786,0.3453369 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:39:47.843032] [I] tsr::game::ObserveCamera TSR camera basis: serial=7800 right=0.96035475,-0.27877995,-0.0006733781 up=0.04849805,0.16468887,0.9851526 forward=0.27452987,0.94612867,-0.17168003
+[09:39:47.843046] [I] tsr::game::ObserveCamera TSR camera inverse: serial=7800 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:39:54.709391] [I] tsr::game::AuditXeSSCamera TSR camera history: call=5400 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=8270 matched_serial=8269 matched_frame=8269 matched_viewport=0 matched_source=1 age_ms=16 serial_lag=1 association=unverified own_neural=false
+[09:39:54.709568] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=5400 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:39:54.709586] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=5400 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.36699182,-0.11657715 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:39:54.709623] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=5400 serial=8270 source=SL1 frame=8270 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=0.5555555,-0.25 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:39:54.709941] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=5400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:39:55.861874] [I] XeFG_Dx12::Present TSR FG previous-present: sample=7200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:39:56.453045] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=8400 frame=8400 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=-0.081567824,0.2647705 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:39:56.453095] [I] tsr::game::ObserveCamera TSR camera basis: serial=8400 right=-0.68213093,-0.73122984,-0.0005411347 up=0.44644216,-0.4170514,0.79168034 forward=0.579126,-0.53978807,-0.61093545
+[09:39:56.453105] [I] tsr::game::ObserveCamera TSR camera inverse: serial=8400 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:40:03.292511] [I] tsr::game::AuditXeSSCamera TSR camera history: call=6000 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=8870 matched_serial=8869 matched_frame=8869 matched_viewport=0 matched_source=1 age_ms=16 serial_lag=1 association=unverified own_neural=false
+[09:40:03.292583] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=6000 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:40:03.292593] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=6000 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.17677689,-0.033081055 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:40:03.292608] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=6000 serial=8870 source=SL1 frame=8870 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=0.5555555,-0.25 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:40:03.292865] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=6000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:40:04.442351] [I] XeFG_Dx12::Present TSR FG previous-present: sample=7800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[09:40:05.049904] [I] tsr::game::ObserveCamera TSR camera observed: source=SL1 serial=9000 frame=9000 viewport=0 inverted=1 ortho=0 reset=0 near=0.2 far=6500 fov=1.0471976 aspect=1.7777778 jitter=0.14522684,0.3380127 basis_valid=true projection=[0.97427845,0,0,0;0,1.7320505,0,0;0,0,-3.0755997e-05,1;0,0,0.20000616,0]
+[09:40:05.049959] [I] tsr::game::ObserveCamera TSR camera basis: serial=9000 right=-0.9810772,0.19361587,-0.00066913257 up=0.038882226,0.20040458,0.9789413 forward=-0.18967268,-0.960391,0.20414057
+[09:40:05.049969] [I] tsr::game::ObserveCamera TSR camera inverse: serial=9000 matrix=[1.0264007,0,-0,0;0,0.5773504,0,-0;-0,0,-0,4.9998465;0,-0,1.0000001,0.00015377525]
+[09:40:11.893928] [I] tsr::game::AuditXeSSCamera TSR camera history: call=6600 status=unique_candidate matches=1 size=8 input_reset=false latest_serial=9470 matched_serial=9469 matched_frame=9469 matched_viewport=0 matched_source=1 age_ms=15 serial_lag=1 association=unverified own_neural=false
+[09:40:11.893978] [I] tsr::game::AuditXeSSCamera TSR relighting resources: call=6600 color=0xb9dd99df0 depth=0xb9dc0eaf0
+[09:40:11.893999] [I] tsr::game::AuditXeSSCamera TSR relighting bridge: call=6600 input=XeSS render=1476x830 flags=274 exposure_scale=1 jitter=0.40357167,-0.085998535 color_format=10 color_size=1476x830 color_origin=0,0 depth_format=19 depth_size=1476x830 depth_origin=0,0 camera_observed=true frame_association=unverified viewport_association=unverified own_neural=false
+[09:40:11.894013] [I] tsr::game::AuditXeSSCamera TSR relighting camera candidate: call=6600 serial=9470 source=SL1 frame=9470 viewport=0 age_ms=0 projection_valid=true basis_valid=true jitter_delta=0.85185194,-0.25 fx=719.0175 fy=718.80096 cx=737.5 cy=414.5 depth_a=-3.0755997e-05 depth_b=0.20000616 view_z_sign=1 inference=blocked_unverified_frame
+[09:40:11.894209] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=6600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[09:40:12.948326] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[09:40:12.955007] [W] OptiInput::`anonymous-namespace'::LogQueryWindowFailure ValidateTargetWindow rejected hwnd:0x5804dc isWindow:0 root:0x0 pid:0 tid:0 currentPid:21320
+[09:40:12.955049] [W] OptiInput::ClearTargetWindowLocked clearing target window hwnd:0x5804dc pid:21320 tid:10908
+[09:40:12.955058] [W] OptiInput::RemoveWindowSubclass RemoveWindowSubclass did not restore because current WndProc changed input:0x5804dc current:0 opti:140719251468912
+[09:40:12.955066] [W] OptiInput::ClearInputWindowLocked clearing input window hwnd:0x5804dc pid:21320 tid:10908 subclassed:0
+[09:40:16.303017] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]pluginmanager.cpp:817[unloadPlugins] Unloading all plugins ...
+[09:40:16.304407] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel mvec.cs
+[09:40:16.309358] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]commonentry.cpp:1090[slOnPluginShutdown] Shutting down NGX
+[09:40:16.310589] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel copy_to_buffer.cs
+[09:40:16.311330] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]d3d12.cpp:820[shutdown] Destroying kernel fonts.cs
+[09:40:16.313502] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d131cf0(sl.chi.fontTexture) at frame 3 (current frame 0)
+[09:40:16.313531] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d1320b0(sl.chi.dynamicText) at frame 3 (current frame 0)
+[09:40:16.313544] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d132470(sl.chi.dynamicTextUpload) at frame 3 (current frame 0)
+[09:40:16.313832] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d131cf0(sl.chi.fontTexture) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.03MB
+[09:40:16.314037] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d1320b0(sl.chi.dynamicText) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.02MB
+[09:40:16.314268] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d132470(sl.chi.dynamicTextUpload) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.00MB
+[09:40:16.314286] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 09-40-16][streamline][info]generic.cpp:285[shutdown] Delayed destroy resource list count 0
+[09:40:16.510200] [I] 
+[09:40:16.510224] [I] DLL_PROCESS_DETACH
+[09:40:16.510815] [I] Unloading OptiScaler

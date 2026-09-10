@@ -1,0 +1,16 @@
+{
+  "camera_log_samples": 0,
+  "input_log_samples": 0,
+  "candidate_log_samples": 0,
+  "camera_sources": {},
+  "camera_viewports": [],
+  "projection_status": {},
+  "basis_status": {},
+  "median_candidate_age_ms": null,
+  "max_candidate_age_ms": null,
+  "errors": [],
+  "neural_active": false,
+  "limitation": "Sampled metadata only: freshness/jitter agreement does not prove frame or viewport association.",
+  "next_check": "No paired camera candidate observed; inspect Streamline callbacks before attempting inference.",
+  "sha256": "e02d61c22fb89815dc40f48e6b49b744939bc01df89131b681e80fa151b13418"
+}

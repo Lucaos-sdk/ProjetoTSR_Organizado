@@ -1,0 +1,14 @@
+{
+  "bilinear": {
+    "frames": 16,
+    "mean_mse": 0.002602477881625,
+    "residual_delta_mse": 0.0012458965958666668
+  },
+  "output_history": {
+    "frames": 16,
+    "mean_mse": 0.000649268798675,
+    "residual_delta_mse": 0.0009885352112266666
+  },
+  "mse_reduction_percent": 75.0518994509343,
+  "residual_delta_reduction_percent": 20.656721070898765
+}

@@ -1,0 +1,20 @@
+[
+  ". Install the compatible AMD HIP 7 runtime; HIP 6 alone is insufficient.",
+  "10.0.0-dev (amd-presr-multipass-local) (20260907_075847)",
+  "AMD HIP backend. Each pass owns independent temporal history. More passes increase GPU time and memory. Restart the game after a backend failure.",
+  "AMD pre-SR: could not install submission notification",
+  "AMD pre-SR: display-resolution motion vectors unsupported",
+  "AMD pre-SR: idle",
+  "AMD pre-SR: nonzero colour subrect origin unsupported",
+  "AMD pre-SR: not initialized",
+  "AMD pre-SR: waiting for a DirectX 12 SR frame",
+  "AMD pre-SR: waiting for the game command queue",
+  "Completed AMD pre-SR passes=",
+  "Enabling restore compute signature on AMD/Intel",
+  "OptiScaler v10.0.0-dev (amd-presr-multipass-local) (20260907_075847)",
+  "Render submission queue changed; AMD pre-SR remains enabled",
+  "Unsupported AMD pre-SR ",
+  "amd_presr.log",
+  "dlssnr_amd_pass",
+  "dlssnr_amd_pass1.dll"
+]

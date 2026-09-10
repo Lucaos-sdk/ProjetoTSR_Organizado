@@ -1,0 +1,35 @@
+{
+  "ids": [
+    25000,
+    25001,
+    25002,
+    25003,
+    25004,
+    25005,
+    25006,
+    25007
+  ],
+  "families": [
+    "baseline",
+    "boxes"
+  ],
+  "resolution": [
+    384,
+    256
+  ],
+  "depth_noise": 0.0,
+  "yaws": [
+    -0.04,
+    0.0,
+    0.04
+  ],
+  "checkpoints": {
+    "20260911_frozen": "bbc0f8abdd0ef39c5f077ba98d57bd3a02438460b39148733c0ab05f38fcac49",
+    "20260911_joint": "dc74d87ebf4efa6dcc7f7b1d0bf4faeec6964e936e0a26d250b4877677957983",
+    "20260912_frozen": "4d56f29cc64afc20d6019d333322b9ddbe3b9bc495e7048dfbb2669acb4421f6",
+    "20260912_joint": "77d1f1c5e0644f0dbd0ce478a13cf51697946a754839a42bdd143c8b4e7f2c4b"
+  },
+  "nature": "post-hoc diagnostic on already evaluated scenes, not an independent test or model selection",
+  "partition": "visible correspondences: union of 2-pixel dilated geometry boundary in both frames; remaining ground; remaining objects",
+  "limitations": "Location alone does not identify the source of error or predict effects of a new reconstruction operator."
+}

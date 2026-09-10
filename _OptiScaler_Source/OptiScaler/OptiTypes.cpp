@@ -40,6 +40,8 @@ std::string UpscalerDisplayName(Upscaler upscaler, API api)
 
     switch (upscaler)
     {
+    case Upscaler::TSRProbe:
+        return "TSR diagnostics (FSR 2.1.2)";
     case Upscaler::FSR21:
         return "FSR 2.1.2";
 
@@ -87,6 +89,7 @@ bool IsFsr(Upscaler upscaler)
 {
     switch (upscaler)
     {
+    case Upscaler::TSRProbe:
     case Upscaler::FSR21:
     case Upscaler::FSR22:
     case Upscaler::FSR31:
@@ -126,6 +129,8 @@ std::string UpscalerToCode(Upscaler upscaler)
 {
     switch (upscaler)
     {
+    case Upscaler::TSRProbe:
+        return "tsr_probe";
     case Upscaler::XeSS:
         return "xess";
     case Upscaler::XeSS_on12:
@@ -157,6 +162,7 @@ std::string UpscalerToCode(Upscaler upscaler)
 Upscaler CodeToUpscaler(const std::string& code)
 {
     static const std::unordered_map<std::string, Upscaler> mapping = {
+        { "tsr_probe", Upscaler::TSRProbe },
         { "xess", Upscaler::XeSS },   { "xess_12", Upscaler::XeSS_on12 },
         { "fsr21", Upscaler::FSR21 }, { "fsr21_12", Upscaler::FSR21_on12 },
         { "fsr22", Upscaler::FSR22 }, { "fsr22_12", Upscaler::FSR22_on12 },

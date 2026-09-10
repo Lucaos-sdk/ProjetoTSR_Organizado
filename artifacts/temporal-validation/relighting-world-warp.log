@@ -1,0 +1,6 @@
+Adapter: Microsoft Basic Render Driver [WARP]
+Resource path: Texture2D RGBA32F
+PASS world anchor: max_error=2.38419e-06 unanchored_error=0.266928 rotations=14 full_sphere=true
+PASS faceted surface: original_mse=2.18854e-06 smooth_mse=1.40671e-06 reduction=0.357239
+PASS silhouettes/sky: max_error=5.96046e-08 previous_frame_independence=true alpha_preserved=true
+Last completed own GPU pass ms=1.851 size=129x97 debug=true

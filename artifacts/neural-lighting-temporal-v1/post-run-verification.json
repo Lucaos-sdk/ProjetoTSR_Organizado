@@ -1,0 +1,12 @@
+{
+  "training_sources_verified": true,
+  "post_run_changes": [
+    {
+      "path": "tests/test_neural_lighting_temporal.py",
+      "original_sha256": "b8ea47ef131593780e9278ac31c80e6c3f7a29c6079ffa1dad6f33ebf6833ed8",
+      "current_sha256": "7686273c8a5e53ba2b820c32b51a845229ba764559655537d01bed1b94d5b8eb",
+      "reason": "Post-run test-only detach before float conversion; two targeted tests passed."
+    }
+  ],
+  "tests_output_sha256": "A8AEA60CA11AFD948DD3F4ED3270DBA24FAAC16529A27B37B5D4AF8B99B088BD"
+}

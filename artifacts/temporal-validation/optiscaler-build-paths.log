@@ -1,0 +1,864 @@
+
+  pch.cpp
+  Nvngx_Combo.cpp
+  FSR4Upgrade.cpp
+  GpuTime_Dx11.cpp
+  GpuTime_Dx12.cpp
+  Amdxc64_Hooks.cpp
+  DLSSG_Dx12.cpp
+  FSRFG_Dx12.cpp
+  IFGFeature.cpp
+  IFGFeature_Dx12.cpp
+  Nvngx_FG.cpp
+  FSR4ModelSelection.cpp
+  D3D12_Hooks.cpp
+  DxgiFactory_Hooks.cpp
+  DxgiFactory_WrappedCalls.cpp
+  Dxgi_Hooks.cpp
+  FG_Hooks.cpp
+  Kernel_Hooks.cpp
+  LibraryLoad_Hooks.cpp
+  VulkanwDx12_Hooks.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/framegen/ffx/FSRFG_Dx12.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/fsr4/FSR4Upgrade.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/framegen/nvngx/Nvngx_Combo.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/FG_Hooks.cpp')
+  
+  Xell_Hooks.cpp
+  Streamline_Inputs_Sl1_Dx12.cpp
+  device_info.cpp
+  Upscaler_Inputs_Dx11wDx12.cpp
+  input_common.cpp
+  input_reflex.cpp
+  input_xell.cpp
+  input_antilag2.cpp
+  Magnifier_Dx11.cpp
+  input_system.cpp
+  input_system_cursor.cpp
+  input_system_detours.cpp
+  input_system_directinput.cpp
+  input_system_gameinput.cpp
+  input_system_hid.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/low_latency/input/input_antilag2.cpp')
+  
+  input_system_messages.cpp
+  input_system_raw.cpp
+  input_system_window.cpp
+  input_system_windows_hooks.cpp
+  input_system_xinput.cpp
+  IdentifyGpu.cpp
+  FSR2_Dx11.cpp
+  FSR2_Vk.cpp
+  XeSS_Dx11.cpp
+  ll_util.cpp
+  log.cpp
+  low_latency.cpp
+  low_latency_d3d.cpp
+  ll_antilag2.cpp
+  ll_antilag_vk.cpp
+  ll_latencyflex.cpp
+  ll_xell.cpp
+  low_latency_vk.cpp
+  nvapi_calls.cpp
+  Nvngx_FFX.cpp
+  Nvngx_Nukems.cpp
+  Nvngx_Arturs.cpp
+  NVNGX_Parameter.cpp
+  Nvngx_DllProxy.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/framegen/nvngx/Nvngx_FFX.cpp')
+  
+  OptiTypes.cpp
+  DI_Dx12.cpp
+  HCC_Dx12.cpp
+  HudCopy_Dx12.cpp
+  DT_Vk.cpp
+  Magnifier_Common.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\shaders\magnifier\Magnifier_Common.cpp(40,51): warning C4244: '=': conversão de 'LONG' para 'float', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/shaders/magnifier/Magnifier_Common.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\shaders\magnifier\Magnifier_Common.cpp(41,51): warning C4244: '=': conversão de 'LONG' para 'float', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/shaders/magnifier/Magnifier_Common.cpp')
+  
+  Magnifier_Dx12.cpp
+  Magnifier_Vk.cpp
+  OS_Vk.cpp
+  RCAS_Common.cpp
+  RCAS_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/framegen/nvngx/Nvngx_FG.cpp')
+  
+  Shader_Common.cpp
+  RUI_Dx12.cpp
+  RC_Vk.cpp
+  Shader_Dx12.cpp
+  Shader_Vk.cpp
+  SkipSpoof.cpp
+  Shader_Dx11.cpp
+  Dxgi_Spoofing.cpp
+  User32_Spoofing.cpp
+  Vulkan_Spoofing.cpp
+  input_uell.cpp
+  FSR2Feature_VkOnDx12_212.cpp
+  FFXFeature_VkOn12.cpp
+  FSR31Feature.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/LibraryLoad_Hooks.cpp')
+  
+  IFeature_Vk.cpp
+  IFeature_VkwDx12.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244: 'inicializando': conversão de 'int64_t' para 'unsigned int', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/low_latency/input/input_uell.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17):
+      o contexto de instanciação do modelo (o mais antigo primeiro) é
+          C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\low_latency\input\input_uell.cpp(44,60):
+          consulte a referência à instanciação 'std::optional<UINT>::optional<int64_t&,0>(_Ty2) noexcept' do modelo que está sendo compilada
+          with
+          [
+              _Ty2=int64_t &
+          ]
+              C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\low_latency\input\input_uell.cpp(44,17):
+              veja a primeira referência a 'std::optional<UINT>::optional' em 'InputUeLowLatency::tickStart'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(307,18):
+          consulte a referência à instanciação 'std::_Optional_construct_base<_Ty>::_Optional_construct_base<int64_t&>(std::in_place_t,int64_t &)' do modelo que está sendo compilada
+          with
+          [
+              _Ty=UINT
+          ]
+          C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\low_latency\input\input_uell.cpp(82,1):
+          consulte a referência à instanciação 'std::_Optional_destruct_base<_Ty,true>::_Optional_destruct_base<int64_t&>(std::in_place_t,int64_t &) noexcept' do modelo que está sendo compilada
+          with
+          [
+              _Ty=UINT
+          ]
+  
+  UpscalerTime_Vk.cpp
+  dx11_with_dx12.cpp
+  with_dx12.cpp
+  dx11_with_dx12_sc.cpp
+  wrapped_factory.cpp
+  FSR3_Dx12_FG.cpp
+  Streamline_Inputs_Dx12.cpp
+  XeFG_Dx12.cpp
+  Streamline_Hooks.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FSR3_Dx12_FG.cpp')
+  
+  Hudfix_Dx12.cpp
+  FfxApiExe_Dx12.cpp
+  FfxApi_Dx12_FG.cpp
+  FfxApi_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(37,8): error C2011: 'ffxDispatchDescFrameGenerationPrepareV2': redefinição do tipo 'struct' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(311,28): error C2065: 'FFX_API_CREATE_CONTEXT_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_WRAP_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(313,23): error C2065: 'ffxCreateContextDescFrameGenerationSwapChainWrapDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(313,76): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(318,14): error C3536: 'cDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(327,28): error C2065: 'FFX_API_CREATE_CONTEXT_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_NEW_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(329,23): error C2065: 'ffxCreateContextDescFrameGenerationSwapChainNewDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(329,75): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(332,68): error C3536: 'cDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(347,13): error C3536: 'result': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(369,28): error C2065: 'FFX_API_CREATE_CONTEXT_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_FOR_HWND_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(371,23): error C2065: 'ffxCreateContextDescFrameGenerationSwapChainForHwndDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(371,79): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(374,25): error C3536: 'cDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(394,32): error C2660: 'IDXGIFactory2::CreateSwapChainForHwnd': função não recebe 2 argumentos [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\dxgi1_2.h(1693,43):
+      consulte a declaração de 'IDXGIFactory2::CreateSwapChainForHwnd'
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(394,32):
+      ao tentar corresponder a lista de argumentos '()'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(579,36): error C2065: 'FFX_API_CONFIGURE_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_REGISTERUIRESOURCE_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(581,32): error C2065: 'ffxConfigureDescFrameGenerationSwapChainRegisterUiResourceDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(581,95): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(582,17): error C3536: 'crDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(709,35): error C2065: 'FFX_API_CONFIGURE_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_REGISTERUIRESOURCE_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(711,36): error C2065: 'ffxConfigureDescFrameGenerationSwapChainRegisterUiResourceDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(711,99): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(712,21): error C3536: 'uiDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(765,28): error C2065: 'FFX_API_CONFIGURE_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_REGISTERUIRESOURCE_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(767,24): error C2065: 'ffxConfigureDescFrameGenerationSwapChainRegisterUiResourceDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(767,87): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(768,9): error C3536: 'crDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(849,28): error C2065: 'FFX_API_CONFIGURE_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_KEYVALUE_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(851,23): error C2065: 'ffxConfigureDescFrameGenerationSwapChainKeyValueDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(851,76): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(852,9): error C3536: 'cDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(875,28): error C2065: 'FFX_API_QUERY_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_INTERPOLATIONCOMMANDLIST_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(877,23): error C2065: 'ffxQueryDescFrameGenerationSwapChainInterpolationCommandListDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(877,88): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(885,18): error C3536: 'cDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(899,28): error C2065: 'FFX_API_QUERY_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_INTERPOLATIONTEXTURE_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(904,27): error C2065: 'ffxQueryDescFrameGenerationSwapChainInterpolationTextureDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(904,88): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(932,18): error C3536: 'cDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(939,28): error C2065: 'FFX_API_QUERY_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_GPU_MEMORY_USAGE_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(941,23): error C2065: 'ffxQueryFrameGenerationSwapChainGetGPUMemoryUsageDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(941,77): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(942,9): error C3536: 'cDesc': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1043,24): warning C4996: 'ffxDispatchDescFrameGenerationPrepare': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1044,9): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::frameID': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1046,33): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::frameID': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1047,45): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::frameID': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1065,36): warning C4996: 'ffxDispatchDescFrameGenerationPrepareCameraInfo': ffxDispatchDescFrameGenerationPrepareCameraInfo is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 instead [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1067,45): warning C4996: 'ffxDispatchDescFrameGenerationPrepareCameraInfo::cameraPosition': ffxDispatchDescFrameGenerationPrepareCameraInfo is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 instead [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1068,45): warning C4996: 'ffxDispatchDescFrameGenerationPrepareCameraInfo::cameraForward': ffxDispatchDescFrameGenerationPrepareCameraInfo is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 instead [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1080,35): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::cameraNear': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1084,37): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::frameTimeDelta': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1085,29): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::jitterOffset': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1086,30): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::motionVectorScale': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1087,28): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::unused_reset': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1089,19): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::depth': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1092,64): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::commandList': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1093,34): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::renderSize': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1094,54): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::depth': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1095,69): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::depth': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1103,33): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::renderSize': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1109,19): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::motionVectors': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1121,31): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::renderSize': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1122,32): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::renderSize': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1126,67): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::commandList': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1128,57): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::motionVectors': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1129,72): warning C4996: 'ffxDispatchDescFrameGenerationPrepare::motionVectors': ffxDispatchDescFrameGenerationPrepare is deprecated, use ffxDispatchDescFrameGenerationPrepareV2 [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1149,9): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1151,27): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1151,9): error C2660: 'CheckForFrame': função não recebe 1 argumentos [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(92,6):
+      consulte a declaração de 'CheckForFrame'
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1151,9):
+      ao tentar corresponder a lista de argumentos '(IFGFeature_Dx12 *)'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1152,39): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1163,27): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1163,51): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1163,69): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1163,90): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1163,113): error C3536: 'fIndex': não pode ser usado antes de ser inicializado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1172,29): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1172,49): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1172,68): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1176,31): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1177,23): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1177,47): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1178,24): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1178,53): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1179,22): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1181,13): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1184,58): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1185,28): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1186,48): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1187,63): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1195,27): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1201,13): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1213,25): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1214,26): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1218,61): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1220,51): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1221,66): error C2027: uso de tipo indefinido 'ffxDispatchDescFrameGenerationPrepareV2' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\FidelityFX-SDK\Kits\FidelityFX\framegeneration\include\ffx_framegeneration.h(221,8):
+      consulte a declaração de 'ffxDispatchDescFrameGenerationPrepareV2'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1238,28): error C2065: 'FFX_API_DISPATCH_DESC_TYPE_FRAMEGENERATIONSWAPCHAIN_WAIT_FOR_PRESENTS_DX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1240,24): error C2065: 'ffxDispatchDescFrameGenerationSwapChainWaitForPresentsDX12': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.cpp(1240,83): error C2059: erro de sintaxe: ')' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+  Upscaler_Inputs_Dx12.cpp
+  XeSS_Base.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FfxApi_Vk.cpp')
+  
+  XeSS_Common.cpp
+  XeSS_Dbg.cpp
+  XeSS_Vulkan.cpp
+  FrameLimit.cpp
+  fakenvapi.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_VkOnDx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_VkOnDx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  NvApiHooks.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/nvapi/fakenvapi.cpp')
+  
+  NvApiTypes.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_VkOn12.cpp')
+  
+  Reflex_Hooks.cpp
+  ResTrack_dx12.cpp
+  HC_Dx12.cpp
+  RF_Dx12.cpp
+  DS_Dx12.cpp
+  DT_Dx11.cpp
+  DLSSDFeature.cpp
+  DLSSDFeature_Dx11.cpp
+  DLSSDFeature_Dx12.cpp
+  DLSSDFeature_Vk.cpp
+  DLSSFeature.cpp
+  DLSSFeature_Dx11.cpp
+  DLSSFeature_Dx12.cpp
+  DLSSFeature_Vk.cpp
+  FeatureProvider_Dx11.cpp
+  FeatureProvider_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\Streamline_Hooks.cpp(246,63): warning C4267: '=': conversão de 'size_t' para 'uint32_t', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/Streamline_Hooks.cpp')
+  
+  FeatureProvider_Vk.cpp
+  FSR2Feature_212.cpp
+  FSR2Feature_Dx11On12_212.cpp
+  FSR2Feature_Dx12_212.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FSR2Feature_Vk_212.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FFXFeature.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FSR31Feature_Dx11.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx11On12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx11On12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FFXFeature_Dx11On12.cpp
+  FFXFeature_Dx12.cpp
+  FFXFeature_Vk.cpp
+  IFeature_Dx11.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature.cpp')
+  
+  IFeature_Dx11wDx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Dx12.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Vk.cpp')
+  
+  Config.cpp
+  FSR2Feature.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+  FSR2Feature_Dx11.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+  FSR2Feature_Dx11On12.cpp
+  FSR2Feature_Dx12.cpp
+  FSR2Feature_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr31/FSR31Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr31/FSR31Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Dx11On12.cpp')
+  
+  IFeature.cpp
+  IFeature_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+  FfxApi_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FfxApi_Dx12.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FSR2_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11On12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11On12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FSR3_Dx12.cpp
+  D3D11_Hooks.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  Vulkan_Hooks.cpp
+  menu_common.cpp
+  menu_dx_base.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+  
+  menu_dx11.cpp
+  menu_dx12.cpp
+  menu_overlay_base.cpp
+  menu_overlay_dx.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/menu/menu_common.cpp')
+  
+  menu_overlay_vk.cpp
+  wrapped_swapchain.cpp
+  Logger.cpp
+  NVNGX.cpp
+  NVNGX_DLSS_Dx11.cpp
+  NVNGX_DLSS_Dx12.cpp
+  dllmain.cpp
+  NVNGX_DLSS_Vk.cpp
+  XeSSFeature.cpp
+  XeSSFeature_Dx11.cpp
+  XeSSFeature_Dx11on12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx11on12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx11on12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  XeSSFeature_Dx12.cpp
+  scanner.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature_Vk.h(5,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Vk.cpp')
+  
+  Bias_Dx11.cpp
+  Bias_Dx12.cpp
+  FT_Dx12.cpp
+  OS_Dx11.cpp
+  OS_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  RCAS_Dx11.cpp
+  RCAS_Dx12.cpp
+  XeSSFeature_Vk.cpp
+  Util.cpp
+  version_check.cpp
+  XeSS_Debug.cpp
+  XeSS_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/NVNGX_DLSS_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/NVNGX_DLSS_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\proxies\FfxApi_Proxy.h(35,10): error C1083: Não é possível abrir arquivo incluir: 'vk/ffx_api_vk.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/dllmain.cpp')
+  

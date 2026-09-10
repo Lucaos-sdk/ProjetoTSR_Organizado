@@ -1,0 +1,10 @@
+{
+  "preservesCurrentIni": true,
+  "hashes": {
+    "OptiScaler.ini": "7194A507252947460AE54BBFBFE1DEC50174F1E191B0B77531F958E2F2F5C890",
+    "dxgi.dll": "A6F7B2B2303022947D10DB73B174DC3B498C8A79C3662CF63E0F103D4E81B48C"
+  },
+  "validation": "Camera history and contract CTests passed; DLL Release build succeeded; compiled history marker verified",
+  "created": "2026-09-07T09:35:26.5860118-03:00",
+  "purpose": "Bounded camera history; unique jitter candidate diagnostics; no neural inference"
+}

@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "XeFG_Dx12.h"
+#include "../../../../native/integration/frame_generation_policy.h"
 #include <hudfix/Hudfix_Dx12.h>
 #include <menu/menu_overlay_dx.h>
 #include <resource_tracking/ResTrack_dx12.h>
@@ -301,6 +302,9 @@ bool XeFG_Dx12::CreateSwapchain(IDXGIFactory* factory, ID3D12CommandQueue* cmdQu
         auto result = XeFGProxy::GetProperties()(_swapChainContext, &props);
         if (result == XEFG_SWAPCHAIN_RESULT_SUCCESS)
         {
+            if(props.maxSupportedInterpolations<1 || props.maxSupportedInterpolations>64) {
+                LOG_ERROR("TSR FG invalid runtime capacity={}",props.maxSupportedInterpolations);return false;
+            }
             _maxInterpolationCount = props.maxSupportedInterpolations;
             LOG_INFO("Max supported interpolations: {}", props.maxSupportedInterpolations);
         }
@@ -379,10 +383,7 @@ bool XeFG_Dx12::CreateSwapchain(IDXGIFactory* factory, ID3D12CommandQueue* cmdQu
     if (_framesToInterpolate > intTarget)
         Config::Instance()->FGXeFGInterpolationCount.set_volatile_value(intTarget);
 
-    if (Config::Instance()->ForceXeLL.value_or_default())
-        params.maxInterpolatedFrames = 1;
-
-    params.maxInterpolatedFrames = intTarget;
+    params.maxInterpolatedFrames = Config::Instance()->ForceXeLL.value_or_default() ? 1 : intTarget;
 
     params.initFlags = XEFG_SWAPCHAIN_INIT_FLAG_NONE;
 
@@ -504,6 +505,9 @@ bool XeFG_Dx12::CreateSwapchain1(IDXGIFactory* factory, ID3D12CommandQueue* cmdQ
         auto result = XeFGProxy::GetProperties()(_swapChainContext, &props);
         if (result == XEFG_SWAPCHAIN_RESULT_SUCCESS)
         {
+            if(props.maxSupportedInterpolations<1 || props.maxSupportedInterpolations>64) {
+                LOG_ERROR("TSR FG invalid runtime capacity={}",props.maxSupportedInterpolations);return false;
+            }
             _maxInterpolationCount = props.maxSupportedInterpolations;
             LOG_INFO("Max supported interpolations: {}", props.maxSupportedInterpolations);
         }
@@ -546,10 +550,7 @@ bool XeFG_Dx12::CreateSwapchain1(IDXGIFactory* factory, ID3D12CommandQueue* cmdQ
     if (_framesToInterpolate > intTarget)
         Config::Instance()->FGXeFGInterpolationCount.set_volatile_value(intTarget);
 
-    if (Config::Instance()->ForceXeLL.value_or_default())
-        params.maxInterpolatedFrames = 1;
-
-    params.maxInterpolatedFrames = intTarget;
+    params.maxInterpolatedFrames = Config::Instance()->ForceXeLL.value_or_default() ? 1 : intTarget;
 
     params.initFlags = XEFG_SWAPCHAIN_INIT_FLAG_NONE;
 
@@ -778,33 +779,16 @@ bool XeFG_Dx12::Dispatch()
 
     if (XeFGProxy::SetNumInterpolatedFrames() != nullptr)
     {
-        if (Config::Instance()->FGXeFGInterpolationCount.value_or_default() > _maxInterpolationCount)
-        {
-            Config::Instance()->FGXeFGInterpolationCount = _maxInterpolationCount;
-            LOG_WARN("Requested interpolation count is higher than max supported, setting to max: {}",
-                     _maxInterpolationCount);
-        }
-
-        if (_framesToInterpolate != Config::Instance()->FGXeFGInterpolationCount.value_or_default())
-        {
-            LOG_INFO("Interpolation count changed {} -> {}", _framesToInterpolate,
-                     Config::Instance()->FGXeFGInterpolationCount.value_or_default());
-
-            state.WAR_xefgRequestFGToggle = true;
-
-#ifndef DONT_USE_XMX
-            ScopedSkipSpoofingGlobal skipSpoofingGlobal {};
-#endif // !DONT_USE_XMX
-
-            auto intResult = XeFGProxy::SetNumInterpolatedFrames()(
-                _swapChainContext, Config::Instance()->FGXeFGInterpolationCount.value_or_default());
-
-            _framesToInterpolate = Config::Instance()->FGXeFGInterpolationCount.value_or_default();
-
-            if (intResult != XEFG_SWAPCHAIN_RESULT_SUCCESS)
-            {
-                LOG_ERROR("SetNumInterpolatedFrames error: {} ({})", magic_enum::enum_name(intResult),
-                          (UINT) intResult);
+        const int maximum = Config::Instance()->ForceXeLL.value_or_default() ? 1 : _maxInterpolationCount;
+        if(maximum<1)return false;
+        const int requested=std::clamp(Config::Instance()->FGXeFGInterpolationCount.value_or_default(),1,maximum);
+        Config::Instance()->FGXeFGInterpolationCount.set_volatile_value(requested);
+        if(_framesToInterpolate!=requested) {
+            if(SetInterpolatedFrameCount(static_cast<UINT>(requested))) {
+                state.WAR_xefgRequestFGToggle=true;
+            } else {
+                // Keep the last accepted count and stop generation until recovery.
+                state.fgChanged=true;UpdateTarget();Deactivate();return false;
             }
         }
     }
@@ -1034,7 +1018,19 @@ void* XeFG_Dx12::SwapchainContext() { return _swapChainContext; }
 
 XeFG_Dx12::~XeFG_Dx12() { Shutdown(); }
 
-bool XeFG_Dx12::SetInterpolatedFrameCount(UINT interpolatedFrameCount) { return true; }
+bool XeFG_Dx12::SetInterpolatedFrameCount(UINT count)
+{
+    if(!_swapChainContext || !XeFGProxy::SetNumInterpolatedFrames())return false;
+    const int maximum=Config::Instance()->ForceXeLL.value_or_default()?1:_maxInterpolationCount;
+    return tsr::integration::ApplyGeneratedFrameCount(count,maximum,_framesToInterpolate,[&](uint32_t requested) {
+#ifndef DONT_USE_XMX
+        ScopedSkipSpoofingGlobal skipSpoofingGlobal {};
+#endif
+        const auto result=XeFGProxy::SetNumInterpolatedFrames()(_swapChainContext,requested);
+        LOG_INFO("TSR FG count: requested_generated={} maximum_generated={} API_result={}",requested,maximum,int(result));
+        return result==XEFG_SWAPCHAIN_RESULT_SUCCESS;
+    });
+}
 
 void XeFG_Dx12::EvaluateState(ID3D12Device* device, FG_Constants& fgConstants)
 {
@@ -1269,6 +1265,16 @@ void XeFG_Dx12::CreateObjects(ID3D12Device* InDevice)
 
 bool XeFG_Dx12::Present()
 {
+    // This hook prepares the upcoming present. Sample the SDK's previous present
+    // status; do not treat it as a physical display counter or a GPU timer.
+    ++_tsrPresentSamples;
+    if(_swapChainContext && XeFGProxy::GetLastPresentStatus() &&
+       (_tsrPresentSamples<=3 || (_tsrPresentSamples<=36000 && _tsrPresentSamples%600==0))) {
+        xefg_swapchain_present_status_t status{};
+        const auto result=XeFGProxy::GetLastPresentStatus()(_swapChainContext,&status);
+        LOG_INFO("TSR FG previous-present: sample={} query_result={} enabled={} frames_sent={} interpolation_result={} max_generated={}",
+                 _tsrPresentSamples,int(result),status.isFrameGenEnabled,status.framesPresented,int(status.frameGenResult),_maxInterpolationCount);
+    }
     auto fIndex = GetIndexWillBeDispatched();
     LOG_DEBUG("fIndex: {}", fIndex);
 

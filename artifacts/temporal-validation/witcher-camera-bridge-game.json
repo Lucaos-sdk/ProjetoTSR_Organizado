@@ -1,0 +1,17 @@
+{
+  "camera_log_samples": 0,
+  "input_log_samples": 89,
+  "candidate_log_samples": 0,
+  "hook_commit_records": [],
+  "camera_sources": {},
+  "camera_viewports": [],
+  "projection_status": {},
+  "basis_status": {},
+  "median_candidate_age_ms": null,
+  "max_candidate_age_ms": null,
+  "errors": [],
+  "neural_active": false,
+  "limitation": "Sampled metadata only: freshness/jitter agreement does not prove frame or viewport association.",
+  "next_check": "No hook-commit record; verify hook installation before concluding that the game omits camera data.",
+  "sha256": "8b51826d2a9a476eb52b4a86a5875a3a415aca684bafc9a2892ebe4fee2a837b"
+}

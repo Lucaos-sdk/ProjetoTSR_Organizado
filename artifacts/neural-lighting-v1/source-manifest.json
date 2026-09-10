@@ -1,0 +1,6 @@
+{
+  "_IA_Python/neural_lighting_scene.py": "2bd5df719a3d030e69ea2e397e59cd16f36bbd50f44795d3e67551846da50a9a",
+  "_IA_Python/neural_lighting_model.py": "fff80068e3016d8d81bd46cb86ee5de0a0dfcd7f018167eb1a0f11cd64511d98",
+  "tools/train_neural_lighting.py": "ba80a4408e8d8004be46eff584c7a3189f0bdb904e3d4a69b2a449a70a8a61e2",
+  "tests/test_neural_lighting.py": "14ee4e8affb359033026312b47cf5b71c175d362944ceec05620b1ecb9fbb27c"
+}

@@ -1,0 +1,20 @@
+{
+  "strength": 0.35,
+  "originalGameHashes": {
+    "dxgi.dll": "5A9899A4496620B566DD9229C64B7665F294893232DBC0B5FE812139AE539996",
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348"
+  },
+  "cameraAssociation": "unique_jitter_experimental",
+  "settingsPreserved": true,
+  "name": "witcher3-relighting-world-v2",
+  "hashes": {
+    "dxgi.dll": "E7DF8477F1C9F272D6F82B120AD83C9C68BD5CB23F22227244A8EF702ED09C11",
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348"
+  },
+  "created": "2026-09-07T16:13:57.7019710-03:00",
+  "hotkey": "F8",
+  "smoothingDefault": 1,
+  "gameValidation": "pending",
+  "ownModel": "world_v2",
+  "worldAnchored": true
+}

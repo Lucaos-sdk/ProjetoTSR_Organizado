@@ -1,0 +1,7 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+PASS actual destruction of unsubmitted temporal work recovered its slot
+PASS invalid format/region, duplicate recording and discarded frame recovery
+PASS three pending submissions refused early slot reuse
+PASS discarded later frame preserved submitted history
+PASS unified context: nine frames, three persistent slots, six reuses, external output and CPU reference

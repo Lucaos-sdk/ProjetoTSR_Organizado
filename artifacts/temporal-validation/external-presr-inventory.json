@@ -1,0 +1,147 @@
+[
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\Comando Powershell.txt",
+    "bytes": 90,
+    "sha256": "C6FE533BFF6B281B5A273A66567B7A1EE777CE2B4ED6EB226FB357DEFA89BBD4"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\dinput8.dll",
+    "bytes": 22662144,
+    "sha256": "4C6D9E359AB6DBD2042A07E5DDCADAB4FA2AEBE2FCFC9EA31A549A4874EFF470"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\dlss-enabler-headless.dll",
+    "bytes": 30712320,
+    "sha256": "F131734E9BF1FD191A9F60FAD54231CD88E45ADA3C957BD02C8763F8E9AD4440"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\dlssnr_on_amd_weights.bin",
+    "bytes": 147689451,
+    "sha256": "6BF8DC931EF3CCFFE18C82DE26AB374156E7F19539FFCF8EABAA25DCA5CF15AB"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\DIAGNOSTICO_AMD.ps1",
+    "bytes": 1479,
+    "sha256": "2B666810AF6D1F042DA7891DD4EF2150E32524F0F37565839E514D729700FC2C"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\dlssnr_amd_pass1.dll",
+    "bytes": 7156224,
+    "sha256": "E145FF963B1EF6146AEE39A7B074268EB1B031A94D3AADBBCAF9DA37E91FA9AD"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\dlssnr_amd_pass2.dll",
+    "bytes": 7156224,
+    "sha256": "E145FF963B1EF6146AEE39A7B074268EB1B031A94D3AADBBCAF9DA37E91FA9AD"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\dlssnr_amd_pass3.dll",
+    "bytes": 7156224,
+    "sha256": "E145FF963B1EF6146AEE39A7B074268EB1B031A94D3AADBBCAF9DA37E91FA9AD"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\dlssnr_on_amd_weights.bin",
+    "bytes": 134,
+    "sha256": "2F1B60D8A62F286643D39011B8A4F6A24B1B0FC1003D58FA2C630412425F160C"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\INSTALAR_AMD.ps1",
+    "bytes": 2691,
+    "sha256": "A3260011232DAAC68F0DA5B2DA10B84B75AF76A9CFE68B0AC612CD92FB11C4AE"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\LEIA-ME-AMD.md",
+    "bytes": 229,
+    "sha256": "FA262DF689CAD2213D617116D63D0E994823481CEAABDCC8631519E0B793E869"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler.dll",
+    "bytes": 25889280,
+    "sha256": "07A1E2CA3FBF6C9C9A2923A755603C69FABF115B0904C92F10EFE95FDB2B0CAA"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler.ini",
+    "bytes": 51232,
+    "sha256": "9FF29486BA1B7AAEA56D184BBEC1CFB22170457E1B2B37712BCC7D7FE95E6164"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\SHA256SUMS.txt",
+    "bytes": 2254,
+    "sha256": "8C5DBEFD4C6746D827D8C27172F909E8F66B101E7EDD0870BCECD435EF00DB9A"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\Licenses\\DirectX_LICENSE.txt",
+    "bytes": 12989,
+    "sha256": "95598665CA96FC6A9355E57BE75FE3AFCDF2501BB39F3B40AC6B91D0ED85915C"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\Licenses\\FidelityFX_v1_LICENSE.md",
+    "bytes": 1119,
+    "sha256": "24574816BC396473A2082BA50AEF02640502395B7CDACA49CE3FAFE4BF6447FC"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\Licenses\\FidelityFX_v2_LICENSE.md",
+    "bytes": 60891,
+    "sha256": "6757F2FEC461238DA6F84F83536EC195E8C036B1773A06F6F34301B9ED8C0963"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\Licenses\\OptiScaler_LICENSE.txt",
+    "bytes": 35149,
+    "sha256": "3972DC9744F6499F0F9B2DBF76696F2AE7AD8AF9B23DDE66D6AF86C9DFB36986"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\Licenses\\RenoDX_ATTRIBUTION.txt",
+    "bytes": 2910,
+    "sha256": "40DB841188178FA6871E4B435F1CF25CF46A7B52070F973CBBBC999EC020D7F2"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\Licenses\\XeSS_LICENSE.txt",
+    "bytes": 4167,
+    "sha256": "E15CA2A10F34D836CFFF59922C35DD9277AE8068353ABB588C851F9D16D4737D"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler\\amd_fidelityfx_framegeneration_dx12.dll",
+    "bytes": 40085776,
+    "sha256": "02297BEEDD285E822D3A64F314CF00FAF378DCEC0EDC47FF0C4DD71B3A8C2F18"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler\\amd_fidelityfx_loader_dx12.dll",
+    "bytes": 26376,
+    "sha256": "E2D85AA05A9BD9ED8B38935FDF5199372CCA6F74C12015143BB6F945EE1608AA"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler\\amd_fidelityfx_upscaler_dx12.dll",
+    "bytes": 28761864,
+    "sha256": "D0DCCCC74A43C44BA435B7A369B456E0970D8A4464E4BD683119B374F2C9FB46"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler\\amd_fidelityfx_vk.dll",
+    "bytes": 9332432,
+    "sha256": "A1624CC4238FEF046F30C4D80CE3F47BE63FC5F5373F49E3EE9EDB9960F54C78"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler\\libxell.dll",
+    "bytes": 415368,
+    "sha256": "D2030DCD694FDA8F2EC7E044B13E6DB8F0B56D4BA9113A5EFAD334E3F3DED8C7"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler\\libxess_dx11.dll",
+    "bytes": 156016,
+    "sha256": "C7CFE86F0C9D94E4FB3696D3CD5035E2BBB6A8B1B0572F8B7395A4CDFD0C625E"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler\\libxess_fg.dll",
+    "bytes": 22957432,
+    "sha256": "EC5E0C65E075570C6EDE72618BB666D0BE0C2E10B2EA9762C0FE8CB8E375AB27"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler\\libxess.dll",
+    "bytes": 77795704,
+    "sha256": "251659DD84A3E84DE67C886A4186E01F3ECA49B00641906FE38BB6B807E5D5B7"
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\Arquivos necessarios\\OptiScaler-AMD-PreSR-Multipass-v1.2\\OptiScaler\\D3D12_OptiScaler\\D3D12Core.dll",
+    "bytes": 3351064,
+    "sha256": "07D286C306F8117321422AFFD9E6388C12D0FB4BE1C7FC689D9E899324FEEB24"
+  }
+]

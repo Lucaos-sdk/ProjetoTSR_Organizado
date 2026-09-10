@@ -1,0 +1,9 @@
+{
+  "samples": 30,
+  "sampledSuccessfulEvaluations": 30,
+  "failedEvaluations": 0,
+  "errors": 0,
+  "streamlineExceptions": 0,
+  "warnings": 27,
+  "sha256": "0538E2CF3187E3B8BAC2EDF65CAFDDAA261B350DB74E71C3D61C933F30CC1AD6"
+}

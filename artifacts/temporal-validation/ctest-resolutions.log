@@ -1,0 +1,41 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+      Start  1: reference
+ 1/18 Test  #1: reference ........................   Passed    0.01 sec
+      Start  2: frame_contract
+ 2/18 Test  #2: frame_contract ...................   Passed    0.01 sec
+      Start  3: temporal_reference
+ 3/18 Test  #3: temporal_reference ...............   Passed    0.01 sec
+      Start  4: reconstruction
+ 4/18 Test  #4: reconstruction ...................   Passed    0.01 sec
+      Start  5: output_history_reference
+ 5/18 Test  #5: output_history_reference .........   Passed    0.01 sec
+      Start  6: runtime_options
+ 6/18 Test  #6: runtime_options ..................   Passed    0.02 sec
+      Start  7: temporal_warp
+ 7/18 Test  #7: temporal_warp ....................   Passed    0.23 sec
+      Start  8: temporal_warp_full
+ 8/18 Test  #8: temporal_warp_full ...............   Passed    4.21 sec
+      Start  9: temporal_cubic_warp
+ 9/18 Test  #9: temporal_cubic_warp ..............   Passed    0.21 sec
+      Start 10: temporal_cubic_warp_full
+10/18 Test #10: temporal_cubic_warp_full .........   Passed   21.55 sec
+      Start 11: output_history_warp
+11/18 Test #11: output_history_warp ..............   Passed    0.23 sec
+      Start 12: output_history_warp_full
+12/18 Test #12: output_history_warp_full .........   Passed    6.16 sec
+      Start 13: output_history_1080p_warp
+13/18 Test #13: output_history_1080p_warp ........   Passed    1.72 sec
+      Start 14: output_history_fractional_wide
+14/18 Test #14: output_history_fractional_wide ...   Passed    0.21 sec
+      Start 15: dx12_warp
+15/18 Test #15: dx12_warp ........................   Passed    0.15 sec
+      Start 16: dx12_warp_full
+16/18 Test #16: dx12_warp_full ...................   Passed    0.79 sec
+      Start 17: dx12_texture_warp
+17/18 Test #17: dx12_texture_warp ................   Passed    0.13 sec
+      Start 18: dx12_texture_warp_full
+18/18 Test #18: dx12_texture_warp_full ...........   Passed    0.73 sec
+
+100% tests passed, 0 tests failed out of 18
+
+Total Test time (real) =  36.59 sec

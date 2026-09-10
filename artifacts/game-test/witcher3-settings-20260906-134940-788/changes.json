@@ -1,0 +1,18 @@
+{
+  "backup": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\artifacts\\game-test\\witcher3-settings-20260906-134940-788",
+  "file": "C:\\Users\\Administrator\\Documents\\The Witcher 3\\dx12user.settings",
+  "changes": [
+    {
+      "before": "5",
+      "after": "7",
+      "setting": "PostProcess.AAMode"
+    },
+    {
+      "before": "1",
+      "after": "2",
+      "setting": "PostProcess.XESSQuality"
+    }
+  ],
+  "installedHash": "4A5E96E698A18B397668303BA33E7ECAF1E35470AAB865BA44A0836F1276A38A",
+  "originalHash": "689B7EBA82A53A9916FDF318B84F2694927766CAB31E55DCD6FD857D084DFF8A"
+}

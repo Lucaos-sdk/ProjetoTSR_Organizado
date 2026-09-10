@@ -1,0 +1,35 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+      Start  1: reference
+ 1/15 Test  #1: reference ........................   Passed    0.05 sec
+      Start  2: frame_contract
+ 2/15 Test  #2: frame_contract ...................   Passed    0.02 sec
+      Start  3: temporal_reference
+ 3/15 Test  #3: temporal_reference ...............   Passed    0.04 sec
+      Start  4: reconstruction
+ 4/15 Test  #4: reconstruction ...................   Passed    0.03 sec
+      Start  5: output_history_reference
+ 5/15 Test  #5: output_history_reference .........   Passed    0.01 sec
+      Start  6: temporal_warp
+ 6/15 Test  #6: temporal_warp ....................   Passed    0.83 sec
+      Start  7: temporal_warp_full
+ 7/15 Test  #7: temporal_warp_full ...............   Passed    5.31 sec
+      Start  8: temporal_cubic_warp
+ 8/15 Test  #8: temporal_cubic_warp ..............   Passed    0.23 sec
+      Start  9: temporal_cubic_warp_full
+ 9/15 Test  #9: temporal_cubic_warp_full .........   Passed   21.91 sec
+      Start 10: output_history_warp
+10/15 Test #10: output_history_warp ..............   Passed    0.22 sec
+      Start 11: output_history_warp_full
+11/15 Test #11: output_history_warp_full .........   Passed    6.10 sec
+      Start 12: dx12_warp
+12/15 Test #12: dx12_warp ........................   Passed    0.16 sec
+      Start 13: dx12_warp_full
+13/15 Test #13: dx12_warp_full ...................   Passed    0.74 sec
+      Start 14: dx12_texture_warp
+14/15 Test #14: dx12_texture_warp ................   Passed    0.12 sec
+      Start 15: dx12_texture_warp_full
+15/15 Test #15: dx12_texture_warp_full ...........   Passed    0.69 sec
+
+100% tests passed, 0 tests failed out of 15
+
+Total Test time (real) =  37.39 sec

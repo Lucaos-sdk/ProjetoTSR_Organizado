@@ -1,0 +1,12 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+PASS actual destruction of unsubmitted temporal work recovered its slot
+PASS invalid format/region, duplicate recording and discarded frame recovery
+PASS three pending submissions refused early slot reuse
+PASS discarded later frame preserved submitted history
+GPU fixed-frame replay: 20 warmups, 100 samples; 1280x720 -> 1920x1080; external FP32; current-only=0; debug=0; frequency=100000000 Hz
+input median=0.17124 ms p95=0.1768 ms
+temporal median=0.64288 ms p95=0.6808 ms
+output median=0.23882 ms p95=0.29148 ms
+total median=1.0836 ms p95=1.10488 ms
+PASS unified context: nine logical frames, nineteen executions including older history replay, retained recordings, six slot reuses and CPU reference

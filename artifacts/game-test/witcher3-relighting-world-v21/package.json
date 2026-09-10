@@ -1,0 +1,21 @@
+{
+  "strength": 0.35,
+  "hashes": {
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348",
+    "dxgi.dll": "211A8296918FCA4BF2237636BD5948AD68F996EF662C58F581D5F44A1426FB63"
+  },
+  "smoothingDefault": 1,
+  "created": "2026-09-07T23:40:44.8373262-03:00",
+  "originalGameHashes": {
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348",
+    "dxgi.dll": "E7DF8477F1C9F272D6F82B120AD83C9C68BD5CB23F22227244A8EF702ED09C11"
+  },
+  "cameraAssociation": "unique_jitter_experimental",
+  "ownModel": "world_v2",
+  "worldAnchored": true,
+  "gameValidation": "pending",
+  "hotkey": "F8",
+  "name": "witcher3-relighting-world-v21",
+  "settingsPreserved": true,
+  "shaderImplementation": "world_v21_shared_depth_12x12"
+}

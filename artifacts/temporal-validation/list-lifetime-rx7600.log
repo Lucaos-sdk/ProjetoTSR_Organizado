@@ -1,0 +1,3 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+PASS actual COM destruction, attachment collision, observer ownership and repeated submission

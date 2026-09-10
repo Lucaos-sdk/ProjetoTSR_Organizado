@@ -1,0 +1,33 @@
+CMake is re-running because C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600/CMakeFiles/generate.stamp is out-of-date.
+  the file 'C:/Users/Administrator/Documents/ProjetoTSR_Organizado/native/baseline/CMakeLists.txt'
+  is newer than 'C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600/CMakeFiles/generate.stamp.depend'
+  result='-1'
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- Configuring done (0.0s)
+-- Generating done (0.6s)
+-- Build files have been written to: C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+Versão do MSBuild 18.9.1+a81b43525 para .NET Framework
+
+  tsr_command_list_lifetime_dx12.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_command_list_lifetime_dx12.exe
+  tsr_dx12_baseline.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_dx12_baseline.exe
+  tsr_frame_contract_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_frame_contract_tests.exe
+  Building Custom Rule C:/Users/Administrator/Documents/ProjetoTSR_Organizado/native/baseline/CMakeLists.txt
+  frame_generation_policy_tests.cpp
+  tsr_frame_generation_policy_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_frame_generation_policy_tests.exe
+  tsr_frame_slots_dx12.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_frame_slots_dx12.exe
+  tsr_frame_slots_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_frame_slots_tests.exe
+  tsr_framegen_capabilities_dx12.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_framegen_capabilities_dx12.exe
+  tsr_fsr_legacy_dx12.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_fsr_legacy_dx12.exe
+  tsr_fsr_sdk_dx12.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_fsr_sdk_dx12.exe
+  tsr_gpu_context_dx12.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_gpu_context_dx12.exe
+  tsr_input_adapter_dx12.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_input_adapter_dx12.exe
+  tsr_input_chain_dx12.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_input_chain_dx12.exe
+  tsr_ngx_frame_adapter_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_ngx_frame_adapter_tests.exe
+  tsr_output_history_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_output_history_tests.exe
+  tsr_reconstruction_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_reconstruction_tests.exe
+  tsr_reference_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_reference_tests.exe
+  tsr_runtime_options_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_runtime_options_tests.exe
+  tsr_submission_observer_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_submission_observer_tests.exe
+  tsr_temporal_dx12.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_temporal_dx12.exe
+  tsr_temporal_reference_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_temporal_reference_tests.exe
+  tsr_texture_region_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_texture_region_tests.exe

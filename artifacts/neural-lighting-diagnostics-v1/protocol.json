@@ -1,0 +1,35 @@
+{
+  "scene_ids": [
+    10000,
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009,
+    10010,
+    10011
+  ],
+  "cases": [
+    "remove_middle",
+    "move_middle_left",
+    "move_middle_right",
+    "remove_all"
+  ],
+  "checkpoint_hashes": {
+    "spatial": "3bcd15745b107448b42f87cf40f7ab21e00ed510ec562bf606069edd46d3f92e",
+    "point": "a975075453dd98ddcbdec1be744474b8e74ef31a4b4ded0b3e64baec818c0079",
+    "temporal": "306a2851b7dbfdbb738b66d46c2177cb022bdedb1806ea7841f0f8db43c82fdc"
+  },
+  "receiver": "same visible ground points, 2-pixel eroded joint visibility mask",
+  "metric": "change of predicted RESIDUAL vs change of reference residual, not change of output RGB alone",
+  "changed_threshold_rgb_mae": 0.005,
+  "unchanged_threshold_rgb_max": 1e-06,
+  "normal_ablation": "fixed weights: reconstructed/analytic normals, clean/0.2-percent noisy depth; targets identical",
+  "diagnostic_gate": "pooled residual-response MAE at least 20 percent below zero response; not a release gate",
+  "training": false,
+  "game_integration_allowed": false
+}

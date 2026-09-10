@@ -1,0 +1,551 @@
+
+  pch.cpp
+  Nvngx_Combo.cpp
+  FSR4Upgrade.cpp
+  GpuTime_Dx11.cpp
+  GpuTime_Dx12.cpp
+  Amdxc64_Hooks.cpp
+  DLSSG_Dx12.cpp
+  FSRFG_Dx12.cpp
+  IFGFeature.cpp
+  IFGFeature_Dx12.cpp
+  Nvngx_FG.cpp
+  FSR4ModelSelection.cpp
+  D3D12_Hooks.cpp
+  DxgiFactory_Hooks.cpp
+  DxgiFactory_WrappedCalls.cpp
+  Dxgi_Hooks.cpp
+  FG_Hooks.cpp
+  Kernel_Hooks.cpp
+  LibraryLoad_Hooks.cpp
+  VulkanwDx12_Hooks.cpp
+  Xell_Hooks.cpp
+  Streamline_Inputs_Sl1_Dx12.cpp
+  device_info.cpp
+  Upscaler_Inputs_Dx11wDx12.cpp
+  input_common.cpp
+  input_reflex.cpp
+  input_xell.cpp
+  input_antilag2.cpp
+  Magnifier_Dx11.cpp
+  input_system.cpp
+  input_system_cursor.cpp
+  input_system_detours.cpp
+  input_system_directinput.cpp
+  input_system_gameinput.cpp
+  input_system_hid.cpp
+  input_system_messages.cpp
+  input_system_raw.cpp
+  input_system_window.cpp
+  input_system_windows_hooks.cpp
+  input_system_xinput.cpp
+  IdentifyGpu.cpp
+  FSR2_Dx11.cpp
+  FSR2_Vk.cpp
+  XeSS_Dx11.cpp
+  ll_util.cpp
+  log.cpp
+  low_latency.cpp
+  low_latency_d3d.cpp
+  ll_antilag2.cpp
+  ll_antilag_vk.cpp
+  ll_latencyflex.cpp
+  ll_xell.cpp
+  low_latency_vk.cpp
+  nvapi_calls.cpp
+  Nvngx_FFX.cpp
+  Nvngx_Nukems.cpp
+  Nvngx_Arturs.cpp
+  NVNGX_Parameter.cpp
+  Nvngx_DllProxy.cpp
+  OptiTypes.cpp
+  DI_Dx12.cpp
+  HCC_Dx12.cpp
+  HudCopy_Dx12.cpp
+  DT_Vk.cpp
+  Magnifier_Common.cpp
+  Magnifier_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\shaders\magnifier\Magnifier_Common.cpp(40,51): warning C4244: '=': conversão de 'LONG' para 'float', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/shaders/magnifier/Magnifier_Common.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\shaders\magnifier\Magnifier_Common.cpp(41,51): warning C4244: '=': conversão de 'LONG' para 'float', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/shaders/magnifier/Magnifier_Common.cpp')
+  
+  Magnifier_Vk.cpp
+  OS_Vk.cpp
+  RCAS_Common.cpp
+  RCAS_Vk.cpp
+  Shader_Common.cpp
+  RUI_Dx12.cpp
+  RC_Vk.cpp
+  Shader_Dx12.cpp
+  Shader_Vk.cpp
+  SkipSpoof.cpp
+  Shader_Dx11.cpp
+  Dxgi_Spoofing.cpp
+  User32_Spoofing.cpp
+  Vulkan_Spoofing.cpp
+  input_uell.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244: 'inicializando': conversão de 'int64_t' para 'unsigned int', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/low_latency/input/input_uell.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17):
+      o contexto de instanciação do modelo (o mais antigo primeiro) é
+          C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\low_latency\input\input_uell.cpp(44,60):
+          consulte a referência à instanciação 'std::optional<UINT>::optional<int64_t&,0>(_Ty2) noexcept' do modelo que está sendo compilada
+          with
+          [
+              _Ty2=int64_t &
+          ]
+              C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\low_latency\input\input_uell.cpp(44,17):
+              veja a primeira referência a 'std::optional<UINT>::optional' em 'InputUeLowLatency::tickStart'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(307,18):
+          consulte a referência à instanciação 'std::_Optional_construct_base<_Ty>::_Optional_construct_base<int64_t&>(std::in_place_t,int64_t &)' do modelo que está sendo compilada
+          with
+          [
+              _Ty=UINT
+          ]
+          C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\low_latency\input\input_uell.cpp(82,1):
+          consulte a referência à instanciação 'std::_Optional_destruct_base<_Ty,true>::_Optional_destruct_base<int64_t&>(std::in_place_t,int64_t &) noexcept' do modelo que está sendo compilada
+          with
+          [
+              _Ty=UINT
+          ]
+  
+  FSR2Feature_VkOnDx12_212.cpp
+  FFXFeature_VkOn12.cpp
+  FSR31Feature.cpp
+  IFeature_Vk.cpp
+  IFeature_VkwDx12.cpp
+  UpscalerTime_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_VkOnDx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_VkOnDx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_VkOn12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_VkOn12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  dx11_with_dx12.cpp
+  with_dx12.cpp
+  dx11_with_dx12_sc.cpp
+  wrapped_factory.cpp
+  FSR3_Dx12_FG.cpp
+  Streamline_Inputs_Dx12.cpp
+  XeFG_Dx12.cpp
+  Streamline_Hooks.cpp
+  Hudfix_Dx12.cpp
+  FfxApiExe_Dx12.cpp
+  FfxApi_Dx12_FG.cpp
+  FfxApi_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\Streamline_Hooks.cpp(246,63): warning C4267: '=': conversão de 'size_t' para 'uint32_t', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/Streamline_Hooks.cpp')
+  
+  Upscaler_Inputs_Dx12.cpp
+  XeSS_Base.cpp
+  XeSS_Common.cpp
+  XeSS_Dbg.cpp
+  XeSS_Vulkan.cpp
+  FrameLimit.cpp
+  fakenvapi.cpp
+  NvApiHooks.cpp
+  NvApiTypes.cpp
+  Reflex_Hooks.cpp
+  ResTrack_dx12.cpp
+  HC_Dx12.cpp
+  RF_Dx12.cpp
+  DS_Dx12.cpp
+  DT_Dx11.cpp
+  DLSSDFeature.cpp
+  DLSSDFeature_Dx11.cpp
+  DLSSDFeature_Dx12.cpp
+  DLSSDFeature_Vk.cpp
+  DLSSFeature.cpp
+  DLSSFeature_Dx11.cpp
+  DLSSFeature_Dx12.cpp
+  DLSSFeature_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+  FeatureProvider_Dx11.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+  FeatureProvider_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\tsr\TsrProbeFeature.h(5,7): warning C4250: 'TsrProbeFeature': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\tsr\TsrProbeFeature.h(5,7): warning C4250: 'TsrProbeFeature': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  TsrNgxAdapter.cpp
+  TsrProbeFeature.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/tsr/TsrProbeFeature.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/tsr/TsrProbeFeature.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\tsr\TsrProbeFeature.h(5,7): warning C4250: 'TsrProbeFeature': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/tsr/TsrProbeFeature.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\tsr\TsrProbeFeature.h(5,7): warning C4250: 'TsrProbeFeature': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/tsr/TsrProbeFeature.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FeatureProvider_Vk.cpp
+  FSR2Feature_212.cpp
+  FSR2Feature_Dx11On12_212.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx11On12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx11On12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FSR2Feature_Dx12_212.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FSR2Feature_Vk_212.cpp
+  FFXFeature.cpp
+  FSR31Feature_Dx11.cpp
+  FFXFeature_Dx11On12.cpp
+  FFXFeature_Dx12.cpp
+  FFXFeature_Vk.cpp
+  IFeature_Dx11.cpp
+  IFeature_Dx11wDx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr31/FSR31Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr31/FSR31Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+  Config.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Dx11On12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Dx11On12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FSR2Feature.cpp
+  FSR2Feature_Dx11.cpp
+  FSR2Feature_Dx11On12.cpp
+  FSR2Feature_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11On12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11On12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FSR2Feature_Vk.cpp
+  IFeature.cpp
+  IFeature_Dx12.cpp
+  FfxApi_Dx12.cpp
+  FSR2_Dx12.cpp
+  FSR3_Dx12.cpp
+  D3D11_Hooks.cpp
+  Vulkan_Hooks.cpp
+  menu_common.cpp
+  menu_dx_base.cpp
+  menu_dx11.cpp
+  menu_dx12.cpp
+  menu_overlay_base.cpp
+  menu_overlay_dx.cpp
+  menu_overlay_vk.cpp
+  wrapped_swapchain.cpp
+  Logger.cpp
+  NVNGX.cpp
+  NVNGX_DLSS_Dx11.cpp
+  NVNGX_DLSS_Dx12.cpp
+  dllmain.cpp
+  NVNGX_DLSS_Vk.cpp
+  XeSSFeature.cpp
+  XeSSFeature_Dx11.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/NVNGX_DLSS_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/NVNGX_DLSS_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  XeSSFeature_Dx11on12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx11on12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx11on12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  XeSSFeature_Dx12.cpp
+  scanner.cpp
+  Bias_Dx11.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  Bias_Dx12.cpp
+  FT_Dx12.cpp
+  OS_Dx11.cpp
+  OS_Dx12.cpp
+  RCAS_Dx11.cpp
+  RCAS_Dx12.cpp
+  XeSSFeature_Vk.cpp
+  Util.cpp
+  version_check.cpp
+  XeSS_Debug.cpp
+  XeSS_Dx12.cpp
+  imgui_impl_win32.cpp
+     Criando biblioteca C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\x64\Release\OptiScaler.lib e objeto C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\x64\Release\OptiScaler.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflita com uso de outras bibliotecas; use /NODEFAULTLIB:library [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  Gerando código
+  3271 of 37062 functions ( 8.8%) were compiled, the rest were copied from previous compilation.
+    118 functions were new in current compilation
+    2508 functions had inline decision re-evaluated but remain unchanged
+  Finalizada a geraçao de código
+  OptiScaler.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\x64\Release\OptiScaler.dll
+  Já existe uma subpasta ou um arquivo C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\x64\Release\a\.
+          1 arquivo(s) movido(s).
+  Já existe uma subpasta ou um arquivo C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\x64\Release\a\Licenses.
+          1 arquivo(s) copiado(s).
+  Já existe uma subpasta ou um arquivo C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\x64\Release\a\OptiScaler.
+  C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\xess\bin\libxell.dll
+  C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\xess\bin\libxess.dll
+  C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\xess\bin\libxess_dx11.dll
+  C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\xess\bin\libxess_fg.dll
+          4 arquivo(s) copiado(s).
+  O sistema nao pode encontrar o caminho especificado.
+          0 arquivo(s) copiado(s).
+  O sistema nao pode encontrar o caminho especificado.
+  O sistema nao pode encontrar o caminho especificado.
+  O sistema nao pode encontrar o caminho especificado.
+  O sistema nao pode encontrar o caminho especificado.
+  O sistema nao pode encontrar o caminho especificado.
+          1 arquivo(s) copiado(s).
+          1 arquivo(s) copiado(s).
+          1 arquivo(s) copiado(s).
+  Já existe uma subpasta ou um arquivo C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\x64\Release\a\OptiScaler\D3D12_OptiScaler\.
+  C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\external\directx_agility_sdk\lib\D3D12Core.dll
+          1 arquivo(s) copiado(s).
+          1 arquivo(s) copiado(s).
+          1 arquivo(s) copiado(s).

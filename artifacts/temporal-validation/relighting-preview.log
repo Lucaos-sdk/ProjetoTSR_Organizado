@@ -1,0 +1,4 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+Relighting 640x360 median_ms=0.0288 p95_ms=0.02884 max_gpu_cpu_error=6.28829e-06
+PASS trained depth-guided relighting, alpha and finite output

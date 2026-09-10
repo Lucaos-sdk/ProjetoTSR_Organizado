@@ -1,0 +1,10 @@
+{
+  "hashes": {
+    "dxgi.dll": "B04E072F7D2004DDBE15204204CF5A15EB43B18281087258C01BCFDEC66F5140",
+    "OptiScaler.ini": "7194A507252947460AE54BBFBFE1DEC50174F1E191B0B77531F958E2F2F5C890"
+  },
+  "created": "2026-09-07T09:07:58.9552944-03:00",
+  "purpose": "Install SL1 camera/tag hooks independently of FG input; retain internal FG guards; own neural inactive",
+  "validation": "DLL Release build succeeded; camera contract tests passed; compiled hook confirmation marker verified",
+  "preservesCurrentIni": true
+}

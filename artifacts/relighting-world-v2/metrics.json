@@ -1,0 +1,22 @@
+{
+  "model": "world_v2",
+  "parameters": 171,
+  "training_seed": 20260907,
+  "initialization_seed": 72,
+  "train_normals": 65536,
+  "held_out_seed": 9871,
+  "held_out_normals": 32768,
+  "steps": 12000,
+  "full_sphere": true,
+  "log_gain_mse": 0.0002687926171347499,
+  "log_gain_p95_abs": 0.032787032425403595,
+  "log_gain_max_abs": 0.12122678756713867,
+  "negative_z_mse": 0.00032182299764826894,
+  "positive_z_mse": 0.00021567799558397382,
+  "weights_sha256": "bd8474d08460d47204642fb4e8e1a3a9bbf33f9e56615adf72af4a7d80ce4177",
+  "limitations": [
+    "Analytic fixed diffuse target, no game training data.",
+    "No cast shadows, physical material recovery or generative image synthesis.",
+    "Quality in game requires visual comparison."
+  ]
+}

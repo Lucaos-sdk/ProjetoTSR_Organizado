@@ -1,0 +1,79 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+      Start  1: frame_generation_policy
+ 1/37 Test  #1: frame_generation_policy ..........   Passed    0.01 sec
+      Start  2: frame_slots
+ 2/37 Test  #2: frame_slots ......................   Passed    0.01 sec
+      Start  3: submission_observer
+ 3/37 Test  #3: submission_observer ..............   Passed    0.01 sec
+      Start  4: texture_regions
+ 4/37 Test  #4: texture_regions ..................   Passed    0.01 sec
+      Start  5: reference
+ 5/37 Test  #5: reference ........................   Passed    0.01 sec
+      Start  6: frame_contract
+ 6/37 Test  #6: frame_contract ...................   Passed    0.01 sec
+      Start  7: temporal_reference
+ 7/37 Test  #7: temporal_reference ...............   Passed    0.01 sec
+      Start  8: reconstruction
+ 8/37 Test  #8: reconstruction ...................   Passed    0.01 sec
+      Start  9: output_history_reference
+ 9/37 Test  #9: output_history_reference .........   Passed    0.01 sec
+      Start 10: runtime_options
+10/37 Test #10: runtime_options ..................   Passed    0.01 sec
+      Start 11: shader_texture_desc_warp
+11/37 Test #11: shader_texture_desc_warp .........   Passed    0.13 sec
+      Start 12: ngx_frame_adapter
+12/37 Test #12: ngx_frame_adapter ................   Passed    0.01 sec
+      Start 13: command_list_lifetime_warp
+13/37 Test #13: command_list_lifetime_warp .......   Passed    0.22 sec
+      Start 14: input_adapter_warp
+14/37 Test #14: input_adapter_warp ...............   Passed    0.17 sec
+      Start 15: input_chain_warp
+15/37 Test #15: input_chain_warp .................   Passed    0.19 sec
+      Start 16: input_chain_fp16_warp
+16/37 Test #16: input_chain_fp16_warp ............   Passed    0.18 sec
+      Start 17: input_regions_warp
+17/37 Test #17: input_regions_warp ...............   Passed    0.17 sec
+      Start 18: input_regions_fp16_warp
+18/37 Test #18: input_regions_fp16_warp ..........   Passed    0.17 sec
+      Start 19: gpu_context_warp
+19/37 Test #19: gpu_context_warp .................   Passed    0.20 sec
+      Start 20: gpu_context_fp16_warp
+20/37 Test #20: gpu_context_fp16_warp ............   Passed    0.18 sec
+      Start 21: ngx_current_frame_warp
+21/37 Test #21: ngx_current_frame_warp ...........   Passed    0.17 sec
+      Start 22: gpu_stage_timing_warp
+22/37 Test #22: gpu_stage_timing_warp ............   Passed    0.20 sec
+      Start 23: frame_slots_warp
+23/37 Test #23: frame_slots_warp .................   Passed    0.17 sec
+      Start 24: benchmark_output_history_warp
+24/37 Test #24: benchmark_output_history_warp ....   Passed    0.18 sec
+      Start 25: benchmark_bilinear_warp
+25/37 Test #25: benchmark_bilinear_warp ..........   Passed    0.13 sec
+      Start 26: temporal_warp
+26/37 Test #26: temporal_warp ....................   Passed    0.18 sec
+      Start 27: temporal_warp_full
+27/37 Test #27: temporal_warp_full ...............   Passed    4.09 sec
+      Start 28: temporal_cubic_warp
+28/37 Test #28: temporal_cubic_warp ..............   Passed    0.18 sec
+      Start 29: temporal_cubic_warp_full
+29/37 Test #29: temporal_cubic_warp_full .........   Passed   20.19 sec
+      Start 30: output_history_warp
+30/37 Test #30: output_history_warp ..............   Passed    0.21 sec
+      Start 31: output_history_warp_full
+31/37 Test #31: output_history_warp_full .........   Passed    5.05 sec
+      Start 32: output_history_1080p_warp
+32/37 Test #32: output_history_1080p_warp ........   Passed    1.54 sec
+      Start 33: output_history_fractional_wide
+33/37 Test #33: output_history_fractional_wide ...   Passed    0.20 sec
+      Start 34: dx12_warp
+34/37 Test #34: dx12_warp ........................   Passed    0.13 sec
+      Start 35: dx12_warp_full
+35/37 Test #35: dx12_warp_full ...................   Passed    0.72 sec
+      Start 36: dx12_texture_warp
+36/37 Test #36: dx12_texture_warp ................   Passed    0.14 sec
+      Start 37: dx12_texture_warp_full
+37/37 Test #37: dx12_texture_warp_full ...........   Passed    0.70 sec
+
+100% tests passed, 0 tests failed out of 37
+
+Total Test time (real) =  36.32 sec

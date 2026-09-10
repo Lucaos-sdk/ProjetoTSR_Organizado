@@ -2,6 +2,7 @@
 #include "XeSS_Dx12.h"
 
 #include "NVNGX_Parameter.h"
+#include <upscalers/tsr/TsrCameraBridge.h>
 
 #include <proxies/XeSS_Proxy.h>
 #include "menu/menu_overlay_dx.h"
@@ -178,6 +179,11 @@ xess_result_t hk_xessD3D12Execute(xess_context_handle_t hContext, ID3D12Graphics
     NVSDK_NGX_Handle* handle = _contexts[hContext];
     xess_d3d12_init_params_t* initParams = &_d3d12InitParams[hContext];
 
+    tsr::game::AuditXeSSCamera(pExecParams->inputWidth,pExecParams->inputHeight,
+        pExecParams->jitterOffsetX,pExecParams->jitterOffsetY,initParams->initFlags,pExecParams->exposureScale,
+        pExecParams->pColorTexture,pExecParams->pDepthTexture,pExecParams->inputColorBase.x,pExecParams->inputColorBase.y,
+        pExecParams->inputDepthBase.x,pExecParams->inputDepthBase.y,pExecParams->resetHistory!=0);
+
     if (_motionScales.contains(hContext))
     {
         auto scales = &_motionScales[hContext];
@@ -248,6 +254,10 @@ xess_result_t hk_xessD3D12Execute(xess_context_handle_t hContext, ID3D12Graphics
 
     State::Instance().setInputApiName = ApiUpscalerInput::XeSS_DX12;
 
+    tsr::game::ScopedXeSSRelighting tsrBinding(pCommandList,pExecParams->pColorTexture,pExecParams->pDepthTexture,
+        pExecParams->inputWidth,pExecParams->inputHeight,pExecParams->jitterOffsetX,pExecParams->jitterOffsetY,
+        pExecParams->inputColorBase.x,pExecParams->inputColorBase.y,pExecParams->inputDepthBase.x,pExecParams->inputDepthBase.y,
+        pExecParams->resetHistory!=0);
     if (NVSDK_NGX_D3D12_EvaluateFeature(pCommandList, handle, params, nullptr) == NVSDK_NGX_Result_Success)
         return XESS_RESULT_SUCCESS;
 

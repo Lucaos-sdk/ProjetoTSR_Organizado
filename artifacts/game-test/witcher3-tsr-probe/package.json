@@ -1,0 +1,12 @@
+{
+  "target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Witcher 3\\bin\\x64_dx12",
+  "neural": false,
+  "created": "2026-09-06T08:46:19.8405276-03:00",
+  "customTemporal": false,
+  "renderer": "FSR 2.1.2",
+  "hashes": {
+    "OptiScaler.ini": "D8D63058F2F5795C7654D161D769082CD98C304B1E3857D508CA42C1E99627E4",
+    "dxgi.dll": "9AA96109A0CF30988E04DDE9D41A3820239AB2CD5FE9E0C06E06DC7B85B85A59"
+  },
+  "kind": "TSR compatibility probe"
+}

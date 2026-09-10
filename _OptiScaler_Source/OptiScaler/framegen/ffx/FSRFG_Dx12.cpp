@@ -769,7 +769,14 @@ ffxReturnCode_t FSRFG_Dx12::DispatchCallback(ffxDispatchDescFrameGeneration* par
 
 FSRFG_Dx12::~FSRFG_Dx12() { Shutdown(); }
 
-bool FSRFG_Dx12::SetInterpolatedFrameCount(UINT interpolatedFrameCount) { return true; }
+bool FSRFG_Dx12::SetInterpolatedFrameCount(UINT count)
+{
+    // This FSR backend produces one midpoint. Accepting higher counts cannot
+    // create distinct intermediate frames or change swapchain pacing.
+    if(count!=1)return false;
+    _framesToInterpolate=1;
+    return true;
+}
 
 void* FSRFG_Dx12::FrameGenerationContext()
 {

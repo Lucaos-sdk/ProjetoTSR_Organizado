@@ -1,0 +1,18 @@
+{
+  "cameraAssociation": "unique_jitter_experimental",
+  "hashes": {
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348",
+    "dxgi.dll": "5A9899A4496620B566DD9229C64B7665F294893232DBC0B5FE812139AE539996"
+  },
+  "created": "2026-09-07T15:03:17.2601882-03:00",
+  "hotkey": "F8",
+  "ownModel": "fixture_v1",
+  "settingsPreserved": true,
+  "name": "witcher3-relighting-hooks-fix",
+  "gameValidation": "pending",
+  "strength": 0.35,
+  "originalGameHashes": {
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348",
+    "dxgi.dll": "9D490DD1B33A2616576D5807C652389B9EB7400DBC5090626EC80C71DF60CC78"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "variant": "t025",
+  "validation_eligible": true,
+  "reports": {
+    "t025": {
+      "rows": [
+        {
+          "seed": 20260911,
+          "condition": "clean",
+          "limits": {
+            "response_zero": 0.7736853543944587,
+            "response": 0.9385683078634872,
+            "image": 0.9227502127310357,
+            "temporal": 0.757073322719134,
+            "unchanged": 0.7292419773739163,
+            "protected": 0.0,
+            "shadow": 0.9221857282964061,
+            "edge": 0.9298371151489113,
+            "gradient": 0.9263294570182081
+          },
+          "image_ratio": 0.9688877233675877
+        },
+        {
+          "seed": 20260911,
+          "condition": "noisy",
+          "limits": {
+            "response_zero": 0.7800005747856117,
+            "response": 0.946666543722004,
+            "image": 0.9185056944624862,
+            "temporal": 0.7696607822363489,
+            "unchanged": 0.7423493008542597,
+            "protected": 0.0,
+            "shadow": 0.921514405530491,
+            "edge": 0.9240604633241364,
+            "gradient": 0.9242474440228359
+          },
+          "image_ratio": 0.9644309791856106
+        },
+        {
+          "seed": 20260912,
+          "condition": "clean",
+          "limits": {
+            "response_zero": 0.7156656546550343,
+            "response": 0.918347688083964,
+            "image": 0.9421842248606254,
+            "temporal": 0.815608099066048,
+            "unchanged": 0.6268054941639023,
+            "protected": 0.0,
+            "shadow": 0.9683091637612172,
+            "edge": 0.8441883785467931,
+            "gradient": 0.9321714883548715
+          },
+          "image_ratio": 0.9892934361036567
+        },
+        {
+          "seed": 20260912,
+          "condition": "noisy",
+          "limits": {
+            "response_zero": 0.7162922146068803,
+            "response": 0.9172079562352943,
+            "image": 0.9415984189349758,
+            "temporal": 0.8328738425688736,
+            "unchanged": 0.6347533480599251,
+            "protected": 0.0,
+            "shadow": 0.9599527827079967,
+            "edge": 0.8548794500485141,
+            "gradient": 0.9307658460247038
+          },
+          "image_ratio": 0.9886783398817247
+        }
+      ],
+      "gates": {
+        "response_zero": true,
+        "response": true,
+        "image": true,
+        "temporal": true,
+        "unchanged": true,
+        "protected": true,
+        "shadow": true,
+        "edge": true,
+        "gradient": true
+      },
+      "passed": true,
+      "worst_violation": 0.9683091637612172,
+      "mean_image_ratio": 0.9778226196346449
+    },
+    "t050": {
+      "rows": [
+        {
+          "seed": 20260911,
+          "condition": "clean",
+          "limits": {
+            "response_zero": 0.791482448889791,
+            "response": 0.9601582071300233,
+            "image": 0.995935913197948,
+            "temporal": 0.5198447096433313,
+            "unchanged": 0.5782023772439393,
+            "protected": 0.0,
+            "shadow": 1.0817386102681292,
+            "edge": 1.0761623638850988,
+            "gradient": 0.9051336884060943
+          },
+          "image_ratio": 1.0457327088578456
+        },
+        {
+          "seed": 20260911,
+          "condition": "noisy",
+          "limits": {
+            "response_zero": 0.7958803568672785,
+            "response": 0.9659394249278185,
+            "image": 0.9850565729379753,
+            "temporal": 0.5164078329148688,
+            "unchanged": 0.5849110206719679,
+            "protected": 0.0,
+            "shadow": 1.0813286289598076,
+            "edge": 1.0684282149986217,
+            "gradient": 0.8975762938689632
+          },
+          "image_ratio": 1.0343094015848742
+        },
+        {
+          "seed": 20260912,
+          "condition": "clean",
+          "limits": {
+            "response_zero": 0.7292048530971736,
+            "response": 0.9357212919546738,
+            "image": 1.0116655004783301,
+            "temporal": 0.7045085207703092,
+            "unchanged": 0.6631236561924612,
+            "protected": 0.0,
+            "shadow": 1.0004535452719956,
+            "edge": 0.903527535949286,
+            "gradient": 0.9497153644600242
+          },
+          "image_ratio": 1.062248775502247
+        },
+        {
+          "seed": 20260912,
+          "condition": "noisy",
+          "limits": {
+            "response_zero": 0.7272521725878298,
+            "response": 0.9312421177899449,
+            "image": 1.0094229607554204,
+            "temporal": 0.7199633666882405,
+            "unchanged": 0.6649646721804748,
+            "protected": 0.0,
+            "shadow": 0.9963873977560684,
+            "edge": 0.913341545978533,
+            "gradient": 0.9417979030621839
+          },
+          "image_ratio": 1.0598941087931915
+        }
+      ],
+      "gates": {
+        "response_zero": true,
+        "response": true,
+        "image": false,
+        "temporal": true,
+        "unchanged": true,
+        "protected": true,
+        "shadow": false,
+        "edge": false,
+        "gradient": true
+      },
+      "passed": false,
+      "worst_violation": 1.0817386102681292,
+      "mean_image_ratio": 1.0505462486845394
+    },
+    "t100": {
+      "rows": [
+        {
+          "seed": 20260911,
+          "condition": "clean",
+          "limits": {
+            "response_zero": 0.7158105528696617,
+            "response": 0.8683595928780805,
+            "image": 0.957497672549552,
+            "temporal": 0.4002711928921166,
+            "unchanged": 0.5288925101125996,
+            "protected": 0.0,
+            "shadow": 0.9398170153886458,
+            "edge": 1.0088222133295834,
+            "gradient": 0.8664148156094252
+          },
+          "image_ratio": 1.0053725561770297
+        },
+        {
+          "seed": 20260911,
+          "condition": "noisy",
+          "limits": {
+            "response_zero": 0.7151568721207499,
+            "response": 0.8679674172492392,
+            "image": 0.9509829303425688,
+            "temporal": 0.4020215592248593,
+            "unchanged": 0.5362499472027962,
+            "protected": 0.0,
+            "shadow": 0.9377467833673666,
+            "edge": 1.004843275114548,
+            "gradient": 0.8584745161909069
+          },
+          "image_ratio": 0.9985320768596972
+        },
+        {
+          "seed": 20260912,
+          "condition": "clean",
+          "limits": {
+            "response_zero": 0.7365087738301446,
+            "response": 0.9450937393753979,
+            "image": 0.9941178249876961,
+            "temporal": 0.5428274235634349,
+            "unchanged": 0.5868439665905684,
+            "protected": 0.0,
+            "shadow": 1.0281922832215666,
+            "edge": 0.8709929986377654,
+            "gradient": 0.9349641510322292
+          },
+          "image_ratio": 1.043823716237081
+        },
+        {
+          "seed": 20260912,
+          "condition": "noisy",
+          "limits": {
+            "response_zero": 0.7387791711368702,
+            "response": 0.9460023714477277,
+            "image": 0.9935846352494494,
+            "temporal": 0.5767347261255579,
+            "unchanged": 0.596732970268337,
+            "protected": 0.0,
+            "shadow": 1.0270819460592644,
+            "edge": 0.8808842158034751,
+            "gradient": 0.9279740085379313
+          },
+          "image_ratio": 1.0432638670119219
+        }
+      ],
+      "gates": {
+        "response_zero": true,
+        "response": true,
+        "image": true,
+        "temporal": true,
+        "unchanged": true,
+        "protected": true,
+        "shadow": false,
+        "edge": false,
+        "gradient": true
+      },
+      "passed": false,
+      "worst_violation": 1.0281922832215666,
+      "mean_image_ratio": 1.0227480540714324
+    }
+  },
+  "reason": "lowest image error among eligible"
+}

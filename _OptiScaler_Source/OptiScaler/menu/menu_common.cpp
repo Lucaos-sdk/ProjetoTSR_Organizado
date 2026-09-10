@@ -1,5 +1,6 @@
 ﻿#include "pch.h"
 #include "menu_common.h"
+#include <upscalers/tsr/TsrRelightingControls.h>
 
 #include "input/input_system.h"
 
@@ -504,7 +505,7 @@ void MenuCommon::AddDx11Backends(Upscaler upscaler)
 void MenuCommon::AddDx12Backends(Upscaler upscaler)
 {
     RenderUpscalerCombo(API::DX12, upscaler,
-                        { Upscaler::XeSS, Upscaler::FSR21, Upscaler::FSR22, Upscaler::FFX, Upscaler::DLSS });
+                        { Upscaler::XeSS, Upscaler::FSR21, Upscaler::FSR22, Upscaler::FFX, Upscaler::DLSS, Upscaler::TSRProbe });
 }
 
 void MenuCommon::AddVulkanBackends(Upscaler upscaler)
@@ -2734,6 +2735,43 @@ void MenuCommon::RenderActiveUpscalerSettings(RenderMenuContext& ctx)
                 {
                     ImGui::Spacing();
 
+                    tsr::game::InitRelightingControls();
+                    bool tsrEnabled=tsr::game::relightingEnabled.load();
+                    if(ImGui::Checkbox("TSR experimental relighting (F8)",&tsrEnabled))
+                        tsr::game::relightingEnabled=tsrEnabled;
+                    float tsrStrength=tsr::game::relightingStrength.load();
+                    if(ImGui::SliderFloat("TSR intensity",&tsrStrength,0.f,1.f,"%.2f"))
+                        tsr::game::relightingStrength=tsrStrength;
+                    float tsrSmoothing=tsr::game::relightingSmoothing.load();
+                    if(ImGui::SliderFloat("TSR surface smoothing",&tsrSmoothing,0.f,1.f,"%.2f"))
+                        tsr::game::relightingSmoothing=tsrSmoothing;
+                    float tsrColorTransfer=tsr::game::relightingColorTransfer.load();
+                    if(ImGui::SliderFloat("TSR color transfer",&tsrColorTransfer,0.f,1.f,"%.2f"))
+                        tsr::game::relightingColorTransfer=tsrColorTransfer;
+                    ShowHelpMarker("0 preserves the game's colors while applying learned lighting.\n"
+                        "1 restores V2.1 colored lighting. Intermediate values blend both. Session setting.");
+                    if(ImGui::Button("Preserve game colors"))tsr::game::relightingColorTransfer=0;
+                    ImGui::SameLine();
+                    if(ImGui::Button("V2.1 colored light"))tsr::game::relightingColorTransfer=1;
+                    bool tsrProtection=tsr::game::relightingSceneryProtection.load();
+                    if(ImGui::Checkbox("TSR scenery protection",&tsrProtection))tsr::game::relightingSceneryProtection=tsrProtection;
+                    ShowHelpMarker("Fades lighting in distant scenery and at uncertain depth edges.\n"
+                        "Helps preserve fog and distant foliage. Off compares with V2.2. Session setting.");
+                    float tsrReach=tsr::game::relightingReach.load();
+                    if(ImGui::SliderFloat("TSR effect reach",&tsrReach,20.f,200.f,"%.0f"))tsr::game::relightingReach=tsrReach;
+                    ShowHelpMarker("Smaller values protect more of the scenery. Default 80.\n"
+                        "Measured in this game's camera units; not a universal meter scale.");
+                    if(ImGui::Button("Set light direction from current view"))++tsr::game::relightingAnchorRevision;
+                    ImGui::Text("TSR pass: %s | frames: %llu",tsr::game::relightingActive.load()?"ACTIVE":"BYPASS",
+                        static_cast<unsigned long long>(tsr::game::relightingFrames.load()));
+                    ImGui::TextWrapped("TSR status: %s",tsr::game::relightingStatus.load());
+                    const double tsrMs=tsr::game::relightingGpuMs.load();
+                    if(tsrMs>=0)ImGui::Text("TSR GPU pass: %.3f ms (last completed)",tsrMs);
+                    ShowHelpMarker("Experimental learned surface-light adjustment before FSR.\n"
+                        "V2.3: distant scenery and depth-edge protection, fixed light and color preservation. XeSS DX12 input only.\n"
+                        "The direction button sets a new anchor; light stays fixed while the camera moves.\n"
+                        "F8 and intensity changes apply to this session. AMD FSR model is unchanged.");
+
                     bool debugView = config->FsrDebugView.value_or_default();
                     if (ImGui::Checkbox("Upscaler Debug View", &debugView))
                     {
@@ -3958,14 +3996,14 @@ void MenuCommon::RenderFrameGenerationRuntimeSettings(RenderMenuContext& ctx)
             ImGui::SameLine(0.0f, 16.0f);
 
             const char* intModes[] = { "2X", "3X", "4X", "5X", "6X" };
-            auto currentSet = fgOutput->GetInterpolatedFrameCount() - 1;
+            auto currentSet = std::clamp(int(fgOutput->GetInterpolatedFrameCount()) - 1, 0, 4);
             auto currentIntCount = intModes[currentSet];
 
             ImGui::PushItemWidth(95.0f * menuResScale);
 
             if (ImGui::BeginCombo("MFG", currentIntCount))
             {
-                for (int i = 0; i < maxInterpolationCount; i++)
+                for (int i = 0; i < std::min(maxInterpolationCount, 5); i++)
                 {
                     if (ImGui::Selectable(intModes[i], (currentSet == i)))
                     {
@@ -4123,14 +4161,14 @@ void MenuCommon::RenderFrameGenerationRuntimeSettings(RenderMenuContext& ctx)
             ImGui::BeginDisabled(config->FGDLSSGForceDMFG.value_or_default());
 
             const char* intModes[] = { "2X", "3X", "4X", "5X", "6X" };
-            auto currentSet = fgOutput->GetInterpolatedFrameCount() - 1;
+            auto currentSet = std::clamp(int(fgOutput->GetInterpolatedFrameCount()) - 1, 0, 4);
             auto currentIntCount = intModes[currentSet];
 
             ImGui::PushItemWidth(95.0f * menuResScale);
 
             if (ImGui::BeginCombo("MFG", currentIntCount))
             {
-                for (int i = 0; i < maxInterpolationCount; i++)
+                for (int i = 0; i < std::min(maxInterpolationCount, 5); i++)
                 {
                     if (ImGui::Selectable(intModes[i], (currentSet == i)))
                     {

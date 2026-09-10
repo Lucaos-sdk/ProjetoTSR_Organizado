@@ -1,0 +1,11 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+    Start  2: submission_observer
+1/3 Test  #2: submission_observer ..............   Passed    0.01 sec
+    Start 15: gpu_context_warp
+2/3 Test #15: gpu_context_warp .................   Passed    0.16 sec
+    Start 16: gpu_context_fp16_warp
+3/3 Test #16: gpu_context_fp16_warp ............   Passed    0.15 sec
+
+100% tests passed, 0 tests failed out of 3
+
+Total Test time (real) =   0.33 sec

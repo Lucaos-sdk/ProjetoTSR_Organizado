@@ -1,0 +1,8 @@
+{
+  "tools/diagnose_regional_temporal_regions.py": "e2f8eb0d1d156dc907796938ab82d550852249086a04c1e91404189720548254",
+  "_IA_Python/neural_regional_training.py": "d40d35562fff21bde304aca6f007966ed82c7dc49c73d407aa763e3d9c2155d2",
+  "_IA_Python/neural_regional_inference.py": "c9ba9a3754da3d5dea1719941e2e0a10010d7fbb0873349bc08a265217410bd5",
+  "_IA_Python/neural_generalization_scene.py": "34939ee573ea3486c9cdbda1b6ed7928a3e333f0ed5766c3324475f67415f66d",
+  "_IA_Python/neural_lighting_scene.py": "dad87d5e2c09c6cc821f21c46561f9cf5b79edcd9482f9a1901c1c323ed59c2f",
+  "_IA_Python/neural_lighting_model.py": "fff80068e3016d8d81bd46cb86ee5de0a0dfcd7f018167eb1a0f11cd64511d98"
+}

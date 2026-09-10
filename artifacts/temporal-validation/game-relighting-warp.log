@@ -1,0 +1,8 @@
+Adapter: Microsoft Basic Render Driver [WARP]
+Resource path: Texture2D RGBA32F
+PASS native_depth=0 fp16=0 error=5.96046e-08 changed_channels=4756
+PASS native_depth=0 fp16=1 error=0.000488222 changed_channels=4812
+PASS native_depth=1 fp16=0 error=5.96046e-08 changed_channels=4758
+PASS native_depth=1 fp16=1 error=0.000488222 changed_channels=4814
+PASS six in-flight slots, list destruction before GPU completion, no-wait fallback and reuse after fences
+PASS actual runtime raw-depth, FP16, sky, discontinuities, alpha, replay and duplicate/bypass contracts; max_error=0.000488222

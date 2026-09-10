@@ -1,0 +1,14 @@
+{
+  "bilinear": {
+    "frames": 16,
+    "mean_mse": 0.002602477881625,
+    "residual_delta_mse": 0.0012458965958666668
+  },
+  "cubic": {
+    "frames": 16,
+    "mean_mse": 0.0026209560759375,
+    "residual_delta_mse": 0.0012611828741333332
+  },
+  "mse_reduction_percent": -0.7100231069384622,
+  "residual_delta_reduction_percent": -1.2269299328194316
+}

@@ -1,0 +1,4 @@
+Adapter: Microsoft Basic Render Driver [WARP]
+Resource path: Texture2D RGBA32F
+Relighting 321x181 median_ms=1.8794 p95_ms=1.9805 max_gpu_cpu_error=4.17233e-07
+PASS trained depth-guided relighting, alpha and finite output

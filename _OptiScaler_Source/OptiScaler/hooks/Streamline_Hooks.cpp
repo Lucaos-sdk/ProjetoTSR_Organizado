@@ -1,6 +1,7 @@
 #include <pch.h>
 
 #include "Streamline_Hooks.h"
+#include <upscalers/tsr/TsrCameraBridge.h>
 
 #include <Util.h>
 #include <Config.h>
@@ -613,6 +614,8 @@ bool StreamlineHooks::hkslInit_sl1(const sl1::Preferences& pref, int application
 bool StreamlineHooks::hkslSetTag_sl1(const sl1::Resource* resource, sl1::BufferType tag, uint32_t id,
                                      const sl1::Extent* extent)
 {
+    tsr::game::ObserveSl1Tag(uint32_t(tag),id,resource?resource->native:nullptr,
+        extent?extent->left:0,extent?extent->top:0,extent?extent->width:0,extent?extent->height:0);
     if (IsSL1AndFGActive())
         State::Instance().s_sl1FGInputs.setTag(resource, tag, id, extent);
 
@@ -624,6 +627,8 @@ bool StreamlineHooks::hkslSetConstants_sl1(const sl1::Constants& values, uint32_
     std::scoped_lock lock(setConstantsMutex);
 
     LOG_TRACE("SL1 slSetConstants frameIndex: {}, id: {}", frameIndex, id);
+
+    tsr::game::ObserveCamera(values,frameIndex,id,1);
 
     if (IsSL1AndFGActive())
         State::Instance().s_sl1FGInputs.setConstants(values, frameIndex, id);
@@ -1046,6 +1051,8 @@ sl::Result StreamlineHooks::hkslSetConstants(const sl::Constants& values, const 
 {
     std::scoped_lock lock(setConstantsMutex);
     LOG_TRACE("called with frameIndex: {}, viewport: {}", (unsigned int) frame, (unsigned int) viewport);
+
+    tsr::game::ObserveCamera(values,(uint32_t)frame,(uint32_t)viewport,2);
 
     State::Instance().slFGInputs.setConstants(values, (uint32_t) frame);
 
@@ -1963,17 +1970,17 @@ void StreamlineHooks::hookInterposer(HMODULE slInterposer)
                 if (o_slInit_sl1)
                     DetourAttach(&(PVOID&) o_slInit_sl1, hkslInit_sl1);
 
-                if (IsSL1AndFGActive())
-                {
-                    if (o_slSetTag_sl1)
-                        DetourAttach(&(PVOID&) o_slSetTag_sl1, hkslSetTag_sl1);
+                // Observe camera/tag data for every SL1 input path, including
+                // native XeSS + OptiFG. The callbacks independently gate FG work.
+                // Attaching every resolved export also matches unhookInterposer.
+                if (o_slSetTag_sl1)
+                    DetourAttach(&(PVOID&) o_slSetTag_sl1, hkslSetTag_sl1);
 
-                    if (o_slSetConstants_interposer_sl1)
-                        DetourAttach(&(PVOID&) o_slSetConstants_interposer_sl1, hkslSetConstants_sl1);
+                if (o_slSetConstants_interposer_sl1)
+                    DetourAttach(&(PVOID&) o_slSetConstants_interposer_sl1, hkslSetConstants_sl1);
 
-                    if (o_slEvaluateFeature_sl1)
-                        DetourAttach(&(PVOID&) o_slEvaluateFeature_sl1, hkslEvaluateFeature_sl1);
-                }
+                if (o_slEvaluateFeature_sl1)
+                    DetourAttach(&(PVOID&) o_slEvaluateFeature_sl1, hkslEvaluateFeature_sl1);
 
                 auto detourResult = DetourTransactionCommit();
                 if (detourResult != NO_ERROR)
@@ -1983,6 +1990,11 @@ void StreamlineHooks::hookInterposer(HMODULE slInterposer)
                     o_slSetTag_sl1 = nullptr;
                     o_slSetConstants_interposer_sl1 = nullptr;
                     o_slEvaluateFeature_sl1 = nullptr;
+                }
+                else
+                {
+                    LOG_INFO("TSR camera hooks committed: source=SL1 constants={} tags={} evaluate={} fg_input_gate=false",
+                        o_slSetConstants_interposer_sl1!=nullptr,o_slSetTag_sl1!=nullptr,o_slEvaluateFeature_sl1!=nullptr);
                 }
             }
         }

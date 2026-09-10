@@ -1,0 +1,5050 @@
+{
+  "protocol": {
+    "train": [
+      6000,
+      6001,
+      6002,
+      6003,
+      6004,
+      6005,
+      6006,
+      6007,
+      6008,
+      6009,
+      6010,
+      6011,
+      6012,
+      6013,
+      6014,
+      6015,
+      6016,
+      6017,
+      6018,
+      6019,
+      6020,
+      6021,
+      6022,
+      6023,
+      6024,
+      6025,
+      6026,
+      6027,
+      6028,
+      6029,
+      6030,
+      6031,
+      6032,
+      6033,
+      6034,
+      6035,
+      6036,
+      6037,
+      6038,
+      6039,
+      6040,
+      6041,
+      6042,
+      6043,
+      6044,
+      6045,
+      6046,
+      6047,
+      6048,
+      6049,
+      6050,
+      6051,
+      6052,
+      6053,
+      6054,
+      6055,
+      6056,
+      6057,
+      6058,
+      6059,
+      6060,
+      6061,
+      6062,
+      6063
+    ],
+    "validation": [
+      7000,
+      7001,
+      7002,
+      7003,
+      7004,
+      7005,
+      7006,
+      7007,
+      7008,
+      7009,
+      7010,
+      7011
+    ],
+    "test": [
+      8000,
+      8001,
+      8002,
+      8003,
+      8004,
+      8005,
+      8006,
+      8007,
+      8008,
+      8009,
+      8010,
+      8011
+    ],
+    "train_yaw": [
+      -0.1,
+      0.0,
+      0.1
+    ],
+    "test_yaw": [
+      -0.08,
+      0.08
+    ],
+    "steps": 1000,
+    "seed": 20260909,
+    "batch_seed": 817,
+    "resolution": [
+      96,
+      64
+    ],
+    "batch": 4,
+    "learning_rate": 0.002,
+    "checkpoint": "fixed final step, no test-based selection",
+    "teacher": "Lambertian direct area-light samples with analytic visibility rays; two fixed world-space light rigs; fog composed after lighting",
+    "inputs": "RGB compressed, world normals reconstructed from observed depth, observed camera Z / 30, known valid mask",
+    "excluded_inputs": [
+      "albedo",
+      "light visibility",
+      "shadow mask",
+      "analytic normals",
+      "occluded geometry"
+    ],
+    "input_noise": "0.05 percent relative depth in training; clean and 0.2 percent in held-out evaluation",
+    "target_limitations": "Only spheres and ground, diffuse materials, fixed rigs, four light samples; no indirect lighting, specular materials, game images or generative prior",
+    "candidate_gates": {
+      "min_mae_gain_vs_point": 0.1,
+      "min_shadow_gain_vs_point": 0.1,
+      "min_mae_gain_vs_global_rgb": 0.15,
+      "max_gradient_regression_vs_point": 0.05,
+      "max_temporal_regression_vs_point": 0.05
+    },
+    "game_integration_allowed": false,
+    "gpu_latency_ms": null
+  },
+  "torch": "2.13.0+cpu",
+  "data_sha256": "731990208564045bc4aad0688faafa2b8a6cdd34d6dce0c42f24a706b05063eb",
+  "global_rgb_gain": [
+    1.2468945980072021,
+    1.1448503732681274,
+    1.103566288948059
+  ],
+  "training": {
+    "spatial": {
+      "parameters": 38787,
+      "cpu_train_seconds": 27.894491199986078,
+      "curve": [
+        {
+          "step": 1,
+          "loss": 0.05769610404968262
+        },
+        {
+          "step": 200,
+          "loss": 0.029556721448898315
+        },
+        {
+          "step": 400,
+          "loss": 0.023908941075205803
+        },
+        {
+          "step": 600,
+          "loss": 0.022480987012386322
+        },
+        {
+          "step": 800,
+          "loss": 0.017123207449913025
+        },
+        {
+          "step": 1000,
+          "loss": 0.016820672899484634
+        }
+      ],
+      "sha256": "3bcd15745b107448b42f87cf40f7ab21e00ed510ec562bf606069edd46d3f92e"
+    },
+    "point": {
+      "parameters": 38967,
+      "cpu_train_seconds": 87.35280989998137,
+      "curve": [
+        {
+          "step": 1,
+          "loss": 0.05769610404968262
+        },
+        {
+          "step": 200,
+          "loss": 0.0477088987827301
+        },
+        {
+          "step": 400,
+          "loss": 0.036078110337257385
+        },
+        {
+          "step": 600,
+          "loss": 0.04173561558127403
+        },
+        {
+          "step": 800,
+          "loss": 0.037880998104810715
+        },
+        {
+          "step": 1000,
+          "loss": 0.03402546048164368
+        }
+      ],
+      "sha256": "a975075453dd98ddcbdec1be744474b8e74ef31a4b4ded0b3e64baec818c0079"
+    }
+  },
+  "validation": {
+    "input": {
+      "clean": {
+        "mean": {
+          "mae": 0.05652674147859216,
+          "shadow_mae": 0.05601236146564285,
+          "sphere_mae": 0.08213198666150372,
+          "gradient_mae": 0.015743155653278034,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 7000,
+            "yaw": -0.08,
+            "mae": 0.057297997176647186,
+            "shadow_mae": 0.062151893973350525,
+            "sphere_mae": 0.12482642382383347,
+            "gradient_mae": 0.01848975569009781,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7000,
+            "yaw": 0.08,
+            "mae": 0.06231541186571121,
+            "shadow_mae": 0.059970673173666,
+            "sphere_mae": 0.11757689714431763,
+            "gradient_mae": 0.01896265149116516,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": -0.08,
+            "mae": 0.04683725908398628,
+            "shadow_mae": 0.05209776386618614,
+            "sphere_mae": 0.0724513903260231,
+            "gradient_mae": 0.012521984055638313,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": 0.08,
+            "mae": 0.05078503116965294,
+            "shadow_mae": 0.052430957555770874,
+            "sphere_mae": 0.06954791396856308,
+            "gradient_mae": 0.012908093631267548,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": -0.08,
+            "mae": 0.04598618298768997,
+            "shadow_mae": 0.03982095420360565,
+            "sphere_mae": 0.0662163719534874,
+            "gradient_mae": 0.01366104930639267,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": 0.08,
+            "mae": 0.04997090995311737,
+            "shadow_mae": 0.04191753640770912,
+            "sphere_mae": 0.06802946329116821,
+            "gradient_mae": 0.014423388987779617,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": -0.08,
+            "mae": 0.07076206803321838,
+            "shadow_mae": 0.0735798254609108,
+            "sphere_mae": 0.06642547994852066,
+            "gradient_mae": 0.018061326816678047,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": 0.08,
+            "mae": 0.07749594002962112,
+            "shadow_mae": 0.08254113793373108,
+            "sphere_mae": 0.06907273828983307,
+            "gradient_mae": 0.019509002566337585,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": -0.08,
+            "mae": 0.04042675346136093,
+            "shadow_mae": 0.04727974534034729,
+            "sphere_mae": 0.09380118548870087,
+            "gradient_mae": 0.013393181376159191,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": 0.08,
+            "mae": 0.04411807283759117,
+            "shadow_mae": 0.050581179559230804,
+            "sphere_mae": 0.0919618308544159,
+            "gradient_mae": 0.013963835313916206,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": -0.08,
+            "mae": 0.062088508158922195,
+            "shadow_mae": 0.06450138986110687,
+            "sphere_mae": 0.06654950976371765,
+            "gradient_mae": 0.01647329516708851,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": 0.08,
+            "mae": 0.06783203780651093,
+            "shadow_mae": 0.06603777408599854,
+            "sphere_mae": 0.06688927859067917,
+            "gradient_mae": 0.01738766022026539,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": -0.08,
+            "mae": 0.03436194360256195,
+            "shadow_mae": 0.02714655175805092,
+            "sphere_mae": 0.05465586856007576,
+            "gradient_mae": 0.009445233270525932,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": 0.08,
+            "mae": 0.037484992295503616,
+            "shadow_mae": 0.02683134377002716,
+            "sphere_mae": 0.05419444292783737,
+            "gradient_mae": 0.00982657726854086,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": -0.08,
+            "mae": 0.07067203521728516,
+            "shadow_mae": 0.0664973109960556,
+            "sphere_mae": 0.07892397046089172,
+            "gradient_mae": 0.017628241330385208,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": 0.08,
+            "mae": 0.07685885578393936,
+            "shadow_mae": 0.0789961889386177,
+            "sphere_mae": 0.07406982779502869,
+            "gradient_mae": 0.018694259226322174,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": -0.08,
+            "mae": 0.05428216978907585,
+            "shadow_mae": 0.06031753122806549,
+            "sphere_mae": 0.07888977974653244,
+            "gradient_mae": 0.015906350687146187,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": 0.08,
+            "mae": 0.05923505499958992,
+            "shadow_mae": 0.05894946679472923,
+            "sphere_mae": 0.07759369164705276,
+            "gradient_mae": 0.016653046011924744,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": -0.08,
+            "mae": 0.05017813295125961,
+            "shadow_mae": 0.05178888887166977,
+            "sphere_mae": 0.10617660731077194,
+            "gradient_mae": 0.01642952486872673,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": 0.08,
+            "mae": 0.0546143613755703,
+            "shadow_mae": 0.05261746793985367,
+            "sphere_mae": 0.0997447520494461,
+            "gradient_mae": 0.01667965017259121,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": -0.08,
+            "mae": 0.06448951363563538,
+            "shadow_mae": 0.05207158252596855,
+            "sphere_mae": 0.11945903301239014,
+            "gradient_mae": 0.016103023663163185,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": 0.08,
+            "mae": 0.07038679718971252,
+            "shadow_mae": 0.04932686313986778,
+            "sphere_mae": 0.11409596353769302,
+            "gradient_mae": 0.017186541110277176,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": -0.08,
+            "mae": 0.051719095557928085,
+            "shadow_mae": 0.06179056316614151,
+            "sphere_mae": 0.07059302926063538,
+            "gradient_mae": 0.01657964661717415,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": 0.08,
+            "mae": 0.05644267052412033,
+            "shadow_mae": 0.0650520846247673,
+            "sphere_mae": 0.06942223012447357,
+            "gradient_mae": 0.016948416829109192,
+            "protected_max_change": 0.0
+          }
+        ]
+      },
+      "noisy_depth": {
+        "mean": {
+          "mae": 0.05652674147859216,
+          "shadow_mae": 0.05601236146564285,
+          "sphere_mae": 0.08213198666150372,
+          "gradient_mae": 0.015743155653278034,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 7000,
+            "yaw": -0.08,
+            "mae": 0.057297997176647186,
+            "shadow_mae": 0.062151893973350525,
+            "sphere_mae": 0.12482642382383347,
+            "gradient_mae": 0.01848975569009781,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7000,
+            "yaw": 0.08,
+            "mae": 0.06231541186571121,
+            "shadow_mae": 0.059970673173666,
+            "sphere_mae": 0.11757689714431763,
+            "gradient_mae": 0.01896265149116516,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": -0.08,
+            "mae": 0.04683725908398628,
+            "shadow_mae": 0.05209776386618614,
+            "sphere_mae": 0.0724513903260231,
+            "gradient_mae": 0.012521984055638313,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": 0.08,
+            "mae": 0.05078503116965294,
+            "shadow_mae": 0.052430957555770874,
+            "sphere_mae": 0.06954791396856308,
+            "gradient_mae": 0.012908093631267548,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": -0.08,
+            "mae": 0.04598618298768997,
+            "shadow_mae": 0.03982095420360565,
+            "sphere_mae": 0.0662163719534874,
+            "gradient_mae": 0.01366104930639267,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": 0.08,
+            "mae": 0.04997090995311737,
+            "shadow_mae": 0.04191753640770912,
+            "sphere_mae": 0.06802946329116821,
+            "gradient_mae": 0.014423388987779617,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": -0.08,
+            "mae": 0.07076206803321838,
+            "shadow_mae": 0.0735798254609108,
+            "sphere_mae": 0.06642547994852066,
+            "gradient_mae": 0.018061326816678047,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": 0.08,
+            "mae": 0.07749594002962112,
+            "shadow_mae": 0.08254113793373108,
+            "sphere_mae": 0.06907273828983307,
+            "gradient_mae": 0.019509002566337585,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": -0.08,
+            "mae": 0.04042675346136093,
+            "shadow_mae": 0.04727974534034729,
+            "sphere_mae": 0.09380118548870087,
+            "gradient_mae": 0.013393181376159191,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": 0.08,
+            "mae": 0.04411807283759117,
+            "shadow_mae": 0.050581179559230804,
+            "sphere_mae": 0.0919618308544159,
+            "gradient_mae": 0.013963835313916206,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": -0.08,
+            "mae": 0.062088508158922195,
+            "shadow_mae": 0.06450138986110687,
+            "sphere_mae": 0.06654950976371765,
+            "gradient_mae": 0.01647329516708851,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": 0.08,
+            "mae": 0.06783203780651093,
+            "shadow_mae": 0.06603777408599854,
+            "sphere_mae": 0.06688927859067917,
+            "gradient_mae": 0.01738766022026539,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": -0.08,
+            "mae": 0.03436194360256195,
+            "shadow_mae": 0.02714655175805092,
+            "sphere_mae": 0.05465586856007576,
+            "gradient_mae": 0.009445233270525932,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": 0.08,
+            "mae": 0.037484992295503616,
+            "shadow_mae": 0.02683134377002716,
+            "sphere_mae": 0.05419444292783737,
+            "gradient_mae": 0.00982657726854086,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": -0.08,
+            "mae": 0.07067203521728516,
+            "shadow_mae": 0.0664973109960556,
+            "sphere_mae": 0.07892397046089172,
+            "gradient_mae": 0.017628241330385208,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": 0.08,
+            "mae": 0.07685885578393936,
+            "shadow_mae": 0.0789961889386177,
+            "sphere_mae": 0.07406982779502869,
+            "gradient_mae": 0.018694259226322174,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": -0.08,
+            "mae": 0.05428216978907585,
+            "shadow_mae": 0.06031753122806549,
+            "sphere_mae": 0.07888977974653244,
+            "gradient_mae": 0.015906350687146187,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": 0.08,
+            "mae": 0.05923505499958992,
+            "shadow_mae": 0.05894946679472923,
+            "sphere_mae": 0.07759369164705276,
+            "gradient_mae": 0.016653046011924744,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": -0.08,
+            "mae": 0.05017813295125961,
+            "shadow_mae": 0.05178888887166977,
+            "sphere_mae": 0.10617660731077194,
+            "gradient_mae": 0.01642952486872673,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": 0.08,
+            "mae": 0.0546143613755703,
+            "shadow_mae": 0.05261746793985367,
+            "sphere_mae": 0.0997447520494461,
+            "gradient_mae": 0.01667965017259121,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": -0.08,
+            "mae": 0.06448951363563538,
+            "shadow_mae": 0.05207158252596855,
+            "sphere_mae": 0.11945903301239014,
+            "gradient_mae": 0.016103023663163185,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": 0.08,
+            "mae": 0.07038679718971252,
+            "shadow_mae": 0.04932686313986778,
+            "sphere_mae": 0.11409596353769302,
+            "gradient_mae": 0.017186541110277176,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": -0.08,
+            "mae": 0.051719095557928085,
+            "shadow_mae": 0.06179056316614151,
+            "sphere_mae": 0.07059302926063538,
+            "gradient_mae": 0.01657964661717415,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": 0.08,
+            "mae": 0.05644267052412033,
+            "shadow_mae": 0.0650520846247673,
+            "sphere_mae": 0.06942223012447357,
+            "gradient_mae": 0.016948416829109192,
+            "protected_max_change": 0.0
+          }
+        ]
+      }
+    },
+    "global_rgb": {
+      "clean": {
+        "mean": {
+          "mae": 0.05655540386214852,
+          "shadow_mae": 0.07028743422900637,
+          "sphere_mae": 0.08644175250083208,
+          "gradient_mae": 0.016787156579084694,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 7000,
+            "yaw": -0.08,
+            "mae": 0.05953540280461311,
+            "shadow_mae": 0.07674071192741394,
+            "sphere_mae": 0.1268034428358078,
+            "gradient_mae": 0.019695870578289032,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7000,
+            "yaw": 0.08,
+            "mae": 0.059262488037347794,
+            "shadow_mae": 0.07348999381065369,
+            "sphere_mae": 0.12089604884386063,
+            "gradient_mae": 0.019953548908233643,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": -0.08,
+            "mae": 0.050805337727069855,
+            "shadow_mae": 0.06127909943461418,
+            "sphere_mae": 0.0760800763964653,
+            "gradient_mae": 0.013648752123117447,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": 0.08,
+            "mae": 0.048992231488227844,
+            "shadow_mae": 0.05908670648932457,
+            "sphere_mae": 0.07454458624124527,
+            "gradient_mae": 0.013849418610334396,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": -0.08,
+            "mae": 0.04984215646982193,
+            "shadow_mae": 0.058934904634952545,
+            "sphere_mae": 0.07200882583856583,
+            "gradient_mae": 0.014851504936814308,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": 0.08,
+            "mae": 0.04907098785042763,
+            "shadow_mae": 0.06118866801261902,
+            "sphere_mae": 0.07418379187583923,
+            "gradient_mae": 0.015470575541257858,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": -0.08,
+            "mae": 0.07211102545261383,
+            "shadow_mae": 0.09198816120624542,
+            "sphere_mae": 0.0725477933883667,
+            "gradient_mae": 0.01917535439133644,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": 0.08,
+            "mae": 0.0726008415222168,
+            "shadow_mae": 0.09805033355951309,
+            "sphere_mae": 0.07544318586587906,
+            "gradient_mae": 0.02033224329352379,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": -0.08,
+            "mae": 0.0427192859351635,
+            "shadow_mae": 0.05424174293875694,
+            "sphere_mae": 0.09606501460075378,
+            "gradient_mae": 0.01447378285229206,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": 0.08,
+            "mae": 0.042184364050626755,
+            "shadow_mae": 0.05629393830895424,
+            "sphere_mae": 0.09469929337501526,
+            "gradient_mae": 0.014920961111783981,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": -0.08,
+            "mae": 0.06288096308708191,
+            "shadow_mae": 0.07687699794769287,
+            "sphere_mae": 0.06894158571958542,
+            "gradient_mae": 0.01752590760588646,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": 0.08,
+            "mae": 0.06325981020927429,
+            "shadow_mae": 0.0797564908862114,
+            "sphere_mae": 0.06900382041931152,
+            "gradient_mae": 0.018188469111919403,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": -0.08,
+            "mae": 0.03851651772856712,
+            "shadow_mae": 0.05372663214802742,
+            "sphere_mae": 0.06047243997454643,
+            "gradient_mae": 0.01059397030621767,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": 0.08,
+            "mae": 0.036973968148231506,
+            "shadow_mae": 0.056441500782966614,
+            "sphere_mae": 0.061388205736875534,
+            "gradient_mae": 0.01086573489010334,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": -0.08,
+            "mae": 0.07146988809108734,
+            "shadow_mae": 0.08053586632013321,
+            "sphere_mae": 0.08045046776533127,
+            "gradient_mae": 0.01867050677537918,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": 0.08,
+            "mae": 0.07133638113737106,
+            "shadow_mae": 0.08490651845932007,
+            "sphere_mae": 0.07729269564151764,
+            "gradient_mae": 0.01947375014424324,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": -0.08,
+            "mae": 0.05916633829474449,
+            "shadow_mae": 0.0749460980296135,
+            "sphere_mae": 0.08553378283977509,
+            "gradient_mae": 0.017154326662421227,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": 0.08,
+            "mae": 0.05809851363301277,
+            "shadow_mae": 0.07472368329763412,
+            "sphere_mae": 0.08534640073776245,
+            "gradient_mae": 0.017704736441373825,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": -0.08,
+            "mae": 0.05306700989603996,
+            "shadow_mae": 0.0679398775100708,
+            "sphere_mae": 0.11004067957401276,
+            "gradient_mae": 0.017651228234171867,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": 0.08,
+            "mae": 0.0526183620095253,
+            "shadow_mae": 0.06876516342163086,
+            "sphere_mae": 0.10530595481395721,
+            "gradient_mae": 0.01768803969025612,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": -0.08,
+            "mae": 0.06448914855718613,
+            "shadow_mae": 0.05335737392306328,
+            "sphere_mae": 0.11328073590993881,
+            "gradient_mae": 0.017066970467567444,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": 0.08,
+            "mae": 0.0647260919213295,
+            "shadow_mae": 0.056398916989564896,
+            "sphere_mae": 0.11009179055690765,
+            "gradient_mae": 0.017880111932754517,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": -0.08,
+            "mae": 0.05731584504246712,
+            "shadow_mae": 0.0824609100818634,
+            "sphere_mae": 0.08181185275316238,
+            "gradient_mae": 0.017953302711248398,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": 0.08,
+            "mae": 0.056286733597517014,
+            "shadow_mae": 0.0847681313753128,
+            "sphere_mae": 0.08236958831548691,
+            "gradient_mae": 0.01810269057750702,
+            "protected_max_change": 0.0
+          }
+        ]
+      },
+      "noisy_depth": {
+        "mean": {
+          "mae": 0.05655540386214852,
+          "shadow_mae": 0.07028743422900637,
+          "sphere_mae": 0.08644175250083208,
+          "gradient_mae": 0.016787156579084694,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 7000,
+            "yaw": -0.08,
+            "mae": 0.05953540280461311,
+            "shadow_mae": 0.07674071192741394,
+            "sphere_mae": 0.1268034428358078,
+            "gradient_mae": 0.019695870578289032,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7000,
+            "yaw": 0.08,
+            "mae": 0.059262488037347794,
+            "shadow_mae": 0.07348999381065369,
+            "sphere_mae": 0.12089604884386063,
+            "gradient_mae": 0.019953548908233643,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": -0.08,
+            "mae": 0.050805337727069855,
+            "shadow_mae": 0.06127909943461418,
+            "sphere_mae": 0.0760800763964653,
+            "gradient_mae": 0.013648752123117447,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": 0.08,
+            "mae": 0.048992231488227844,
+            "shadow_mae": 0.05908670648932457,
+            "sphere_mae": 0.07454458624124527,
+            "gradient_mae": 0.013849418610334396,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": -0.08,
+            "mae": 0.04984215646982193,
+            "shadow_mae": 0.058934904634952545,
+            "sphere_mae": 0.07200882583856583,
+            "gradient_mae": 0.014851504936814308,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": 0.08,
+            "mae": 0.04907098785042763,
+            "shadow_mae": 0.06118866801261902,
+            "sphere_mae": 0.07418379187583923,
+            "gradient_mae": 0.015470575541257858,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": -0.08,
+            "mae": 0.07211102545261383,
+            "shadow_mae": 0.09198816120624542,
+            "sphere_mae": 0.0725477933883667,
+            "gradient_mae": 0.01917535439133644,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": 0.08,
+            "mae": 0.0726008415222168,
+            "shadow_mae": 0.09805033355951309,
+            "sphere_mae": 0.07544318586587906,
+            "gradient_mae": 0.02033224329352379,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": -0.08,
+            "mae": 0.0427192859351635,
+            "shadow_mae": 0.05424174293875694,
+            "sphere_mae": 0.09606501460075378,
+            "gradient_mae": 0.01447378285229206,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": 0.08,
+            "mae": 0.042184364050626755,
+            "shadow_mae": 0.05629393830895424,
+            "sphere_mae": 0.09469929337501526,
+            "gradient_mae": 0.014920961111783981,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": -0.08,
+            "mae": 0.06288096308708191,
+            "shadow_mae": 0.07687699794769287,
+            "sphere_mae": 0.06894158571958542,
+            "gradient_mae": 0.01752590760588646,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": 0.08,
+            "mae": 0.06325981020927429,
+            "shadow_mae": 0.0797564908862114,
+            "sphere_mae": 0.06900382041931152,
+            "gradient_mae": 0.018188469111919403,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": -0.08,
+            "mae": 0.03851651772856712,
+            "shadow_mae": 0.05372663214802742,
+            "sphere_mae": 0.06047243997454643,
+            "gradient_mae": 0.01059397030621767,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": 0.08,
+            "mae": 0.036973968148231506,
+            "shadow_mae": 0.056441500782966614,
+            "sphere_mae": 0.061388205736875534,
+            "gradient_mae": 0.01086573489010334,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": -0.08,
+            "mae": 0.07146988809108734,
+            "shadow_mae": 0.08053586632013321,
+            "sphere_mae": 0.08045046776533127,
+            "gradient_mae": 0.01867050677537918,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": 0.08,
+            "mae": 0.07133638113737106,
+            "shadow_mae": 0.08490651845932007,
+            "sphere_mae": 0.07729269564151764,
+            "gradient_mae": 0.01947375014424324,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": -0.08,
+            "mae": 0.05916633829474449,
+            "shadow_mae": 0.0749460980296135,
+            "sphere_mae": 0.08553378283977509,
+            "gradient_mae": 0.017154326662421227,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": 0.08,
+            "mae": 0.05809851363301277,
+            "shadow_mae": 0.07472368329763412,
+            "sphere_mae": 0.08534640073776245,
+            "gradient_mae": 0.017704736441373825,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": -0.08,
+            "mae": 0.05306700989603996,
+            "shadow_mae": 0.0679398775100708,
+            "sphere_mae": 0.11004067957401276,
+            "gradient_mae": 0.017651228234171867,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": 0.08,
+            "mae": 0.0526183620095253,
+            "shadow_mae": 0.06876516342163086,
+            "sphere_mae": 0.10530595481395721,
+            "gradient_mae": 0.01768803969025612,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": -0.08,
+            "mae": 0.06448914855718613,
+            "shadow_mae": 0.05335737392306328,
+            "sphere_mae": 0.11328073590993881,
+            "gradient_mae": 0.017066970467567444,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": 0.08,
+            "mae": 0.0647260919213295,
+            "shadow_mae": 0.056398916989564896,
+            "sphere_mae": 0.11009179055690765,
+            "gradient_mae": 0.017880111932754517,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": -0.08,
+            "mae": 0.05731584504246712,
+            "shadow_mae": 0.0824609100818634,
+            "sphere_mae": 0.08181185275316238,
+            "gradient_mae": 0.017953302711248398,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": 0.08,
+            "mae": 0.056286733597517014,
+            "shadow_mae": 0.0847681313753128,
+            "sphere_mae": 0.08236958831548691,
+            "gradient_mae": 0.01810269057750702,
+            "protected_max_change": 0.0
+          }
+        ]
+      }
+    },
+    "point": {
+      "clean": {
+        "mean": {
+          "mae": 0.0382186584174633,
+          "shadow_mae": 0.08788342478995521,
+          "sphere_mae": 0.06605806217218439,
+          "gradient_mae": 0.019889441745666165,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 7000,
+            "yaw": -0.08,
+            "mae": 0.03777022287249565,
+            "shadow_mae": 0.10960093140602112,
+            "sphere_mae": 0.10366502404212952,
+            "gradient_mae": 0.02275918610394001,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7000,
+            "yaw": 0.08,
+            "mae": 0.03528152406215668,
+            "shadow_mae": 0.09640281647443771,
+            "sphere_mae": 0.09725086390972137,
+            "gradient_mae": 0.023226730525493622,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": -0.08,
+            "mae": 0.029957618564367294,
+            "shadow_mae": 0.06336164474487305,
+            "sphere_mae": 0.06498885899782181,
+            "gradient_mae": 0.015970975160598755,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": 0.08,
+            "mae": 0.029649611562490463,
+            "shadow_mae": 0.05484212189912796,
+            "sphere_mae": 0.060208700597286224,
+            "gradient_mae": 0.016428960487246513,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": -0.08,
+            "mae": 0.030838370323181152,
+            "shadow_mae": 0.08888570964336395,
+            "sphere_mae": 0.054346200078725815,
+            "gradient_mae": 0.017609359696507454,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": 0.08,
+            "mae": 0.027204273268580437,
+            "shadow_mae": 0.08499147742986679,
+            "sphere_mae": 0.0546630434691906,
+            "gradient_mae": 0.018219202756881714,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": -0.08,
+            "mae": 0.04908810183405876,
+            "shadow_mae": 0.08530789613723755,
+            "sphere_mae": 0.05264458432793617,
+            "gradient_mae": 0.022899087518453598,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": 0.08,
+            "mae": 0.053434643894433975,
+            "shadow_mae": 0.08919807523488998,
+            "sphere_mae": 0.053060855716466904,
+            "gradient_mae": 0.02425016090273857,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": -0.08,
+            "mae": 0.04464166238903999,
+            "shadow_mae": 0.12557336688041687,
+            "sphere_mae": 0.07762856036424637,
+            "gradient_mae": 0.01824592426419258,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": 0.08,
+            "mae": 0.039376791566610336,
+            "shadow_mae": 0.11375736445188522,
+            "sphere_mae": 0.0752171203494072,
+            "gradient_mae": 0.01863398216664791,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": -0.08,
+            "mae": 0.036867015063762665,
+            "shadow_mae": 0.10129854083061218,
+            "sphere_mae": 0.04484052583575249,
+            "gradient_mae": 0.021241014823317528,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": 0.08,
+            "mae": 0.035185158252716064,
+            "shadow_mae": 0.1000322476029396,
+            "sphere_mae": 0.0458507277071476,
+            "gradient_mae": 0.022545259445905685,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": -0.08,
+            "mae": 0.03115873597562313,
+            "shadow_mae": 0.08360692858695984,
+            "sphere_mae": 0.04698735103011131,
+            "gradient_mae": 0.013311176560819149,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": 0.08,
+            "mae": 0.02745942398905754,
+            "shadow_mae": 0.08395030349493027,
+            "sphere_mae": 0.04756710305809975,
+            "gradient_mae": 0.013591950759291649,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": -0.08,
+            "mae": 0.0535176582634449,
+            "shadow_mae": 0.07245799899101257,
+            "sphere_mae": 0.06161368265748024,
+            "gradient_mae": 0.02175534889101982,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": 0.08,
+            "mae": 0.059307489544153214,
+            "shadow_mae": 0.07851602137088776,
+            "sphere_mae": 0.059756383299827576,
+            "gradient_mae": 0.023268282413482666,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": -0.08,
+            "mae": 0.03742854669690132,
+            "shadow_mae": 0.07980073988437653,
+            "sphere_mae": 0.059187039732933044,
+            "gradient_mae": 0.019159778952598572,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": 0.08,
+            "mae": 0.03993086516857147,
+            "shadow_mae": 0.0806036964058876,
+            "sphere_mae": 0.05791105329990387,
+            "gradient_mae": 0.020252348855137825,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": -0.08,
+            "mae": 0.03914966434240341,
+            "shadow_mae": 0.10369861125946045,
+            "sphere_mae": 0.08556415140628815,
+            "gradient_mae": 0.020178962498903275,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": 0.08,
+            "mae": 0.03530556336045265,
+            "shadow_mae": 0.10489103198051453,
+            "sphere_mae": 0.08032804727554321,
+            "gradient_mae": 0.020610516890883446,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": -0.08,
+            "mae": 0.038340743631124496,
+            "shadow_mae": 0.05637694150209427,
+            "sphere_mae": 0.10436268150806427,
+            "gradient_mae": 0.020940441638231277,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": 0.08,
+            "mae": 0.037483640015125275,
+            "shadow_mae": 0.06121697649359703,
+            "sphere_mae": 0.1008712649345398,
+            "gradient_mae": 0.022378120571374893,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": -0.08,
+            "mae": 0.03372297063469887,
+            "shadow_mae": 0.09697569906711578,
+            "sphere_mae": 0.0483875498175621,
+            "gradient_mae": 0.019507573917508125,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": 0.08,
+            "mae": 0.03514750674366951,
+            "shadow_mae": 0.09385505318641663,
+            "sphere_mae": 0.04849211871623993,
+            "gradient_mae": 0.020362256094813347,
+            "protected_max_change": 0.0
+          }
+        ]
+      },
+      "noisy_depth": {
+        "mean": {
+          "mae": 0.03660134210561713,
+          "shadow_mae": 0.08839937020093203,
+          "sphere_mae": 0.0683037182316184,
+          "gradient_mae": 0.04334623164807757,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 7000,
+            "yaw": -0.08,
+            "mae": 0.035840895026922226,
+            "shadow_mae": 0.11171919852495193,
+            "sphere_mae": 0.10600067675113678,
+            "gradient_mae": 0.04639057815074921,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7000,
+            "yaw": 0.08,
+            "mae": 0.035453010350465775,
+            "shadow_mae": 0.09518971294164658,
+            "sphere_mae": 0.0985218957066536,
+            "gradient_mae": 0.04707949608564377,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": -0.08,
+            "mae": 0.02756153792142868,
+            "shadow_mae": 0.06474411487579346,
+            "sphere_mae": 0.06716273725032806,
+            "gradient_mae": 0.039564765989780426,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": 0.08,
+            "mae": 0.029733028262853622,
+            "shadow_mae": 0.061294540762901306,
+            "sphere_mae": 0.06290942430496216,
+            "gradient_mae": 0.04033242538571358,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": -0.08,
+            "mae": 0.02922254055738449,
+            "shadow_mae": 0.09151071310043335,
+            "sphere_mae": 0.05659882724285126,
+            "gradient_mae": 0.04146091267466545,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": 0.08,
+            "mae": 0.027228131890296936,
+            "shadow_mae": 0.07924240082502365,
+            "sphere_mae": 0.0564420111477375,
+            "gradient_mae": 0.04170093685388565,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": -0.08,
+            "mae": 0.04513424634933472,
+            "shadow_mae": 0.08803339302539825,
+            "sphere_mae": 0.055302441120147705,
+            "gradient_mae": 0.043869487941265106,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": 0.08,
+            "mae": 0.051159173250198364,
+            "shadow_mae": 0.08572722971439362,
+            "sphere_mae": 0.054481714963912964,
+            "gradient_mae": 0.0459427684545517,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": -0.08,
+            "mae": 0.043411366641521454,
+            "shadow_mae": 0.13011479377746582,
+            "sphere_mae": 0.08003955334424973,
+            "gradient_mae": 0.04467892274260521,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": 0.08,
+            "mae": 0.03949850797653198,
+            "shadow_mae": 0.10853280872106552,
+            "sphere_mae": 0.07743681967258453,
+            "gradient_mae": 0.04423361271619797,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": -0.08,
+            "mae": 0.0334106869995594,
+            "shadow_mae": 0.10607323795557022,
+            "sphere_mae": 0.04732643440365791,
+            "gradient_mae": 0.04352956265211105,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": 0.08,
+            "mae": 0.0338936373591423,
+            "shadow_mae": 0.10347478836774826,
+            "sphere_mae": 0.04700365290045738,
+            "gradient_mae": 0.04443595930933952,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": -0.08,
+            "mae": 0.03051522746682167,
+            "shadow_mae": 0.07667791098356247,
+            "sphere_mae": 0.050270289182662964,
+            "gradient_mae": 0.040087513625621796,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": 0.08,
+            "mae": 0.028495201840996742,
+            "shadow_mae": 0.07367052137851715,
+            "sphere_mae": 0.05105705186724663,
+            "gradient_mae": 0.039652466773986816,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": -0.08,
+            "mae": 0.05047003924846649,
+            "shadow_mae": 0.07425522059202194,
+            "sphere_mae": 0.06440548598766327,
+            "gradient_mae": 0.042508259415626526,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": 0.08,
+            "mae": 0.05696393921971321,
+            "shadow_mae": 0.07954908907413483,
+            "sphere_mae": 0.06032166630029678,
+            "gradient_mae": 0.04401493817567825,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": -0.08,
+            "mae": 0.03444606810808182,
+            "shadow_mae": 0.08374061435461044,
+            "sphere_mae": 0.061835724860429764,
+            "gradient_mae": 0.0417419858276844,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": 0.08,
+            "mae": 0.03870915621519089,
+            "shadow_mae": 0.08240672200918198,
+            "sphere_mae": 0.06047321856021881,
+            "gradient_mae": 0.04445168375968933,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": -0.08,
+            "mae": 0.03673463687300682,
+            "shadow_mae": 0.10262980312108994,
+            "sphere_mae": 0.08795817196369171,
+            "gradient_mae": 0.04428042843937874,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": 0.08,
+            "mae": 0.03503738343715668,
+            "shadow_mae": 0.10231058299541473,
+            "sphere_mae": 0.08262475579977036,
+            "gradient_mae": 0.045338135212659836,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": -0.08,
+            "mae": 0.034526124596595764,
+            "shadow_mae": 0.059495337307453156,
+            "sphere_mae": 0.10688837617635727,
+            "gradient_mae": 0.04475706070661545,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": 0.08,
+            "mae": 0.03630854934453964,
+            "shadow_mae": 0.0632234588265419,
+            "sphere_mae": 0.10159473121166229,
+            "gradient_mae": 0.04480428993701935,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": -0.08,
+            "mae": 0.031058864668011665,
+            "shadow_mae": 0.10220009088516235,
+            "sphere_mae": 0.051111724227666855,
+            "gradient_mae": 0.04155801236629486,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": 0.08,
+            "mae": 0.033620256930589676,
+            "shadow_mae": 0.09576860070228577,
+            "sphere_mae": 0.05152185261249542,
+            "gradient_mae": 0.043895356357097626,
+            "protected_max_change": 0.0
+          }
+        ]
+      }
+    },
+    "spatial": {
+      "clean": {
+        "mean": {
+          "mae": 0.032577104633674026,
+          "shadow_mae": 0.044785300735384226,
+          "sphere_mae": 0.04353023925796151,
+          "gradient_mae": 0.014073981593052546,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 7000,
+            "yaw": -0.08,
+            "mae": 0.042433273047208786,
+            "shadow_mae": 0.04723656550049782,
+            "sphere_mae": 0.06522658467292786,
+            "gradient_mae": 0.017000297084450722,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7000,
+            "yaw": 0.08,
+            "mae": 0.03524744510650635,
+            "shadow_mae": 0.045202430337667465,
+            "sphere_mae": 0.05431431159377098,
+            "gradient_mae": 0.016785871237516403,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": -0.08,
+            "mae": 0.02774953655898571,
+            "shadow_mae": 0.030592501163482666,
+            "sphere_mae": 0.03127818927168846,
+            "gradient_mae": 0.011418329551815987,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": 0.08,
+            "mae": 0.024416213855147362,
+            "shadow_mae": 0.026881230995059013,
+            "sphere_mae": 0.03429323062300682,
+            "gradient_mae": 0.011689376085996628,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": -0.08,
+            "mae": 0.026218771934509277,
+            "shadow_mae": 0.03829055279493332,
+            "sphere_mae": 0.03833438828587532,
+            "gradient_mae": 0.012582644820213318,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": 0.08,
+            "mae": 0.021589653566479683,
+            "shadow_mae": 0.03774639219045639,
+            "sphere_mae": 0.03817877545952797,
+            "gradient_mae": 0.013206887990236282,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": -0.08,
+            "mae": 0.03840247169137001,
+            "shadow_mae": 0.05379292741417885,
+            "sphere_mae": 0.03911730274558067,
+            "gradient_mae": 0.015497997403144836,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": 0.08,
+            "mae": 0.03598091006278992,
+            "shadow_mae": 0.06550535559654236,
+            "sphere_mae": 0.0425742007791996,
+            "gradient_mae": 0.016567591577768326,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": -0.08,
+            "mae": 0.040672339498996735,
+            "shadow_mae": 0.030727636069059372,
+            "sphere_mae": 0.05500685051083565,
+            "gradient_mae": 0.01402978040277958,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": 0.08,
+            "mae": 0.032339200377464294,
+            "shadow_mae": 0.033366359770298004,
+            "sphere_mae": 0.05545497313141823,
+            "gradient_mae": 0.013973401859402657,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": -0.08,
+            "mae": 0.03171449527144432,
+            "shadow_mae": 0.0506785623729229,
+            "sphere_mae": 0.03218695521354675,
+            "gradient_mae": 0.0137293366715312,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": 0.08,
+            "mae": 0.027470272034406662,
+            "shadow_mae": 0.06190931424498558,
+            "sphere_mae": 0.03259221464395523,
+            "gradient_mae": 0.014763972721993923,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": -0.08,
+            "mae": 0.032988280057907104,
+            "shadow_mae": 0.050527848303318024,
+            "sphere_mae": 0.03274025022983551,
+            "gradient_mae": 0.01040387712419033,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": 0.08,
+            "mae": 0.027017414569854736,
+            "shadow_mae": 0.05529531463980675,
+            "sphere_mae": 0.033563971519470215,
+            "gradient_mae": 0.010316452011466026,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": -0.08,
+            "mae": 0.04011915624141693,
+            "shadow_mae": 0.047092072665691376,
+            "sphere_mae": 0.04859340563416481,
+            "gradient_mae": 0.014465169049799442,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": 0.08,
+            "mae": 0.04035504534840584,
+            "shadow_mae": 0.05189560726284981,
+            "sphere_mae": 0.04407167807221413,
+            "gradient_mae": 0.015651222318410873,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": -0.08,
+            "mae": 0.03143012896180153,
+            "shadow_mae": 0.04676167294383049,
+            "sphere_mae": 0.038017187267541885,
+            "gradient_mae": 0.013445636257529259,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": 0.08,
+            "mae": 0.02909005992114544,
+            "shadow_mae": 0.0469951406121254,
+            "sphere_mae": 0.03845641016960144,
+            "gradient_mae": 0.01380665972828865,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": -0.08,
+            "mae": 0.040548160672187805,
+            "shadow_mae": 0.044459350407123566,
+            "sphere_mae": 0.05045569688081741,
+            "gradient_mae": 0.015272291377186775,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": 0.08,
+            "mae": 0.033348485827445984,
+            "shadow_mae": 0.05297430232167244,
+            "sphere_mae": 0.04262647032737732,
+            "gradient_mae": 0.015034536831080914,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": -0.08,
+            "mae": 0.036136139184236526,
+            "shadow_mae": 0.029047513380646706,
+            "sphere_mae": 0.066585011780262,
+            "gradient_mae": 0.014212911948561668,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": 0.08,
+            "mae": 0.029853960499167442,
+            "shadow_mae": 0.02811761572957039,
+            "sphere_mae": 0.06224043667316437,
+            "gradient_mae": 0.014910041354596615,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": -0.08,
+            "mae": 0.029691776260733604,
+            "shadow_mae": 0.04707472026348114,
+            "sphere_mae": 0.03372849151492119,
+            "gradient_mae": 0.014307226054370403,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": 0.08,
+            "mae": 0.027037320658564568,
+            "shadow_mae": 0.052676230669021606,
+            "sphere_mae": 0.03508875519037247,
+            "gradient_mae": 0.01470404677093029,
+            "protected_max_change": 0.0
+          }
+        ]
+      },
+      "noisy_depth": {
+        "mean": {
+          "mae": 0.034703410463407636,
+          "shadow_mae": 0.040921585246299706,
+          "sphere_mae": 0.0447450641853114,
+          "gradient_mae": 0.015339061656656364,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 7000,
+            "yaw": -0.08,
+            "mae": 0.035535894334316254,
+            "shadow_mae": 0.05503825470805168,
+            "sphere_mae": 0.06602415442466736,
+            "gradient_mae": 0.017184078693389893,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7000,
+            "yaw": 0.08,
+            "mae": 0.04266633838415146,
+            "shadow_mae": 0.04720669984817505,
+            "sphere_mae": 0.05341154709458351,
+            "gradient_mae": 0.017832089215517044,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": -0.08,
+            "mae": 0.029137777164578438,
+            "shadow_mae": 0.024741869419813156,
+            "sphere_mae": 0.030301038175821304,
+            "gradient_mae": 0.012861870229244232,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7001,
+            "yaw": 0.08,
+            "mae": 0.03133557736873627,
+            "shadow_mae": 0.02223605290055275,
+            "sphere_mae": 0.03408261388540268,
+            "gradient_mae": 0.01351550966501236,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": -0.08,
+            "mae": 0.027733303606510162,
+            "shadow_mae": 0.03492752090096474,
+            "sphere_mae": 0.040309078991413116,
+            "gradient_mae": 0.014014805667102337,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7002,
+            "yaw": 0.08,
+            "mae": 0.03169810771942139,
+            "shadow_mae": 0.030253378674387932,
+            "sphere_mae": 0.0411418192088604,
+            "gradient_mae": 0.014453262090682983,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": -0.08,
+            "mae": 0.03933218866586685,
+            "shadow_mae": 0.06139875575900078,
+            "sphere_mae": 0.040503934025764465,
+            "gradient_mae": 0.016890930011868477,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7003,
+            "yaw": 0.08,
+            "mae": 0.0497688427567482,
+            "shadow_mae": 0.06349238753318787,
+            "sphere_mae": 0.04411746561527252,
+            "gradient_mae": 0.018319640308618546,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": -0.08,
+            "mae": 0.02525779791176319,
+            "shadow_mae": 0.032850489020347595,
+            "sphere_mae": 0.05453834310173988,
+            "gradient_mae": 0.013763532042503357,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7004,
+            "yaw": 0.08,
+            "mae": 0.028846554458141327,
+            "shadow_mae": 0.028639035299420357,
+            "sphere_mae": 0.056877829134464264,
+            "gradient_mae": 0.01439567469060421,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": -0.08,
+            "mae": 0.03398966044187546,
+            "shadow_mae": 0.05011599510908127,
+            "sphere_mae": 0.034590717405080795,
+            "gradient_mae": 0.015312342904508114,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7005,
+            "yaw": 0.08,
+            "mae": 0.0453307181596756,
+            "shadow_mae": 0.054039813578128815,
+            "sphere_mae": 0.03490564227104187,
+            "gradient_mae": 0.016589168459177017,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": -0.08,
+            "mae": 0.024560226127505302,
+            "shadow_mae": 0.03852301836013794,
+            "sphere_mae": 0.03588389977812767,
+            "gradient_mae": 0.011513503268361092,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7006,
+            "yaw": 0.08,
+            "mae": 0.0223096776753664,
+            "shadow_mae": 0.025169841945171356,
+            "sphere_mae": 0.036070339381694794,
+            "gradient_mae": 0.011639530770480633,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": -0.08,
+            "mae": 0.03847440704703331,
+            "shadow_mae": 0.047511469572782516,
+            "sphere_mae": 0.05143701285123825,
+            "gradient_mae": 0.016300387680530548,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7007,
+            "yaw": 0.08,
+            "mae": 0.04938168823719025,
+            "shadow_mae": 0.0495748408138752,
+            "sphere_mae": 0.04511508718132973,
+            "gradient_mae": 0.017562229186296463,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": -0.08,
+            "mae": 0.029500650241971016,
+            "shadow_mae": 0.04103430360555649,
+            "sphere_mae": 0.039419569075107574,
+            "gradient_mae": 0.015216361731290817,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7008,
+            "yaw": 0.08,
+            "mae": 0.03675278276205063,
+            "shadow_mae": 0.04242951050400734,
+            "sphere_mae": 0.03849712014198303,
+            "gradient_mae": 0.015669675543904305,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": -0.08,
+            "mae": 0.02979195863008499,
+            "shadow_mae": 0.04216179624199867,
+            "sphere_mae": 0.052750956267118454,
+            "gradient_mae": 0.015446897596120834,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7009,
+            "yaw": 0.08,
+            "mae": 0.035565633326768875,
+            "shadow_mae": 0.03795783594250679,
+            "sphere_mae": 0.045675527304410934,
+            "gradient_mae": 0.015856726095080376,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": -0.08,
+            "mae": 0.03552114963531494,
+            "shadow_mae": 0.029286358505487442,
+            "sphere_mae": 0.06534435600042343,
+            "gradient_mae": 0.015250589698553085,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7010,
+            "yaw": 0.08,
+            "mae": 0.046412620693445206,
+            "shadow_mae": 0.029882991686463356,
+            "sphere_mae": 0.06369642913341522,
+            "gradient_mae": 0.01660851016640663,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": -0.08,
+            "mae": 0.02843879908323288,
+            "shadow_mae": 0.04374765232205391,
+            "sphere_mae": 0.03384346514940262,
+            "gradient_mae": 0.015775253996253014,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 7011,
+            "yaw": 0.08,
+            "mae": 0.035539496690034866,
+            "shadow_mae": 0.0498981736600399,
+            "sphere_mae": 0.03534359484910965,
+            "gradient_mae": 0.016164910048246384,
+            "protected_max_change": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "held_out": {
+    "input": {
+      "clean": {
+        "mean": {
+          "mae": 0.05111298353100816,
+          "shadow_mae": 0.05583765031769872,
+          "sphere_mae": 0.08698261249810457,
+          "gradient_mae": 0.014390484701531628,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 8000,
+            "yaw": -0.08,
+            "mae": 0.05479072779417038,
+            "shadow_mae": 0.052910372614860535,
+            "sphere_mae": 0.10629651695489883,
+            "gradient_mae": 0.015305371023714542,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8000,
+            "yaw": 0.08,
+            "mae": 0.05930469557642937,
+            "shadow_mae": 0.056885164231061935,
+            "sphere_mae": 0.10567017644643784,
+            "gradient_mae": 0.015996867790818214,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": -0.08,
+            "mae": 0.053109243512153625,
+            "shadow_mae": 0.07173894345760345,
+            "sphere_mae": 0.08377175033092499,
+            "gradient_mae": 0.014775795862078667,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": 0.08,
+            "mae": 0.05745500326156616,
+            "shadow_mae": 0.07103514671325684,
+            "sphere_mae": 0.08575203269720078,
+            "gradient_mae": 0.015325240790843964,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": -0.08,
+            "mae": 0.055559322237968445,
+            "shadow_mae": 0.040732383728027344,
+            "sphere_mae": 0.1277731955051422,
+            "gradient_mae": 0.01689041033387184,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": 0.08,
+            "mae": 0.06088029593229294,
+            "shadow_mae": 0.049222659319639206,
+            "sphere_mae": 0.13138286769390106,
+            "gradient_mae": 0.017907559871673584,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": -0.08,
+            "mae": 0.040193088352680206,
+            "shadow_mae": 0.0536079928278923,
+            "sphere_mae": 0.07741682231426239,
+            "gradient_mae": 0.011444502510130405,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": 0.08,
+            "mae": 0.04343457892537117,
+            "shadow_mae": 0.05682811886072159,
+            "sphere_mae": 0.07296977937221527,
+            "gradient_mae": 0.011784486472606659,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": -0.08,
+            "mae": 0.051078714430332184,
+            "shadow_mae": 0.05419522151350975,
+            "sphere_mae": 0.07122724503278732,
+            "gradient_mae": 0.012835616245865822,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": 0.08,
+            "mae": 0.05556394159793854,
+            "shadow_mae": 0.05884028226137161,
+            "sphere_mae": 0.06749912351369858,
+            "gradient_mae": 0.013347962871193886,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": -0.08,
+            "mae": 0.06816069036722183,
+            "shadow_mae": 0.10021226108074188,
+            "sphere_mae": 0.11374913156032562,
+            "gradient_mae": 0.020967382937669754,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": 0.08,
+            "mae": 0.07392022013664246,
+            "shadow_mae": 0.10378829389810562,
+            "sphere_mae": 0.10909409075975418,
+            "gradient_mae": 0.021890554577112198,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": -0.08,
+            "mae": 0.041927192360162735,
+            "shadow_mae": 0.033047907054424286,
+            "sphere_mae": 0.0613727793097496,
+            "gradient_mae": 0.010709813795983791,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": 0.08,
+            "mae": 0.04540935158729553,
+            "shadow_mae": 0.035062190145254135,
+            "sphere_mae": 0.058081336319446564,
+            "gradient_mae": 0.011135830543935299,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": -0.08,
+            "mae": 0.05015785992145538,
+            "shadow_mae": 0.04957176744937897,
+            "sphere_mae": 0.09472236782312393,
+            "gradient_mae": 0.014612799510359764,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": 0.08,
+            "mae": 0.05431613326072693,
+            "shadow_mae": 0.05644162744283676,
+            "sphere_mae": 0.09437944740056992,
+            "gradient_mae": 0.0153192188590765,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": -0.08,
+            "mae": 0.03540385887026787,
+            "shadow_mae": 0.028448326513171196,
+            "sphere_mae": 0.07923463732004166,
+            "gradient_mae": 0.010155117139220238,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": 0.08,
+            "mae": 0.038550373166799545,
+            "shadow_mae": 0.031092872843146324,
+            "sphere_mae": 0.07695065438747406,
+            "gradient_mae": 0.010633932426571846,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": -0.08,
+            "mae": 0.039199624210596085,
+            "shadow_mae": 0.03914261981844902,
+            "sphere_mae": 0.08284980058670044,
+            "gradient_mae": 0.011876662261784077,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": 0.08,
+            "mae": 0.04272519052028656,
+            "shadow_mae": 0.04007374495267868,
+            "sphere_mae": 0.08472387492656708,
+            "gradient_mae": 0.01274285838007927,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": -0.08,
+            "mae": 0.057067591696977615,
+            "shadow_mae": 0.07464727014303207,
+            "sphere_mae": 0.08668971061706543,
+            "gradient_mae": 0.017011119052767754,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": 0.08,
+            "mae": 0.06185908988118172,
+            "shadow_mae": 0.07866068929433823,
+            "sphere_mae": 0.08841701596975327,
+            "gradient_mae": 0.0178969856351614,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": -0.08,
+            "mae": 0.041429851204156876,
+            "shadow_mae": 0.05203378200531006,
+            "sphere_mae": 0.06374745815992355,
+            "gradient_mae": 0.01216217689216137,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": 0.08,
+            "mae": 0.04521496593952179,
+            "shadow_mae": 0.05188396945595741,
+            "sphere_mae": 0.06381088495254517,
+            "gradient_mae": 0.012643367052078247,
+            "protected_max_change": 0.0
+          }
+        ]
+      },
+      "noisy_depth": {
+        "mean": {
+          "mae": 0.05111298353100816,
+          "shadow_mae": 0.05583765031769872,
+          "sphere_mae": 0.08698261249810457,
+          "gradient_mae": 0.014390484701531628,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 8000,
+            "yaw": -0.08,
+            "mae": 0.05479072779417038,
+            "shadow_mae": 0.052910372614860535,
+            "sphere_mae": 0.10629651695489883,
+            "gradient_mae": 0.015305371023714542,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8000,
+            "yaw": 0.08,
+            "mae": 0.05930469557642937,
+            "shadow_mae": 0.056885164231061935,
+            "sphere_mae": 0.10567017644643784,
+            "gradient_mae": 0.015996867790818214,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": -0.08,
+            "mae": 0.053109243512153625,
+            "shadow_mae": 0.07173894345760345,
+            "sphere_mae": 0.08377175033092499,
+            "gradient_mae": 0.014775795862078667,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": 0.08,
+            "mae": 0.05745500326156616,
+            "shadow_mae": 0.07103514671325684,
+            "sphere_mae": 0.08575203269720078,
+            "gradient_mae": 0.015325240790843964,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": -0.08,
+            "mae": 0.055559322237968445,
+            "shadow_mae": 0.040732383728027344,
+            "sphere_mae": 0.1277731955051422,
+            "gradient_mae": 0.01689041033387184,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": 0.08,
+            "mae": 0.06088029593229294,
+            "shadow_mae": 0.049222659319639206,
+            "sphere_mae": 0.13138286769390106,
+            "gradient_mae": 0.017907559871673584,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": -0.08,
+            "mae": 0.040193088352680206,
+            "shadow_mae": 0.0536079928278923,
+            "sphere_mae": 0.07741682231426239,
+            "gradient_mae": 0.011444502510130405,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": 0.08,
+            "mae": 0.04343457892537117,
+            "shadow_mae": 0.05682811886072159,
+            "sphere_mae": 0.07296977937221527,
+            "gradient_mae": 0.011784486472606659,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": -0.08,
+            "mae": 0.051078714430332184,
+            "shadow_mae": 0.05419522151350975,
+            "sphere_mae": 0.07122724503278732,
+            "gradient_mae": 0.012835616245865822,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": 0.08,
+            "mae": 0.05556394159793854,
+            "shadow_mae": 0.05884028226137161,
+            "sphere_mae": 0.06749912351369858,
+            "gradient_mae": 0.013347962871193886,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": -0.08,
+            "mae": 0.06816069036722183,
+            "shadow_mae": 0.10021226108074188,
+            "sphere_mae": 0.11374913156032562,
+            "gradient_mae": 0.020967382937669754,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": 0.08,
+            "mae": 0.07392022013664246,
+            "shadow_mae": 0.10378829389810562,
+            "sphere_mae": 0.10909409075975418,
+            "gradient_mae": 0.021890554577112198,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": -0.08,
+            "mae": 0.041927192360162735,
+            "shadow_mae": 0.033047907054424286,
+            "sphere_mae": 0.0613727793097496,
+            "gradient_mae": 0.010709813795983791,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": 0.08,
+            "mae": 0.04540935158729553,
+            "shadow_mae": 0.035062190145254135,
+            "sphere_mae": 0.058081336319446564,
+            "gradient_mae": 0.011135830543935299,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": -0.08,
+            "mae": 0.05015785992145538,
+            "shadow_mae": 0.04957176744937897,
+            "sphere_mae": 0.09472236782312393,
+            "gradient_mae": 0.014612799510359764,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": 0.08,
+            "mae": 0.05431613326072693,
+            "shadow_mae": 0.05644162744283676,
+            "sphere_mae": 0.09437944740056992,
+            "gradient_mae": 0.0153192188590765,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": -0.08,
+            "mae": 0.03540385887026787,
+            "shadow_mae": 0.028448326513171196,
+            "sphere_mae": 0.07923463732004166,
+            "gradient_mae": 0.010155117139220238,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": 0.08,
+            "mae": 0.038550373166799545,
+            "shadow_mae": 0.031092872843146324,
+            "sphere_mae": 0.07695065438747406,
+            "gradient_mae": 0.010633932426571846,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": -0.08,
+            "mae": 0.039199624210596085,
+            "shadow_mae": 0.03914261981844902,
+            "sphere_mae": 0.08284980058670044,
+            "gradient_mae": 0.011876662261784077,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": 0.08,
+            "mae": 0.04272519052028656,
+            "shadow_mae": 0.04007374495267868,
+            "sphere_mae": 0.08472387492656708,
+            "gradient_mae": 0.01274285838007927,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": -0.08,
+            "mae": 0.057067591696977615,
+            "shadow_mae": 0.07464727014303207,
+            "sphere_mae": 0.08668971061706543,
+            "gradient_mae": 0.017011119052767754,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": 0.08,
+            "mae": 0.06185908988118172,
+            "shadow_mae": 0.07866068929433823,
+            "sphere_mae": 0.08841701596975327,
+            "gradient_mae": 0.0178969856351614,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": -0.08,
+            "mae": 0.041429851204156876,
+            "shadow_mae": 0.05203378200531006,
+            "sphere_mae": 0.06374745815992355,
+            "gradient_mae": 0.01216217689216137,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": 0.08,
+            "mae": 0.04521496593952179,
+            "shadow_mae": 0.05188396945595741,
+            "sphere_mae": 0.06381088495254517,
+            "gradient_mae": 0.012643367052078247,
+            "protected_max_change": 0.0
+          }
+        ]
+      }
+    },
+    "global_rgb": {
+      "clean": {
+        "mean": {
+          "mae": 0.05144787052025398,
+          "shadow_mae": 0.06849244640519221,
+          "sphere_mae": 0.09110606492807467,
+          "gradient_mae": 0.015441514745665094,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 8000,
+            "yaw": -0.08,
+            "mae": 0.05593154951930046,
+            "shadow_mae": 0.05479523539543152,
+            "sphere_mae": 0.10705646127462387,
+            "gradient_mae": 0.016302939504384995,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8000,
+            "yaw": 0.08,
+            "mae": 0.05581137165427208,
+            "shadow_mae": 0.0592459961771965,
+            "sphere_mae": 0.10740620642900467,
+            "gradient_mae": 0.016848646104335785,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": -0.08,
+            "mae": 0.055252544581890106,
+            "shadow_mae": 0.08377696573734283,
+            "sphere_mae": 0.08758621662855148,
+            "gradient_mae": 0.015862829983234406,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": 0.08,
+            "mae": 0.0543200820684433,
+            "shadow_mae": 0.07757782191038132,
+            "sphere_mae": 0.08942361176013947,
+            "gradient_mae": 0.016219312325119972,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": -0.08,
+            "mae": 0.058129310607910156,
+            "shadow_mae": 0.06180047616362572,
+            "sphere_mae": 0.13394582271575928,
+            "gradient_mae": 0.018081074580550194,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": 0.08,
+            "mae": 0.058211181312799454,
+            "shadow_mae": 0.06718581914901733,
+            "sphere_mae": 0.13751234114170074,
+            "gradient_mae": 0.01889302209019661,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": -0.08,
+            "mae": 0.04272395744919777,
+            "shadow_mae": 0.06219553202390671,
+            "sphere_mae": 0.07869244366884232,
+            "gradient_mae": 0.01252118218690157,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": 0.08,
+            "mae": 0.04152324050664902,
+            "shadow_mae": 0.06069343164563179,
+            "sphere_mae": 0.07539336383342743,
+            "gradient_mae": 0.012716511264443398,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": -0.08,
+            "mae": 0.053296301513910294,
+            "shadow_mae": 0.06370742619037628,
+            "sphere_mae": 0.07178232073783875,
+            "gradient_mae": 0.01389884203672409,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": 0.08,
+            "mae": 0.052078988403081894,
+            "shadow_mae": 0.06907402724027634,
+            "sphere_mae": 0.07071569561958313,
+            "gradient_mae": 0.014211704954504967,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": -0.08,
+            "mae": 0.07150055468082428,
+            "shadow_mae": 0.11991781741380692,
+            "sphere_mae": 0.12121240794658661,
+            "gradient_mae": 0.022290226072072983,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": 0.08,
+            "mae": 0.07171791046857834,
+            "shadow_mae": 0.12361215054988861,
+            "sphere_mae": 0.11847735196352005,
+            "gradient_mae": 0.02302364632487297,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": -0.08,
+            "mae": 0.045124564319849014,
+            "shadow_mae": 0.04572257027029991,
+            "sphere_mae": 0.06285709142684937,
+            "gradient_mae": 0.011742759495973587,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": 0.08,
+            "mae": 0.04320531338453293,
+            "shadow_mae": 0.043273333460092545,
+            "sphere_mae": 0.060786351561546326,
+            "gradient_mae": 0.012029856443405151,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": -0.08,
+            "mae": 0.05223333090543747,
+            "shadow_mae": 0.0685005635023117,
+            "sphere_mae": 0.09684944152832031,
+            "gradient_mae": 0.015724580734968185,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": 0.08,
+            "mae": 0.05180307477712631,
+            "shadow_mae": 0.07078191637992859,
+            "sphere_mae": 0.09696433693170547,
+            "gradient_mae": 0.016254153102636337,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": -0.08,
+            "mae": 0.039788875728845596,
+            "shadow_mae": 0.04943975433707237,
+            "sphere_mae": 0.08155491203069687,
+            "gradient_mae": 0.011284258216619492,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": 0.08,
+            "mae": 0.03787638247013092,
+            "shadow_mae": 0.052921995520591736,
+            "sphere_mae": 0.08034983277320862,
+            "gradient_mae": 0.011639690957963467,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": -0.08,
+            "mae": 0.041977882385253906,
+            "shadow_mae": 0.048569027334451675,
+            "sphere_mae": 0.08557843416929245,
+            "gradient_mae": 0.013012157753109932,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": 0.08,
+            "mae": 0.04153745248913765,
+            "shadow_mae": 0.04770100861787796,
+            "sphere_mae": 0.08840452134609222,
+            "gradient_mae": 0.013731020502746105,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": -0.08,
+            "mae": 0.06058422103524208,
+            "shadow_mae": 0.09058347344398499,
+            "sphere_mae": 0.09524401277303696,
+            "gradient_mae": 0.01830182410776615,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": 0.08,
+            "mae": 0.06037376821041107,
+            "shadow_mae": 0.09196586906909943,
+            "sphere_mae": 0.09713473170995712,
+            "gradient_mae": 0.01900927536189556,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": -0.08,
+            "mae": 0.04566503316164017,
+            "shadow_mae": 0.06675227731466293,
+            "sphere_mae": 0.07063400000333786,
+            "gradient_mae": 0.01332549937069416,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": 0.08,
+            "mae": 0.044082000851631165,
+            "shadow_mae": 0.06402422487735748,
+            "sphere_mae": 0.0709836483001709,
+            "gradient_mae": 0.01367134042084217,
+            "protected_max_change": 0.0
+          }
+        ]
+      },
+      "noisy_depth": {
+        "mean": {
+          "mae": 0.05144787052025398,
+          "shadow_mae": 0.06849244640519221,
+          "sphere_mae": 0.09110606492807467,
+          "gradient_mae": 0.015441514745665094,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 8000,
+            "yaw": -0.08,
+            "mae": 0.05593154951930046,
+            "shadow_mae": 0.05479523539543152,
+            "sphere_mae": 0.10705646127462387,
+            "gradient_mae": 0.016302939504384995,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8000,
+            "yaw": 0.08,
+            "mae": 0.05581137165427208,
+            "shadow_mae": 0.0592459961771965,
+            "sphere_mae": 0.10740620642900467,
+            "gradient_mae": 0.016848646104335785,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": -0.08,
+            "mae": 0.055252544581890106,
+            "shadow_mae": 0.08377696573734283,
+            "sphere_mae": 0.08758621662855148,
+            "gradient_mae": 0.015862829983234406,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": 0.08,
+            "mae": 0.0543200820684433,
+            "shadow_mae": 0.07757782191038132,
+            "sphere_mae": 0.08942361176013947,
+            "gradient_mae": 0.016219312325119972,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": -0.08,
+            "mae": 0.058129310607910156,
+            "shadow_mae": 0.06180047616362572,
+            "sphere_mae": 0.13394582271575928,
+            "gradient_mae": 0.018081074580550194,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": 0.08,
+            "mae": 0.058211181312799454,
+            "shadow_mae": 0.06718581914901733,
+            "sphere_mae": 0.13751234114170074,
+            "gradient_mae": 0.01889302209019661,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": -0.08,
+            "mae": 0.04272395744919777,
+            "shadow_mae": 0.06219553202390671,
+            "sphere_mae": 0.07869244366884232,
+            "gradient_mae": 0.01252118218690157,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": 0.08,
+            "mae": 0.04152324050664902,
+            "shadow_mae": 0.06069343164563179,
+            "sphere_mae": 0.07539336383342743,
+            "gradient_mae": 0.012716511264443398,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": -0.08,
+            "mae": 0.053296301513910294,
+            "shadow_mae": 0.06370742619037628,
+            "sphere_mae": 0.07178232073783875,
+            "gradient_mae": 0.01389884203672409,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": 0.08,
+            "mae": 0.052078988403081894,
+            "shadow_mae": 0.06907402724027634,
+            "sphere_mae": 0.07071569561958313,
+            "gradient_mae": 0.014211704954504967,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": -0.08,
+            "mae": 0.07150055468082428,
+            "shadow_mae": 0.11991781741380692,
+            "sphere_mae": 0.12121240794658661,
+            "gradient_mae": 0.022290226072072983,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": 0.08,
+            "mae": 0.07171791046857834,
+            "shadow_mae": 0.12361215054988861,
+            "sphere_mae": 0.11847735196352005,
+            "gradient_mae": 0.02302364632487297,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": -0.08,
+            "mae": 0.045124564319849014,
+            "shadow_mae": 0.04572257027029991,
+            "sphere_mae": 0.06285709142684937,
+            "gradient_mae": 0.011742759495973587,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": 0.08,
+            "mae": 0.04320531338453293,
+            "shadow_mae": 0.043273333460092545,
+            "sphere_mae": 0.060786351561546326,
+            "gradient_mae": 0.012029856443405151,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": -0.08,
+            "mae": 0.05223333090543747,
+            "shadow_mae": 0.0685005635023117,
+            "sphere_mae": 0.09684944152832031,
+            "gradient_mae": 0.015724580734968185,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": 0.08,
+            "mae": 0.05180307477712631,
+            "shadow_mae": 0.07078191637992859,
+            "sphere_mae": 0.09696433693170547,
+            "gradient_mae": 0.016254153102636337,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": -0.08,
+            "mae": 0.039788875728845596,
+            "shadow_mae": 0.04943975433707237,
+            "sphere_mae": 0.08155491203069687,
+            "gradient_mae": 0.011284258216619492,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": 0.08,
+            "mae": 0.03787638247013092,
+            "shadow_mae": 0.052921995520591736,
+            "sphere_mae": 0.08034983277320862,
+            "gradient_mae": 0.011639690957963467,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": -0.08,
+            "mae": 0.041977882385253906,
+            "shadow_mae": 0.048569027334451675,
+            "sphere_mae": 0.08557843416929245,
+            "gradient_mae": 0.013012157753109932,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": 0.08,
+            "mae": 0.04153745248913765,
+            "shadow_mae": 0.04770100861787796,
+            "sphere_mae": 0.08840452134609222,
+            "gradient_mae": 0.013731020502746105,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": -0.08,
+            "mae": 0.06058422103524208,
+            "shadow_mae": 0.09058347344398499,
+            "sphere_mae": 0.09524401277303696,
+            "gradient_mae": 0.01830182410776615,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": 0.08,
+            "mae": 0.06037376821041107,
+            "shadow_mae": 0.09196586906909943,
+            "sphere_mae": 0.09713473170995712,
+            "gradient_mae": 0.01900927536189556,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": -0.08,
+            "mae": 0.04566503316164017,
+            "shadow_mae": 0.06675227731466293,
+            "sphere_mae": 0.07063400000333786,
+            "gradient_mae": 0.01332549937069416,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": 0.08,
+            "mae": 0.044082000851631165,
+            "shadow_mae": 0.06402422487735748,
+            "sphere_mae": 0.0709836483001709,
+            "gradient_mae": 0.01367134042084217,
+            "protected_max_change": 0.0
+          }
+        ]
+      }
+    },
+    "point": {
+      "clean": {
+        "mean": {
+          "mae": 0.03310230320009092,
+          "shadow_mae": 0.0844859032270809,
+          "sphere_mae": 0.06849804303298394,
+          "gradient_mae": 0.018235488833549123,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 8000,
+            "yaw": -0.08,
+            "mae": 0.035174913704395294,
+            "shadow_mae": 0.0801774114370346,
+            "sphere_mae": 0.08674146234989166,
+            "gradient_mae": 0.019729282706975937,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8000,
+            "yaw": 0.08,
+            "mae": 0.03166668117046356,
+            "shadow_mae": 0.08274167031049728,
+            "sphere_mae": 0.08455274254083633,
+            "gradient_mae": 0.020847875624895096,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": -0.08,
+            "mae": 0.03200618922710419,
+            "shadow_mae": 0.08510631322860718,
+            "sphere_mae": 0.06380215287208557,
+            "gradient_mae": 0.018145455047488213,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": 0.08,
+            "mae": 0.030613932758569717,
+            "shadow_mae": 0.07828846573829651,
+            "sphere_mae": 0.06460370123386383,
+            "gradient_mae": 0.01909472420811653,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": -0.08,
+            "mae": 0.03404129669070244,
+            "shadow_mae": 0.08038390427827835,
+            "sphere_mae": 0.10474145412445068,
+            "gradient_mae": 0.020627472549676895,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": 0.08,
+            "mae": 0.032613422721624374,
+            "shadow_mae": 0.08523779362440109,
+            "sphere_mae": 0.10773838311433792,
+            "gradient_mae": 0.02191062457859516,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": -0.08,
+            "mae": 0.03773604333400726,
+            "shadow_mae": 0.08342023193836212,
+            "sphere_mae": 0.0650368481874466,
+            "gradient_mae": 0.015308971516788006,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": 0.08,
+            "mae": 0.03354723006486893,
+            "shadow_mae": 0.08631795644760132,
+            "sphere_mae": 0.061064790934324265,
+            "gradient_mae": 0.015812821686267853,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": -0.08,
+            "mae": 0.03135796636343002,
+            "shadow_mae": 0.05234372988343239,
+            "sphere_mae": 0.059052180498838425,
+            "gradient_mae": 0.016352592036128044,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": 0.08,
+            "mae": 0.031003527343273163,
+            "shadow_mae": 0.06105173006653786,
+            "sphere_mae": 0.056621160358190536,
+            "gradient_mae": 0.01728096790611744,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": -0.08,
+            "mae": 0.04464475065469742,
+            "shadow_mae": 0.12248914688825607,
+            "sphere_mae": 0.09040981531143188,
+            "gradient_mae": 0.024585898965597153,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": 0.08,
+            "mae": 0.046058014035224915,
+            "shadow_mae": 0.12595170736312866,
+            "sphere_mae": 0.0836729183793068,
+            "gradient_mae": 0.025649305433034897,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": -0.08,
+            "mae": 0.02543271705508232,
+            "shadow_mae": 0.06438280642032623,
+            "sphere_mae": 0.06045779213309288,
+            "gradient_mae": 0.014784108847379684,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": 0.08,
+            "mae": 0.022793792188167572,
+            "shadow_mae": 0.05654424801468849,
+            "sphere_mae": 0.05812947824597359,
+            "gradient_mae": 0.01511053740978241,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": -0.08,
+            "mae": 0.03657851368188858,
+            "shadow_mae": 0.09636835008859634,
+            "sphere_mae": 0.07504565268754959,
+            "gradient_mae": 0.018650922924280167,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": 0.08,
+            "mae": 0.033511944115161896,
+            "shadow_mae": 0.104134701192379,
+            "sphere_mae": 0.07465089112520218,
+            "gradient_mae": 0.01974683254957199,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": -0.08,
+            "mae": 0.0265902541577816,
+            "shadow_mae": 0.07521827518939972,
+            "sphere_mae": 0.06749080121517181,
+            "gradient_mae": 0.013706915080547333,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": 0.08,
+            "mae": 0.023294910788536072,
+            "shadow_mae": 0.07574322819709778,
+            "sphere_mae": 0.06613972038030624,
+            "gradient_mae": 0.014173496514558792,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": -0.08,
+            "mae": 0.04655855894088745,
+            "shadow_mae": 0.09328401833772659,
+            "sphere_mae": 0.05799959972500801,
+            "gradient_mae": 0.016096394509077072,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": 0.08,
+            "mae": 0.04184459522366524,
+            "shadow_mae": 0.09220036119222641,
+            "sphere_mae": 0.059015363454818726,
+            "gradient_mae": 0.017002152279019356,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": -0.08,
+            "mae": 0.035747889429330826,
+            "shadow_mae": 0.10157472640275955,
+            "sphere_mae": 0.055622778832912445,
+            "gradient_mae": 0.020257163792848587,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": 0.08,
+            "mae": 0.03449174016714096,
+            "shadow_mae": 0.09694575518369675,
+            "sphere_mae": 0.056566543877124786,
+            "gradient_mae": 0.021402163431048393,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": -0.08,
+            "mae": 0.024768982082605362,
+            "shadow_mae": 0.07431431114673615,
+            "sphere_mae": 0.04283883050084114,
+            "gradient_mae": 0.015374934300780296,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": 0.08,
+            "mae": 0.022377410903573036,
+            "shadow_mae": 0.07344083487987518,
+            "sphere_mae": 0.04195797070860863,
+            "gradient_mae": 0.016000118106603622,
+            "protected_max_change": 0.0
+          }
+        ]
+      },
+      "noisy_depth": {
+        "mean": {
+          "mae": 0.032446792892490826,
+          "shadow_mae": 0.0829785365300874,
+          "sphere_mae": 0.07059630596389373,
+          "gradient_mae": 0.04261001152917743,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 8000,
+            "yaw": -0.08,
+            "mae": 0.03328447788953781,
+            "shadow_mae": 0.07910371571779251,
+            "sphere_mae": 0.09023397415876389,
+            "gradient_mae": 0.04286237433552742,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8000,
+            "yaw": 0.08,
+            "mae": 0.03144655004143715,
+            "shadow_mae": 0.07598802447319031,
+            "sphere_mae": 0.08684186637401581,
+            "gradient_mae": 0.04341805353760719,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": -0.08,
+            "mae": 0.02986147068440914,
+            "shadow_mae": 0.08817318826913834,
+            "sphere_mae": 0.06543287634849548,
+            "gradient_mae": 0.041087277233600616,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": 0.08,
+            "mae": 0.030733786523342133,
+            "shadow_mae": 0.08162125945091248,
+            "sphere_mae": 0.0684722438454628,
+            "gradient_mae": 0.04240196570754051,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": -0.08,
+            "mae": 0.03242075815796852,
+            "shadow_mae": 0.082427978515625,
+            "sphere_mae": 0.1067580133676529,
+            "gradient_mae": 0.045145291835069656,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": 0.08,
+            "mae": 0.03277188912034035,
+            "shadow_mae": 0.0771009624004364,
+            "sphere_mae": 0.10899166017770767,
+            "gradient_mae": 0.044569231569767,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": -0.08,
+            "mae": 0.03669731318950653,
+            "shadow_mae": 0.0805467814207077,
+            "sphere_mae": 0.06540897488594055,
+            "gradient_mae": 0.042135197669267654,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": 0.08,
+            "mae": 0.03401489928364754,
+            "shadow_mae": 0.08216231316328049,
+            "sphere_mae": 0.06306800991296768,
+            "gradient_mae": 0.04254265874624252,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": -0.08,
+            "mae": 0.028696537017822266,
+            "shadow_mae": 0.05364495515823364,
+            "sphere_mae": 0.05925240367650986,
+            "gradient_mae": 0.04002584144473076,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": 0.08,
+            "mae": 0.03100440837442875,
+            "shadow_mae": 0.05885763093829155,
+            "sphere_mae": 0.0584627240896225,
+            "gradient_mae": 0.04138661175966263,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": -0.08,
+            "mae": 0.04053809866309166,
+            "shadow_mae": 0.12291009724140167,
+            "sphere_mae": 0.09243698418140411,
+            "gradient_mae": 0.04821519926190376,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": 0.08,
+            "mae": 0.043572407215833664,
+            "shadow_mae": 0.12236891686916351,
+            "sphere_mae": 0.08600182086229324,
+            "gradient_mae": 0.04717312753200531,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": -0.08,
+            "mae": 0.0245672557502985,
+            "shadow_mae": 0.0710303857922554,
+            "sphere_mae": 0.0625295639038086,
+            "gradient_mae": 0.04104427248239517,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": 0.08,
+            "mae": 0.024278094992041588,
+            "shadow_mae": 0.05661656707525253,
+            "sphere_mae": 0.06011654809117317,
+            "gradient_mae": 0.039888203144073486,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": -0.08,
+            "mae": 0.03587373346090317,
+            "shadow_mae": 0.0987604409456253,
+            "sphere_mae": 0.07645997405052185,
+            "gradient_mae": 0.04422374814748764,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": 0.08,
+            "mae": 0.034006405621767044,
+            "shadow_mae": 0.09442207962274551,
+            "sphere_mae": 0.07532304525375366,
+            "gradient_mae": 0.043274760246276855,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": -0.08,
+            "mae": 0.02654990740120411,
+            "shadow_mae": 0.07746683806180954,
+            "sphere_mae": 0.0685262680053711,
+            "gradient_mae": 0.04075082391500473,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": 0.08,
+            "mae": 0.024748511612415314,
+            "shadow_mae": 0.06589891761541367,
+            "sphere_mae": 0.06723938882350922,
+            "gradient_mae": 0.03920890390872955,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": -0.08,
+            "mae": 0.045743994414806366,
+            "shadow_mae": 0.09259142726659775,
+            "sphere_mae": 0.061087630689144135,
+            "gradient_mae": 0.041321586817502975,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": 0.08,
+            "mae": 0.042654648423194885,
+            "shadow_mae": 0.08808684349060059,
+            "sphere_mae": 0.06155972182750702,
+            "gradient_mae": 0.04339796304702759,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": -0.08,
+            "mae": 0.03407559543848038,
+            "shadow_mae": 0.10143726319074631,
+            "sphere_mae": 0.05884262174367905,
+            "gradient_mae": 0.044477492570877075,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": 0.08,
+            "mae": 0.03394978493452072,
+            "shadow_mae": 0.09104052931070328,
+            "sphere_mae": 0.05958319082856178,
+            "gradient_mae": 0.043783560395240784,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": -0.08,
+            "mae": 0.023737626150250435,
+            "shadow_mae": 0.07784918695688248,
+            "sphere_mae": 0.04762784764170647,
+            "gradient_mae": 0.04004722461104393,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": 0.08,
+            "mae": 0.02349487505853176,
+            "shadow_mae": 0.07137857377529144,
+            "sphere_mae": 0.04405399039387703,
+            "gradient_mae": 0.04025890678167343,
+            "protected_max_change": 0.0
+          }
+        ]
+      }
+    },
+    "spatial": {
+      "clean": {
+        "mean": {
+          "mae": 0.028771105920895934,
+          "shadow_mae": 0.042048193126296006,
+          "sphere_mae": 0.043554267923658095,
+          "gradient_mae": 0.012900174828246236,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 8000,
+            "yaw": -0.08,
+            "mae": 0.029100649058818817,
+            "shadow_mae": 0.032925717532634735,
+            "sphere_mae": 0.05132696405053139,
+            "gradient_mae": 0.012968992814421654,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8000,
+            "yaw": 0.08,
+            "mae": 0.026223866268992424,
+            "shadow_mae": 0.033324576914310455,
+            "sphere_mae": 0.04755980521440506,
+            "gradient_mae": 0.013731907121837139,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": -0.08,
+            "mae": 0.028984321281313896,
+            "shadow_mae": 0.04249471053481102,
+            "sphere_mae": 0.039283279329538345,
+            "gradient_mae": 0.01254851184785366,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": 0.08,
+            "mae": 0.02681296318769455,
+            "shadow_mae": 0.04043637216091156,
+            "sphere_mae": 0.0408012792468071,
+            "gradient_mae": 0.012988073751330376,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": -0.08,
+            "mae": 0.030623316764831543,
+            "shadow_mae": 0.05067785456776619,
+            "sphere_mae": 0.06145767495036125,
+            "gradient_mae": 0.014148946851491928,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": 0.08,
+            "mae": 0.028369750827550888,
+            "shadow_mae": 0.04485367611050606,
+            "sphere_mae": 0.07365480065345764,
+            "gradient_mae": 0.015246059745550156,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": -0.08,
+            "mae": 0.03192520886659622,
+            "shadow_mae": 0.03751542046666145,
+            "sphere_mae": 0.036676377058029175,
+            "gradient_mae": 0.011268381029367447,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": 0.08,
+            "mae": 0.0269685760140419,
+            "shadow_mae": 0.04238750413060188,
+            "sphere_mae": 0.03279533609747887,
+            "gradient_mae": 0.011429782956838608,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": -0.08,
+            "mae": 0.030114710330963135,
+            "shadow_mae": 0.03398783132433891,
+            "sphere_mae": 0.03922060504555702,
+            "gradient_mae": 0.011506360024213791,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": 0.08,
+            "mae": 0.02551897056400776,
+            "shadow_mae": 0.03635825589299202,
+            "sphere_mae": 0.033902328461408615,
+            "gradient_mae": 0.011620151810348034,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": -0.08,
+            "mae": 0.037650302052497864,
+            "shadow_mae": 0.07783546298742294,
+            "sphere_mae": 0.06497324258089066,
+            "gradient_mae": 0.017397360876202583,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": 0.08,
+            "mae": 0.03528110310435295,
+            "shadow_mae": 0.08591831475496292,
+            "sphere_mae": 0.05811261385679245,
+            "gradient_mae": 0.017757762223482132,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": -0.08,
+            "mae": 0.02628236636519432,
+            "shadow_mae": 0.026684224605560303,
+            "sphere_mae": 0.048111751675605774,
+            "gradient_mae": 0.010992903262376785,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": 0.08,
+            "mae": 0.02034357376396656,
+            "shadow_mae": 0.022398002445697784,
+            "sphere_mae": 0.044570986181497574,
+            "gradient_mae": 0.011024332605302334,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": -0.08,
+            "mae": 0.0282138679176569,
+            "shadow_mae": 0.036070384085178375,
+            "sphere_mae": 0.04782501608133316,
+            "gradient_mae": 0.01277307141572237,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": 0.08,
+            "mae": 0.026759136468172073,
+            "shadow_mae": 0.037059418857097626,
+            "sphere_mae": 0.04762711003422737,
+            "gradient_mae": 0.013350745663046837,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": -0.08,
+            "mae": 0.029815426096320152,
+            "shadow_mae": 0.03672200068831444,
+            "sphere_mae": 0.037084028124809265,
+            "gradient_mae": 0.010616734623908997,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": 0.08,
+            "mae": 0.023517843335866928,
+            "shadow_mae": 0.041387807577848434,
+            "sphere_mae": 0.03239288553595543,
+            "gradient_mae": 0.010728124529123306,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": -0.08,
+            "mae": 0.039094001054763794,
+            "shadow_mae": 0.03647111356258392,
+            "sphere_mae": 0.038981374353170395,
+            "gradient_mae": 0.012734860181808472,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": 0.08,
+            "mae": 0.031295184046030045,
+            "shadow_mae": 0.041506439447402954,
+            "sphere_mae": 0.04201868176460266,
+            "gradient_mae": 0.0129551962018013,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": -0.08,
+            "mae": 0.03202846273779869,
+            "shadow_mae": 0.05379949510097504,
+            "sphere_mae": 0.03632530942559242,
+            "gradient_mae": 0.014284316450357437,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": 0.08,
+            "mae": 0.030641280114650726,
+            "shadow_mae": 0.057820118963718414,
+            "sphere_mae": 0.03462700545787811,
+            "gradient_mae": 0.014944393187761307,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": -0.08,
+            "mae": 0.02494034729897976,
+            "shadow_mae": 0.030470257624983788,
+            "sphere_mae": 0.02672499418258667,
+            "gradient_mae": 0.011105427518486977,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": 0.08,
+            "mae": 0.02000131458044052,
+            "shadow_mae": 0.03005167469382286,
+            "sphere_mae": 0.029248980805277824,
+            "gradient_mae": 0.011481799185276031,
+            "protected_max_change": 0.0
+          }
+        ]
+      },
+      "noisy_depth": {
+        "mean": {
+          "mae": 0.0315542898606509,
+          "shadow_mae": 0.03906194306910038,
+          "sphere_mae": 0.04492654372006655,
+          "gradient_mae": 0.014247539492013553,
+          "protected_max_change": 0.0
+        },
+        "frames": [
+          {
+            "seed": 8000,
+            "yaw": -0.08,
+            "mae": 0.03121371380984783,
+            "shadow_mae": 0.030284132808446884,
+            "sphere_mae": 0.05533531308174133,
+            "gradient_mae": 0.014415813609957695,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8000,
+            "yaw": 0.08,
+            "mae": 0.03680659085512161,
+            "shadow_mae": 0.027574745938181877,
+            "sphere_mae": 0.052301425486803055,
+            "gradient_mae": 0.014815470203757286,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": -0.08,
+            "mae": 0.029536856338381767,
+            "shadow_mae": 0.0418158657848835,
+            "sphere_mae": 0.040516000241041183,
+            "gradient_mae": 0.014293302781879902,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8001,
+            "yaw": 0.08,
+            "mae": 0.037378374487161636,
+            "shadow_mae": 0.038512442260980606,
+            "sphere_mae": 0.0439741313457489,
+            "gradient_mae": 0.014663729816675186,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": -0.08,
+            "mae": 0.031039543449878693,
+            "shadow_mae": 0.05387003719806671,
+            "sphere_mae": 0.06350326538085938,
+            "gradient_mae": 0.01558888889849186,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8002,
+            "yaw": 0.08,
+            "mae": 0.0391358807682991,
+            "shadow_mae": 0.040333520621061325,
+            "sphere_mae": 0.07384202629327774,
+            "gradient_mae": 0.016523035243153572,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": -0.08,
+            "mae": 0.024724295362830162,
+            "shadow_mae": 0.031265806406736374,
+            "sphere_mae": 0.03548218309879303,
+            "gradient_mae": 0.012120436877012253,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8003,
+            "yaw": 0.08,
+            "mae": 0.027673838660120964,
+            "shadow_mae": 0.030372289940714836,
+            "sphere_mae": 0.037033721804618835,
+            "gradient_mae": 0.012464310973882675,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": -0.08,
+            "mae": 0.028770774602890015,
+            "shadow_mae": 0.03365522623062134,
+            "sphere_mae": 0.03639250248670578,
+            "gradient_mae": 0.013084969483315945,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8004,
+            "yaw": 0.08,
+            "mae": 0.03555886447429657,
+            "shadow_mae": 0.03284338489174843,
+            "sphere_mae": 0.03638402745127678,
+            "gradient_mae": 0.013351146131753922,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": -0.08,
+            "mae": 0.039205968379974365,
+            "shadow_mae": 0.07678788900375366,
+            "sphere_mae": 0.0660364180803299,
+            "gradient_mae": 0.01876327395439148,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8005,
+            "yaw": 0.08,
+            "mae": 0.047366753220558167,
+            "shadow_mae": 0.08266623318195343,
+            "sphere_mae": 0.0585920512676239,
+            "gradient_mae": 0.019598983228206635,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": -0.08,
+            "mae": 0.02732527256011963,
+            "shadow_mae": 0.03501203656196594,
+            "sphere_mae": 0.04646885767579079,
+            "gradient_mae": 0.01264619268476963,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8006,
+            "yaw": 0.08,
+            "mae": 0.029467036947607994,
+            "shadow_mae": 0.025361156091094017,
+            "sphere_mae": 0.04262591153383255,
+            "gradient_mae": 0.012828978709876537,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": -0.08,
+            "mae": 0.029628382995724678,
+            "shadow_mae": 0.03637915849685669,
+            "sphere_mae": 0.047439124435186386,
+            "gradient_mae": 0.014301221817731857,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8007,
+            "yaw": 0.08,
+            "mae": 0.035166218876838684,
+            "shadow_mae": 0.03348833695054054,
+            "sphere_mae": 0.048241060227155685,
+            "gradient_mae": 0.014630567282438278,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": -0.08,
+            "mae": 0.023803355172276497,
+            "shadow_mae": 0.03065505437552929,
+            "sphere_mae": 0.03907563537359238,
+            "gradient_mae": 0.011546975933015347,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8008,
+            "yaw": 0.08,
+            "mae": 0.026564478874206543,
+            "shadow_mae": 0.029465878382325172,
+            "sphere_mae": 0.032620519399642944,
+            "gradient_mae": 0.012080634012818336,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": -0.08,
+            "mae": 0.023748690262436867,
+            "shadow_mae": 0.027418803423643112,
+            "sphere_mae": 0.04033795744180679,
+            "gradient_mae": 0.012340901419520378,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8009,
+            "yaw": 0.08,
+            "mae": 0.027284972369670868,
+            "shadow_mae": 0.023230373859405518,
+            "sphere_mae": 0.04334668070077896,
+            "gradient_mae": 0.013362529687583447,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": -0.08,
+            "mae": 0.03276371210813522,
+            "shadow_mae": 0.05185255408287048,
+            "sphere_mae": 0.038779884576797485,
+            "gradient_mae": 0.015881292521953583,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8010,
+            "yaw": 0.08,
+            "mae": 0.03916426748037338,
+            "shadow_mae": 0.056600868701934814,
+            "sphere_mae": 0.03758621588349342,
+            "gradient_mae": 0.01670791767537594,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": -0.08,
+            "mae": 0.024959586560726166,
+            "shadow_mae": 0.039327263832092285,
+            "sphere_mae": 0.030054748058319092,
+            "gradient_mae": 0.012866057455539703,
+            "protected_max_change": 0.0
+          },
+          {
+            "seed": 8011,
+            "yaw": 0.08,
+            "mae": 0.02901552803814411,
+            "shadow_mae": 0.02871357463300228,
+            "sphere_mae": 0.032267387956380844,
+            "gradient_mae": 0.013064317405223846,
+            "protected_max_change": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "temporal": {
+    "input": {
+      "mean": 0.0017459180501949352,
+      "max_pair": 0.0027176174335181713,
+      "pairs": [
+        {
+          "seed": 8000,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0016701389104127884
+        },
+        {
+          "seed": 8000,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0019439231837168336
+        },
+        {
+          "seed": 8000,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.001860357355326414
+        },
+        {
+          "seed": 8000,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0015108920633792877
+        },
+        {
+          "seed": 8001,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0016913049621507525
+        },
+        {
+          "seed": 8001,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0019745256286114454
+        },
+        {
+          "seed": 8001,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0018881172873079777
+        },
+        {
+          "seed": 8001,
+          "pair": 3,
+          "samples": 636,
+          "warped_error_delta": 0.0016710383351892233
+        },
+        {
+          "seed": 8002,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0017441434320062399
+        },
+        {
+          "seed": 8002,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.002019936917349696
+        },
+        {
+          "seed": 8002,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0019548602867871523
+        },
+        {
+          "seed": 8002,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0016273591900244355
+        },
+        {
+          "seed": 8003,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.001262269332073629
+        },
+        {
+          "seed": 8003,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0014627111377194524
+        },
+        {
+          "seed": 8003,
+          "pair": 2,
+          "samples": 630,
+          "warped_error_delta": 0.0014389457646757364
+        },
+        {
+          "seed": 8003,
+          "pair": 3,
+          "samples": 652,
+          "warped_error_delta": 0.001420894404873252
+        },
+        {
+          "seed": 8004,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0016899139154702425
+        },
+        {
+          "seed": 8004,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0019488789839670062
+        },
+        {
+          "seed": 8004,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.00183397950604558
+        },
+        {
+          "seed": 8004,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0015284664696082473
+        },
+        {
+          "seed": 8005,
+          "pair": 0,
+          "samples": 633,
+          "warped_error_delta": 0.0024504794273525476
+        },
+        {
+          "seed": 8005,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.002537512220442295
+        },
+        {
+          "seed": 8005,
+          "pair": 2,
+          "samples": 636,
+          "warped_error_delta": 0.0027176174335181713
+        },
+        {
+          "seed": 8005,
+          "pair": 3,
+          "samples": 664,
+          "warped_error_delta": 0.0026530714239925146
+        },
+        {
+          "seed": 8006,
+          "pair": 0,
+          "samples": 661,
+          "warped_error_delta": 0.0017662163591012359
+        },
+        {
+          "seed": 8006,
+          "pair": 1,
+          "samples": 632,
+          "warped_error_delta": 0.0016562375240027905
+        },
+        {
+          "seed": 8006,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0015252289595082402
+        },
+        {
+          "seed": 8006,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0012641610810533166
+        },
+        {
+          "seed": 8007,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0015450289938598871
+        },
+        {
+          "seed": 8007,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0018015957903116941
+        },
+        {
+          "seed": 8007,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.001751057687215507
+        },
+        {
+          "seed": 8007,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0013983838725835085
+        },
+        {
+          "seed": 8008,
+          "pair": 0,
+          "samples": 637,
+          "warped_error_delta": 0.0013621720718219876
+        },
+        {
+          "seed": 8008,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0013526693219318986
+        },
+        {
+          "seed": 8008,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0012625408126041293
+        },
+        {
+          "seed": 8008,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0010621164692565799
+        },
+        {
+          "seed": 8009,
+          "pair": 0,
+          "samples": 658,
+          "warped_error_delta": 0.0016888079699128866
+        },
+        {
+          "seed": 8009,
+          "pair": 1,
+          "samples": 634,
+          "warped_error_delta": 0.0015103592304512858
+        },
+        {
+          "seed": 8009,
+          "pair": 2,
+          "samples": 644,
+          "warped_error_delta": 0.001811562106013298
+        },
+        {
+          "seed": 8009,
+          "pair": 3,
+          "samples": 669,
+          "warped_error_delta": 0.001811745809391141
+        },
+        {
+          "seed": 8010,
+          "pair": 0,
+          "samples": 633,
+          "warped_error_delta": 0.001814147923141718
+        },
+        {
+          "seed": 8010,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0021419592667371035
+        },
+        {
+          "seed": 8010,
+          "pair": 2,
+          "samples": 633,
+          "warped_error_delta": 0.0022273040376603603
+        },
+        {
+          "seed": 8010,
+          "pair": 3,
+          "samples": 660,
+          "warped_error_delta": 0.002019717823714018
+        },
+        {
+          "seed": 8011,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0014588258927688003
+        },
+        {
+          "seed": 8011,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0017068043816834688
+        },
+        {
+          "seed": 8011,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.001564825070090592
+        },
+        {
+          "seed": 8011,
+          "pair": 3,
+          "samples": 648,
+          "warped_error_delta": 0.001799260382540524
+        }
+      ]
+    },
+    "global_rgb": {
+      "mean": 0.0017475266383068326,
+      "max_pair": 0.002926599234342575,
+      "pairs": [
+        {
+          "seed": 8000,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0015664936508983374
+        },
+        {
+          "seed": 8000,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.001978012267500162
+        },
+        {
+          "seed": 8000,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0020078925881534815
+        },
+        {
+          "seed": 8000,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.001436123508028686
+        },
+        {
+          "seed": 8001,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.001585448975674808
+        },
+        {
+          "seed": 8001,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0020081656984984875
+        },
+        {
+          "seed": 8001,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.002039507497102022
+        },
+        {
+          "seed": 8001,
+          "pair": 3,
+          "samples": 636,
+          "warped_error_delta": 0.0016014667926356196
+        },
+        {
+          "seed": 8002,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0016262972494587302
+        },
+        {
+          "seed": 8002,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.002052240539342165
+        },
+        {
+          "seed": 8002,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0021095615811645985
+        },
+        {
+          "seed": 8002,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0015419863630086184
+        },
+        {
+          "seed": 8003,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.001173791359178722
+        },
+        {
+          "seed": 8003,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0014853698667138815
+        },
+        {
+          "seed": 8003,
+          "pair": 2,
+          "samples": 630,
+          "warped_error_delta": 0.0015527987852692604
+        },
+        {
+          "seed": 8003,
+          "pair": 3,
+          "samples": 652,
+          "warped_error_delta": 0.0013658944517374039
+        },
+        {
+          "seed": 8004,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.001558279269374907
+        },
+        {
+          "seed": 8004,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.001980703789740801
+        },
+        {
+          "seed": 8004,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.001997829182073474
+        },
+        {
+          "seed": 8004,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.001433169119991362
+        },
+        {
+          "seed": 8005,
+          "pair": 0,
+          "samples": 633,
+          "warped_error_delta": 0.002312456024810672
+        },
+        {
+          "seed": 8005,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0025811006780713797
+        },
+        {
+          "seed": 8005,
+          "pair": 2,
+          "samples": 636,
+          "warped_error_delta": 0.002926599234342575
+        },
+        {
+          "seed": 8005,
+          "pair": 3,
+          "samples": 664,
+          "warped_error_delta": 0.002593868412077427
+        },
+        {
+          "seed": 8006,
+          "pair": 0,
+          "samples": 661,
+          "warped_error_delta": 0.0016808456275612116
+        },
+        {
+          "seed": 8006,
+          "pair": 1,
+          "samples": 632,
+          "warped_error_delta": 0.0016864167992025614
+        },
+        {
+          "seed": 8006,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.001656140317209065
+        },
+        {
+          "seed": 8006,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0011834835167974234
+        },
+        {
+          "seed": 8007,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0014571015490218997
+        },
+        {
+          "seed": 8007,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0018335344502702355
+        },
+        {
+          "seed": 8007,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0018836776725947857
+        },
+        {
+          "seed": 8007,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0013344219187274575
+        },
+        {
+          "seed": 8008,
+          "pair": 0,
+          "samples": 637,
+          "warped_error_delta": 0.0012729917652904987
+        },
+        {
+          "seed": 8008,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0013686041347682476
+        },
+        {
+          "seed": 8008,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0013746997574344277
+        },
+        {
+          "seed": 8008,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0009844781598076224
+        },
+        {
+          "seed": 8009,
+          "pair": 0,
+          "samples": 658,
+          "warped_error_delta": 0.0016185747226700187
+        },
+        {
+          "seed": 8009,
+          "pair": 1,
+          "samples": 634,
+          "warped_error_delta": 0.0015438676346093416
+        },
+        {
+          "seed": 8009,
+          "pair": 2,
+          "samples": 644,
+          "warped_error_delta": 0.0019345975015312433
+        },
+        {
+          "seed": 8009,
+          "pair": 3,
+          "samples": 669,
+          "warped_error_delta": 0.0017853210447356105
+        },
+        {
+          "seed": 8010,
+          "pair": 0,
+          "samples": 633,
+          "warped_error_delta": 0.0017198760760948062
+        },
+        {
+          "seed": 8010,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.002179281087592244
+        },
+        {
+          "seed": 8010,
+          "pair": 2,
+          "samples": 633,
+          "warped_error_delta": 0.0023926354479044676
+        },
+        {
+          "seed": 8010,
+          "pair": 3,
+          "samples": 660,
+          "warped_error_delta": 0.001969438511878252
+        },
+        {
+          "seed": 8011,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.001346870674751699
+        },
+        {
+          "seed": 8011,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0017303033964708447
+        },
+        {
+          "seed": 8011,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.001698677777312696
+        },
+        {
+          "seed": 8011,
+          "pair": 3,
+          "samples": 648,
+          "warped_error_delta": 0.0017303822096437216
+        }
+      ]
+    },
+    "point": {
+      "mean": 0.004464986753494789,
+      "max_pair": 0.005620062816888094,
+      "pairs": [
+        {
+          "seed": 8000,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.005057549104094505
+        },
+        {
+          "seed": 8000,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0044958689250051975
+        },
+        {
+          "seed": 8000,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.004274165257811546
+        },
+        {
+          "seed": 8000,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.004807753954082727
+        },
+        {
+          "seed": 8001,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.004698148462921381
+        },
+        {
+          "seed": 8001,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.004147417843341827
+        },
+        {
+          "seed": 8001,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.003892668290063739
+        },
+        {
+          "seed": 8001,
+          "pair": 3,
+          "samples": 636,
+          "warped_error_delta": 0.00454679736867547
+        },
+        {
+          "seed": 8002,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.004939583130180836
+        },
+        {
+          "seed": 8002,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.004346896428614855
+        },
+        {
+          "seed": 8002,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.004135118797421455
+        },
+        {
+          "seed": 8002,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.0047469534911215305
+        },
+        {
+          "seed": 8003,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.004672628361731768
+        },
+        {
+          "seed": 8003,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.004218566697090864
+        },
+        {
+          "seed": 8003,
+          "pair": 2,
+          "samples": 630,
+          "warped_error_delta": 0.00408441387116909
+        },
+        {
+          "seed": 8003,
+          "pair": 3,
+          "samples": 652,
+          "warped_error_delta": 0.004536990541964769
+        },
+        {
+          "seed": 8004,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.004724332597106695
+        },
+        {
+          "seed": 8004,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.004172550048679113
+        },
+        {
+          "seed": 8004,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.003928810823708773
+        },
+        {
+          "seed": 8004,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.004499055910855532
+        },
+        {
+          "seed": 8005,
+          "pair": 0,
+          "samples": 633,
+          "warped_error_delta": 0.005620062816888094
+        },
+        {
+          "seed": 8005,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.004745365120470524
+        },
+        {
+          "seed": 8005,
+          "pair": 2,
+          "samples": 636,
+          "warped_error_delta": 0.004648439586162567
+        },
+        {
+          "seed": 8005,
+          "pair": 3,
+          "samples": 664,
+          "warped_error_delta": 0.005493602249771357
+        },
+        {
+          "seed": 8006,
+          "pair": 0,
+          "samples": 661,
+          "warped_error_delta": 0.004548589698970318
+        },
+        {
+          "seed": 8006,
+          "pair": 1,
+          "samples": 632,
+          "warped_error_delta": 0.003940567374229431
+        },
+        {
+          "seed": 8006,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0037235075142234564
+        },
+        {
+          "seed": 8006,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.00420573353767395
+        },
+        {
+          "seed": 8007,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.004839297384023666
+        },
+        {
+          "seed": 8007,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.004323282279074192
+        },
+        {
+          "seed": 8007,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.00412913179025054
+        },
+        {
+          "seed": 8007,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.004600537940859795
+        },
+        {
+          "seed": 8008,
+          "pair": 0,
+          "samples": 637,
+          "warped_error_delta": 0.004407966509461403
+        },
+        {
+          "seed": 8008,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.0038906957488507032
+        },
+        {
+          "seed": 8008,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.003757534548640251
+        },
+        {
+          "seed": 8008,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.004133540205657482
+        },
+        {
+          "seed": 8009,
+          "pair": 0,
+          "samples": 658,
+          "warped_error_delta": 0.00499931164085865
+        },
+        {
+          "seed": 8009,
+          "pair": 1,
+          "samples": 634,
+          "warped_error_delta": 0.004486226476728916
+        },
+        {
+          "seed": 8009,
+          "pair": 2,
+          "samples": 644,
+          "warped_error_delta": 0.004683452658355236
+        },
+        {
+          "seed": 8009,
+          "pair": 3,
+          "samples": 669,
+          "warped_error_delta": 0.0050607663579285145
+        },
+        {
+          "seed": 8010,
+          "pair": 0,
+          "samples": 633,
+          "warped_error_delta": 0.004897034727036953
+        },
+        {
+          "seed": 8010,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.004346924833953381
+        },
+        {
+          "seed": 8010,
+          "pair": 2,
+          "samples": 633,
+          "warped_error_delta": 0.004178198054432869
+        },
+        {
+          "seed": 8010,
+          "pair": 3,
+          "samples": 660,
+          "warped_error_delta": 0.004793216474354267
+        },
+        {
+          "seed": 8011,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.004499856848269701
+        },
+        {
+          "seed": 8011,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.00402434729039669
+        },
+        {
+          "seed": 8011,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0037896905560046434
+        },
+        {
+          "seed": 8011,
+          "pair": 3,
+          "samples": 648,
+          "warped_error_delta": 0.004626214038580656
+        }
+      ]
+    },
+    "spatial": {
+      "mean": 0.007432732275143887,
+      "max_pair": 0.010325003415346146,
+      "pairs": [
+        {
+          "seed": 8000,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.005792652256786823
+        },
+        {
+          "seed": 8000,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.006883344613015652
+        },
+        {
+          "seed": 8000,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.007038731127977371
+        },
+        {
+          "seed": 8000,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.006735118106007576
+        },
+        {
+          "seed": 8001,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.005326355341821909
+        },
+        {
+          "seed": 8001,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.007013204041868448
+        },
+        {
+          "seed": 8001,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.006058831699192524
+        },
+        {
+          "seed": 8001,
+          "pair": 3,
+          "samples": 636,
+          "warped_error_delta": 0.005673105828464031
+        },
+        {
+          "seed": 8002,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.0063317278400063515
+        },
+        {
+          "seed": 8002,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.007818685844540596
+        },
+        {
+          "seed": 8002,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.009127113036811352
+        },
+        {
+          "seed": 8002,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.007605838123708963
+        },
+        {
+          "seed": 8003,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.007169622927904129
+        },
+        {
+          "seed": 8003,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.008336039260029793
+        },
+        {
+          "seed": 8003,
+          "pair": 2,
+          "samples": 630,
+          "warped_error_delta": 0.007619632873684168
+        },
+        {
+          "seed": 8003,
+          "pair": 3,
+          "samples": 652,
+          "warped_error_delta": 0.00743469363078475
+        },
+        {
+          "seed": 8004,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.00708175590261817
+        },
+        {
+          "seed": 8004,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.007568210829049349
+        },
+        {
+          "seed": 8004,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0070668915286660194
+        },
+        {
+          "seed": 8004,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.006905139423906803
+        },
+        {
+          "seed": 8005,
+          "pair": 0,
+          "samples": 633,
+          "warped_error_delta": 0.006417375989258289
+        },
+        {
+          "seed": 8005,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.00822138786315918
+        },
+        {
+          "seed": 8005,
+          "pair": 2,
+          "samples": 636,
+          "warped_error_delta": 0.008584929630160332
+        },
+        {
+          "seed": 8005,
+          "pair": 3,
+          "samples": 664,
+          "warped_error_delta": 0.010044281370937824
+        },
+        {
+          "seed": 8006,
+          "pair": 0,
+          "samples": 661,
+          "warped_error_delta": 0.006978529039770365
+        },
+        {
+          "seed": 8006,
+          "pair": 1,
+          "samples": 632,
+          "warped_error_delta": 0.007431311067193747
+        },
+        {
+          "seed": 8006,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.00677911564707756
+        },
+        {
+          "seed": 8006,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.006206221878528595
+        },
+        {
+          "seed": 8007,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.005245548207312822
+        },
+        {
+          "seed": 8007,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.005895180627703667
+        },
+        {
+          "seed": 8007,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.0068374150432646275
+        },
+        {
+          "seed": 8007,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.005465940106660128
+        },
+        {
+          "seed": 8008,
+          "pair": 0,
+          "samples": 637,
+          "warped_error_delta": 0.008725657127797604
+        },
+        {
+          "seed": 8008,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.00754042761400342
+        },
+        {
+          "seed": 8008,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.008360466919839382
+        },
+        {
+          "seed": 8008,
+          "pair": 3,
+          "samples": 633,
+          "warped_error_delta": 0.00786373857408762
+        },
+        {
+          "seed": 8009,
+          "pair": 0,
+          "samples": 658,
+          "warped_error_delta": 0.010325003415346146
+        },
+        {
+          "seed": 8009,
+          "pair": 1,
+          "samples": 634,
+          "warped_error_delta": 0.009988603182137012
+        },
+        {
+          "seed": 8009,
+          "pair": 2,
+          "samples": 644,
+          "warped_error_delta": 0.00981711782515049
+        },
+        {
+          "seed": 8009,
+          "pair": 3,
+          "samples": 669,
+          "warped_error_delta": 0.00999868381768465
+        },
+        {
+          "seed": 8010,
+          "pair": 0,
+          "samples": 633,
+          "warped_error_delta": 0.005661349277943373
+        },
+        {
+          "seed": 8010,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.007523785810917616
+        },
+        {
+          "seed": 8010,
+          "pair": 2,
+          "samples": 633,
+          "warped_error_delta": 0.006258373614400625
+        },
+        {
+          "seed": 8010,
+          "pair": 3,
+          "samples": 660,
+          "warped_error_delta": 0.006211526691913605
+        },
+        {
+          "seed": 8011,
+          "pair": 0,
+          "samples": 629,
+          "warped_error_delta": 0.007588974665850401
+        },
+        {
+          "seed": 8011,
+          "pair": 1,
+          "samples": 625,
+          "warped_error_delta": 0.007502568885684013
+        },
+        {
+          "seed": 8011,
+          "pair": 2,
+          "samples": 628,
+          "warped_error_delta": 0.008585684932768345
+        },
+        {
+          "seed": 8011,
+          "pair": 3,
+          "samples": 648,
+          "warped_error_delta": 0.010125256143510342
+        }
+      ]
+    }
+  },
+  "gates": {
+    "beats_point_mae_10pct": true,
+    "beats_point_shadow_10pct": true,
+    "beats_global_gain_15pct": true,
+    "edges_not_worse_5pct": true,
+    "temporal_not_worse_5pct": false,
+    "exact_protection": true
+  },
+  "synthetic_gates_passed": false,
+  "game_integration_allowed": false,
+  "temporal_scope": "48 perspective camera-rotation/translation pairs; nearest reprojection, matching primitive/depth, subpixel distance <0.35; error vs own target, no history or moving objects",
+  "next_gate": "Generalization beyond synthetic spheres, temporal behavior, complete D3D12 GPU timing/memory and available game inputs."
+}

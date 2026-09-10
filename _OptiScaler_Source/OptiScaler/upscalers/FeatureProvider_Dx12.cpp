@@ -10,6 +10,7 @@
 #include "upscalers/dlssd/DLSSDFeature_Dx12.h"
 #include "upscalers/fsr2/FSR2Feature_Dx12.h"
 #include "upscalers/fsr2_212/FSR2Feature_Dx12_212.h"
+#include "upscalers/tsr/TsrProbeFeature.h"
 #include "upscalers/ffx/FFXFeature_Dx12.h"
 #include "upscalers/xess/XeSSFeature_Dx12.h"
 #include "FeatureProvider_Dx11.h"
@@ -25,6 +26,9 @@ bool FeatureProvider_Dx12::GetFeature(Upscaler upscaler, UINT handleId, NVSDK_NG
 
     switch (upscaler)
     {
+    case Upscaler::TSRProbe:
+        *feature = std::make_unique<TsrProbeFeature>(handleId, parameters);
+        break;
     case Upscaler::XeSS:
         *feature = std::make_unique<XeSSFeatureDx12>(handleId, parameters);
         break;

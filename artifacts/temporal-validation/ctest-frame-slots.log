@@ -1,0 +1,61 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+      Start  1: frame_slots
+ 1/28 Test  #1: frame_slots ......................   Passed    0.01 sec
+      Start  2: texture_regions
+ 2/28 Test  #2: texture_regions ..................   Passed    0.01 sec
+      Start  3: reference
+ 3/28 Test  #3: reference ........................   Passed    0.01 sec
+      Start  4: frame_contract
+ 4/28 Test  #4: frame_contract ...................   Passed    0.01 sec
+      Start  5: temporal_reference
+ 5/28 Test  #5: temporal_reference ...............   Passed    0.01 sec
+      Start  6: reconstruction
+ 6/28 Test  #6: reconstruction ...................   Passed    0.01 sec
+      Start  7: output_history_reference
+ 7/28 Test  #7: output_history_reference .........   Passed    0.01 sec
+      Start  8: runtime_options
+ 8/28 Test  #8: runtime_options ..................   Passed    0.01 sec
+      Start  9: input_adapter_warp
+ 9/28 Test  #9: input_adapter_warp ...............   Passed    0.23 sec
+      Start 10: input_chain_warp
+10/28 Test #10: input_chain_warp .................   Passed    0.17 sec
+      Start 11: input_chain_fp16_warp
+11/28 Test #11: input_chain_fp16_warp ............   Passed    0.18 sec
+      Start 12: input_regions_warp
+12/28 Test #12: input_regions_warp ...............   Passed    0.17 sec
+      Start 13: input_regions_fp16_warp
+13/28 Test #13: input_regions_fp16_warp ..........   Passed    0.17 sec
+      Start 14: frame_slots_warp
+14/28 Test #14: frame_slots_warp .................   Passed    0.16 sec
+      Start 15: benchmark_output_history_warp
+15/28 Test #15: benchmark_output_history_warp ....   Passed    0.16 sec
+      Start 16: benchmark_bilinear_warp
+16/28 Test #16: benchmark_bilinear_warp ..........   Passed    0.13 sec
+      Start 17: temporal_warp
+17/28 Test #17: temporal_warp ....................   Passed    0.21 sec
+      Start 18: temporal_warp_full
+18/28 Test #18: temporal_warp_full ...............   Passed    3.78 sec
+      Start 19: temporal_cubic_warp
+19/28 Test #19: temporal_cubic_warp ..............   Passed    0.17 sec
+      Start 20: temporal_cubic_warp_full
+20/28 Test #20: temporal_cubic_warp_full .........   Passed   19.03 sec
+      Start 21: output_history_warp
+21/28 Test #21: output_history_warp ..............   Passed    0.21 sec
+      Start 22: output_history_warp_full
+22/28 Test #22: output_history_warp_full .........   Passed    4.80 sec
+      Start 23: output_history_1080p_warp
+23/28 Test #23: output_history_1080p_warp ........   Passed    1.42 sec
+      Start 24: output_history_fractional_wide
+24/28 Test #24: output_history_fractional_wide ...   Passed    0.20 sec
+      Start 25: dx12_warp
+25/28 Test #25: dx12_warp ........................   Passed    0.12 sec
+      Start 26: dx12_warp_full
+26/28 Test #26: dx12_warp_full ...................   Passed    0.67 sec
+      Start 27: dx12_texture_warp
+27/28 Test #27: dx12_texture_warp ................   Passed    0.12 sec
+      Start 28: dx12_texture_warp_full
+28/28 Test #28: dx12_texture_warp_full ...........   Passed    0.61 sec
+
+100% tests passed, 0 tests failed out of 28
+
+Total Test time (real) =  32.78 sec

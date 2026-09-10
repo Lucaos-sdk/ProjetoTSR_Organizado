@@ -1,0 +1,128 @@
+{
+  "ids": [
+    27000,
+    27001,
+    27002,
+    27003
+  ],
+  "families": [
+    "baseline",
+    "boxes"
+  ],
+  "resolutions": [
+    [
+      192,
+      128
+    ],
+    [
+      384,
+      256
+    ]
+  ],
+  "checkpoints": {
+    "20260911_frozen": "bbc0f8abdd0ef39c5f077ba98d57bd3a02438460b39148733c0ab05f38fcac49",
+    "20260911_joint": "dc74d87ebf4efa6dcc7f7b1d0bf4faeec6964e936e0a26d250b4877677957983",
+    "20260912_frozen": "4d56f29cc64afc20d6019d333322b9ddbe3b9bc495e7048dfbb2669acb4421f6",
+    "20260912_joint": "77d1f1c5e0644f0dbd0ce478a13cf51697946a754839a42bdd143c8b4e7f2c4b"
+  },
+  "phases_source_pixels": [
+    [
+      -0.5,
+      0.0
+    ],
+    [
+      -0.25,
+      0.0
+    ],
+    [
+      0.25,
+      0.0
+    ],
+    [
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      -0.5
+    ],
+    [
+      0.0,
+      -0.25
+    ],
+    [
+      0.0,
+      0.25
+    ],
+    [
+      0.0,
+      0.5
+    ]
+  ],
+  "yaws": [
+    -0.04,
+    -0.001,
+    0.0,
+    0.001,
+    0.04
+  ],
+  "camera_pairs": [
+    [
+      1,
+      2,
+      "micro"
+    ],
+    [
+      2,
+      3,
+      "micro"
+    ],
+    [
+      0,
+      2,
+      "standard"
+    ],
+    [
+      2,
+      4,
+      "standard"
+    ]
+  ],
+  "depth_noise": 0.0,
+  "remove": false,
+  "variants": {
+    "center": "center normal and depth",
+    "depth_area": "center normal + area depth",
+    "normal_area": "area normal + center depth",
+    "normal_unit": "unit area normal + center depth",
+    "magnitude_only": "center direction * area normal length + center depth; missing center direction stays zero",
+    "area": "raw area normal and depth",
+    "area_unit": "unit area normal + area depth",
+    "postfit": "5x5 plane-residual fit AFTER area depth reduction, adjusted intrinsics; area depth"
+  },
+  "fixed": "Color area reduction, center validity, residual lifting and model weights unchanged in every variant.",
+  "phase": "Each variant versus its own phase zero. Perturb geometry only, not the output lattice.",
+  "camera": "All inputs evolve naturally, phase zero fixed; reproject prediction-minus-own-target error.",
+  "normalization": "Length <=1e-6 becomes zero. Angular metrics exclude missing normals and record excluded counts.",
+  "criteria": {
+    "phase_ratio_max": 0.8,
+    "micro_ratio_max": 0.8,
+    "standard_ratio_max": 0.8,
+    "image_ratio_max": 1.05,
+    "protected_change": 0.0,
+    "require_every_group_and_checkpoint": true
+  },
+  "contrasts": [
+    "each alternative vs center",
+    "normal_unit vs normal_area",
+    "area_unit vs area",
+    "postfit vs area_unit"
+  ],
+  "cautions": [
+    "Renormalization fixes length, not mixed direction; performance changes do not uniquely identify a cause.",
+    "Area depth can lie between unrelated surfaces; fitting later changes spatial support and does not guarantee correct geometry.",
+    "Same FOV and same low grid: 4x4 vs 2x2 source pixels does not imply four times the scene-space footprint.",
+    "Only synthetic clean fixed-light static-object scenes. No intervention-response, temporal history or GPU test."
+  ],
+  "game_integration_allowed": false
+}

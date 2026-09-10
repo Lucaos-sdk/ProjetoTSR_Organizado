@@ -1,0 +1,68 @@
+{
+  "stage-rx7600-fp16": {
+    "samples": 100,
+    "csv_sha256": "16428eca27f317f37d3a1056e995dfd61c8916293a359c06007057aa43a0416c",
+    "stages": {
+      "input_ms": {
+        "median_ms": 0.11202000000000001,
+        "p95_ms": 0.11688
+      },
+      "temporal_ms": {
+        "median_ms": 0.65418,
+        "p95_ms": 0.6902
+      },
+      "output_ms": {
+        "median_ms": 0.21078,
+        "p95_ms": 0.25912
+      },
+      "total_ms": {
+        "median_ms": 0.9811399999999999,
+        "p95_ms": 1.028
+      }
+    }
+  },
+  "stage-rx7600-fp32": {
+    "samples": 100,
+    "csv_sha256": "4af7278ff91a88b9b4709cdc0ac7d2833cf7cc5cd888510552c5f29cff898088",
+    "stages": {
+      "input_ms": {
+        "median_ms": 0.17124,
+        "p95_ms": 0.1768
+      },
+      "temporal_ms": {
+        "median_ms": 0.64288,
+        "p95_ms": 0.6808
+      },
+      "output_ms": {
+        "median_ms": 0.23882,
+        "p95_ms": 0.29148
+      },
+      "total_ms": {
+        "median_ms": 1.0836000000000001,
+        "p95_ms": 1.10488
+      }
+    }
+  },
+  "stage-rx7600-debug": {
+    "samples": 100,
+    "csv_sha256": "d54331292b035d4bb972c26bfb588555eeb7aa60864acba9ac2a1a845890294f",
+    "stages": {
+      "input_ms": {
+        "median_ms": 0.1122,
+        "p95_ms": 0.1172
+      },
+      "temporal_ms": {
+        "median_ms": 0.6542,
+        "p95_ms": 0.70068
+      },
+      "output_ms": {
+        "median_ms": 0.2102,
+        "p95_ms": 0.2564
+      },
+      "total_ms": {
+        "median_ms": 0.97916,
+        "p95_ms": 1.02936
+      }
+    }
+  }
+}

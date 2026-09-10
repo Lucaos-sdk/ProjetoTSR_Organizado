@@ -1,0 +1,174 @@
+[08:55:00.792977] [W] OptiScaler v10.0.0-dev (07af11e) (20260906_084407) loaded
+[08:55:00.793047] [W] ---------------------------------
+[08:55:00.793072] [W] OptiScaler is freely downloadable from
+[08:55:00.793090] [W] GitHub : https://github.com/optiscaler/OptiScaler/releases
+[08:55:00.793108] [W] Nexus  : https://www.nexusmods.com/site/mods/986
+[08:55:00.793131] [W] If you paid for these files, you've been scammed!
+[08:55:00.793148] [W] DO NOT USE IN MULTIPLAYER GAMES
+[08:55:00.793165] [I] 
+[08:55:00.793189] [I] LogLevel: 2
+[08:55:00.793210] [I] 
+[08:55:00.793248] [I] Windows version: Windows 11 (10.0.26200)
+[08:55:00.793268] [I] 
+[08:55:00.793285] [I] Config parameters:
+[08:55:00.793303] [I] Upscalers.Dx12Upscaler: tsr_probe
+[08:55:00.797636] [I] FrameGen.Enabled: false
+[08:55:00.798210] [I] FrameGen.FGInput: nofg
+[08:55:00.798780] [I] FrameGen.FGOutput: nofg
+[08:55:00.799345] [I] OptiFG.HUDFix: true
+[08:55:00.799913] [I] OptiFG.HUDFixRelaxedResolutionCheck: true
+[08:55:00.800480] [I] Log.LogToFile: true
+[08:55:00.801043] [I] Log.LogLevel: 2
+[08:55:00.801605] [I] Log.LogFileName: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\TSR_Probe.log
+[08:55:00.802165] [I] 
+[08:55:00.802760] [I] Setting DllPath to C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler
+[08:55:00.803566] [I] 
+[08:55:00.804209] [I] 
+[08:55:00.804802] [W] IsRunningOnWine Wine not detected
+[08:55:00.805437] [I] 
+[08:55:00.806004] [I] Check for DLSS files
+[08:55:00.806789] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[08:55:00.811495] [I] Util::FindFilePath nvngx_dlssg.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[08:55:00.812070] [I] 
+[08:55:00.812740] [I] CheckQuirks Game's Exe: witcher3.exe
+[08:55:00.813316] [I] CheckQuirks Game Name: The Witcher 3
+[08:55:00.813884] [I] CheckQuirks Game Version: 4.0.0.103190(Build Machine)
+[08:55:00.814451] [I] CheckQuirks Game Engine: Other
+[08:55:00.815131] [I] Quirk: Dxgi spoofing disabled by default
+[08:55:00.815700] [I] Quirk: Create SL on the 2nd device
+[08:55:00.816259] [I] 
+[08:55:00.817738] [I] CheckWorkingMode OptiScaler working as dxgi.dll, system dll loaded
+[08:55:00.818370] [W] Config::CheckUpscalerFiles nvngx.dll not found!
+[08:55:00.818978] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[08:55:00.819608] [I] Config::CheckUpscalerFiles libxess.dll found in game folder
+[08:55:00.821088] [I] StreamlineHooks::hookInterposer Streamline version: 1.0.0
+[08:55:00.821685] [I] StreamlineHooks::hookInterposer SL1 exports - slInit: true, slSetTag: true, slSetConstants: true, slEvaluateFeature: true
+[08:55:00.825073] [I] Util::LoadProxyLibrary libxess.dll already loaded at memory: 7FFFA8B70000
+[08:55:00.920583] [I] Util::LoadProxyLibrary libxess.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[08:55:00.921214] [I] XeSSProxy::InitXeSS Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[08:55:00.924704] [I] XeSSProxy::InitXeSS LoadResult: true
+[08:55:00.925467] [I] 
+[08:55:00.927586] [I] Util::LoadProxyLibrary amd_fidelityfx_loader_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[08:55:00.928177] [I] FfxApiProxy::InitFfxDx12 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[08:55:00.928802] [I] 
+[08:55:00.938923] [I] Util::LoadProxyLibrary amd_fidelityfx_upscaler_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_upscaler_dx12.dll
+[08:55:00.952645] [I] FfxApiProxy::InitFfxDx12_SR Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_upscaler_dx12.dll
+[08:55:00.953867] [I] FfxApiProxy::InitFfxDx12_SR LoadResult: true
+[08:55:00.954485] [I] 
+[08:55:00.962695] [I] Util::LoadProxyLibrary amd_fidelityfx_framegeneration_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[08:55:00.963292] [I] FfxApiProxy::InitFfxDx12_FG Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[08:55:00.963889] [I] FfxApiProxy::InitFfxDx12_FG LoadResult: true
+[08:55:00.964453] [I] 
+[08:55:00.965864] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[08:55:00.966451] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[08:55:00.967022] [I] 
+[08:55:00.967807] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[08:55:00.968385] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[08:55:00.968952] [I] FfxApiProxy::InitFfxDx12 LoadResult: true
+[08:55:00.969520] [I] 
+[08:55:00.970582] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[08:55:00.971194] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[08:55:00.971779] [I] 
+[08:55:00.972586] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[08:55:00.973162] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[08:55:00.980719] [I] Util::LoadProxyLibrary libxess_dx11.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[08:55:00.981302] [I] XeSSProxy::InitXeSSDx11 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[08:55:00.982248] [I] XeSSProxy::InitXeSSDx11 LoadResult: true
+[08:55:01.023051] [I] Util::LoadProxyLibrary libxess_fg.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_fg.dll
+[08:55:01.023658] [I] XeFGProxy::InitXeFG Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_fg.dll
+[08:55:01.024217] [I] 
+[08:55:01.025236] [I] XeFGProxy::HookXeFG LoadResult: true
+[08:55:01.034899] [I] Util::LoadProxyLibrary libxell.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxell.dll
+[08:55:01.035492] [I] XeLLProxy::InitXeLLProper Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxell.dll
+[08:55:01.036049] [I] 
+[08:55:01.037051] [I] XeLLProxy::HookXeLL LoadResult: true
+[08:55:01.037796] [I] NVNGXProxy::InitNVNGX 
+[08:55:01.038661] [W] Util::LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!
+[08:55:01.039436] [W] Util::LoadProxyLibrary Can't find nvngx.dll, returning nullptr!
+[08:55:01.040008] [I] Util::NvngxPath trying to load nvngx from registry path!
+[08:55:01.040596] [I] 
+[08:55:01.041184] [I] HookFSR2ExeInputs Trying to hook FSR2 methods
+[08:55:01.041845] [I] HookFSR3ExeInputs Trying to hook FSR3 methods
+[08:55:01.042467] [I] 
+[08:55:01.043031] [I] Init done
+[08:55:01.043588] [I] ---------------------------------------------
+[08:55:01.044143] [I] 
+[08:55:01.222234] [I] LibraryLoadHooks::LoadLibraryCheckW Calling CreateDxgiFactory methods for overlay!
+[08:55:01.269402] [I] Amdxc64Hooks::Init amdxc64.dll loaded
+[08:55:01.276421] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[08:55:02.072619] [I] Detected GPUs:
+                      AMD Radeon RX 7600
+                          vendorId: 1002, deviceId: 7480, VRAM: 8150MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: int8, dlss: false
+                      Microsoft Basic Render Driver
+                          vendorId: 1414, deviceId: 8C, VRAM: 0MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: false, dlss: false
+
+[08:55:02.128042] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-02][streamline][info]pluginmanager.cpp:1108[PluginManager] Streamline v1.5.6.0c67e1bd - built on Mon May 15 11:13:07 2023
+[08:55:02.130110] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-02][streamline][info]pluginmanager.cpp:410[findPlugins] Looking for plugins in C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\ ...
+[08:55:02.338443] [E] StreamlineHooks::hookCommon Failed to hook Common: 10DD
+[08:55:02.344228] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-02][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695702/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:04.416903] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-04][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695704/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:04.417829] [I] `anonymous-namespace'::RunVersionCheck OptiScaler is up to date (current 10.0.0)
+[08:55:06.318426] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-06][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695706/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:09.619712] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-09][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695709/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:11.380292] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-11][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695711/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:14.435905] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-14][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695714/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:16.255402] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-16][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695716/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:18.094286] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-18][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695718/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:19.862970] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-19][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695719/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:21.623711] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-21][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695721/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:23.427141] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-23][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695723/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:25.246966] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-25][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695725/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:26.985681] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-26][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695726/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:28.785192] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-28][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695728/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:30.549783] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-30][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695730/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:32.365538] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-32][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695732/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:34.235696] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-34][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695734/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:37.244435] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-37][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695737/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:39.045833] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-39][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695739/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:40.772700] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-40][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695740/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:42.537092] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-42][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695742/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:44.356400] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-44][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695744/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:46.096142] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-46][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695746/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:47.968757] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-47][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695747/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:49.809458] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-49][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695749/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:51.597678] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-51][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695751/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:54.004025] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-54][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695754/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:55:56.090870] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-55-56][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695756/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:01.205738] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-01][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695761/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:03.134536] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-03][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695763/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:04.993516] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-04][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695764/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:07.989487] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-07][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695767/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:09.931912] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-09][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695769/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:11.706989] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-11][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695771/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:13.491058] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-13][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695773/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:15.273342] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-15][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695775/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:17.049207] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-17][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695777/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:18.818834] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-18][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695778/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:20.572505] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-20][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695780/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:22.294839] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-22][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695782/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:24.065404] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-24][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695784/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:25.813110] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-25][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695785/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:27.580031] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-27][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695787/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:29.425144] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-29][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695789/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:31.446206] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-31][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695791/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:33.435411] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-33][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695793/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:35.243491] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-35][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695795/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:37.064386] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-37][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695797/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:38.902703] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-38][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695798/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:40.690661] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-40][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695800/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:42.495119] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-42][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695802/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:44.374400] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-44][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695804/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:46.129288] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-46][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695806/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:47.939643] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-47][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695807/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:49.746713] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-49][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695809/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:51.510190] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-51][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695811/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:53.291171] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-53][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695813/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:55.076011] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-55][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695815/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:56.944231] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-56][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695816/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:56:59.193209] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-56-59][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695819/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:57:01.439832] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-57-01][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695821/sl-sha-0c67e1bd.dmp', threadId 15696
+[08:57:03.572966] [E] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 08-57-03][streamline][error]exception.cpp:74[writeMiniDump] Exception detected - creating mini-dump 'C:\ProgramData/NVIDIA/Streamline/witcher3/1788695823/sl-sha-0c67e1bd.dmp', threadId 15696

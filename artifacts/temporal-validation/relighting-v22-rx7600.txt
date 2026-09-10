@@ -1,0 +1,12 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+PASS color composition: max_relative_reference_error=0.000856084 max_normalized_rgb_error=0.000777765 fp16_fp32=true hdr=true black=true negative=true sky=true alpha=true transfer_endpoints=true
+PASS cached/direct depth agreement: max_error=0 fp16_fp32=true odd_dimensions=true partial_workgroups=true
+PASS world anchor: max_error=2.38419e-06 unanchored_error=0.266927 rotations=14 full_sphere=true
+PASS faceted surface: original_mse=2.18852e-06 smooth_mse=1.40669e-06 reduction=0.357241
+PASS silhouettes/sky: max_error=5.96046e-08 previous_frame_independence=true alpha_preserved=true
+Last completed own GPU pass ms=0.0052 size=129x97 debug=true
+BENCHMARK own_pass size=1476x830 color_transfer=0 cache=true fp16=true depth=R32F smoothing=1 debug=true samples=20 median_ms=0.35012 p95_ms=0.3576 max_ms=0.35996
+BENCHMARK own_pass size=1476x830 color_transfer=1 cache=true fp16=true depth=R32F smoothing=1 debug=true samples=20 median_ms=0.33768 p95_ms=0.3404 max_ms=0.34108
+BENCHMARK own_pass size=1920x1080 color_transfer=0 cache=true fp16=true depth=R32F smoothing=1 debug=true samples=20 median_ms=0.58324 p95_ms=0.58432 max_ms=0.59336
+BENCHMARK own_pass size=1920x1080 color_transfer=1 cache=true fp16=true depth=R32F smoothing=1 debug=true samples=20 median_ms=0.56092 p95_ms=0.5618 max_ms=0.57812

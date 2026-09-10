@@ -1,0 +1,17 @@
+{
+  "created": "2026-09-07T10:04:59.9780694-03:00",
+  "cameraAssociation": "unique_jitter_experimental",
+  "hashes": {
+    "OptiScaler.ini": "7B6E13A63F919580C55D80DF587253FE2B9DEDB353EEB3BFEFA26E106078FE21",
+    "dxgi.dll": "9D490DD1B33A2616576D5807C652389B9EB7400DBC5090626EC80C71DF60CC78"
+  },
+  "originalGameHashes": {
+    "OptiScaler.ini": "7194A507252947460AE54BBFBFE1DEC50174F1E191B0B77531F958E2F2F5C890",
+    "dxgi.dll": "A6F7B2B2303022947D10DB73B174DC3B498C8A79C3662CF63E0F103D4E81B48C"
+  },
+  "name": "witcher3-graphical-relighting",
+  "gameValidation": "pending",
+  "hotkey": "F8",
+  "strength": 0.35,
+  "ownModel": "fixture_v1"
+}

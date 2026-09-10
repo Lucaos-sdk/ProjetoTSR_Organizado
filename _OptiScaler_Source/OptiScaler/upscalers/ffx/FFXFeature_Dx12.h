@@ -4,11 +4,22 @@
 
 #include "dx12/ffx_api_dx12.h"
 #include "proxies/FfxApi_Proxy.h"
+#include "../../../../native/integration/game_relighting_dx12.h"
 
 class FFXFeatureDx12 : public FFXFeature, public IFeature_Dx12
 {
   private:
-    ID3D12Resource* smallerColor[2];
+    ID3D12Resource* smallerColor[2]{};
+    std::unique_ptr<tsr::integration::GameRelighting> tsrRelighting;
+    bool tsrWasActive=false,tsrFailed=false;
+    float tsrLastStrength=0;
+    uint64_t tsrCalls=0;
+    std::optional<tsr::integration::CameraSample> tsrLightAnchor;
+    uint64_t tsrAnchorRevision=0;
+    float tsrLastSmoothing=1;
+    float tsrLastColorTransfer=0;
+    bool tsrLastSceneryProtection=true;
+    float tsrLastReach=80;
 
     NVSDK_NGX_Parameter* SetParameters(NVSDK_NGX_Parameter* InParameters);
 

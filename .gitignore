@@ -4,3 +4,19 @@ __pycache__/
 _IA_Python/*_fp16.onnx
 _IA_Python/*.onnx.data
 /build/
+
+# Local runtimes/builds and externally downloaded installers (not project source).
+_IA_Python/venv/
+**/.vs/
+**/x64/Release/
+**/x64/Debug/
+/Arquivos necessarios/
+/DLSS-NR-on-AMD-0.2.11/
+/dlss teste/
+/dlssnr_on_amd_setup.exe
+/artifacts/**/*.dll
+/artifacts/**/*.exe
+/artifacts/**/*.zip
+/artifacts/external-references/
+# Original conversation attachment; the technical handoff is documented instead.
+/artifacts/project-handoff-20260908/CONTEXTO_INICIAL_DO_USUARIO.txt

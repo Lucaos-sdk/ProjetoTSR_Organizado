@@ -1,0 +1,10 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+Reconstruction: output-grid sample history
+Configured render: 1706x960; output: 2560x1440
+History allocation: 2560x1440; four textures MiB=230
+PASS configured resolution; frame=0; reuse=0; history_error=3.8147e-06; output_error=3.8147e-06
+PASS configured resolution; frame=1; reuse=1; history_error=1.90735e-05; output_error=1.90735e-05
+PASS configured resolution; frame=2; reuse=1; history_error=1.90735e-05; output_error=1.90735e-05
+PASS configured resolution; frame=3; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+Temporal baseline with explicit previous-surface depth; no neural model, game integration or performance claim.

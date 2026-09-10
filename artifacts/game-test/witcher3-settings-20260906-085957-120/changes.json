@@ -1,0 +1,48 @@
+{
+  "file": "C:\\Users\\Administrator\\Documents\\The Witcher 3\\dx12user.settings",
+  "changes": [
+    {
+      "before": "1",
+      "setting": "Viewport.ReflexMode",
+      "after": "0"
+    },
+    {
+      "before": "7",
+      "setting": "PostProcess.AAMode",
+      "after": "5"
+    },
+    {
+      "before": "true",
+      "setting": "PostProcess.EnableFSR1",
+      "after": "false"
+    },
+    {
+      "before": "0",
+      "setting": "PostProcess.FSR2Quality",
+      "after": "1"
+    },
+    {
+      "before": "true",
+      "setting": "Rendering.AllowReflex",
+      "after": "false"
+    },
+    {
+      "before": "true",
+      "setting": "Rendering.AllowDLSS",
+      "after": "false"
+    },
+    {
+      "before": "true",
+      "setting": "Rendering.AllowDLSSG",
+      "after": "false"
+    },
+    {
+      "before": "true",
+      "setting": "Rendering.AllowStreamline",
+      "after": "false"
+    }
+  ],
+  "installedHash": "689B7EBA82A53A9916FDF318B84F2694927766CAB31E55DCD6FD857D084DFF8A",
+  "backup": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\artifacts\\game-test\\witcher3-settings-20260906-085957-120",
+  "originalHash": "9DDDDD2C0D5A26B0C80C95504082A6EF09F653EDFF8D83BB0619DC2A9AA4EF59"
+}

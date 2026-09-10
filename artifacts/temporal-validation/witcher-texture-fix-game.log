@@ -1,0 +1,448 @@
+[01:03:10.487079] [W] OptiScaler v10.0.0-dev (07af11e) (20260906_204940) loaded
+[01:03:10.487154] [W] ---------------------------------
+[01:03:10.487162] [W] OptiScaler is freely downloadable from
+[01:03:10.487167] [W] GitHub : https://github.com/optiscaler/OptiScaler/releases
+[01:03:10.487171] [W] Nexus  : https://www.nexusmods.com/site/mods/986
+[01:03:10.487175] [W] If you paid for these files, you've been scammed!
+[01:03:10.487180] [W] DO NOT USE IN MULTIPLAYER GAMES
+[01:03:10.487184] [I] 
+[01:03:10.487193] [I] LogLevel: 2
+[01:03:10.487199] [I] 
+[01:03:10.487222] [I] Windows version: Windows 11 (10.0.26200)
+[01:03:10.487227] [I] 
+[01:03:10.487232] [I] Config parameters:
+[01:03:10.487238] [I] Upscalers.Dx12Upscaler: ffx
+[01:03:10.487243] [I] FrameGen.Enabled: true
+[01:03:10.487247] [I] FrameGen.FGInput: Upscaler
+[01:03:10.487251] [I] FrameGen.FGOutput: XeFG
+[01:03:10.487255] [I] OptiFG.DisableHUDFix: true
+[01:03:10.487260] [I] OptiFG.HUDFixRelaxedResolutionCheck: true
+[01:03:10.487264] [I] Log.LogToFile: true
+[01:03:10.487268] [I] Log.LogLevel: 2
+[01:03:10.487272] [I] Log.LogFileName: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\TSR_FrameGen.log
+[01:03:10.487277] [I] Sharpness.OverrideSharpness: true
+[01:03:10.487282] [I] Sharpness.Sharpness: 0.000000
+[01:03:10.487286] [I] Magnifier.Size: 11.000000
+[01:03:10.487290] [I] Magnifier.BorderSize: 0.730000
+[01:03:10.487294] [I] fakenvapi.LatencyFlexMode: 1
+[01:03:10.487298] [I] Libraries.FfxDx12SRPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[01:03:10.487303] [I] Libraries.XeFGPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxess_fg.dll
+[01:03:10.487307] [I] Libraries.XeLLPath: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxell.dll
+[01:03:10.487312] [I] 
+[01:03:10.487318] [I] Setting DllPath to C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler
+[01:03:10.487322] [I] 
+[01:03:10.487364] [I] 
+[01:03:10.487381] [W] IsRunningOnWine Wine not detected
+[01:03:10.487434] [I] 
+[01:03:10.487440] [I] Check for DLSS files
+[01:03:10.488833] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[01:03:10.492950] [I] Util::FindFilePath nvngx_dlssg.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[01:03:10.492971] [I] 
+[01:03:10.493078] [I] CheckQuirks Game's Exe: witcher3.exe
+[01:03:10.493086] [I] CheckQuirks Game Name: The Witcher 3
+[01:03:10.493091] [I] CheckQuirks Game Version: 4.0.0.103190(Build Machine)
+[01:03:10.493095] [I] CheckQuirks Game Engine: Other
+[01:03:10.493217] [I] Quirk: Dxgi spoofing disabled by default
+[01:03:10.493225] [I] Quirk: Create SL on the 2nd device
+[01:03:10.493230] [I] 
+[01:03:10.493942] [I] CheckWorkingMode OptiScaler working as dxgi.dll, system dll loaded
+[01:03:10.494008] [W] Config::CheckUpscalerFiles nvngx.dll not found!
+[01:03:10.494032] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[01:03:10.494050] [I] Config::CheckUpscalerFiles libxess.dll found in game folder
+[01:03:10.495651] [I] StreamlineHooks::hookInterposer Streamline version: 1.0.0
+[01:03:10.495677] [I] StreamlineHooks::hookInterposer SL1 exports - slInit: true, slSetTag: true, slSetConstants: true, slEvaluateFeature: true
+[01:03:10.499037] [I] Util::LoadProxyLibrary libxess.dll already loaded at memory: 7FFBC1A20000
+[01:03:10.602712] [I] Util::LoadProxyLibrary libxess.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[01:03:10.602748] [I] XeSSProxy::InitXeSS Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[01:03:10.607627] [I] XeSSProxy::InitXeSS LoadResult: true
+[01:03:10.607854] [I] 
+[01:03:10.610001] [I] Util::LoadProxyLibrary amd_fidelityfx_loader_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[01:03:10.610016] [I] FfxApiProxy::InitFfxDx12 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[01:03:10.610063] [I] 
+[01:03:10.620467] [I] Util::LoadProxyLibrary amd_fidelityfx_upscaler_dx12.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[01:03:10.634208] [I] FfxApiProxy::InitFfxDx12_SR Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-fsr411\amd_fidelityfx_upscaler_dx12.dll
+[01:03:10.634267] [I] FfxApiProxy::InitFfxDx12_SR LoadResult: true
+[01:03:10.634273] [I] 
+[01:03:10.647011] [I] Util::LoadProxyLibrary amd_fidelityfx_framegeneration_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[01:03:10.647044] [I] FfxApiProxy::InitFfxDx12_FG Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[01:03:10.647088] [I] FfxApiProxy::InitFfxDx12_FG LoadResult: true
+[01:03:10.647094] [I] 
+[01:03:10.648012] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[01:03:10.648035] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[01:03:10.648041] [I] 
+[01:03:10.648276] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[01:03:10.648290] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[01:03:10.648295] [I] FfxApiProxy::InitFfxDx12 LoadResult: true
+[01:03:10.648300] [I] 
+[01:03:10.648508] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[01:03:10.648516] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[01:03:10.648521] [I] 
+[01:03:10.648722] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[01:03:10.648730] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[01:03:10.656087] [I] Util::LoadProxyLibrary libxess_dx11.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[01:03:10.656110] [I] XeSSProxy::InitXeSSDx11 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[01:03:10.656513] [I] XeSSProxy::InitXeSSDx11 LoadResult: true
+[01:03:10.695737] [I] Util::LoadProxyLibrary libxess_fg.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxess_fg.dll
+[01:03:10.695769] [I] XeFGProxy::InitXeFG Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxess_fg.dll
+[01:03:10.695775] [I] 
+[01:03:10.696265] [I] XeFGProxy::HookXeFG LoadResult: true
+[01:03:10.704577] [I] Util::LoadProxyLibrary libxell.dll loaded from override path: C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxell.dll
+[01:03:10.704607] [I] XeLLProxy::InitXeLLProper Loaded from C:\Users\Administrator\Documents\ProjetoTSR_Organizado\artifacts\game-test\witcher3-framegen-2x\libxell.dll
+[01:03:10.704613] [I] 
+[01:03:10.705032] [I] XeLLProxy::HookXeLL LoadResult: true
+[01:03:10.705089] [I] NVNGXProxy::InitNVNGX 
+[01:03:10.705401] [W] Util::LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!
+[01:03:10.705617] [W] Util::LoadProxyLibrary Can't find nvngx.dll, returning nullptr!
+[01:03:10.705625] [I] Util::NvngxPath trying to load nvngx from registry path!
+[01:03:10.705734] [I] 
+[01:03:10.705763] [I] HookFSR2ExeInputs Trying to hook FSR2 methods
+[01:03:10.705858] [I] HookFSR3ExeInputs Trying to hook FSR3 methods
+[01:03:10.705924] [I] 
+[01:03:10.705931] [I] Init done
+[01:03:10.705935] [I] ---------------------------------------------
+[01:03:10.705939] [I] 
+[01:03:10.856677] [I] Amdxc64Hooks::Init amdxc64.dll loaded
+[01:03:10.857944] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:03:11.558967] [I] Detected GPUs:
+                      AMD Radeon RX 7600
+                          vendorId: 1002, deviceId: 7480, VRAM: 8150MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: int8, dlss: false
+                      Microsoft Basic Render Driver
+                          vendorId: 1414, deviceId: 8C, VRAM: 0MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: false, dlss: false
+
+[01:03:11.611149] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:1108[PluginManager] Streamline v1.5.6.0c67e1bd - built on Mon May 15 11:13:07 2023
+[01:03:11.612496] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:410[findPlugins] Looking for plugins in C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\ ...
+[01:03:11.664464] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]commoninterface.cpp:127[getGPUInfo] Enumerating up to 8 adapters but only one of them can be used to create a device - no mGPU support in this SDK
+[01:03:11.666363] [W] DxgiSpoofing::AttachToAdapter DxgiSpoofing and DxgiVRAM is disabled, skipping hooking
+[01:03:11.676410] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]commonentry.cpp:1235[getOSVersionAndUpdateTimerResolution] Changed high resolution timer resolution to 5000 [100 ns units]
+[01:03:11.676468] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]commonentry.cpp:1278[updateEmbeddedJSON] Detected Windows OS version 10.0.26200
+[01:03:11.676689] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.common' - version 1.5.6.0c67e1bd - id 4294967295 - priority 0 - adapter mask 0x1 - interposer 'no'
+[01:03:11.686527] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]dlssentry.cpp:185[updateEmbeddedJSON] Failed to obtain DLSS min spec requirements from NGX, using SL defaults
+[01:03:11.686683] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss' - version 1.5.6.0c67e1bd - id 0 - priority 1 - adapter mask 0x1 - interposer 'no'
+[01:03:11.697282] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]dlss_gentry.cpp:513[updateEmbeddedJSON] Failed to obtain DLSS-G min spec requirements from NGX, using SL defaults
+[01:03:11.697334] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]dlss_gentry.cpp:582[updateEmbeddedJSON] Disabling DLSS-G since it is not supported on current hardware
+[01:03:11.697585] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss_g' - version 1.5.6.0c67e1bd - id 1000 - priority 100 - adapter mask 0x0 - interposer 'no'
+[01:03:11.707401] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.reflex' - version 1.5.6.0c67e1bd - id 3 - priority 1 - adapter mask 0x1 - interposer 'no'
+[01:03:11.707438] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]pluginmanager.cpp:704[loadPlugins] Ignoring plugin 'sl.dlss_g' since it is not supported on this platform
+[01:03:11.707570] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:805[loadPlugins] Plugin execution order based on priority:
+[01:03:11.707585] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:808[loadPlugins] P0 - sl.common
+[01:03:11.707598] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.dlss
+[01:03:11.707609] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.reflex
+[01:03:11.708061] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[01:03:11.708725] [W] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]dxgi.cpp:334[CreateDXGIFactoryInternal] Streamline interposer has been disabled
+[01:03:11.709702] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:03:12.104565] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:03:12.161270] [I] `anonymous-namespace'::RunVersionCheck OptiScaler is up to date (current 10.0.0)
+[01:03:21.871715] [I] XeSSProxy::Version XeSS Version: v2.0.2
+[01:03:21.914510] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:03:21.943211] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[01:03:22.160525] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[01:03:22.160566] [I] NvApiHooks::Hook NvAPI_QueryInterface found, hooking!
+[01:03:22.249353] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:986[initializePlugins] Initializing plugins - api 0.0.1 - application ID 100883811
+[01:03:22.250351] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel fonts.cs:main hash 10788421720787293069
+[01:03:22.250391] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.fontTexture), m_allocCount=1, currentSize 0.0 MB, totalSize 0.0 MB
+[01:03:22.251224] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicText), m_allocCount=2, currentSize 0.0 MB, totalSize 0.0 MB
+[01:03:22.251950] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicTextUpload), m_allocCount=3, currentSize 0.0 MB, totalSize 0.0 MB
+[01:03:22.252620] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel copy_to_buffer.cs:main hash 12564409127886710297
+[01:03:22.252646] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]commonentry.cpp:869[slOnPluginStartup] At least one plugin requires NGX, trying to initialize ...
+[01:03:22.524425] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[01:03:22.525323] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]commonentry.cpp:995[slOnPluginStartup] NGX loaded - app id 100883811 - application data path C:\Users\ADMINI~1\AppData\Local\Temp\
+[01:03:22.526174] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCreateImage:after - skipped
+[01:03:22.526204] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkPresent:before - skipped
+[01:03:22.526217] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindPipeline:after - skipped
+[01:03:22.526229] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindDescriptorSets:after - skipped
+[01:03:22.526243] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkBeginCommandBuffer:after - skipped
+[01:03:22.526306] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookResizeSwapChainPre:before - OK
+[01:03:22.526321] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent:before - OK
+[01:03:22.526333] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent1:before - OK
+[01:03:22.526404] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel mvec.cs:main hash 6390113509883505821
+[01:03:22.569006] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[01:03:22.569061] [I] NVSDK_NGX_UpdateFeature Update ApplicationId: 6035D63
+[01:03:22.569095] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.dlss:slSetConstants:0x7ffc0ea70d30
+[01:03:22.569108] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.dlss:slGetSettings:0x7ffc0ea72df0
+[01:03:22.569119] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.dlss:slAllocateResources:0x7ffc0ea73180
+[01:03:22.569130] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.dlss:slFreeResources:0x7ffc0ea73210
+[01:03:22.569150] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.dlss' has no registered hooks
+[01:03:22.569227] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.reflex:slSetConstants:0x7ffbb05efb20
+[01:03:22.569239] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.reflex:slGetSettings:0x7ffc0e160300
+[01:03:22.569248] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.reflex:slAllocateResources:0x0
+[01:03:22.569258] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.reflex:slFreeResources:0x0
+[01:03:22.569274] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-22][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.reflex' has no registered hooks
+[01:03:22.623649] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[01:03:22.632719] [I] AntiLag2::init FSR Anti-Lag 2.0 DX12 initialized
+[01:03:22.632738] [I] LowLatency::update_low_latency_tech LowLatency algo: FSR Anti-Lag 2.0
+[01:03:23.313631] [I] XeFG_Dx12::CreateSwapchainContext XeFG context created
+[01:03:23.313687] [I] AntiLag2::deinit FSR Anti-Lag 2.0 DX12 deinitialized
+[01:03:23.345518] [I] LowLatency::update_low_latency_tech LowLatency algo: XeLL (forced)
+[01:03:23.345605] [I] XeFG Log: libxell.dll version 1.3.2
+[01:03:23.345641] [I] XeFG_Dx12::CreateSwapchain1 Max supported interpolations: 1
+[01:03:23.445070] [I] WrappedIDXGISwapChain4::WrappedIDXGISwapChain4 1 created, real: BD74379A0, refCount: 1
+[01:03:23.770375] [I] XeFG_Dx12::CreateSwapchain1 XeFG swapchain created
+[01:03:23.770421] [I] FGHooks::HookFGSwapchain Hooking FG SwapChain present
+[01:03:23.787968] [I] IFeature::SetHandle Handle: 1000000
+[01:03:23.788015] [I] IFeature::SetInitParameters SharpenEnabled flag overrided by user: true
+[01:03:23.788028] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[01:03:23.788037] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[01:03:23.788044] [I] IFeature::SetInitParameters Init Flag IsHdr: true
+[01:03:23.788050] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[01:03:23.788056] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[01:03:23.788062] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: true
+[01:03:23.788104] [I] Config::SaveXeFG Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[01:03:23.789114] [I] IFeature::SetInitParameters Render Resolution: 1476x830, Display Resolution 1920x1080, Quality: 4
+[01:03:23.789138] [I] FFXFeatureDx12::FFXFeatureDx12 amd_fidelityfx_dx12.dll methods loaded!
+[01:03:23.790297] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[01:03:23.790724] [W] Util::LoadProxyLibrary Can't find amdxcffx64.dll, returning nullptr!
+[01:03:23.810323] [I] AmdExtFfxApi::UpdateFfxApiProvider amdxcffx64 loaded from C:\Windows\System32\DriverStore\FileRepository\u0203304.inf_amd64_a6e5a337568ce3f0\B026373\amdxcffx64.dll
+[01:03:24.089633] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[01:03:24.089693] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:03:24.115833] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:03:24.120569] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[01:03:24.120608] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[01:03:24.120621] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:03:24.124399] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:03:24.128575] [I] FFXFeatureDx12::InitFFX TSR FFX: selected provider=4.1.1 explicit_upscale_api_4_1_1=true (provider identity, not a quality claim)
+[01:03:24.128607] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[01:03:24.128638] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[01:03:24.128656] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[01:03:24.173503] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 1, _lastDispatchedFrame: 0
+[01:03:24.187217] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:03:24.214505] [I] OptiInput::Initialize Initialize requested target:0x1804bc input:0x0 isUwp:0 useSubclass:1 currentPid:20324
+[01:03:24.214547] [I] OptiInput::SetTargetWindow target window set hwnd:0x1804bc root:0x1804bc pid:20324 tid:5252 currentPid:20324 external:0 isUwp:0 useSubclass:1
+[01:03:24.214556] [I] OptiInput::SetInputWindow input window set hwnd:0x1804bc root:0x1804bc pid:20324 tid:5252 explicitInput:0 useSubclass:1
+[01:03:24.214570] [I] OptiInput::InstallWindowSubclass subclass installed hwnd:0x1804bc previousWndProc:140696071275760 optiWndProc:140718972088912
+[01:03:24.214583] [I] OptiInput::InstallHooks installing Win32 input hooks currentPid:20324 targetPid:20324 inputPid:20324
+[01:03:24.214650] [I] OptiInput::InstallHooks Win32 message hooks installed
+[01:03:24.214701] [I] OptiInput::InstallHooks Win32 key state hooks installed
+[01:03:24.214742] [I] OptiInput::InstallHooks Win32 GetMessagePos hooks installed
+[01:03:24.214775] [I] OptiInput::InstallHooks Win32 clip cursor hooks installed
+[01:03:24.214830] [I] OptiInput::InstallHooks Win32 message hooks installed
+[01:03:24.214873] [I] OptiInput::InstallHooks Win32 raw input hooks installed
+[01:03:24.214913] [I] OptiInput::InstallHooks Win32 windows input hooks installed
+[01:03:24.214950] [I] OptiInput::InstallHooks Win32 position input hooks installed
+[01:03:24.214961] [I] OptiInput::Initialize Initialize completed hooksInstalled:1 target:0x1804bc targetPid:20324 input:0x1804bc inputPid:20324 externalTarget:0 subclassed:1
+[01:03:24.215017] [I] OptiInput::UpdateXInputIntegrationLocked XInput hooks installed module:0x7ffc48450000 getState:1 getStateEx:1 getKeystroke:1 setState:1
+[01:03:24.215063] [I] OptiInput::`anonymous-namespace'::InstallDirectInputExportHookLocked DirectInput8Create hook installed module:0x7ffc305d0000
+[01:03:24.440281] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 2, _lastDispatchedFrame: 0
+[01:03:24.440415] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=2 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:03:24.441373] [I] ReflexHooks::setFPSLimit Set FPS Limit to: 0
+[01:03:24.441414] [I] CreateRenderTargetDx12 done!
+[01:03:24.483579] [W] FGHooks::hkResizeBuffers SwapChainFlags changed from 842 to 802
+[01:03:24.483604] [W] FGHooks::hkResizeBuffers Preventing flag change for XeFG!
+[01:03:24.730267] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:03:24.736426] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 4, _lastDispatchedFrame: 0
+[01:03:24.738915] [I] CreateRenderTargetDx12 done!
+[01:03:40.045935] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 6, _lastDispatchedFrame: 3
+[01:04:19.356031] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 8, _lastDispatchedFrame: 5
+[01:04:19.426304] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10, _lastDispatchedFrame: 7
+[01:04:19.499236] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 12, _lastDispatchedFrame: 9
+[01:04:19.571999] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 14, _lastDispatchedFrame: 11
+[01:04:19.608309] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:04:19.608335] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 15, _lastDispatchedFrame: 0
+[01:04:19.609007] [I] XeFGProxy::Version XeFG Version: v1.3.1
+[01:04:19.613865] [I] XeFG_Dx12::Present TSR FG previous-present: sample=1 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:04:19.613883] [I] XeFG_Dx12::SetInterpolatedFrameCount::<lambda_1>::operator () TSR FG count: requested_generated=1 maximum_generated=1 API_result=0
+[01:04:19.613895] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:04:19.715259] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 18, _lastDispatchedFrame: 15
+[01:04:19.787000] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 20, _lastDispatchedFrame: 17
+[01:04:19.858367] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 22, _lastDispatchedFrame: 19
+[01:04:19.929842] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 24, _lastDispatchedFrame: 21
+[01:04:20.001588] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 26, _lastDispatchedFrame: 23
+[01:04:20.037248] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:04:20.037296] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 27, _lastDispatchedFrame: 0
+[01:04:20.037641] [I] XeFG_Dx12::Present TSR FG previous-present: sample=2 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:04:20.075498] [I] XeFG_Dx12::Present TSR FG previous-present: sample=3 query_result=0 enabled=1 frames_sent=1 interpolation_result=3 max_generated=1
+[01:04:33.169903] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:04:33.509562] [I] XeFG_Dx12::Present TSR FG previous-present: sample=600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:04:35.021354] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x1804bc target:0x1804bc
+[01:04:35.021381] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x1804bc target:0x1804bc
+[01:04:35.021394] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:04:39.199233] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:04:41.468869] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:04:41.836320] [I] XeFG_Dx12::Present TSR FG previous-present: sample=1200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:04:43.375776] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:04:47.546794] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:04:49.813019] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=1800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:04:50.156937] [I] XeFG_Dx12::Present TSR FG previous-present: sample=1800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:04:51.675849] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:04:55.799808] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:04:58.069085] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=2400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:04:58.413188] [I] XeFG_Dx12::Present TSR FG previous-present: sample=2400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:04:59.937242] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:05:04.040670] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:05:06.289196] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:05:06.632043] [I] XeFG_Dx12::Present TSR FG previous-present: sample=3000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:05:08.135822] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:05:12.222897] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:05:14.465832] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=3600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:05:14.804978] [I] XeFG_Dx12::Present TSR FG previous-present: sample=3600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:05:16.309873] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:05:20.394326] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:05:22.635862] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=4200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:05:22.979535] [I] XeFG_Dx12::Present TSR FG previous-present: sample=4200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:05:24.486753] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:05:28.576622] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1804bc foreground:0x1804bc focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[01:05:28.902330] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0x1804bc target:0x1804bc
+[01:05:28.902371] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:0 deferredNull:0 hasSaved:1 savedActive:0
+[01:05:30.796828] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=4800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:05:31.138328] [I] XeFG_Dx12::Present TSR FG previous-present: sample=4800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:05:39.351045] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=5400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:05:39.715516] [I] XeFG_Dx12::Present TSR FG previous-present: sample=5400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:05:48.155219] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=6000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:05:48.519023] [I] XeFG_Dx12::Present TSR FG previous-present: sample=6000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:05:57.175753] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=6600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:05:57.552949] [I] XeFG_Dx12::Present TSR FG previous-present: sample=6600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:06:06.234456] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=7200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:06:06.607138] [I] XeFG_Dx12::Present TSR FG previous-present: sample=7200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:06:15.185881] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=7800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:06:15.556872] [I] XeFG_Dx12::Present TSR FG previous-present: sample=7800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:06:24.233978] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=8400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:06:24.616822] [I] XeFG_Dx12::Present TSR FG previous-present: sample=8400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:06:32.909541] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=9000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:06:33.285734] [I] XeFG_Dx12::Present TSR FG previous-present: sample=9000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:06:41.853944] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=9600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:06:42.204985] [I] XeFG_Dx12::Present TSR FG previous-present: sample=9600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:06:50.555832] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=10200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:06:50.912153] [I] XeFG_Dx12::Present TSR FG previous-present: sample=10200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:06:58.446008] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:06:59.156200] [I] XeFG_Dx12::Present TSR FG previous-present: sample=10800 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:06:59.301999] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:06:59.313544] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10720, _lastDispatchedFrame: 0
+[01:06:59.337275] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10722, _lastDispatchedFrame: 10719
+[01:06:59.360929] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10724, _lastDispatchedFrame: 10721
+[01:06:59.386123] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10726, _lastDispatchedFrame: 10723
+[01:06:59.417000] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10728, _lastDispatchedFrame: 10725
+[01:06:59.445114] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10730, _lastDispatchedFrame: 10727
+[01:07:00.615399] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=10800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:07:01.430379] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:07:04.681451] [I] XeFG_Dx12::Present TSR FG previous-present: sample=11400 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:08.847803] [I] XeFG_Dx12::Present TSR FG previous-present: sample=12000 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:13.015834] [I] XeFG_Dx12::Present TSR FG previous-present: sample=12600 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:17.182028] [I] XeFG_Dx12::Present TSR FG previous-present: sample=13200 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:21.348872] [I] XeFG_Dx12::Present TSR FG previous-present: sample=13800 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:25.516086] [I] XeFG_Dx12::Present TSR FG previous-present: sample=14400 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:29.682936] [I] XeFG_Dx12::Present TSR FG previous-present: sample=15000 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:33.850240] [I] XeFG_Dx12::Present TSR FG previous-present: sample=15600 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:38.016467] [I] XeFG_Dx12::Present TSR FG previous-present: sample=16200 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:42.183808] [I] XeFG_Dx12::Present TSR FG previous-present: sample=16800 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:46.366046] [I] XeFG_Dx12::Present TSR FG previous-present: sample=17400 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:07:46.868344] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:07:46.880079] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10852, _lastDispatchedFrame: 0
+[01:07:46.903517] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10854, _lastDispatchedFrame: 10851
+[01:07:46.925973] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10856, _lastDispatchedFrame: 10853
+[01:07:46.953151] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10858, _lastDispatchedFrame: 10855
+[01:07:46.983879] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10860, _lastDispatchedFrame: 10857
+[01:07:47.010965] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 10862, _lastDispatchedFrame: 10859
+[01:07:50.634165] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:07:51.682321] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:07:51.693045] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 11114, _lastDispatchedFrame: 0
+[01:07:51.712969] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 11116, _lastDispatchedFrame: 11113
+[01:07:51.733091] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 11118, _lastDispatchedFrame: 11115
+[01:07:51.760396] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 11120, _lastDispatchedFrame: 11117
+[01:07:51.789119] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 11122, _lastDispatchedFrame: 11119
+[01:07:51.814084] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 11124, _lastDispatchedFrame: 11121
+[01:07:53.618417] [I] XeFG_Dx12::Present TSR FG previous-present: sample=18000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:07:55.749417] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=11400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:08:01.863537] [I] XeFG_Dx12::Present TSR FG previous-present: sample=18600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:08:03.996979] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=12000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:08:10.377866] [I] XeFG_Dx12::Present TSR FG previous-present: sample=19200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:08:12.424251] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=12600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:08:18.476887] [I] XeFG_Dx12::Present TSR FG previous-present: sample=19800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:08:20.550497] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=13200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:08:26.422253] [I] XeFG_Dx12::Present TSR FG previous-present: sample=20400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:08:28.501518] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=13800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:08:34.830039] [I] XeFG_Dx12::Present TSR FG previous-present: sample=21000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:08:37.040244] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=14400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:08:41.568509] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:08:42.640077] [I] XeFG_Dx12::Present TSR FG previous-present: sample=21600 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:08:44.462808] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:08:44.473853] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 14692, _lastDispatchedFrame: 0
+[01:08:44.499819] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 14694, _lastDispatchedFrame: 14691
+[01:08:44.521848] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 14696, _lastDispatchedFrame: 14693
+[01:08:44.553003] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 14698, _lastDispatchedFrame: 14695
+[01:08:44.588356] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 14700, _lastDispatchedFrame: 14697
+[01:08:44.615000] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 14702, _lastDispatchedFrame: 14699
+[01:08:49.202947] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=15000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:08:49.813261] [I] XeFG_Dx12::Present TSR FG previous-present: sample=22200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:08:58.115769] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=15600 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:08:58.723069] [I] XeFG_Dx12::Present TSR FG previous-present: sample=22800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:09:06.379259] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=16200 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:09:06.934131] [I] XeFG_Dx12::Present TSR FG previous-present: sample=23400 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:09:14.774323] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=16800 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:09:15.381879] [I] XeFG_Dx12::Present TSR FG previous-present: sample=24000 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:09:23.208315] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=17400 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:09:23.760614] [I] XeFG_Dx12::Present TSR FG previous-present: sample=24600 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:09:31.347099] [I] FFXFeatureDx12::EvaluateInternal TSR FFX dispatch: provider=4.1.1 frame=18000 result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false
+[01:09:31.899762] [I] XeFG_Dx12::Present TSR FG previous-present: sample=25200 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:09:40.642437] [I] XeFG_Dx12::Present TSR FG previous-present: sample=25800 query_result=0 enabled=1 frames_sent=2 interpolation_result=0 max_generated=1
+[01:09:44.893575] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:09:46.917564] [I] XeFG_Dx12::Present TSR FG previous-present: sample=26400 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:09:51.412173] [I] XeFG_Dx12::Present TSR FG previous-present: sample=27000 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:09:55.932246] [I] XeFG_Dx12::Present TSR FG previous-present: sample=27600 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:00.188919] [I] XeFG_Dx12::Present TSR FG previous-present: sample=28200 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:04.388206] [I] XeFG_Dx12::Present TSR FG previous-present: sample=28800 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:08.685489] [I] XeFG_Dx12::Present TSR FG previous-present: sample=29400 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:12.853400] [I] XeFG_Dx12::Present TSR FG previous-present: sample=30000 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:17.039746] [I] XeFG_Dx12::Present TSR FG previous-present: sample=30600 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:21.249467] [I] XeFG_Dx12::Present TSR FG previous-present: sample=31200 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:25.438808] [I] XeFG_Dx12::Present TSR FG previous-present: sample=31800 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:29.606339] [I] XeFG_Dx12::Present TSR FG previous-present: sample=32400 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:33.851085] [I] XeFG_Dx12::Present TSR FG previous-present: sample=33000 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:38.049590] [I] XeFG_Dx12::Present TSR FG previous-present: sample=33600 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:42.250980] [I] XeFG_Dx12::Present TSR FG previous-present: sample=34200 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:46.427319] [I] XeFG_Dx12::Present TSR FG previous-present: sample=34800 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:50.612196] [I] XeFG_Dx12::Present TSR FG previous-present: sample=35400 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:10:54.778756] [I] XeFG_Dx12::Present TSR FG previous-present: sample=36000 query_result=0 enabled=0 frames_sent=1 interpolation_result=0 max_generated=1
+[01:11:03.998053] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:11:04.017821] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 18949, _lastDispatchedFrame: 0
+[01:11:04.035593] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 18951, _lastDispatchedFrame: 18948
+[01:11:04.056860] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 18953, _lastDispatchedFrame: 18950
+[01:11:04.085466] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 18955, _lastDispatchedFrame: 18952
+[01:11:04.113049] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 18957, _lastDispatchedFrame: 18954
+[01:11:04.138294] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 18959, _lastDispatchedFrame: 18956
+[01:14:42.476177] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:14:53.987316] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:14:53.998052] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34497, _lastDispatchedFrame: 0
+[01:14:54.035866] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34499, _lastDispatchedFrame: 34496
+[01:14:54.059323] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34501, _lastDispatchedFrame: 34498
+[01:14:54.087191] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34503, _lastDispatchedFrame: 34500
+[01:14:54.121971] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34505, _lastDispatchedFrame: 34502
+[01:14:54.150734] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34507, _lastDispatchedFrame: 34504
+[01:15:00.614727] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:15:09.343024] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:15:09.353397] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34917, _lastDispatchedFrame: 0
+[01:15:09.379946] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34919, _lastDispatchedFrame: 34916
+[01:15:09.405483] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34921, _lastDispatchedFrame: 34918
+[01:15:09.434874] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34923, _lastDispatchedFrame: 34920
+[01:15:09.468144] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34925, _lastDispatchedFrame: 34922
+[01:15:09.496069] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 34927, _lastDispatchedFrame: 34924
+[01:20:50.444854] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:20:51.072189] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:20:51.083717] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 56070, _lastDispatchedFrame: 0
+[01:20:51.110521] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 56072, _lastDispatchedFrame: 56069
+[01:20:51.133490] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 56074, _lastDispatchedFrame: 56071
+[01:20:51.159991] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 56076, _lastDispatchedFrame: 56073
+[01:20:51.195561] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 56078, _lastDispatchedFrame: 56075
+[01:20:51.220169] [W] IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: 56080, _lastDispatchedFrame: 56077
+[01:21:00.527486] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)
+[01:21:00.545881] [W] OptiInput::`anonymous-namespace'::LogQueryWindowFailure ValidateTargetWindow rejected hwnd:0x1804bc isWindow:0 root:0x0 pid:0 tid:0 currentPid:20324
+[01:21:00.545916] [W] OptiInput::ClearTargetWindowLocked clearing target window hwnd:0x1804bc pid:20324 tid:5252
+[01:21:00.546422] [W] OptiInput::RemoveWindowSubclass RemoveWindowSubclass did not restore because current WndProc changed input:0x1804bc current:0 opti:140718972088912
+[01:21:00.546436] [W] OptiInput::ClearInputWindowLocked clearing input window hwnd:0x1804bc pid:20324 tid:5252 subclassed:0
+[01:21:07.669488] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]pluginmanager.cpp:817[unloadPlugins] Unloading all plugins ...
+[01:21:07.673567] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel mvec.cs
+[01:21:07.681508] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]commonentry.cpp:1090[slOnPluginShutdown] Shutting down NGX
+[01:21:07.683277] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel copy_to_buffer.cs
+[01:21:07.683360] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]d3d12.cpp:820[shutdown] Destroying kernel fonts.cs
+[01:21:07.688181] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d59df20(sl.chi.fontTexture) at frame 3 (current frame 0)
+[01:21:07.688203] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d671a10(sl.chi.dynamicText) at frame 3 (current frame 0)
+[01:21:07.688216] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d671dd0(sl.chi.dynamicTextUpload) at frame 3 (current frame 0)
+[01:21:07.688700] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d59df20(sl.chi.fontTexture) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.03MB
+[01:21:07.689057] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d671a10(sl.chi.dynamicText) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.02MB
+[01:21:07.689407] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d671dd0(sl.chi.dynamicTextUpload) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.00MB
+[01:21:07.689427] [I] StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-21-07][streamline][info]generic.cpp:285[shutdown] Delayed destroy resource list count 0
+[01:21:08.016779] [I] 
+[01:21:08.016802] [I] DLL_PROCESS_DETACH
+[01:21:08.016808] [I] Unloading OptiScaler

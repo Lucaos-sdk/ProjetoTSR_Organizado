@@ -1,0 +1,7 @@
+test_correspondence_mask_and_gradient (test_neural_lighting_temporal.TemporalLightingTests.test_correspondence_mask_and_gradient) ... ok
+test_reference_changes_are_not_penalized (test_neural_lighting_temporal.TemporalLightingTests.test_reference_changes_are_not_penalized) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK

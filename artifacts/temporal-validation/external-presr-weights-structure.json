@@ -1,0 +1,777 @@
+{
+  "magic": "DLSSNRW1",
+  "entry_count": 153,
+  "header_field": 5673,
+  "parsed_header_end": 5673,
+  "payload_bytes": 147683778,
+  "maximum_declared_end": 147683778,
+  "ranges_fit_payload": true,
+  "entries": [
+    {
+      "name": "block0.layer0.layer",
+      "offset": 0,
+      "size": 21696
+    },
+    {
+      "name": "block1.layer0.layer",
+      "offset": 21696,
+      "size": 20672
+    },
+    {
+      "name": "block10.layer0.layer",
+      "offset": 42368,
+      "size": 197184
+    },
+    {
+      "name": "block11.layer0.layer",
+      "offset": 239552,
+      "size": 197184
+    },
+    {
+      "name": "block12.layer0.layer",
+      "offset": 436736,
+      "size": 197184
+    },
+    {
+      "name": "block13.layer0.layer",
+      "offset": 633920,
+      "size": 197184
+    },
+    {
+      "name": "block14.layer0.layer",
+      "offset": 831104,
+      "size": 229936
+    },
+    {
+      "name": "block15.layer0.layer",
+      "offset": 1061040,
+      "size": 689232
+    },
+    {
+      "name": "block16.layer0.layer",
+      "offset": 1750272,
+      "size": 689232
+    },
+    {
+      "name": "block17.layer0.layer",
+      "offset": 2439504,
+      "size": 689232
+    },
+    {
+      "name": "block18.layer0.layer",
+      "offset": 3128736,
+      "size": 689232
+    },
+    {
+      "name": "block19.layer0.layer",
+      "offset": 3817968,
+      "size": 689232
+    },
+    {
+      "name": "block2.layer0.layer",
+      "offset": 4507200,
+      "size": 20672
+    },
+    {
+      "name": "block20.layer0.layer",
+      "offset": 4527872,
+      "size": 689232
+    },
+    {
+      "name": "block21.layer0.layer",
+      "offset": 5217104,
+      "size": 689232
+    },
+    {
+      "name": "block22.layer0.layer",
+      "offset": 5906336,
+      "size": 820288
+    },
+    {
+      "name": "block23.layer0.layer",
+      "offset": 6726624,
+      "size": 524288
+    },
+    {
+      "name": "block23.layer1.layer",
+      "offset": 7250912,
+      "size": 263168
+    },
+    {
+      "name": "block23.layer2.layer",
+      "offset": 7514080,
+      "size": 917568
+    },
+    {
+      "name": "block23.layer3.layer",
+      "offset": 8431648,
+      "size": 263168
+    },
+    {
+      "name": "block24.layer0.layer",
+      "offset": 8694816,
+      "size": 524288
+    },
+    {
+      "name": "block24.layer1.layer",
+      "offset": 9219104,
+      "size": 263168
+    },
+    {
+      "name": "block24.layer2.layer",
+      "offset": 9482272,
+      "size": 917568
+    },
+    {
+      "name": "block24.layer3.layer",
+      "offset": 10399840,
+      "size": 263168
+    },
+    {
+      "name": "block25.layer0.layer",
+      "offset": 10663008,
+      "size": 524288
+    },
+    {
+      "name": "block25.layer1.layer",
+      "offset": 11187296,
+      "size": 263168
+    },
+    {
+      "name": "block25.layer2.layer",
+      "offset": 11450464,
+      "size": 917568
+    },
+    {
+      "name": "block25.layer3.layer",
+      "offset": 12368032,
+      "size": 263168
+    },
+    {
+      "name": "block26.layer0.layer",
+      "offset": 12631200,
+      "size": 524288
+    },
+    {
+      "name": "block26.layer1.layer",
+      "offset": 13155488,
+      "size": 263168
+    },
+    {
+      "name": "block26.layer2.layer",
+      "offset": 13418656,
+      "size": 917568
+    },
+    {
+      "name": "block26.layer3.layer",
+      "offset": 14336224,
+      "size": 263168
+    },
+    {
+      "name": "block27.layer0.layer",
+      "offset": 14599392,
+      "size": 524288
+    },
+    {
+      "name": "block27.layer1.layer",
+      "offset": 15123680,
+      "size": 263168
+    },
+    {
+      "name": "block27.layer2.layer",
+      "offset": 15386848,
+      "size": 917568
+    },
+    {
+      "name": "block27.layer3.layer",
+      "offset": 16304416,
+      "size": 263168
+    },
+    {
+      "name": "block28.layer0.layer",
+      "offset": 16567584,
+      "size": 524288
+    },
+    {
+      "name": "block28.layer1.layer",
+      "offset": 17091872,
+      "size": 263168
+    },
+    {
+      "name": "block28.layer2.layer",
+      "offset": 17355040,
+      "size": 917568
+    },
+    {
+      "name": "block28.layer3.layer",
+      "offset": 18272608,
+      "size": 263168
+    },
+    {
+      "name": "block29.layer0.layer",
+      "offset": 18535776,
+      "size": 524288
+    },
+    {
+      "name": "block29.layer1.layer",
+      "offset": 19060064,
+      "size": 263168
+    },
+    {
+      "name": "block29.layer2.layer",
+      "offset": 19323232,
+      "size": 917568
+    },
+    {
+      "name": "block29.layer3.layer",
+      "offset": 20240800,
+      "size": 263168
+    },
+    {
+      "name": "block3.layer0.layer",
+      "offset": 20503968,
+      "size": 20672
+    },
+    {
+      "name": "block30.layer0.layer",
+      "offset": 20524640,
+      "size": 524288
+    },
+    {
+      "name": "block30.layer1.layer",
+      "offset": 21048928,
+      "size": 263168
+    },
+    {
+      "name": "block30.layer2.layer",
+      "offset": 21312096,
+      "size": 917568
+    },
+    {
+      "name": "block30.layer3.layer",
+      "offset": 22229664,
+      "size": 263168
+    },
+    {
+      "name": "block30.layer4.layer",
+      "offset": 22492832,
+      "size": 524304
+    },
+    {
+      "name": "block31.layer0.layer",
+      "offset": 23017136,
+      "size": 4194320
+    },
+    {
+      "name": "block31.layer1.layer",
+      "offset": 27211456,
+      "size": 4196352
+    },
+    {
+      "name": "block31.layer2.layer",
+      "offset": 31407808,
+      "size": 3145856
+    },
+    {
+      "name": "block31.layer3.layer",
+      "offset": 34553664,
+      "size": 2
+    },
+    {
+      "name": "block31.layer4.layer",
+      "offset": 34553666,
+      "size": 1050624
+    },
+    {
+      "name": "block32.layer0.layer",
+      "offset": 35604290,
+      "size": 4194320
+    },
+    {
+      "name": "block32.layer1.layer",
+      "offset": 39798610,
+      "size": 4196352
+    },
+    {
+      "name": "block32.layer2.layer",
+      "offset": 43994962,
+      "size": 3145856
+    },
+    {
+      "name": "block32.layer3.layer",
+      "offset": 47140818,
+      "size": 2
+    },
+    {
+      "name": "block32.layer4.layer",
+      "offset": 47140820,
+      "size": 1050624
+    },
+    {
+      "name": "block33.layer0.layer",
+      "offset": 48191444,
+      "size": 4194320
+    },
+    {
+      "name": "block33.layer1.layer",
+      "offset": 52385764,
+      "size": 4196352
+    },
+    {
+      "name": "block33.layer2.layer",
+      "offset": 56582116,
+      "size": 3145856
+    },
+    {
+      "name": "block33.layer3.layer",
+      "offset": 59727972,
+      "size": 2
+    },
+    {
+      "name": "block33.layer4.layer",
+      "offset": 59727974,
+      "size": 1050624
+    },
+    {
+      "name": "block34.layer0.layer",
+      "offset": 60778598,
+      "size": 4194320
+    },
+    {
+      "name": "block34.layer1.layer",
+      "offset": 64972918,
+      "size": 4196352
+    },
+    {
+      "name": "block34.layer2.layer",
+      "offset": 69169270,
+      "size": 3145856
+    },
+    {
+      "name": "block34.layer3.layer",
+      "offset": 72315126,
+      "size": 2
+    },
+    {
+      "name": "block34.layer4.layer",
+      "offset": 72315128,
+      "size": 1050624
+    },
+    {
+      "name": "block35.layer0.layer",
+      "offset": 73365752,
+      "size": 4194320
+    },
+    {
+      "name": "block35.layer1.layer",
+      "offset": 77560072,
+      "size": 4196352
+    },
+    {
+      "name": "block35.layer2.layer",
+      "offset": 81756424,
+      "size": 3145856
+    },
+    {
+      "name": "block35.layer3.layer",
+      "offset": 84902280,
+      "size": 2
+    },
+    {
+      "name": "block35.layer4.layer",
+      "offset": 84902282,
+      "size": 1050624
+    },
+    {
+      "name": "block36.layer0.layer",
+      "offset": 85952906,
+      "size": 4194320
+    },
+    {
+      "name": "block36.layer1.layer",
+      "offset": 90147226,
+      "size": 4196352
+    },
+    {
+      "name": "block36.layer2.layer",
+      "offset": 94343578,
+      "size": 3145856
+    },
+    {
+      "name": "block36.layer3.layer",
+      "offset": 97489434,
+      "size": 2
+    },
+    {
+      "name": "block36.layer4.layer",
+      "offset": 97489436,
+      "size": 1050624
+    },
+    {
+      "name": "block37.layer0.layer",
+      "offset": 98540060,
+      "size": 4194320
+    },
+    {
+      "name": "block37.layer1.layer",
+      "offset": 102734380,
+      "size": 4196352
+    },
+    {
+      "name": "block37.layer2.layer",
+      "offset": 106930732,
+      "size": 3145856
+    },
+    {
+      "name": "block37.layer3.layer",
+      "offset": 110076588,
+      "size": 2
+    },
+    {
+      "name": "block37.layer4.layer",
+      "offset": 110076590,
+      "size": 1050624
+    },
+    {
+      "name": "block38.layer0.layer",
+      "offset": 111127214,
+      "size": 4194320
+    },
+    {
+      "name": "block38.layer1.layer",
+      "offset": 115321534,
+      "size": 4196352
+    },
+    {
+      "name": "block38.layer2.layer",
+      "offset": 119517886,
+      "size": 3145856
+    },
+    {
+      "name": "block38.layer3.layer",
+      "offset": 122663742,
+      "size": 2
+    },
+    {
+      "name": "block38.layer4.layer",
+      "offset": 122663744,
+      "size": 1050624
+    },
+    {
+      "name": "block39.layer0.layer",
+      "offset": 123714368,
+      "size": 525312
+    },
+    {
+      "name": "block4.layer0.layer",
+      "offset": 124239680,
+      "size": 22720
+    },
+    {
+      "name": "block40.layer0.layer",
+      "offset": 124262400,
+      "size": 524288
+    },
+    {
+      "name": "block40.layer1.layer",
+      "offset": 124786688,
+      "size": 263168
+    },
+    {
+      "name": "block40.layer2.layer",
+      "offset": 125049856,
+      "size": 917568
+    },
+    {
+      "name": "block40.layer3.layer",
+      "offset": 125967424,
+      "size": 263168
+    },
+    {
+      "name": "block41.layer0.layer",
+      "offset": 126230592,
+      "size": 524288
+    },
+    {
+      "name": "block41.layer1.layer",
+      "offset": 126754880,
+      "size": 263168
+    },
+    {
+      "name": "block41.layer2.layer",
+      "offset": 127018048,
+      "size": 917568
+    },
+    {
+      "name": "block41.layer3.layer",
+      "offset": 127935616,
+      "size": 263168
+    },
+    {
+      "name": "block42.layer0.layer",
+      "offset": 128198784,
+      "size": 524288
+    },
+    {
+      "name": "block42.layer1.layer",
+      "offset": 128723072,
+      "size": 263168
+    },
+    {
+      "name": "block42.layer2.layer",
+      "offset": 128986240,
+      "size": 917568
+    },
+    {
+      "name": "block42.layer3.layer",
+      "offset": 129903808,
+      "size": 263168
+    },
+    {
+      "name": "block43.layer0.layer",
+      "offset": 130166976,
+      "size": 524288
+    },
+    {
+      "name": "block43.layer1.layer",
+      "offset": 130691264,
+      "size": 263168
+    },
+    {
+      "name": "block43.layer2.layer",
+      "offset": 130954432,
+      "size": 917568
+    },
+    {
+      "name": "block43.layer3.layer",
+      "offset": 131872000,
+      "size": 263168
+    },
+    {
+      "name": "block44.layer0.layer",
+      "offset": 132135168,
+      "size": 524288
+    },
+    {
+      "name": "block44.layer1.layer",
+      "offset": 132659456,
+      "size": 263168
+    },
+    {
+      "name": "block44.layer2.layer",
+      "offset": 132922624,
+      "size": 917568
+    },
+    {
+      "name": "block44.layer3.layer",
+      "offset": 133840192,
+      "size": 263168
+    },
+    {
+      "name": "block45.layer0.layer",
+      "offset": 134103360,
+      "size": 524288
+    },
+    {
+      "name": "block45.layer1.layer",
+      "offset": 134627648,
+      "size": 263168
+    },
+    {
+      "name": "block45.layer2.layer",
+      "offset": 134890816,
+      "size": 917568
+    },
+    {
+      "name": "block45.layer3.layer",
+      "offset": 135808384,
+      "size": 263168
+    },
+    {
+      "name": "block46.layer0.layer",
+      "offset": 136071552,
+      "size": 524288
+    },
+    {
+      "name": "block46.layer1.layer",
+      "offset": 136595840,
+      "size": 263168
+    },
+    {
+      "name": "block46.layer2.layer",
+      "offset": 136859008,
+      "size": 917568
+    },
+    {
+      "name": "block46.layer3.layer",
+      "offset": 137776576,
+      "size": 263168
+    },
+    {
+      "name": "block47.layer0.layer",
+      "offset": 138039744,
+      "size": 524288
+    },
+    {
+      "name": "block47.layer1.layer",
+      "offset": 138564032,
+      "size": 263168
+    },
+    {
+      "name": "block47.layer2.layer",
+      "offset": 138827200,
+      "size": 917568
+    },
+    {
+      "name": "block47.layer3.layer",
+      "offset": 139744768,
+      "size": 263168
+    },
+    {
+      "name": "block48.layer0.layer",
+      "offset": 140007936,
+      "size": 820784
+    },
+    {
+      "name": "block49.layer0.layer",
+      "offset": 140828720,
+      "size": 689232
+    },
+    {
+      "name": "block5.layer0.layer",
+      "offset": 141517952,
+      "size": 61760
+    },
+    {
+      "name": "block50.layer0.layer",
+      "offset": 141579712,
+      "size": 689232
+    },
+    {
+      "name": "block51.layer0.layer",
+      "offset": 142268944,
+      "size": 689232
+    },
+    {
+      "name": "block52.layer0.layer",
+      "offset": 142958176,
+      "size": 689232
+    },
+    {
+      "name": "block53.layer0.layer",
+      "offset": 143647408,
+      "size": 689232
+    },
+    {
+      "name": "block54.layer0.layer",
+      "offset": 144336640,
+      "size": 689232
+    },
+    {
+      "name": "block55.layer0.layer",
+      "offset": 145025872,
+      "size": 689232
+    },
+    {
+      "name": "block56.layer0.layer",
+      "offset": 145715104,
+      "size": 230176
+    },
+    {
+      "name": "block57.layer0.layer",
+      "offset": 145945280,
+      "size": 197184
+    },
+    {
+      "name": "block58.layer0.layer",
+      "offset": 146142464,
+      "size": 197184
+    },
+    {
+      "name": "block59.layer0.layer",
+      "offset": 146339648,
+      "size": 197184
+    },
+    {
+      "name": "block6.layer0.layer",
+      "offset": 146536832,
+      "size": 61760
+    },
+    {
+      "name": "block60.layer0.layer",
+      "offset": 146598592,
+      "size": 197184
+    },
+    {
+      "name": "block61.layer0.layer",
+      "offset": 146795776,
+      "size": 197184
+    },
+    {
+      "name": "block62.layer0.layer",
+      "offset": 146992960,
+      "size": 70048
+    },
+    {
+      "name": "block63.layer0.layer",
+      "offset": 147063008,
+      "size": 61760
+    },
+    {
+      "name": "block64.layer0.layer",
+      "offset": 147124768,
+      "size": 61760
+    },
+    {
+      "name": "block65.layer0.layer",
+      "offset": 147186528,
+      "size": 61760
+    },
+    {
+      "name": "block66.layer0.layer",
+      "offset": 147248288,
+      "size": 22784
+    },
+    {
+      "name": "block67.layer0.layer",
+      "offset": 147271072,
+      "size": 20672
+    },
+    {
+      "name": "block68.layer0.layer",
+      "offset": 147291744,
+      "size": 20672
+    },
+    {
+      "name": "block69.layer0.layer",
+      "offset": 147312416,
+      "size": 20672
+    },
+    {
+      "name": "block7.layer0.layer",
+      "offset": 147333088,
+      "size": 61760
+    },
+    {
+      "name": "block70.layer0.blend_scale",
+      "offset": 147394848,
+      "size": 2
+    },
+    {
+      "name": "block70.layer0.layer",
+      "offset": 147394850,
+      "size": 21808
+    },
+    {
+      "name": "block8.layer0.layer",
+      "offset": 147416658,
+      "size": 69936
+    },
+    {
+      "name": "block9.layer0.layer",
+      "offset": 147486594,
+      "size": 197184
+    }
+  ],
+  "limitation": "Inferred length-prefixed table only. No graph, tensor dtype, model identity or quality validated."
+}

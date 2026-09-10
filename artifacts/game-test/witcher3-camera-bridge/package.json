@@ -1,0 +1,10 @@
+{
+  "preservesCurrentIni": true,
+  "purpose": "Streamline camera metadata bridge and XeSS correspondence audit; own neural inference remains inactive",
+  "validation": "38 CTests passed; DLL Release build succeeded",
+  "hashes": {
+    "dxgi.dll": "051E865AF501BCD4192D332C070C827B923A130AED3074E250E1712962C1841D",
+    "OptiScaler.ini": "7194A507252947460AE54BBFBFE1DEC50174F1E191B0B77531F958E2F2F5C890"
+  },
+  "created": "2026-09-07T01:53:06.2035966-03:00"
+}

@@ -1,0 +1,55 @@
+{
+  "camera_log_samples": 45,
+  "input_log_samples": 34,
+  "candidate_log_samples": 33,
+  "hook_commit_records": [
+    {
+      "source": "SL1",
+      "constants": "true",
+      "tags": "true",
+      "evaluate": "true",
+      "fg_input_gate": "false"
+    }
+  ],
+  "history_log_samples": 34,
+  "history_status": {
+    "missing": 3,
+    "unique_candidate": 31
+  },
+  "unique_history_serial_lags": {
+    "1": 30,
+    "0": 1
+  },
+  "median_matched_history_age_ms": 16,
+  "max_matched_history_age_ms": 32,
+  "camera_sources": {
+    "SL1": 45
+  },
+  "camera_viewports": [
+    "0"
+  ],
+  "projection_status": {
+    "false": 2,
+    "true": 31
+  },
+  "basis_status": {
+    "true": 33
+  },
+  "median_candidate_age_ms": 0,
+  "max_candidate_age_ms": 31,
+  "errors": [],
+  "neural_active": false,
+  "graphical_log_samples": 59,
+  "graphical_active_samples": 0,
+  "graphical_reasons": {
+    "camera_or_resources_unmatched": 7,
+    "disabled": 9,
+    "nonlinear_color_or_hooks_unavailable": 43
+  },
+  "recorded_frames": 0,
+  "sampled_gpu_pass_median_ms": null,
+  "gpu_timing_scope": "Last completed own pre-FSR pass; sparse samples, not total frame time or input latency.",
+  "limitation": "Sampled metadata only: freshness/jitter agreement does not prove frame or viewport association.",
+  "next_check": "Compare F8 on/off visually; inspect pass activity, fallback churn, errors and completed GPU timing. Camera association remains experimental.",
+  "sha256": "beffa14fc80d02057fa079e4c268c4e0b62ce98918c41c7d1343dd164e201f7b"
+}

@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "Shader_Dx12.h"
 #include <d3dx/d3dx12.h>
+#include "../../../native/integration/shader_texture_desc.h"
 
 using Microsoft::WRL::ComPtr;
 
@@ -110,31 +111,16 @@ bool Shader_Dx12::CreateBufferResource(ID3D12Device* InDevice, ID3D12Resource* I
                                        D3D12_RESOURCE_FLAGS ResourceFlags, uint64_t InWidth, uint32_t InHeight,
                                        DXGI_FORMAT InFormat)
 {
-    if (InDevice == nullptr || InResource == nullptr)
+    if (InDevice == nullptr || InResource == nullptr || OutResource == nullptr)
         return false;
 
-    auto inDesc = InResource->GetDesc();
-
-    if (InWidth != 0 && InHeight != 0)
-    {
-        inDesc.Width = InWidth;
-        inDesc.Height = InHeight;
-    }
-
-    if (InFormat != DXGI_FORMAT_UNKNOWN)
-        inDesc.Format = InFormat;
+    auto inDesc = tsr::integration::ShaderTextureDesc(InResource->GetDesc(), ResourceFlags, InWidth, InHeight, InFormat);
 
     if (*OutResource != nullptr)
     {
         auto bufDesc = (*OutResource)->GetDesc();
 
-        if (bufDesc.Width != inDesc.Width || bufDesc.Height != inDesc.Height || bufDesc.Format != inDesc.Format)
-        {
-            (*OutResource)->Release();
-            (*OutResource) = nullptr;
-            LOG_WARN("Release {}x{}, new one: {}x{}", bufDesc.Width, bufDesc.Height, inDesc.Width, inDesc.Height);
-        }
-        else
+        if (tsr::integration::SameShaderTexture(bufDesc,inDesc))
         {
             return true;
         }
@@ -150,17 +136,21 @@ bool Shader_Dx12::CreateBufferResource(ID3D12Device* InDevice, ID3D12Resource* I
         return false;
     }
 
-    inDesc.Flags |= ResourceFlags;
-
+    ID3D12Resource* replacement=nullptr;
     hr = InDevice->CreateCommittedResource(&heapProperties, D3D12_HEAP_FLAG_NONE, &inDesc, InState, nullptr,
-                                           IID_PPV_ARGS(OutResource));
+                                          IID_PPV_ARGS(&replacement));
 
     if (hr != S_OK)
     {
-        LOG_ERROR("CreateCommittedResource result: {:X}", (UINT64) hr);
+        LOG_ERROR("TSR texture allocation failed hr={:08X} source_format={} target_format={} size={}x{} flags={} state={} samples={} mips={}",
+                  static_cast<uint32_t>(hr),int(InResource->GetDesc().Format),int(inDesc.Format),inDesc.Width,inDesc.Height,
+                  unsigned(inDesc.Flags),unsigned(InState),inDesc.SampleDesc.Count,inDesc.MipLevels);
         return false;
     }
 
+    // The caller remains responsible for draining prior GPU uses before resize.
+    if(*OutResource)(*OutResource)->Release();
+    *OutResource=replacement;
     LOG_DEBUG("Created new one: {}x{}", inDesc.Width, inDesc.Height);
     return true;
 }

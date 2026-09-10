@@ -1,0 +1,28 @@
+{
+  "scenes": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "backend": "ONNX ReferenceEvaluator CPU",
+  "grid_fp16_max_abs_difference": 0.03125,
+  "final_rgb_vs_fp32_max_abs_difference": 6.67572021484375e-05,
+  "finite": true,
+  "tolerances": {
+    "grid_absolute": 0.05,
+    "final_rgb_absolute": 0.002
+  },
+  "directml_tested": false,
+  "gpu_timing_ms": null,
+  "scope": "FP16 CNN, FP32 slicing/composition. No texture prepack or GPU validation.",
+  "passed": true
+}

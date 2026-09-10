@@ -1,0 +1,26 @@
+{
+  "originalGameHashes": {
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348",
+    "dxgi.dll": "52A9F1677F84BB0D59782A258CAE01CDCE7C1567FA0F053FE74CCFEAAC2B40F4"
+  },
+  "strength": 0.35,
+  "name": "witcher3-relighting-world-v23",
+  "settingsPreserved": true,
+  "hashes": {
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348",
+    "dxgi.dll": "9B3992A1FD4337A1C235DC3401D59F8BC81614E29585F3F20546B4C9BC6D47D0"
+  },
+  "created": "2026-09-08T18:41:24.5536336-03:00",
+  "cameraAssociation": "unique_jitter_experimental",
+  "ownModel": "world_v2",
+  "smoothingDefault": 1,
+  "gameValidation": "pending",
+  "worldAnchored": true,
+  "hotkey": "F8",
+  "shaderImplementation": "world_v23_scenery_protection",
+  "colorTransferDefault": 0,
+  "sceneryProtectionDefault": true,
+  "effectReachDefault": 80,
+  "installedAt": "2026-09-08T18:41:45-03:00",
+  "backupDirectory": "C:/Program Files (x86)/Steam/steamapps/common/The Witcher 3/bin/x64_dx12/TSR-backup-20260908-184145-879"
+}

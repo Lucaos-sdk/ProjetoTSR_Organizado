@@ -1,0 +1,118 @@
+{
+  "train": [
+    23000,
+    23001,
+    23002,
+    23003,
+    23004,
+    23005,
+    23006,
+    23007,
+    23008,
+    23009,
+    23010,
+    23011,
+    23012,
+    23013,
+    23014,
+    23015,
+    23016,
+    23017,
+    23018,
+    23019,
+    23020,
+    23021,
+    23022,
+    23023,
+    23024,
+    23025,
+    23026,
+    23027,
+    23028,
+    23029,
+    23030,
+    23031
+  ],
+  "validation": [
+    24000,
+    24001,
+    24002,
+    24003,
+    24004,
+    24005
+  ],
+  "test": [
+    25000,
+    25001,
+    25002,
+    25003,
+    25004,
+    25005,
+    25006,
+    25007
+  ],
+  "families": [
+    "baseline",
+    "boxes"
+  ],
+  "train_sizes": [
+    [
+      96,
+      64
+    ],
+    [
+      144,
+      96
+    ],
+    [
+      192,
+      128
+    ]
+  ],
+  "evaluation_sizes": [
+    [
+      144,
+      96
+    ],
+    [
+      192,
+      128
+    ],
+    [
+      384,
+      256
+    ]
+  ],
+  "train_depth_noise": 0.0005,
+  "evaluation_depth_noise": [
+    0.0,
+    0.002
+  ],
+  "starting_checkpoints": {
+    "20260911": "bbc0f8abdd0ef39c5f077ba98d57bd3a02438460b39148733c0ab05f38fcac49",
+    "20260912": "4d56f29cc64afc20d6019d333322b9ddbe3b9bc495e7048dfbb2669acb4421f6"
+  },
+  "steps": 1200,
+  "learning_rate": 0.0005,
+  "batch_seed": 984,
+  "batch": "one quartet, four full raster frames; same schedule for all four trained models",
+  "camera_pairs": "(-.10,-.05) for even scene IDs; (.05,.10) for odd scene IDs; paired views within each static geometry",
+  "intervention": "remove_all only; no animated object or motion-vector supervision",
+  "reconstruction": "unchanged predict_regional: internal height 64, bilinear residual on original high resolution color",
+  "common_loss": "original image + response + 0.1 * geometry-boundary MAE + 0.2 * stable receiver error difference",
+  "joint_loss": "common loss + 0.5 * camera reprojection error; control has coefficient zero",
+  "references": "frozen t025 using same regional path; equal-budget control isolates added camera loss",
+  "selection": "fixed final step, fixed coefficients, no checkpoint/hyperparameter selection using validation or test",
+  "gates": "all generalization gates versus BOTH frozen and control, for each family/size/noise/initialization; all validation and test groups required",
+  "limits": {
+    "image": 1.05,
+    "response": 1.05,
+    "response_zero": 0.8,
+    "temporal": 0.8,
+    "unchanged": 0.003,
+    "shadow": 1.05,
+    "edge": 1.05,
+    "gradient": 1.05
+  },
+  "game_integration_allowed": false
+}

@@ -1,0 +1,6 @@
+# Normalize source text, but keep archived evidence byte-for-byte.
+* text=auto
+/artifacts/** -text
+*.pt binary
+*.npz binary
+*.bin binary

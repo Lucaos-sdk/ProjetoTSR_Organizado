@@ -1,0 +1,18 @@
+test_disjoint_scenes_and_noise_not_in_target (test_neural_lighting.LightingTests.test_disjoint_scenes_and_noise_not_in_target) ... ok
+test_identity_odd_sizes_bounds_and_gradients (test_neural_lighting.LightingTests.test_identity_odd_sizes_bounds_and_gradients) ... ok
+test_occluder_changes_light_not_albedo (test_neural_lighting.LightingTests.test_occluder_changes_light_not_albedo) ... ok
+test_perspective_roundtrip_rotated_camera (test_neural_lighting.LightingTests.test_perspective_roundtrip_rotated_camera) ... ok
+test_ray_sphere_known_distances_miss_inside (test_neural_lighting.LightingTests.test_ray_sphere_known_distances_miss_inside) ... ok
+test_scene_shadows_masks_normals_and_reprojection (test_neural_lighting.LightingTests.test_scene_shadows_masks_normals_and_reprojection) ... ok
+test_default_override_compatibility_and_no_mutation (test_neural_lighting_diagnostics.DiagnosticTests.test_default_override_compatibility_and_no_mutation) ... ok
+test_fixed_receivers_and_reference_response (test_neural_lighting_diagnostics.DiagnosticTests.test_fixed_receivers_and_reference_response) ... ok
+test_inverse_depth_fit_noise_and_depth_step (test_neural_lighting_diagnostics.DiagnosticTests.test_inverse_depth_fit_noise_and_depth_step) ... ok
+test_same_input_negative_control_and_normal_ablation (test_neural_lighting_diagnostics.DiagnosticTests.test_same_input_negative_control_and_normal_ablation) ... ok
+test_sloped_plane_keeps_valid_neighbors (test_neural_lighting_diagnostics.DiagnosticTests.test_sloped_plane_keeps_valid_neighbors) ... ok
+test_correspondence_mask_and_gradient (test_neural_lighting_temporal.TemporalLightingTests.test_correspondence_mask_and_gradient) ... ok
+test_reference_changes_are_not_penalized (test_neural_lighting_temporal.TemporalLightingTests.test_reference_changes_are_not_penalized) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.275s
+
+OK

@@ -63,7 +63,8 @@ enum class Upscaler
     DLSS, // "dlss", used for the DLSS upscaler backend
 
     DLSSD, // "dlssd", used for the DLSS-D/Ray Reconstruction upscaler+denoiser backend
-    Reset
+    Reset,
+    TSRProbe // "tsr_probe": compatibility capture, rendered by FSR 2.1.2
 };
 
 enum class ApiUpscalerInput

@@ -1,0 +1,214 @@
+{
+  "parameters": 10271,
+  "steps": 800,
+  "seed": 20260908,
+  "checkpoint_sha256": "d10a572bae2898c02c3b48b7dcf6dffbe5ea9a5e90fd6c891353dbfbd98cc9e5",
+  "curve": [
+    {
+      "step": 1,
+      "loss": 0.014560979790985584
+    },
+    {
+      "step": 100,
+      "loss": 0.009777333587408066
+    },
+    {
+      "step": 200,
+      "loss": 0.010819857008755207
+    },
+    {
+      "step": 300,
+      "loss": 0.010608283802866936
+    },
+    {
+      "step": 400,
+      "loss": 0.007162549998611212
+    },
+    {
+      "step": 500,
+      "loss": 0.00778912054374814
+    },
+    {
+      "step": 600,
+      "loss": 0.008528097532689571
+    },
+    {
+      "step": 700,
+      "loss": 0.008079968392848969
+    },
+    {
+      "step": 800,
+      "loss": 0.007889023050665855
+    }
+  ],
+  "held_out": {
+    "mean": {
+      "mae": 0.009332393761724234,
+      "mse": 0.0001851633199597321,
+      "identity_mae": 0.012223785510286689,
+      "analytic_heuristic_mae": 0.010264412849210203,
+      "confidence_mae": 0.056554259111483894,
+      "gradient_mae": 0.001851820750744082,
+      "ui_target_mae": 0.0,
+      "fog_target_mae": 0.006229111924767494,
+      "protected_max_change": 0.0
+    },
+    "scenes": [
+      {
+        "seed": 2000,
+        "mae": 0.011395665816962719,
+        "mse": 0.00025033552083186805,
+        "identity_mae": 0.012745831161737442,
+        "analytic_heuristic_mae": 0.014389649033546448,
+        "confidence_mae": 0.09200232475996017,
+        "gradient_mae": 0.0012496142880991101,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2001,
+        "mae": 0.012488599866628647,
+        "mse": 0.00034925981890410185,
+        "identity_mae": 0.0175970159471035,
+        "analytic_heuristic_mae": 0.010576336644589901,
+        "confidence_mae": 0.03539257124066353,
+        "gradient_mae": 0.001310027320869267,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2002,
+        "mae": 0.007796402554959059,
+        "mse": 0.00012663152301684022,
+        "identity_mae": 0.008812139742076397,
+        "analytic_heuristic_mae": 0.009171579033136368,
+        "confidence_mae": 0.022045202553272247,
+        "gradient_mae": 0.001113728154450655,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2003,
+        "mae": 0.009527891874313354,
+        "mse": 0.00016999494982883334,
+        "identity_mae": 0.014826393686234951,
+        "analytic_heuristic_mae": 0.012501676566898823,
+        "confidence_mae": 0.04512688145041466,
+        "gradient_mae": 0.003190618474036455,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2004,
+        "mae": 0.00787234678864479,
+        "mse": 0.00010765314800664783,
+        "identity_mae": 0.011157006025314331,
+        "analytic_heuristic_mae": 0.008636812679469585,
+        "confidence_mae": 0.1467994898557663,
+        "gradient_mae": 0.0032254706602543592,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2005,
+        "mae": 0.007843283005058765,
+        "mse": 0.00011190805525984615,
+        "identity_mae": 0.0121379429474473,
+        "analytic_heuristic_mae": 0.010740531608462334,
+        "confidence_mae": 0.06098266318440437,
+        "gradient_mae": 0.0038423677906394005,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2006,
+        "mae": 0.009643984958529472,
+        "mse": 0.00016228777531068772,
+        "identity_mae": 0.010954577475786209,
+        "analytic_heuristic_mae": 0.01416773721575737,
+        "confidence_mae": 0.02569326013326645,
+        "gradient_mae": 0.001760022947564721,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2007,
+        "mae": 0.010058646090328693,
+        "mse": 0.00023637479171156883,
+        "identity_mae": 0.00962320901453495,
+        "analytic_heuristic_mae": 0.009226216934621334,
+        "confidence_mae": 0.023532191291451454,
+        "gradient_mae": 0.0012493343092501163,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2008,
+        "mae": 0.01628473401069641,
+        "mse": 0.0004886890528723598,
+        "identity_mae": 0.02508002519607544,
+        "analytic_heuristic_mae": 0.01367454044520855,
+        "confidence_mae": 0.09817960858345032,
+        "gradient_mae": 0.003039370756596327,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2009,
+        "mae": 0.006672285031527281,
+        "mse": 9.048423817148432e-05,
+        "identity_mae": 0.008745849132537842,
+        "analytic_heuristic_mae": 0.006816040258854628,
+        "confidence_mae": 0.028011756017804146,
+        "gradient_mae": 0.0007475536549463868,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2010,
+        "mae": 0.006229111924767494,
+        "mse": 4.786880890605971e-05,
+        "identity_mae": 0.007069064304232597,
+        "analytic_heuristic_mae": 0.005556747782975435,
+        "confidence_mae": 0.056034255772829056,
+        "gradient_mae": 0.0005410328740254045,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": 0.006229111924767494,
+        "protected_max_change": 0.0
+      },
+      {
+        "seed": 2011,
+        "mae": 0.0061757732182741165,
+        "mse": 8.047215669648722e-05,
+        "identity_mae": 0.007936371490359306,
+        "analytic_heuristic_mae": 0.0077150859870016575,
+        "confidence_mae": 0.044850904494524,
+        "gradient_mae": 0.0009527077781967819,
+        "ui_target_mae": 0.0,
+        "fog_target_mae": null,
+        "protected_max_change": 0.0
+      }
+    ]
+  },
+  "temporal": {
+    "mean_warped_error_delta": 0.0,
+    "max_sequence_pair": 0.0,
+    "pairs": 24,
+    "motion": "known integer horizontal translation; common valid pixels",
+    "limitations": "No rotations, moving objects, exposure changes, or game motion buffers."
+  },
+  "candidate_mae": 0.009049087995663285,
+  "candidate_improvement_percent": 3.0357245235718144,
+  "scope": "Supplementary same-input, same-loss, same-batches 1x1 control. No candidate retraining or checkpoint selection.",
+  "limitations": "Single seed and fixed training schedule; not an architecture superiority proof."
+}

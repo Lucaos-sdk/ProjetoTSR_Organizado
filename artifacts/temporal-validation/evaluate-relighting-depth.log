@@ -1,0 +1,268 @@
+{
+  "weights_sha256": "0780d885539985580e9d4427403d5c517d6583009ec91a9570d22dfc4f679224",
+  "cases": [
+    {
+      "name": "preview",
+      "width": 640,
+      "height": 360,
+      "strength": 1.0,
+      "object_offset": 0.0,
+      "valid_fraction": 0.9907855902777778,
+      "normal_angle_mean_deg": 0.044459614902734756,
+      "normal_angle_p95_deg": 0.03956468030810356,
+      "input_target_mse": 0.008208284982285595,
+      "depth_model_target_mse": 0.00011210033846307017,
+      "exact_normal_model_target_mse": 6.32265097773393e-05,
+      "gpu_target_mse": 0.00011210031988871959,
+      "gpu": {
+        "width": 640,
+        "height": 360,
+        "samples": 3,
+        "debug_layer": true,
+        "warp": false,
+        "median_ms": 0.0288,
+        "p95_ms": 0.02884,
+        "max_gpu_cpu_error": 6.288290024e-06
+      }
+    },
+    {
+      "name": "1080p",
+      "width": 1920,
+      "height": 1080,
+      "strength": 1.0,
+      "object_offset": 0.0,
+      "valid_fraction": 0.9971074459876543,
+      "normal_angle_mean_deg": 0.026591602712869644,
+      "normal_angle_p95_deg": 0.02797645330429077,
+      "input_target_mse": 0.00820842619290499,
+      "depth_model_target_mse": 0.00010369888290103788,
+      "exact_normal_model_target_mse": 6.306164434120794e-05,
+      "gpu_target_mse": 0.00010369886034566344,
+      "gpu": {
+        "width": 1920,
+        "height": 1080,
+        "samples": 50,
+        "debug_layer": false,
+        "warp": false,
+        "median_ms": 0.26204,
+        "p95_ms": 0.2634,
+        "max_gpu_cpu_error": 2.744793892e-05
+      }
+    },
+    {
+      "name": "odd",
+      "width": 321,
+      "height": 181,
+      "strength": 1.0,
+      "object_offset": 0.0,
+      "valid_fraction": 0.9776940155935354,
+      "normal_angle_mean_deg": 0.07303837686777115,
+      "normal_angle_p95_deg": 0.14265252649784088,
+      "input_target_mse": 0.008220350068833463,
+      "depth_model_target_mse": 0.00022070149438437232,
+      "exact_normal_model_target_mse": 6.377379809200424e-05,
+      "gpu_target_mse": 0.0002207014850731233,
+      "gpu": {
+        "width": 321,
+        "height": 181,
+        "samples": 3,
+        "debug_layer": true,
+        "warp": false,
+        "median_ms": 0.01204,
+        "p95_ms": 0.02716,
+        "max_gpu_cpu_error": 2.62260437e-06
+      }
+    },
+    {
+      "name": "bypass",
+      "width": 65,
+      "height": 37,
+      "strength": 0.0,
+      "object_offset": 0.0,
+      "valid_fraction": 0.7995841995841996,
+      "normal_angle_mean_deg": 0.355702668428421,
+      "normal_angle_p95_deg": 3.6651697158813477,
+      "input_target_mse": 0.008257505224103758,
+      "depth_model_target_mse": 0.008257505224103758,
+      "exact_normal_model_target_mse": 0.008257505224103758,
+      "gpu_target_mse": 0.008257505224103758,
+      "gpu": {
+        "width": 65,
+        "height": 37,
+        "samples": 3,
+        "debug_layer": true,
+        "warp": false,
+        "median_ms": 0.00076,
+        "p95_ms": 0.00076,
+        "max_gpu_cpu_error": 0
+      }
+    },
+    {
+      "name": "invalid-depth",
+      "width": 65,
+      "height": 37,
+      "strength": 1.0,
+      "object_offset": 0.0,
+      "valid_fraction": 0.7995841995841996,
+      "normal_angle_mean_deg": 0.355702668428421,
+      "normal_angle_p95_deg": 3.6651697158813477,
+      "input_target_mse": 0.008257505224103758,
+      "depth_model_target_mse": 0.003120694709420551,
+      "exact_normal_model_target_mse": 6.73960589973662e-05,
+      "gpu_target_mse": 0.0031206947406295467,
+      "gpu": {
+        "width": 65,
+        "height": 37,
+        "samples": 3,
+        "debug_layer": true,
+        "warp": false,
+        "median_ms": 0.00692,
+        "p95_ms": 0.00712,
+        "max_gpu_cpu_error": 4.768371582e-07
+      }
+    },
+    {
+      "name": "motion-0",
+      "width": 320,
+      "height": 180,
+      "strength": 1.0,
+      "object_offset": -0.06,
+      "valid_fraction": 0.9780902777777778,
+      "normal_angle_mean_deg": 0.07471632957458496,
+      "normal_angle_p95_deg": 0.14401765167713165,
+      "input_target_mse": 0.00821375213009412,
+      "depth_model_target_mse": 0.00021825140626086133,
+      "exact_normal_model_target_mse": 6.784461670622519e-05,
+      "gpu_target_mse": 0.000218251398623454,
+      "gpu": {
+        "width": 320,
+        "height": 180,
+        "samples": 3,
+        "debug_layer": true,
+        "warp": false,
+        "median_ms": 0.01192,
+        "p95_ms": 0.0122,
+        "max_gpu_cpu_error": 2.384185791e-06
+      }
+    },
+    {
+      "name": "motion-1",
+      "width": 320,
+      "height": 180,
+      "strength": 1.0,
+      "object_offset": -0.03,
+      "valid_fraction": 0.9778993055555556,
+      "normal_angle_mean_deg": 0.07491553574800491,
+      "normal_angle_p95_deg": 0.14536994695663452,
+      "input_target_mse": 0.00821311886798488,
+      "depth_model_target_mse": 0.00022463588318596907,
+      "exact_normal_model_target_mse": 6.552360113437115e-05,
+      "gpu_target_mse": 0.000224635872979317,
+      "gpu": {
+        "width": 320,
+        "height": 180,
+        "samples": 3,
+        "debug_layer": true,
+        "warp": false,
+        "median_ms": 0.01188,
+        "p95_ms": 0.01192,
+        "max_gpu_cpu_error": 2.384185791e-06
+      }
+    },
+    {
+      "name": "motion-2",
+      "width": 320,
+      "height": 180,
+      "strength": 1.0,
+      "object_offset": 0.0,
+      "valid_fraction": 0.9780381944444444,
+      "normal_angle_mean_deg": 0.07390930503606796,
+      "normal_angle_p95_deg": 0.14401765167713165,
+      "input_target_mse": 0.008206417302321793,
+      "depth_model_target_mse": 0.00021462759020374447,
+      "exact_normal_model_target_mse": 6.185621242385204e-05,
+      "gpu_target_mse": 0.000214627572157763,
+      "gpu": {
+        "width": 320,
+        "height": 180,
+        "samples": 3,
+        "debug_layer": true,
+        "warp": false,
+        "median_ms": 0.01188,
+        "p95_ms": 0.012,
+        "max_gpu_cpu_error": 2.592802048e-06
+      }
+    },
+    {
+      "name": "motion-3",
+      "width": 320,
+      "height": 180,
+      "strength": 1.0,
+      "object_offset": 0.03,
+      "valid_fraction": 0.9778125,
+      "normal_angle_mean_deg": 0.07428807765245438,
+      "normal_angle_p95_deg": 0.14265252649784088,
+      "input_target_mse": 0.008206224419249411,
+      "depth_model_target_mse": 0.00022062628741833956,
+      "exact_normal_model_target_mse": 5.9303212681800676e-05,
+      "gpu_target_mse": 0.00022062626384214892,
+      "gpu": {
+        "width": 320,
+        "height": 180,
+        "samples": 3,
+        "debug_layer": true,
+        "warp": false,
+        "median_ms": 0.0118,
+        "p95_ms": 0.01192,
+        "max_gpu_cpu_error": 2.473592758e-06
+      }
+    },
+    {
+      "name": "motion-4",
+      "width": 320,
+      "height": 180,
+      "strength": 1.0,
+      "object_offset": 0.06,
+      "valid_fraction": 0.9784027777777777,
+      "normal_angle_mean_deg": 0.07379583269357681,
+      "normal_angle_p95_deg": 0.14536994695663452,
+      "input_target_mse": 0.008188598780648423,
+      "depth_model_target_mse": 0.0002006808043577735,
+      "exact_normal_model_target_mse": 5.571843673848577e-05,
+      "gpu_target_mse": 0.00020068079285416124,
+      "gpu": {
+        "width": 320,
+        "height": 180,
+        "samples": 3,
+        "debug_layer": true,
+        "warp": false,
+        "median_ms": 0.0118,
+        "p95_ms": 0.01184,
+        "max_gpu_cpu_error": 2.592802048e-06
+      }
+    }
+  ],
+  "sloped_plane_oracle": "passed",
+  "motion_screen_space_change_error": [
+    {
+      "frame": 1,
+      "input_change_error_mse": 0.0005406453936395056,
+      "gpu_change_error_mse": 0.00025529066771973023
+    },
+    {
+      "frame": 2,
+      "input_change_error_mse": 0.0005111932987359789,
+      "gpu_change_error_mse": 0.0002563589180303203
+    },
+    {
+      "frame": 3,
+      "input_change_error_mse": 0.0005226350374881769,
+      "gpu_change_error_mse": 0.0002571612986390774
+    },
+    {
+      "frame": 4,
+      "input_change_error_mse": 0.0005063406987472472,
+      "gpu_change_error_mse": 0.0002447482940662854
+    }
+  ]
+}

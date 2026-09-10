@@ -1,0 +1,737 @@
+{
+  "sha256": "E02D61C22FB89815DC40F48E6B49B744939BC01DF89131B681E80FA151B13418",
+  "firstLine": "[01:03:10.487079] [W] OptiScaler v10.0.0-dev (07af11e) (20260906_204940) loaded",
+  "lastLine": "[01:21:08.016808] [I] Unloading OptiScaler",
+  "errors": [],
+  "textureErrors": [],
+  "warningCount": 105,
+  "warningGroups": [
+    {
+      "Count": 63,
+      "Name": "IFGFeature::StartNewFrame Frame count jumped too much! _frameCount: ..."
+    },
+    {
+      "Count": 14,
+      "Name": "OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input: ..."
+    },
+    {
+      "Count": 2,
+      "Name": "Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!"
+    },
+    {
+      "Count": 2,
+      "Name": "Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!"
+    },
+    {
+      "Count": 1,
+      "Name": "---------------------------------"
+    },
+    {
+      "Count": 1,
+      "Name": "Util::LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!"
+    },
+    {
+      "Count": 1,
+      "Name": "StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]pluginmanager.cpp:704[loadPlugins] Ignoring plugin 'sl.dlss_g' since it is not supported on this platform"
+    },
+    {
+      "Count": 1,
+      "Name": "StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]dxgi.cpp:334[CreateDXGIFactoryInternal] Streamline interposer has been disabled"
+    },
+    {
+      "Count": 1,
+      "Name": "StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]dlssentry.cpp:185[updateEmbeddedJSON] Failed to obtain DLSS min spec requirements from NGX, using SL defaults"
+    },
+    {
+      "Count": 1,
+      "Name": "StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]dlss_gentry.cpp:582[updateEmbeddedJSON] Disabling DLSS-G since it is not supported on current hardware"
+    },
+    {
+      "Count": 1,
+      "Name": "StreamlineHooks::streamlineLogCallback_sl1 [07.09.2026 01-03-11][streamline][warn]dlss_gentry.cpp:513[updateEmbeddedJSON] Failed to obtain DLSS-G min spec requirements from NGX, using SL defaults"
+    },
+    {
+      "Count": 1,
+      "Name": "OptiScaler v10.0.0-dev (07af11e) (20260906_204940) loaded"
+    },
+    {
+      "Count": 1,
+      "Name": "OptiScaler is freely downloadable from"
+    },
+    {
+      "Count": 1,
+      "Name": "OptiInput::RemoveWindowSubclass RemoveWindowSubclass did not restore because current WndProc changed input: ..."
+    },
+    {
+      "Count": 1,
+      "Name": "OptiInput::ClearTargetWindowLocked clearing target window hwnd:0x1804bc pid:20324 tid:5252"
+    },
+    {
+      "Count": 1,
+      "Name": "OptiInput::ClearInputWindowLocked clearing input window hwnd:0x1804bc pid:20324 tid:5252 subclassed:0"
+    },
+    {
+      "Count": 1,
+      "Name": "OptiInput::`anonymous-namespace'::LogQueryWindowFailure ValidateTargetWindow rejected hwnd:0x1804bc isWindow:0 root:0x0 pid:0 tid:0 currentPid:20324"
+    },
+    {
+      "Count": 1,
+      "Name": "Nexus  : https://www.nexusmods.com/site/mods/986"
+    },
+    {
+      "Count": 1,
+      "Name": "IsRunningOnWine Wine not detected"
+    },
+    {
+      "Count": 1,
+      "Name": "If you paid for these files, you've been scammed!"
+    },
+    {
+      "Count": 1,
+      "Name": "GitHub : https://github.com/optiscaler/OptiScaler/releases"
+    },
+    {
+      "Count": 1,
+      "Name": "FGHooks::hkResizeBuffers SwapChainFlags changed from 842 to 802"
+    },
+    {
+      "Count": 1,
+      "Name": "FGHooks::hkResizeBuffers Preventing flag change for XeFG!"
+    },
+    {
+      "Count": 1,
+      "Name": "DxgiSpoofing::AttachToAdapter DxgiSpoofing and DxgiVRAM is disabled, skipping hooking"
+    },
+    {
+      "Count": 1,
+      "Name": "DO NOT USE IN MULTIPLAYER GAMES"
+    },
+    {
+      "Count": 1,
+      "Name": "Config::CheckUpscalerFiles nvngx.dll not found!"
+    },
+    {
+      "Count": 1,
+      "Name": "Util::LoadProxyLibrary Can't find amdxcffx64.dll, returning nullptr!"
+    },
+    {
+      "Count": 1,
+      "Name": "Util::LoadProxyLibrary Can't find nvngx.dll, returning nullptr!"
+    }
+  ],
+  "fsrDispatchCount": 33,
+  "fsrDispatchVariants": [
+    "provider=4.1.1  result=OK render=1476x830 output=1920x1080 auto_exposure=true pre_exposure=1 depth_dxgi=19 own_neural=false"
+  ],
+  "fgSamples": [
+    {
+      "time": "01:04:19.613865",
+      "sample": 1,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:04:20.037641",
+      "sample": 2,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:04:20.075498",
+      "sample": 3,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 1,
+      "interpolation": 3,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:04:33.509562",
+      "sample": 600,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:04:41.836320",
+      "sample": 1200,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:04:50.156937",
+      "sample": 1800,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:04:58.413188",
+      "sample": 2400,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:05:06.632043",
+      "sample": 3000,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:05:14.804978",
+      "sample": 3600,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:05:22.979535",
+      "sample": 4200,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:05:31.138328",
+      "sample": 4800,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:05:39.715516",
+      "sample": 5400,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:05:48.519023",
+      "sample": 6000,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:05:57.552949",
+      "sample": 6600,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:06:06.607138",
+      "sample": 7200,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:06:15.556872",
+      "sample": 7800,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:06:24.616822",
+      "sample": 8400,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:06:33.285734",
+      "sample": 9000,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:06:42.204985",
+      "sample": 9600,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:06:50.912153",
+      "sample": 10200,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:06:59.156200",
+      "sample": 10800,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:04.681451",
+      "sample": 11400,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:08.847803",
+      "sample": 12000,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:13.015834",
+      "sample": 12600,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:17.182028",
+      "sample": 13200,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:21.348872",
+      "sample": 13800,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:25.516086",
+      "sample": 14400,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:29.682936",
+      "sample": 15000,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:33.850240",
+      "sample": 15600,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:38.016467",
+      "sample": 16200,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:42.183808",
+      "sample": 16800,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:46.366046",
+      "sample": 17400,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:07:53.618417",
+      "sample": 18000,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:08:01.863537",
+      "sample": 18600,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:08:10.377866",
+      "sample": 19200,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:08:18.476887",
+      "sample": 19800,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:08:26.422253",
+      "sample": 20400,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:08:34.830039",
+      "sample": 21000,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:08:42.640077",
+      "sample": 21600,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:08:49.813261",
+      "sample": 22200,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:08:58.723069",
+      "sample": 22800,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:09:06.934131",
+      "sample": 23400,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:09:15.381879",
+      "sample": 24000,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:09:23.760614",
+      "sample": 24600,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:09:31.899762",
+      "sample": 25200,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:09:40.642437",
+      "sample": 25800,
+      "query": 0,
+      "enabled": 1,
+      "framesSent": 2,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:09:46.917564",
+      "sample": 26400,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:09:51.412173",
+      "sample": 27000,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:09:55.932246",
+      "sample": 27600,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:00.188919",
+      "sample": 28200,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:04.388206",
+      "sample": 28800,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:08.685489",
+      "sample": 29400,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:12.853400",
+      "sample": 30000,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:17.039746",
+      "sample": 30600,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:21.249467",
+      "sample": 31200,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:25.438808",
+      "sample": 31800,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:29.606339",
+      "sample": 32400,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:33.851085",
+      "sample": 33000,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:38.049590",
+      "sample": 33600,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:42.250980",
+      "sample": 34200,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:46.427319",
+      "sample": 34800,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:50.612196",
+      "sample": 35400,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    },
+    {
+      "time": "01:10:54.778756",
+      "sample": 36000,
+      "query": 0,
+      "enabled": 0,
+      "framesSent": 1,
+      "interpolation": 0,
+      "maxGenerated": 1
+    }
+  ],
+  "fgSummary": [
+    {
+      "Count": 32,
+      "Name": "0, 0, 1, 0"
+    },
+    {
+      "Count": 1,
+      "Name": "0, 1, 1, 3"
+    },
+    {
+      "Count": 30,
+      "Name": "0, 1, 2, 0"
+    }
+  ],
+  "fgTransitions": [
+    "[01:04:19.608309] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:04:19.613895] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:04:20.037248] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:06:58.446008] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:06:59.301999] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:07:01.430379] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:07:46.868344] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:07:50.634165] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:07:51.682321] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:08:41.568509] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:08:44.462808] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:09:44.893575] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:11:03.998053] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:14:42.476177] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:14:53.987316] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:15:00.614727] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:15:09.343024] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:20:50.444854] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:20:51.072189] [I] XeFG_Dx12::Activate SetEnabled: true, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)",
+    "[01:21:00.527486] [I] XeFG_Dx12::Deactivate SetEnabled: false, result: XEFG_SWAPCHAIN_RESULT_SUCCESS (0)"
+  ],
+  "normalDetach": true,
+  "limitations": [
+    "Sparse prior-present SDK status; not physical presentation, frame time or input latency.",
+    "FG sampling stops at 36000; status after 01:10:54 is not continuously observed.",
+    "No render-resolution change recorded; former settings transition not reproduced."
+  ]
+}

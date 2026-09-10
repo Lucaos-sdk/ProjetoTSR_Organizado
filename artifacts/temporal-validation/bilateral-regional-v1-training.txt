@@ -1,0 +1,98 @@
+bilateral 1 0.014561
+bilateral 100 0.011304
+bilateral 200 0.010279
+bilateral 300 0.010575
+bilateral 400 0.0076
+bilateral 500 0.007191
+bilateral 600 0.009337
+bilateral 700 0.008358
+bilateral 800 0.007918
+point_ablation 1 0.014561
+point_ablation 100 0.010883
+point_ablation 200 0.013705
+point_ablation 300 0.012491
+point_ablation 400 0.008657
+point_ablation 500 0.008358
+point_ablation 600 0.009532
+point_ablation 700 0.00862
+point_ablation 800 0.008997
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\tools\train_bilateral_experiment.py:90: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(half, low.half(), str(path), input_names=['context_64'], output_names=['grid_logits'],
+{
+  "held_out": {
+    "bilateral": {
+      "mae": 0.009049087995663285,
+      "mse": 0.00017477499538169164,
+      "identity_mae": 0.012223785510286689,
+      "analytic_heuristic_mae": 0.010264412849210203,
+      "confidence_mae": 0.08634971206386884,
+      "gradient_mae": 0.001904826916870661,
+      "ui_target_mae": 0.0,
+      "fog_target_mae": 0.00563881965354085,
+      "protected_max_change": 0.0
+    },
+    "point_ablation": {
+      "mae": 0.00954902556259185,
+      "mse": 0.00019494878051773412,
+      "identity_mae": 0.012223785510286689,
+      "analytic_heuristic_mae": 0.010264412849210203,
+      "confidence_mae": 0.07476223198076089,
+      "gradient_mae": 0.0015188431862043217,
+      "ui_target_mae": 0.0,
+      "fog_target_mae": 0.0061348481103777885,
+      "protected_max_change": 0.0
+    }
+  },
+  "gates": {
+    "improves_identity_20_percent": true,
+    "beats_point_ablation_5_percent": true,
+    "beats_analytic_heuristic": true,
+    "exact_protected_regions": true,
+    "translated_error_delta_below_001": true
+  },
+  "temporal": {
+    "bilateral": {
+      "mean_warped_error_delta": 0.0006903360178209065,
+      "max_sequence_pair": 0.0014626899501308799,
+      "pairs": 24,
+      "motion": "known integer horizontal translation; common valid pixels",
+      "limitations": "No rotations, moving objects, exposure changes, or game motion buffers."
+    },
+    "point_ablation": {
+      "mean_warped_error_delta": 0.0,
+      "max_sequence_pair": 0.0,
+      "pairs": 24,
+      "motion": "known integer horizontal translation; common valid pixels",
+      "limitations": "No rotations, moving objects, exposure changes, or game motion buffers."
+    }
+  },
+  "export": {
+    "path": "bilateral_grid_fp16.onnx",
+    "sha256": "b0cea90038f47bacbb3abb42686b8c87e02478132e3cf5ee143a122ec5723009",
+    "bytes": 22216,
+    "opset": 17,
+    "input_shape": [
+      1,
+      8,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      2,
+      8,
+      16,
+      16
+    ],
+    "operators": [
+      "Constant",
+      "Conv",
+      "Relu",
+      "Reshape"
+    ],
+    "pytorch_fp16_grid_max_abs_difference": 0.011137008666992188,
+    "onnx_checker_passed": true,
+    "onnx_runtime_execution": false,
+    "directml_execution": false
+  }
+}

@@ -1,0 +1,154 @@
+ M .github/workflows/native-baseline.yml
+ M README.md
+ M _OptiScaler_Source/OptiScaler/Config.cpp
+ M _OptiScaler_Source/OptiScaler/OptiScaler.vcxproj
+ M _OptiScaler_Source/OptiScaler/OptiTypes.cpp
+ M _OptiScaler_Source/OptiScaler/OptiTypes.h
+ M _OptiScaler_Source/OptiScaler/framegen/ffx/FSRFG_Dx12.cpp
+ M _OptiScaler_Source/OptiScaler/framegen/xefg/XeFG_Dx12.cpp
+ M _OptiScaler_Source/OptiScaler/framegen/xefg/XeFG_Dx12.h
+ M _OptiScaler_Source/OptiScaler/hooks/Streamline_Hooks.cpp
+ M _OptiScaler_Source/OptiScaler/inputs/XeSS_Dx12.cpp
+ M _OptiScaler_Source/OptiScaler/menu/menu_common.cpp
+ M _OptiScaler_Source/OptiScaler/resource_tracking/ResTrack_dx12.cpp
+ M _OptiScaler_Source/OptiScaler/resource_tracking/ResTrack_dx12.h
+ M _OptiScaler_Source/OptiScaler/shaders/Shader_Dx12.cpp
+ M _OptiScaler_Source/OptiScaler/upscalers/FeatureProvider_Dx12.cpp
+ M _OptiScaler_Source/OptiScaler/upscalers/ffx/FFXFeature.cpp
+ M _OptiScaler_Source/OptiScaler/upscalers/ffx/FFXFeature_Dx12.cpp
+ M _OptiScaler_Source/OptiScaler/upscalers/ffx/FFXFeature_Dx12.h
+ M _OptiScaler_Source/OptiScaler/upscalers/fsr2_212/FSR2Feature_Dx12_212.h
+ M docs/AUDITORIA.md
+ M native/baseline/Bilinear.hlsl
+ M native/baseline/CMakeLists.txt
+ M native/baseline/README.md
+ M native/baseline/dx12_baseline.cpp
+ M native/baseline/reference.h
+?? "Arquivos necessarios/"
+?? DLSS-NR-on-AMD-0.2.11/
+?? _IA_Python/bilateral_experiment.py
+?? _IA_Python/requirements-bilateral.txt
+?? _OptiScaler_Source/OptiScaler/upscalers/tsr/
+?? _OptiScaler_Source/external/FidelityFX-API-1.1.4/
+?? artifacts/
+?? "dlss teste/"
+?? dlssnr_on_amd_setup.exe
+?? docs/BENCHMARK_1080P.md
+?? docs/BILATERAL_REGIONAL_EXPERIMENT.md
+?? docs/DLSS_NR_BINARY_REVIEW.md
+?? docs/DLSS_TESTE_SETUP_REVIEW.md
+?? docs/EXTERNAL_DLSS_NR_REVIEW.md
+?? docs/EXTERNAL_PRESR_PACKAGE_REVIEW.md
+?? docs/FIRST_GAME_TEST.md
+?? docs/FP16_OUTPUT.md
+?? docs/FRAME_CONTRACT.md
+?? docs/FRAME_GENERATION_PROGRESS.md
+?? docs/FRAME_SLOTS.md
+?? docs/FSR411_INTEGRATION.md
+?? docs/GAME_CAMERA_BRIDGE.md
+?? docs/GAME_RELIGHTING.md
+?? docs/GPU_FRAME_CONTEXT.md
+?? docs/GPU_INPUT_CHAIN.md
+?? docs/GPU_STAGE_TIMING.md
+?? docs/INPUT_ADAPTER.md
+?? docs/NEURAL_NEXT_STEP_REVIEW.md
+?? docs/NEURAL_REPOSITORIES_REVIEW.md
+?? docs/NEURAL_UPSTREAM_REVIEW.md
+?? docs/NGX_FRAME_ADAPTER.md
+?? docs/OPTISCALER_SUBMISSION.md
+?? docs/OUTPUT_HISTORY_REVIEW.md
+?? docs/PERSISTENT_RESOURCES.md
+?? docs/PROJECT_DIRECTION.md
+?? docs/RECONSTRUCTION_REVIEW.md
+?? docs/RELIGHTING_DX12.md
+?? docs/RELIGHTING_FIXTURE.md
+?? docs/RELIGHTING_V22_COLOR.md
+?? docs/RELIGHTING_V23_SCENERY.md
+?? docs/RELIGHTING_V2_OPTIMIZATION.md
+?? docs/RELIGHTING_WORLD_V2.md
+?? docs/RESOLUTIONS_AND_GPUS.md
+?? docs/STABLE_GRID_REVIEW.md
+?? docs/TEMPORAL_BASELINE.md
+?? docs/TEMPORAL_REPLAY.md
+?? docs/TEXTURE_ALLOCATION_FIX.md
+?? docs/TEXTURE_REGIONS.md
+?? docs/WITCHER3_FIRST_CAPTURE.md
+?? docs/WITCHER3_PROBE.md
+?? docs/WITCHER_RELIGHTING_FIRST_RESULT.md
+?? native/baseline/InputAdapter.hlsl
+?? native/baseline/OutputAdapter.hlsl
+?? native/baseline/OutputHistory.hlsl
+?? native/baseline/Relighting.hlsl
+?? native/baseline/Temporal.hlsl
+?? native/baseline/camera_contract_tests.cpp
+?? native/baseline/camera_fixture.h
+?? native/baseline/camera_history_tests.cpp
+?? native/baseline/command_list_lifetime_dx12.cpp
+?? native/baseline/dx12_context.h
+?? native/baseline/frame_contract.h
+?? native/baseline/frame_contract_tests.cpp
+?? native/baseline/frame_generation_policy_tests.cpp
+?? native/baseline/frame_slots.h
+?? native/baseline/frame_slots_dx12.cpp
+?? native/baseline/frame_slots_tests.cpp
+?? native/baseline/framegen_capabilities_dx12.cpp
+?? native/baseline/fsr_sdk_dx12.cpp
+?? native/baseline/game_relighting_dx12.cpp
+?? native/baseline/gpu_context_dx12.cpp
+?? native/baseline/gpu_frame_context.h
+?? native/baseline/input_adapter.h
+?? native/baseline/input_adapter_dx12.cpp
+?? native/baseline/input_adapter_pass.h
+?? native/baseline/input_adapter_shader.h.in
+?? native/baseline/input_chain_dx12.cpp
+?? native/baseline/ngx_frame_adapter_tests.cpp
+?? native/baseline/output_adapter_pass.h
+?? native/baseline/output_adapter_shader.h.in
+?? native/baseline/output_history_cases.h
+?? native/baseline/output_history_reference.h
+?? native/baseline/output_history_shader.h.in
+?? native/baseline/output_history_tests.cpp
+?? native/baseline/reconstruction.h
+?? native/baseline/reconstruction_tests.cpp
+?? native/baseline/relighting_dx12.cpp
+?? native/baseline/relighting_pass.h
+?? native/baseline/relighting_shader.h.in
+?? native/baseline/relighting_world_dx12.cpp
+?? native/baseline/runtime_options.h
+?? native/baseline/runtime_options_tests.cpp
+?? native/baseline/shader_texture_desc_dx12.cpp
+?? native/baseline/submission_observer_tests.cpp
+?? native/baseline/temporal_cases.h
+?? native/baseline/temporal_dx12.cpp
+?? native/baseline/temporal_pass.h
+?? native/baseline/temporal_reference.h
+?? native/baseline/temporal_reference_tests.cpp
+?? native/baseline/temporal_shader.h.in
+?? native/baseline/test_ngx_parameters.h
+?? native/baseline/test_texture_transfer.h
+?? native/baseline/texture_region.h
+?? native/baseline/texture_region_tests.cpp
+?? native/baseline/visual_sequence.h
+?? native/integration/
+?? tests/test_bilateral_experiment.py
+?? tools/analyze_camera_bridge.py
+?? tools/compare_reconstruction.py
+?? tools/configure_witcher_probe_game.ps1
+?? tools/embed_game_relighting.py
+?? tools/inspect_camera_jitter.py
+?? tools/inspect_pe_static.py
+?? tools/install_witcher_probe.ps1
+?? tools/package_witcher_framegen.ps1
+?? tools/package_witcher_fsr411.ps1
+?? tools/package_witcher_probe.ps1
+?? tools/package_witcher_relighting.ps1
+?? tools/relighting_depth_experiment.py
+?? tools/render_temporal_review.py
+?? tools/restore_witcher_probe.ps1
+?? tools/set_witcher_visual_profile.ps1
+?? tools/test_witcher_probe_install.ps1
+?? tools/train_bilateral_capacity_control.py
+?? tools/train_bilateral_experiment.py
+?? tools/train_relighting_fixture.py
+?? tools/train_relighting_world.py
+?? tools/validate_bilateral_export.py

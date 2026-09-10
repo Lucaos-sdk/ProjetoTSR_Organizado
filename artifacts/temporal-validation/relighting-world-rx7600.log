@@ -1,0 +1,6 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+PASS world anchor: max_error=2.38419e-06 unanchored_error=0.266927 rotations=14 full_sphere=true
+PASS faceted surface: original_mse=2.18852e-06 smooth_mse=1.40669e-06 reduction=0.357241
+PASS silhouettes/sky: max_error=5.96046e-08 previous_frame_independence=true alpha_preserved=true
+Last completed own GPU pass ms=0.02136 size=129x97 debug=true

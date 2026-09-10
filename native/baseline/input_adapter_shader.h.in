@@ -1,0 +1,2 @@
+#pragma once
+static constexpr const char* kInputAdapterShader = R"TSR(@INPUT_ADAPTER_SOURCE@)TSR";

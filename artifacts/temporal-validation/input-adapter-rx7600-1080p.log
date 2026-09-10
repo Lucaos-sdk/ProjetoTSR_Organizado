@@ -1,0 +1,8 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+PASS typed input adapter mode=0
+PASS typed input adapter mode=1
+PASS typed input adapter mode=2
+PASS typed input adapter mode=3
+PASS typed input adapter mode=4
+PASS typed input adapter mode=5

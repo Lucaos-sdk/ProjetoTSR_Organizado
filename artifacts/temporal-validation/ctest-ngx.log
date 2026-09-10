@@ -1,0 +1,73 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+      Start  1: frame_slots
+ 1/34 Test  #1: frame_slots ......................   Passed    0.01 sec
+      Start  2: submission_observer
+ 2/34 Test  #2: submission_observer ..............   Passed    0.01 sec
+      Start  3: texture_regions
+ 3/34 Test  #3: texture_regions ..................   Passed    0.01 sec
+      Start  4: reference
+ 4/34 Test  #4: reference ........................   Passed    0.01 sec
+      Start  5: frame_contract
+ 5/34 Test  #5: frame_contract ...................   Passed    0.01 sec
+      Start  6: temporal_reference
+ 6/34 Test  #6: temporal_reference ...............   Passed    0.01 sec
+      Start  7: reconstruction
+ 7/34 Test  #7: reconstruction ...................   Passed    0.01 sec
+      Start  8: output_history_reference
+ 8/34 Test  #8: output_history_reference .........   Passed    0.01 sec
+      Start  9: runtime_options
+ 9/34 Test  #9: runtime_options ..................   Passed    0.01 sec
+      Start 10: ngx_frame_adapter
+10/34 Test #10: ngx_frame_adapter ................   Passed    0.01 sec
+      Start 11: command_list_lifetime_warp
+11/34 Test #11: command_list_lifetime_warp .......   Passed    0.27 sec
+      Start 12: input_adapter_warp
+12/34 Test #12: input_adapter_warp ...............   Passed    0.13 sec
+      Start 13: input_chain_warp
+13/34 Test #13: input_chain_warp .................   Passed    0.19 sec
+      Start 14: input_chain_fp16_warp
+14/34 Test #14: input_chain_fp16_warp ............   Passed    0.19 sec
+      Start 15: input_regions_warp
+15/34 Test #15: input_regions_warp ...............   Passed    0.20 sec
+      Start 16: input_regions_fp16_warp
+16/34 Test #16: input_regions_fp16_warp ..........   Passed    0.20 sec
+      Start 17: gpu_context_warp
+17/34 Test #17: gpu_context_warp .................   Passed    0.35 sec
+      Start 18: gpu_context_fp16_warp
+18/34 Test #18: gpu_context_fp16_warp ............   Passed    0.38 sec
+      Start 19: ngx_current_frame_warp
+19/34 Test #19: ngx_current_frame_warp ...........   Passed    0.39 sec
+      Start 20: frame_slots_warp
+20/34 Test #20: frame_slots_warp .................   Passed    0.32 sec
+      Start 21: benchmark_output_history_warp
+21/34 Test #21: benchmark_output_history_warp ....   Passed    0.17 sec
+      Start 22: benchmark_bilinear_warp
+22/34 Test #22: benchmark_bilinear_warp ..........   Passed    0.14 sec
+      Start 23: temporal_warp
+23/34 Test #23: temporal_warp ....................   Passed    0.17 sec
+      Start 24: temporal_warp_full
+24/34 Test #24: temporal_warp_full ...............   Passed    4.20 sec
+      Start 25: temporal_cubic_warp
+25/34 Test #25: temporal_cubic_warp ..............   Passed    0.18 sec
+      Start 26: temporal_cubic_warp_full
+26/34 Test #26: temporal_cubic_warp_full .........   Passed   20.23 sec
+      Start 27: output_history_warp
+27/34 Test #27: output_history_warp ..............   Passed    0.22 sec
+      Start 28: output_history_warp_full
+28/34 Test #28: output_history_warp_full .........   Passed    5.11 sec
+      Start 29: output_history_1080p_warp
+29/34 Test #29: output_history_1080p_warp ........   Passed    1.49 sec
+      Start 30: output_history_fractional_wide
+30/34 Test #30: output_history_fractional_wide ...   Passed    0.21 sec
+      Start 31: dx12_warp
+31/34 Test #31: dx12_warp ........................   Passed    0.13 sec
+      Start 32: dx12_warp_full
+32/34 Test #32: dx12_warp_full ...................   Passed    0.70 sec
+      Start 33: dx12_texture_warp
+33/34 Test #33: dx12_texture_warp ................   Passed    0.12 sec
+      Start 34: dx12_texture_warp_full
+34/34 Test #34: dx12_texture_warp_full ...........   Passed    0.65 sec
+
+100% tests passed, 0 tests failed out of 34
+
+Total Test time (real) =  36.44 sec

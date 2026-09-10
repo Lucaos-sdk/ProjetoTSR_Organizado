@@ -1,0 +1,70 @@
+{
+  "Sources": [
+    {
+      "File": "tools/diagnose_neural_generalization.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_generalization_scene.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_scene_geometry.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_lighting_scene.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_lighting_diagnostics.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_lighting_model.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_intervention_training.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_balance_selection.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/bilateral_experiment.py",
+      "Match": true
+    },
+    {
+      "File": "tools/train_neural_interventions.py",
+      "Match": true
+    },
+    {
+      "File": "tests/test_neural_generalization.py",
+      "Match": true
+    }
+  ],
+  "Weights": [
+    {
+      "File": "20260911_paired.pt",
+      "Match": true
+    },
+    {
+      "File": "20260911_t025.pt",
+      "Match": true
+    },
+    {
+      "File": "20260912_paired.pt",
+      "Match": true
+    },
+    {
+      "File": "20260912_t025.pt",
+      "Match": true
+    }
+  ],
+  "NeuralTestsPassed": 31,
+  "SupplementalGateTestSha256": "E4D5730C8D4662E50400AF5F6CB27D4B0727DA853C18D1420FBCEED670758985",
+  "GameDllSha256": "9B3992A1FD4337A1C235DC3401D59F8BC81614E29585F3F20546B4C9BC6D47D0",
+  "GameUnchanged": true
+}

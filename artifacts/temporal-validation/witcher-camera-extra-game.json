@@ -1,0 +1,34 @@
+{
+  "camera_log_samples": 49,
+  "input_log_samples": 24,
+  "candidate_log_samples": 23,
+  "hook_commit_records": [
+    {
+      "source": "SL1",
+      "constants": "true",
+      "tags": "true",
+      "evaluate": "true",
+      "fg_input_gate": "false"
+    }
+  ],
+  "camera_sources": {
+    "SL1": 49
+  },
+  "camera_viewports": [
+    "0"
+  ],
+  "projection_status": {
+    "false": 2,
+    "true": 21
+  },
+  "basis_status": {
+    "true": 23
+  },
+  "median_candidate_age_ms": 0,
+  "max_candidate_age_ms": 16,
+  "errors": [],
+  "neural_active": false,
+  "limitation": "Sampled metadata only: freshness/jitter agreement does not prove frame or viewport association.",
+  "next_check": "Inspect camera projection/basis, timestamp ordering and jitter against XeSS input; establish an explicit association before inference.",
+  "sha256": "1f372dc390692a25322b54efafdad1ec5f5e5469f36f30a4bc2b3e03b0edeb1f"
+}

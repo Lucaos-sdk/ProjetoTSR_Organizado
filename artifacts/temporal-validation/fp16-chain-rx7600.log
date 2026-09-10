@@ -1,0 +1,10 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+Input/output precision: FP16
+PASS GPU chain frame=0 accepted_history=0
+PASS GPU chain frame=1 accepted_history=230
+PASS GPU chain frame=2 accepted_history=0
+PASS GPU chain frame=3 accepted_history=0
+PASS GPU chain frame=4 accepted_history=0
+PASS GPU chain frame=5 accepted_history=230
+PASS six frames, one submission, no intermediate image readback; validation harness, not game performance.

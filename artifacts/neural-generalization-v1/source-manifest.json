@@ -1,0 +1,13 @@
+{
+  "tools/diagnose_neural_generalization.py": "d64f366c52c5cab3be1886018bb4decd16a53bf1de80d1596a22a6e66e75b8ac",
+  "_IA_Python/neural_generalization_scene.py": "94945d4eef434e9da95a40dfb948834ddf5d9c4afb81a961942aed164f95e506",
+  "_IA_Python/neural_scene_geometry.py": "32dca8657a71e67d96dab143f09d79d5eab08387175a07c3c701e0ac0f5e56c6",
+  "_IA_Python/neural_lighting_scene.py": "dad87d5e2c09c6cc821f21c46561f9cf5b79edcd9482f9a1901c1c323ed59c2f",
+  "_IA_Python/neural_lighting_diagnostics.py": "eb13f322ffe951fbcca6d19ced0ecf08767b414b7afb78e4d0f9478d2adc3722",
+  "_IA_Python/neural_lighting_model.py": "fff80068e3016d8d81bd46cb86ee5de0a0dfcd7f018167eb1a0f11cd64511d98",
+  "_IA_Python/neural_intervention_training.py": "5b0718e6be8ffa655c0c155b23668d07effd1351b10bcb9a34e1dbc972fec942",
+  "_IA_Python/neural_balance_selection.py": "533a5cd66fc1caa53488db7a8d1bd9d4d59c97f12029905b7987da605a490b6f",
+  "_IA_Python/bilateral_experiment.py": "caf8dae4cbf89205b8ce0d01ad3bd6da736bb06efa635c2d7e49e3b6bb0d4b90",
+  "tools/train_neural_interventions.py": "98613bc159090679fa3ec5c1c5986e18421d2d7dbcfc09b97b8a7245228d8589",
+  "tests/test_neural_generalization.py": "cb95dc6273b624e587e1cbc4bf8a22e710b6b81218859dd02b8a5dc7cbdea368"
+}

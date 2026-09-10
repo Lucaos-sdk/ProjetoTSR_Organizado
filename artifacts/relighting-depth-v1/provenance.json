@@ -1,0 +1,14 @@
+{
+  "created": "2026-09-07T01:39:04.1844895-03:00",
+  "format": "linear RGBA32F color; R32_FLOAT positive view Z",
+  "hashes": {
+    "native/baseline/Relighting.hlsl": "C64D45908C547635CA61B0358D5B7D16A91CDD0A2D8443E1EAE175FCACD84A7E",
+    "tools/relighting_depth_experiment.py": "ADBDA423039018D967D4D08EB35E05B039F23186616FC4DBC8805B55F1E4312F",
+    "build/native-rx7600/Release/tsr_relighting_dx12.exe": "8B351E16795A4FEC92C190FC718B21138A235884EE3BBCBE8253D20EAE07BBFA",
+    "native/baseline/relighting_dx12.cpp": "1D2CFD3E61664BBBBC44AA058AEB399C95C84D4EA5E758FEC925273A192F39C0",
+    "native/baseline/relighting_pass.h": "A1A81F8EA569B5D6F34D0B82981E7A4736DC4CAA69C87FE198A44362A385910D",
+    "artifacts/relighting-fixture-v1/weights.npz": "0780D885539985580E9D4427403D5C517D6583009EC91A9570D22DFC4F679224"
+  },
+  "hardware": "AMD Radeon RX 7600",
+  "gameIntegrated": false
+}

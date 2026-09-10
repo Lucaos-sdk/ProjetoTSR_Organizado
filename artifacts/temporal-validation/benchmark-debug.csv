@@ -1,0 +1,6 @@
+phase,frame,render_width,render_height,output_width,output_height,mode,debug,warp,temporal_ms,spatial_ms,shader_sum_ms,gpu_batch_ms,host_validation_ms
+warmup,0,1280,720,1920,1080,output_history,1,0,0.31736,0,0.31736,8.93848,241.7911
+warmup,1,1280,720,1920,1080,output_history,1,0,0.65808,0,0.65808,9.15012,268.369
+sample,2,1280,720,1920,1080,output_history,1,0,0.65004,0,0.65004,9.31136,273.1474
+sample,3,1280,720,1920,1080,output_history,1,0,0.65928,0,0.65928,9.2818,277.1764
+sample,4,1280,720,1920,1080,output_history,1,0,0.7258,0,0.7258,9.85948,272.4296

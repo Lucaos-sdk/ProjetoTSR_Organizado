@@ -1,0 +1,25 @@
+{
+  "gameDirectory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Witcher 3\\bin\\x64_dx12",
+  "before": {
+    "CAS.SharpenerDebug": "auto",
+    "CAS.ContrastEnabled": "auto",
+    "Sharpness.Sharpness": "auto",
+    "Sharpness.OverrideSharpness": "auto",
+    "CAS.MotionSharpnessEnabled": "auto",
+    "CAS.Enabled": "auto",
+    "Sharpness.Shader": "auto"
+  },
+  "dllHash": "9AA96109A0CF30988E04DDE9D41A3820239AB2CD5FE9E0C06E06DC7B85B85A59",
+  "preparedHash": "C9E3A4203B318979D75B468C8BDCCDEC2C709EFC7874183E17FB5CF4D989C43D",
+  "originalHash": "EB2D308E297E18153A1EA3D9585A490FA36C57B86D7478099D33C7890D2E85E0",
+  "description": "Existing OptiScaler RCAS, strength 0.25; no neural renderer",
+  "after": {
+    "CAS.MotionSharpnessEnabled": "false",
+    "CAS.ContrastEnabled": "false",
+    "CAS.Enabled": "true",
+    "Sharpness.OverrideSharpness": "true",
+    "Sharpness.Sharpness": "0.25",
+    "Sharpness.Shader": "rcas",
+    "CAS.SharpenerDebug": "false"
+  }
+}

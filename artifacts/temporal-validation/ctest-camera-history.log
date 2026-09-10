@@ -1,0 +1,9 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+    Start 1: camera_history
+1/2 Test #1: camera_history ...................   Passed    0.01 sec
+    Start 2: camera_contract
+2/2 Test #2: camera_contract ..................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.04 sec

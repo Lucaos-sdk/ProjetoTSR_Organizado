@@ -1,0 +1,17 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+    Start  1: camera_history
+1/6 Test  #1: camera_history ...................   Passed    0.01 sec
+    Start  2: camera_contract
+2/6 Test  #2: camera_contract ..................   Passed    0.01 sec
+    Start  5: submission_observer
+3/6 Test  #5: submission_observer ..............   Passed    0.01 sec
+    Start 13: relighting_world_warp
+4/6 Test #13: relighting_world_warp ............   Passed    3.42 sec
+    Start 15: game_relighting_hooks_warp
+5/6 Test #15: game_relighting_hooks_warp .......   Passed    1.66 sec
+    Start 18: command_list_lifetime_warp
+6/6 Test #18: command_list_lifetime_warp .......   Passed    0.11 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =   5.23 sec

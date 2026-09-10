@@ -16,4 +16,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: tsr-dx12-baseline-windows
-          path: build/native/Release/tsr_dx12_baseline.exe
+          path: |
+            build/native/Release/tsr_dx12_baseline.exe
+            build/native/Release/tsr_temporal_dx12.exe

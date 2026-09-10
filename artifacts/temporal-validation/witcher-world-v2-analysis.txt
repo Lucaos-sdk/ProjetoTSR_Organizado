@@ -1,0 +1,217 @@
+{
+  "camera_log_samples": 182,
+  "input_log_samples": 103,
+  "candidate_log_samples": 102,
+  "hook_commit_records": [
+    {
+      "source": "SL1",
+      "constants": "true",
+      "tags": "true",
+      "evaluate": "true",
+      "fg_input_gate": "false"
+    }
+  ],
+  "history_log_samples": 103,
+  "history_status": {
+    "missing": 3,
+    "unique_candidate": 100
+  },
+  "unique_history_serial_lags": {
+    "1": 95,
+    "0": 5
+  },
+  "median_matched_history_age_ms": 16.0,
+  "max_matched_history_age_ms": 32,
+  "camera_sources": {
+    "SL1": 182
+  },
+  "camera_viewports": [
+    "0"
+  ],
+  "projection_status": {
+    "false": 2,
+    "true": 100
+  },
+  "basis_status": {
+    "true": 102
+  },
+  "median_candidate_age_ms": 0.0,
+  "max_candidate_age_ms": 16,
+  "errors": [],
+  "neural_active": true,
+  "graphical_log_samples": 150,
+  "submission_hook_records": [
+    {
+      "result": "0",
+      "reset": "true",
+      "execute": "true",
+      "independent_of_hudfix": "true"
+    }
+  ],
+  "graphical_active_samples": 122,
+  "graphical_reasons": {
+    "camera_or_resources_unmatched": 12,
+    "recorded": 122,
+    "disabled": 15,
+    "unsupported_bindings": 1
+  },
+  "recorded_frames": 59041,
+  "sampled_gpu_pass_median_ms": 0.25818,
+  "sampled_gpu_pass_p95_ms": 0.2622,
+  "sampled_gpu_pass_max_ms": 0.30212,
+  "interruptions": {
+    "completed_episodes": 22,
+    "counter_restarts": 2,
+    "control_disabled_episodes": 12,
+    "automatic_episodes": 10,
+    "automatic_bypass_calls": 15,
+    "automatic_lengths": {
+      "1": 5,
+      "2": 5
+    },
+    "automatic_reasons": {
+      "camera_or_resources_unmatched": 9,
+      "unsupported_bindings": 1
+    },
+    "episodes": [
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 65,
+        "resumed_call": 66,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "disabled",
+        "first_call": 1108,
+        "resumed_call": 1152,
+        "bypass_calls": 44
+      },
+      {
+        "reason": "disabled",
+        "first_call": 1194,
+        "resumed_call": 1240,
+        "bypass_calls": 46
+      },
+      {
+        "reason": "disabled",
+        "first_call": 1284,
+        "resumed_call": 1340,
+        "bypass_calls": 56
+      },
+      {
+        "reason": "disabled",
+        "first_call": 1389,
+        "resumed_call": 1437,
+        "bypass_calls": 48
+      },
+      {
+        "reason": "disabled",
+        "first_call": 3199,
+        "resumed_call": 3231,
+        "bypass_calls": 32
+      },
+      {
+        "reason": "disabled",
+        "first_call": 5825,
+        "resumed_call": 5869,
+        "bypass_calls": 44
+      },
+      {
+        "reason": "disabled",
+        "first_call": 5900,
+        "resumed_call": 5933,
+        "bypass_calls": 33
+      },
+      {
+        "reason": "disabled",
+        "first_call": 5963,
+        "resumed_call": 6004,
+        "bypass_calls": 41
+      },
+      {
+        "reason": "disabled",
+        "first_call": 6040,
+        "resumed_call": 6863,
+        "bypass_calls": 823
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 2,
+        "resumed_call": 3,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 2,
+        "resumed_call": 3,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "disabled",
+        "first_call": 2530,
+        "resumed_call": 2572,
+        "bypass_calls": 42
+      },
+      {
+        "reason": "disabled",
+        "first_call": 2915,
+        "resumed_call": 2959,
+        "bypass_calls": 44
+      },
+      {
+        "reason": "disabled",
+        "first_call": 3122,
+        "resumed_call": 3185,
+        "bypass_calls": 63
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 6891,
+        "resumed_call": 6892,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 6985,
+        "resumed_call": 6987,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 7416,
+        "resumed_call": 7418,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "unsupported_bindings",
+        "first_call": 24231,
+        "resumed_call": 24232,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 31039,
+        "resumed_call": 31041,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 31321,
+        "resumed_call": 31323,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 31862,
+        "resumed_call": 31864,
+        "bypass_calls": 2
+      }
+    ],
+    "limitation": "Entry reason and call-count duration; not visual artifact attribution. Initial/final unmatched intervals excluded."
+  },
+  "gpu_timing_scope": "Last completed own pre-FSR pass; sparse samples, not total frame time or input latency.",
+  "limitation": "Sampled metadata only: freshness/jitter agreement does not prove frame or viewport association.",
+  "next_check": "Compare F8 on/off visually; inspect pass activity, fallback churn, errors and completed GPU timing. Camera association remains experimental.",
+  "sha256": "e4d2b293d9624874ccd9f22b4c203ee769ad14f42b650b646756f2ba77a942ac"
+}
+

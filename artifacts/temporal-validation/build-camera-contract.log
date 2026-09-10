@@ -1,0 +1,13 @@
+CMake is re-running because C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600/CMakeFiles/generate.stamp is out-of-date.
+  the file 'C:/Users/Administrator/Documents/ProjetoTSR_Organizado/native/baseline/CMakeLists.txt'
+  is newer than 'C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600/CMakeFiles/generate.stamp.depend'
+  result='-1'
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- Configuring done (0.0s)
+-- Generating done (0.4s)
+-- Build files have been written to: C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+Versão do MSBuild 18.9.1+a81b43525 para .NET Framework
+
+  Building Custom Rule C:/Users/Administrator/Documents/ProjetoTSR_Organizado/native/baseline/CMakeLists.txt
+  camera_contract_tests.cpp
+  tsr_camera_contract_tests.vcxproj -> C:\Users\Administrator\Documents\ProjetoTSR_Organizado\build\native-rx7600\Release\tsr_camera_contract_tests.exe

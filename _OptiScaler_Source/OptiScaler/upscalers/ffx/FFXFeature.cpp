@@ -26,14 +26,24 @@ void FFXFeature::QueryVersionsDx12(ID3D12Device* device)
     versionQuery.device = device;
     uint64_t versionCount = 0;
     versionQuery.outputCount = &versionCount;
-    FfxApiProxy::D3D12_Query(nullptr, &versionQuery.header);
+    auto& state=State::Instance();
+    state.ffxUpscalerVersionIds.clear();state.ffxUpscalerVersionNames.clear();
+    if(FfxApiProxy::D3D12_Query(nullptr, &versionQuery.header)!=FFX_API_RETURN_OK || versionCount==0 || versionCount>64) {
+        LOG_ERROR("TSR FFX: provider enumeration failed or invalid count={}",versionCount);
+        return;
+    }
 
     // Fill version ids and names arrays
     State::Instance().ffxUpscalerVersionIds.resize(versionCount);
     State::Instance().ffxUpscalerVersionNames.resize(versionCount);
     versionQuery.versionIds = State::Instance().ffxUpscalerVersionIds.data();
     versionQuery.versionNames = State::Instance().ffxUpscalerVersionNames.data();
-    FfxApiProxy::D3D12_Query(nullptr, &versionQuery.header);
+    const auto capacity=versionCount;
+    if(FfxApiProxy::D3D12_Query(nullptr, &versionQuery.header)!=FFX_API_RETURN_OK || versionCount==0 || versionCount>capacity) {
+        state.ffxUpscalerVersionIds.clear();state.ffxUpscalerVersionNames.clear();
+        LOG_ERROR("TSR FFX: provider list query failed");return;
+    }
+    state.ffxUpscalerVersionIds.resize(versionCount);state.ffxUpscalerVersionNames.resize(versionCount);
 }
 
 void FFXFeature::QueryVersionsVulkan()

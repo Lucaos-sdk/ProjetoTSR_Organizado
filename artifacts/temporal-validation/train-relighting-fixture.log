@@ -1,0 +1,67 @@
+PASS gradient finite differences and exact bypass
+{
+  "experiment": "known-normal fixed-light diffuse log-gain MLP",
+  "seed": 41,
+  "steps": 4000,
+  "parameters": 171,
+  "train_scene_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111
+  ],
+  "held_out_scene_seeds": [
+    900,
+    901,
+    902,
+    903
+  ],
+  "sampled_training_pixels": 49152,
+  "initial_train_log_gain_mse": 0.22253206372261047,
+  "final_train_log_gain_mse": 0.00036680212360806763,
+  "trained_global_gain": [
+    0.9010855555534363,
+    0.7814310193061829,
+    0.6995994448661804
+  ],
+  "scenes": [
+    {
+      "seed": 900,
+      "identity_mse": 0.010693290955773944,
+      "global_gain_mse": 0.003740605328340659,
+      "trained_mse": 1.3067475705313547e-05
+    },
+    {
+      "seed": 901,
+      "identity_mse": 0.024115260392206902,
+      "global_gain_mse": 0.013349390637668114,
+      "trained_mse": 4.813772610871443e-05
+    },
+    {
+      "seed": 902,
+      "identity_mse": 0.018454881679004574,
+      "global_gain_mse": 0.007118033610719438,
+      "trained_mse": 1.274732927379336e-05
+    },
+    {
+      "seed": 903,
+      "identity_mse": 0.023446479683588647,
+      "global_gain_mse": 0.017685055012942156,
+      "trained_mse": 3.5528252363306206e-05
+    }
+  ],
+  "weights_sha256": "0780d885539985580e9d4427403d5c517d6583009ec91a9570d22dfc4f679224",
+  "limitations": [
+    "Known normals required; not available in current game contract.",
+    "Fixed diffuse lights only; no shadows, specular, learned materials or temporal validation.",
+    "No game integration, GPU timing or superiority to FSR/DLSS demonstrated."
+  ]
+}

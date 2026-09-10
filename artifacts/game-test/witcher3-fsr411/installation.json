@@ -1,0 +1,10 @@
+{
+  "game": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Witcher 3\\bin\\x64_dx12",
+  "backup": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Witcher 3\\bin\\x64_dx12\\TSR-backup-20260906-193736-184",
+  "installedHashes": {
+    "dxgi.dll": "73FBB708A38C4410D84D892F5875EFB57CDA661DE9D345D588A896F1A23EA474",
+    "amd_fidelityfx_upscaler_dx12.dll": "D0DCCCC74A43C44BA435B7A369B456E0970D8A4464E4BD683119B374F2C9FB46",
+    "OptiScaler.ini": "766BF022A07FE478AB37BCADAC44218F65A95838193966FA540FD46497114E68"
+  },
+  "gameRunValidated": false
+}

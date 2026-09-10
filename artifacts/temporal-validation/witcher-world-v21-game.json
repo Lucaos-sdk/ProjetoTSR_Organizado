@@ -1,0 +1,728 @@
+{
+  "camera_log_samples": 254,
+  "input_log_samples": 154,
+  "candidate_log_samples": 153,
+  "hook_commit_records": [
+    {
+      "source": "SL1",
+      "constants": "true",
+      "tags": "true",
+      "evaluate": "true",
+      "fg_input_gate": "false"
+    }
+  ],
+  "history_log_samples": 154,
+  "history_status": {
+    "missing": 4,
+    "unique_candidate": 150
+  },
+  "unique_history_serial_lags": {
+    "1": 139,
+    "0": 11
+  },
+  "median_matched_history_age_ms": 16.0,
+  "max_matched_history_age_ms": 32,
+  "camera_sources": {
+    "SL1": 254
+  },
+  "camera_viewports": [
+    "0"
+  ],
+  "projection_status": {
+    "false": 3,
+    "true": 150
+  },
+  "basis_status": {
+    "true": 153
+  },
+  "median_candidate_age_ms": 0,
+  "max_candidate_age_ms": 6860,
+  "errors": [],
+  "neural_active": true,
+  "graphical_log_samples": 369,
+  "submission_hook_records": [
+    {
+      "result": "0",
+      "reset": "true",
+      "execute": "true",
+      "independent_of_hudfix": "true"
+    }
+  ],
+  "graphical_active_samples": 256,
+  "graphical_reasons": {
+    "camera_or_resources_unmatched": 90,
+    "recorded": 256,
+    "disabled": 20,
+    "unsupported_bindings": 3
+  },
+  "recorded_frames": 88197,
+  "sampled_gpu_pass_median_ms": 0.194,
+  "sampled_gpu_pass_p95_ms": 0.20364,
+  "sampled_gpu_pass_max_ms": 0.62924,
+  "interruptions": {
+    "completed_episodes": 107,
+    "counter_restarts": 0,
+    "control_disabled_episodes": 18,
+    "automatic_episodes": 89,
+    "automatic_bypass_calls": 843,
+    "automatic_lengths": {
+      "1": 13,
+      "2": 74,
+      "104": 1,
+      "578": 1
+    },
+    "automatic_reasons": {
+      "camera_or_resources_unmatched": 86,
+      "unsupported_bindings": 3
+    },
+    "episodes": [
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 544,
+        "resumed_call": 545,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 806,
+        "resumed_call": 807,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 873,
+        "resumed_call": 874,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 1207,
+        "resumed_call": 1208,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "disabled",
+        "first_call": 1645,
+        "resumed_call": 1737,
+        "bypass_calls": 92
+      },
+      {
+        "reason": "disabled",
+        "first_call": 1828,
+        "resumed_call": 1864,
+        "bypass_calls": 36
+      },
+      {
+        "reason": "disabled",
+        "first_call": 1913,
+        "resumed_call": 2031,
+        "bypass_calls": 118
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 2034,
+        "resumed_call": 2035,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "disabled",
+        "first_call": 4357,
+        "resumed_call": 4419,
+        "bypass_calls": 62
+      },
+      {
+        "reason": "disabled",
+        "first_call": 4471,
+        "resumed_call": 4520,
+        "bypass_calls": 49
+      },
+      {
+        "reason": "disabled",
+        "first_call": 4578,
+        "resumed_call": 4657,
+        "bypass_calls": 79
+      },
+      {
+        "reason": "disabled",
+        "first_call": 4709,
+        "resumed_call": 4794,
+        "bypass_calls": 85
+      },
+      {
+        "reason": "disabled",
+        "first_call": 5375,
+        "resumed_call": 5419,
+        "bypass_calls": 44
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 14281,
+        "resumed_call": 14282,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 14488,
+        "resumed_call": 14490,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 14635,
+        "resumed_call": 14637,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "disabled",
+        "first_call": 14818,
+        "resumed_call": 14853,
+        "bypass_calls": 35
+      },
+      {
+        "reason": "disabled",
+        "first_call": 14890,
+        "resumed_call": 14919,
+        "bypass_calls": 29
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 14954,
+        "resumed_call": 14955,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 15007,
+        "resumed_call": 15009,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 15206,
+        "resumed_call": 15208,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 15272,
+        "resumed_call": 15274,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 15658,
+        "resumed_call": 15660,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 15977,
+        "resumed_call": 15979,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "disabled",
+        "first_call": 15986,
+        "resumed_call": 16055,
+        "bypass_calls": 69
+      },
+      {
+        "reason": "disabled",
+        "first_call": 16145,
+        "resumed_call": 16189,
+        "bypass_calls": 44
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 16196,
+        "resumed_call": 16198,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "disabled",
+        "first_call": 16258,
+        "resumed_call": 16314,
+        "bypass_calls": 56
+      },
+      {
+        "reason": "disabled",
+        "first_call": 16367,
+        "resumed_call": 16423,
+        "bypass_calls": 56
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 17694,
+        "resumed_call": 17696,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 17917,
+        "resumed_call": 17919,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 18448,
+        "resumed_call": 18450,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 18624,
+        "resumed_call": 18626,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 18782,
+        "resumed_call": 18784,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 21644,
+        "resumed_call": 21646,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 21815,
+        "resumed_call": 21817,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 21973,
+        "resumed_call": 21975,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 22155,
+        "resumed_call": 22157,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 22400,
+        "resumed_call": 22402,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 23092,
+        "resumed_call": 23094,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 23250,
+        "resumed_call": 23252,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 23758,
+        "resumed_call": 23760,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 24164,
+        "resumed_call": 24166,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 24314,
+        "resumed_call": 24316,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 25733,
+        "resumed_call": 25735,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 26044,
+        "resumed_call": 26046,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 26277,
+        "resumed_call": 26279,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 26512,
+        "resumed_call": 26514,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 26754,
+        "resumed_call": 26756,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 26948,
+        "resumed_call": 26950,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 27092,
+        "resumed_call": 27094,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 27423,
+        "resumed_call": 27425,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 27541,
+        "resumed_call": 27543,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 27973,
+        "resumed_call": 27975,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 28156,
+        "resumed_call": 28158,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 28827,
+        "resumed_call": 28829,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 28996,
+        "resumed_call": 28998,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 29374,
+        "resumed_call": 29376,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 29603,
+        "resumed_call": 29605,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 29792,
+        "resumed_call": 29794,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 33519,
+        "resumed_call": 33520,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "unsupported_bindings",
+        "first_call": 49784,
+        "resumed_call": 49785,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 55652,
+        "resumed_call": 55654,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 55792,
+        "resumed_call": 55793,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 56192,
+        "resumed_call": 56194,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 56605,
+        "resumed_call": 56607,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 56726,
+        "resumed_call": 56728,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 57261,
+        "resumed_call": 57263,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 57353,
+        "resumed_call": 57355,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 57680,
+        "resumed_call": 57682,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 57928,
+        "resumed_call": 57930,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 58047,
+        "resumed_call": 58049,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 58360,
+        "resumed_call": 58362,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 58783,
+        "resumed_call": 58785,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 60445,
+        "resumed_call": 60549,
+        "bypass_calls": 104
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 61869,
+        "resumed_call": 61871,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 62043,
+        "resumed_call": 62045,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 62182,
+        "resumed_call": 62184,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 62342,
+        "resumed_call": 62344,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 62522,
+        "resumed_call": 62524,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 65929,
+        "resumed_call": 65931,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 66225,
+        "resumed_call": 66227,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 66338,
+        "resumed_call": 66340,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 66515,
+        "resumed_call": 66517,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "disabled",
+        "first_call": 66569,
+        "resumed_call": 66605,
+        "bypass_calls": 36
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 66627,
+        "resumed_call": 66629,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "disabled",
+        "first_call": 66687,
+        "resumed_call": 66730,
+        "bypass_calls": 43
+      },
+      {
+        "reason": "disabled",
+        "first_call": 66879,
+        "resumed_call": 66924,
+        "bypass_calls": 45
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 67085,
+        "resumed_call": 67087,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 69414,
+        "resumed_call": 69992,
+        "bypass_calls": 578
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 73107,
+        "resumed_call": 73108,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 73207,
+        "resumed_call": 73209,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 75750,
+        "resumed_call": 75752,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 76054,
+        "resumed_call": 76056,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "unsupported_bindings",
+        "first_call": 76574,
+        "resumed_call": 76575,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 83097,
+        "resumed_call": 83099,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 83282,
+        "resumed_call": 83284,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 83417,
+        "resumed_call": 83419,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 83856,
+        "resumed_call": 83858,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 84009,
+        "resumed_call": 84011,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 84198,
+        "resumed_call": 84200,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 84666,
+        "resumed_call": 84668,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 85046,
+        "resumed_call": 85048,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 85458,
+        "resumed_call": 85460,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "camera_or_resources_unmatched",
+        "first_call": 85867,
+        "resumed_call": 85869,
+        "bypass_calls": 2
+      },
+      {
+        "reason": "unsupported_bindings",
+        "first_call": 87017,
+        "resumed_call": 87018,
+        "bypass_calls": 1
+      },
+      {
+        "reason": "disabled",
+        "first_call": 87820,
+        "resumed_call": 87860,
+        "bypass_calls": 40
+      }
+    ],
+    "limitation": "Entry reason and call-count duration; not visual artifact attribution. Initial/final unmatched intervals excluded."
+  },
+  "gpu_timing_scope": "Last completed own pre-FSR pass; sparse samples, not total frame time or input latency.",
+  "limitation": "Sampled metadata only: freshness/jitter agreement does not prove frame or viewport association.",
+  "next_check": "Compare F8 on/off visually; inspect pass activity, fallback churn, errors and completed GPU timing. Camera association remains experimental.",
+  "sha256": "26fa75392f9eebfb15572a113aa1b25be85309634f573206eb545e67dcf3a701"
+}

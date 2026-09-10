@@ -1,0 +1,16 @@
+{
+  "created": "2026-09-06T08:39:45.6770198-03:00",
+  "files": [
+    {
+      "installedHash": "9F67B79E66EA4C2FF0A278BF7D369BA56A5ADF6F66777036D0E726F0845B9CEF",
+      "originalHash": "9F67B79E66EA4C2FF0A278BF7D369BA56A5ADF6F66777036D0E726F0845B9CEF",
+      "name": "dxgi.dll"
+    },
+    {
+      "installedHash": "1CEAE67E67BFECC5DD0DDF560E50A0337616412F1A4A5B1DFA013F57E3B3971E",
+      "originalHash": "FCF85620B2E6BDA5BE8A5D68CED1352799268A8AE43B8B2832D5405D410A2266",
+      "name": "OptiScaler.ini"
+    }
+  ],
+  "gameDirectory": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\artifacts\\probe-install-test-20260906-083940-959\\fake game with spaces"
+}

@@ -1,0 +1,41 @@
+{
+  "sha256": "2b2705c414faa30145211c003b97e00111dc5db9d115e0309c7dc1ab896cb644",
+  "sampleCount": 26,
+  "providerSelection": [
+    "[19:46:44.711732] [I] FFXFeatureDx12::InitFFX TSR FFX: selected provider=4.1.1 explicit_upscale_api_4_1_1=true (provider identity, not a quality claim)"
+  ],
+  "sampledVersions": [
+    "4.1.1"
+  ],
+  "maxSampledFrame": 13800,
+  "errorLines": [],
+  "warningLines": [
+    "[19:46:31.500018] [W] OptiScaler v10.0.0-dev (07af11e) (20260906_143215) loaded",
+    "[19:46:31.500078] [W] ---------------------------------",
+    "[19:46:31.500092] [W] OptiScaler is freely downloadable from",
+    "[19:46:31.500102] [W] GitHub : https://github.com/optiscaler/OptiScaler/releases",
+    "[19:46:31.500111] [W] Nexus  : https://www.nexusmods.com/site/mods/986",
+    "[19:46:31.500121] [W] If you paid for these files, you've been scammed!",
+    "[19:46:31.500130] [W] DO NOT USE IN MULTIPLAYER GAMES",
+    "[19:46:31.501012] [W] IsRunningOnWine Wine not detected",
+    "[19:46:31.507788] [W] Config::CheckUpscalerFiles nvngx.dll not found!",
+    "[19:46:31.629734] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!",
+    "[19:46:31.629972] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!",
+    "[19:46:31.630209] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!",
+    "[19:46:31.630424] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!",
+    "[19:46:31.689332] [W] Util::LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!",
+    "[19:46:31.689545] [W] Util::LoadProxyLibrary Can't find nvngx.dll, returning nullptr!",
+    "[19:46:32.631254] [W] DxgiSpoofing::AttachToAdapter DxgiSpoofing and DxgiVRAM is disabled, skipping hooking",
+    "[19:46:32.652966] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]dlssentry.cpp:185[updateEmbeddedJSON] Failed to obtain DLSS min spec requirements from NGX, using SL defaults",
+    "[19:46:32.664390] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]dlss_gentry.cpp:513[updateEmbeddedJSON] Failed to obtain DLSS-G min spec requirements from NGX, using SL defaults",
+    "[19:46:32.664434] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]dlss_gentry.cpp:582[updateEmbeddedJSON] Disabling DLSS-G since it is not supported on current hardware",
+    "[19:46:32.675629] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]pluginmanager.cpp:704[loadPlugins] Ignoring plugin 'sl.dlss_g' since it is not supported on this platform",
+    "[19:46:32.677827] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 19-46-32][streamline][warn]dxgi.cpp:334[CreateDXGIFactoryInternal] Streamline interposer has been disabled",
+    "[19:46:44.193950] [W] FGHooks::CreateSwapChainForHwnd Can't init FG Feature or invalid FGOutput setting!",
+    "[19:46:44.242471] [W] Util::LoadProxyLibrary Can't find amdxcffx64.dll, returning nullptr!",
+    "[19:47:29.745470] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x1940754 foreground:0x1940754 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs."
+  ],
+  "normalDetach": true,
+  "fallbackLines": [],
+  "scope": "API return codes only; no in-game GPU timing or independent image quality measurement"
+}

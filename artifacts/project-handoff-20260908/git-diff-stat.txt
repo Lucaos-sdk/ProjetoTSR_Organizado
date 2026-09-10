@@ -1,0 +1,27 @@
+ .github/workflows/native-baseline.yml              |   4 +-
+ README.md                                          |  38 ++++
+ _OptiScaler_Source/OptiScaler/Config.cpp           |   4 +-
+ _OptiScaler_Source/OptiScaler/OptiScaler.vcxproj   |  26 +--
+ _OptiScaler_Source/OptiScaler/OptiTypes.cpp        |   6 +
+ _OptiScaler_Source/OptiScaler/OptiTypes.h          |   3 +-
+ .../OptiScaler/framegen/ffx/FSRFG_Dx12.cpp         |   9 +-
+ .../OptiScaler/framegen/xefg/XeFG_Dx12.cpp         |  78 ++++----
+ .../OptiScaler/framegen/xefg/XeFG_Dx12.h           |   1 +
+ .../OptiScaler/hooks/Streamline_Hooks.cpp          |  30 ++-
+ _OptiScaler_Source/OptiScaler/inputs/XeSS_Dx12.cpp |  10 +
+ _OptiScaler_Source/OptiScaler/menu/menu_common.cpp |  48 ++++-
+ .../OptiScaler/resource_tracking/ResTrack_dx12.cpp |  84 ++++----
+ .../OptiScaler/resource_tracking/ResTrack_dx12.h   |   4 +
+ .../OptiScaler/shaders/Shader_Dx12.cpp             |  34 ++--
+ .../OptiScaler/upscalers/FeatureProvider_Dx12.cpp  |   4 +
+ .../OptiScaler/upscalers/ffx/FFXFeature.cpp        |  14 +-
+ .../OptiScaler/upscalers/ffx/FFXFeature_Dx12.cpp   |  95 ++++++++-
+ .../OptiScaler/upscalers/ffx/FFXFeature_Dx12.h     |  13 +-
+ .../upscalers/fsr2_212/FSR2Feature_Dx12_212.h      |   2 +-
+ docs/AUDITORIA.md                                  |   2 +
+ native/baseline/Bilinear.hlsl                      |  67 ++++++-
+ native/baseline/CMakeLists.txt                     | 150 ++++++++++++++
+ native/baseline/README.md                          |  15 +-
+ native/baseline/dx12_baseline.cpp                  | 215 +--------------------
+ native/baseline/reference.h                        |  20 +-
+ 26 files changed, 621 insertions(+), 355 deletions(-)

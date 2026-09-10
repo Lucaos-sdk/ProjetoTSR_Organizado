@@ -1,0 +1,55 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+Reconstruction: bilinear
+History allocation: 7x5; four textures MiB=0.25
+PASS first/reset; frame=0; reuse=0; history_error=0; output_error=0
+History allocation: 7x5; four textures MiB=0.25
+PASS second instance; frame=0; reuse=0; history_error=0; output_error=0
+PASS static blend; frame=1; reuse=1; history_error=0; output_error=0
+PASS instance isolation; frame=1; reuse=1; history_error=0; output_error=0
+PASS exposure change; frame=2; reuse=1; history_error=0; output_error=0
+PASS explicit reset; frame=3; reuse=0; history_error=0; output_error=0
+PASS index gap; frame=5; reuse=0; history_error=0; output_error=0
+History allocation: 9x3; four textures MiB=0.25
+PASS render resize; frame=6; reuse=0; history_error=0; output_error=0
+PASS output resize; frame=7; reuse=0; history_error=0; output_error=0
+History allocation: 7x5; four textures MiB=0.25
+PASS translation seed; frame=0; reuse=0; history_error=0; output_error=4.47035e-08
+PASS signed XY translation/offscreen; frame=1; reuse=1; history_error=0; output_error=1.90735e-06
+PASS jitter seed; frame=0; reuse=0; history_error=0; output_error=5.96046e-08
+PASS fractional jitter; frame=1; reuse=1; history_error=0; output_error=2.45869e-07
+PASS depth edge seed; frame=0; reuse=0; history_error=0; output_error=0
+PASS disocclusion/all contributing taps; frame=1; reuse=1; history_error=0; output_error=4.76837e-07
+PASS ping-pong sequence; frame=2; reuse=1; history_error=0; output_error=4.76837e-07
+PASS ping-pong sequence; frame=3; reuse=1; history_error=0; output_error=2.38419e-07
+PASS ping-pong sequence; frame=4; reuse=1; history_error=0; output_error=2.38419e-07
+PASS ping-pong sequence; frame=5; reuse=1; history_error=0; output_error=0
+PASS ping-pong sequence; frame=6; reuse=1; history_error=0; output_error=0
+PASS ping-pong sequence; frame=7; reuse=1; history_error=0; output_error=0
+PASS ping-pong sequence; frame=8; reuse=1; history_error=0; output_error=0
+PASS ping-pong sequence; frame=9; reuse=1; history_error=0; output_error=0
+PASS after rejected input; frame=10; reuse=1; history_error=0; output_error=0
+History allocation: 1x1; four textures MiB=0.25
+PASS single pixel seed; frame=0; reuse=0; history_error=0; output_error=0
+PASS single pixel reuse; frame=1; reuse=1; history_error=0; output_error=0
+History allocation: 9x5; four textures MiB=0.25
+PASS camera plane seed; frame=0; reuse=0; history_error=0; output_error=0
+PASS camera forward / predicted depth; frame=1; reuse=1; history_error=9.53674e-07; output_error=9.53674e-07
+PASS camera XYZ translation and jitter; frame=2; reuse=1; history_error=9.53674e-07; output_error=9.53674e-07
+PASS camera occluder seed; frame=0; reuse=0; history_error=0; output_error=1.90735e-06
+PASS camera disocclusion; frame=1; reuse=1; history_error=9.53674e-07; output_error=9.53674e-07
+PASS invalid previous projection; frame=2; reuse=1; history_error=9.53674e-07; output_error=9.53674e-07
+History allocation: 9x5; four textures MiB=0.25
+PASS stable output analytic ramp; frame=0; reuse=0; history_error=0; output_error=3.8147e-06
+PASS stable output analytic ramp; frame=0; reuse=0; history_error=0; output_error=3.8147e-06
+PASS stable output analytic ramp; frame=0; reuse=0; history_error=0; output_error=3.8147e-06
+PASS stable output analytic ramp; frame=0; reuse=0; history_error=0; output_error=3.8147e-06
+History allocation: 1920x1080; four textures MiB=127.5
+PASS 1080p temporal / 4K spatial; frame=0; reuse=0; history_error=0; output_error=3.8147e-06
+PASS 1080p temporal / 4K spatial; frame=1; reuse=1; history_error=0; output_error=7.86781e-06
+PASS 1080p temporal / 4K spatial; frame=2; reuse=1; history_error=0; output_error=3.8147e-06
+History allocation: 1920x1080; four textures MiB=127.5
+PASS 1080p camera seed; frame=0; reuse=0; history_error=0; output_error=9.53674e-07
+PASS 1080p moving camera / 4K spatial; frame=1; reuse=1; history_error=3.8147e-06; output_error=3.8147e-06
+PASS temporal scenarios and independent expected values
+Temporal baseline with explicit previous-surface depth; no neural model, game integration or performance claim.

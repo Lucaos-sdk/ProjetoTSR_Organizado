@@ -1,0 +1,68 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+Reconstruction: output-grid sample history
+History allocation: 1920x1080; four textures MiB=127.5
+PASS benchmark warmup; frame=0; reuse=0; history_error=3.8147e-06; output_error=3.8147e-06
+PASS benchmark warmup; frame=1; reuse=1; history_error=7.62939e-06; output_error=7.62939e-06
+PASS benchmark warmup; frame=2; reuse=1; history_error=7.62939e-06; output_error=7.62939e-06
+PASS benchmark warmup; frame=3; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark warmup; frame=4; reuse=1; history_error=7.62939e-06; output_error=7.62939e-06
+PASS benchmark warmup; frame=5; reuse=1; history_error=7.62939e-06; output_error=7.62939e-06
+PASS benchmark warmup; frame=6; reuse=1; history_error=7.62939e-06; output_error=7.62939e-06
+PASS benchmark warmup; frame=7; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark warmup; frame=8; reuse=1; history_error=9.53674e-06; output_error=9.53674e-06
+PASS benchmark warmup; frame=9; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=10; reuse=1; history_error=9.53674e-06; output_error=9.53674e-06
+PASS benchmark sample; frame=11; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=12; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=13; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=14; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=15; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=16; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+PASS benchmark sample; frame=17; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+PASS benchmark sample; frame=18; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=19; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=20; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=21; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+PASS benchmark sample; frame=22; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=23; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+PASS benchmark sample; frame=24; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=25; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+PASS benchmark sample; frame=26; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=27; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=28; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+PASS benchmark sample; frame=29; reuse=1; history_error=1.33514e-05; output_error=1.33514e-05
+PASS benchmark sample; frame=30; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=31; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=32; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=33; reuse=1; history_error=9.53674e-06; output_error=9.53674e-06
+PASS benchmark sample; frame=34; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=35; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=36; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=37; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=38; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=39; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=40; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=41; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=42; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=43; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=44; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=45; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=46; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=47; reuse=1; history_error=1.33514e-05; output_error=1.33514e-05
+PASS benchmark sample; frame=48; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+PASS benchmark sample; frame=49; reuse=1; history_error=1.33514e-05; output_error=1.33514e-05
+PASS benchmark sample; frame=50; reuse=1; history_error=1.33514e-05; output_error=1.33514e-05
+PASS benchmark sample; frame=51; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=52; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=53; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+PASS benchmark sample; frame=54; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=55; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=56; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+PASS benchmark sample; frame=57; reuse=1; history_error=1.52588e-05; output_error=1.52588e-05
+PASS benchmark sample; frame=58; reuse=1; history_error=1.33514e-05; output_error=1.33514e-05
+PASS benchmark sample; frame=59; reuse=1; history_error=1.14441e-05; output_error=1.14441e-05
+Shader sum: p50_ms=0.6558; p95_ms=0.74424
+GPU batch including copies: p50_ms=9.71304; p95_ms=10.9681
+Host including CPU validation: p50_ms=271.664; p95_ms=291.953
+Synthetic serialized validation harness; excludes neural inference and game integration. Not full-pipeline timing.

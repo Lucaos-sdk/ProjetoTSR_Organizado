@@ -525,6 +525,8 @@ class ResTrack_Dx12
     static void hkExecuteBundle(ID3D12GraphicsCommandList* This, ID3D12GraphicsCommandList* pCommandList);
 
     static HRESULT hkClose(ID3D12GraphicsCommandList* This);
+    static HRESULT STDMETHODCALLTYPE hkReset(ID3D12GraphicsCommandList* This, ID3D12CommandAllocator* allocator,
+                                             ID3D12PipelineState* initialState);
 
     static void hkCreateRenderTargetView(ID3D12Device* This, ID3D12Resource* pResource,
                                          D3D12_RENDER_TARGET_VIEW_DESC* pDesc,
@@ -583,6 +585,8 @@ class ResTrack_Dx12
 
   public:
     static void HookDevice(ID3D12Device* device);
+    static bool TsrSubmissionHooksReady();
+    static bool EnsureTsrSubmissionHooks(ID3D12Device* device);
     static void ReleaseHooks();
     static void ReleaseDeviceHooks();
     static void ClearPossibleHudless();

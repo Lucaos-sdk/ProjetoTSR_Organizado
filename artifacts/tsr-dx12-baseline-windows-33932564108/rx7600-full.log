@@ -1,0 +1,8 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+PASS 1x1 -> 13x7; max_abs_error=0; dispatch_ms=0.00116
+PASS 2x2 -> 3x3; max_abs_error=3.8147e-06; dispatch_ms=0.0006
+PASS 7x5 -> 7x5; max_abs_error=3.19481e-05; dispatch_ms=0.0008
+PASS 17x9 -> 37x23; max_abs_error=6.97523e-05; dispatch_ms=0.00072
+PASS 1x7 -> 9x17; max_abs_error=1.52588e-05; dispatch_ms=0.00064
+GPU/reference mismatch at pixel 513
+ExitCode: 1

@@ -1,5 +1,7 @@
 #include "pch.h"
 #include "ResTrack_dx12.h"
+#include "../../../native/integration/submission_observer.h"
+#include "../../../native/integration/submission_hooks_dx12.h"
 
 #include <Config.h>
 #include <State.h>
@@ -108,8 +110,12 @@ static PFN_DrawInstanced o_DrawInstanced = nullptr;
 static PFN_DrawIndexedInstanced o_DrawIndexedInstanced = nullptr;
 static PFN_ExecuteBundle o_ExecuteBundle = nullptr;
 static PFN_Close o_Close = nullptr;
+using TsrResetFn = HRESULT (STDMETHODCALLTYPE*)(ID3D12GraphicsCommandList*, ID3D12CommandAllocator*, ID3D12PipelineState*);
+static TsrResetFn o_TsrReset = nullptr;
 
 static PFN_ExecuteCommandLists o_ExecuteCommandLists = nullptr;
+static std::atomic_bool tsrResetHooked=false,tsrQueueHooked=false;
+bool ResTrack_Dx12::TsrSubmissionHooksReady() { return tsrResetHooked && tsrQueueHooked; }
 static PFN_Release o_Release = nullptr;
 
 static PFN_OMSetRenderTargets o_OMSetRenderTargets = nullptr;
@@ -688,6 +694,7 @@ void ResTrack_Dx12::hkExecuteCommandLists(ID3D12CommandQueue* This, UINT NumComm
         if (!found.empty())
         {
             o_ExecuteCommandLists(This, NumCommandLists, ppCommandLists);
+            tsr::integration::Submissions().NotifySubmitted(This, NumCommandLists, ppCommandLists);
 
             for (size_t i = 0; i < found.size(); i++)
             {
@@ -701,6 +708,7 @@ void ResTrack_Dx12::hkExecuteCommandLists(ID3D12CommandQueue* This, UINT NumComm
     LOG_TRACK("Done NumCommandLists: {}", NumCommandLists);
 
     o_ExecuteCommandLists(This, NumCommandLists, ppCommandLists);
+    tsr::integration::Submissions().NotifySubmitted(This, NumCommandLists, ppCommandLists);
 }
 
 #pragma region Heap hooks
@@ -1581,6 +1589,15 @@ void ResTrack_Dx12::hkExecuteBundle(ID3D12GraphicsCommandList* This, ID3D12Graph
     o_ExecuteBundle(This, pCommandList);
 }
 
+HRESULT STDMETHODCALLTYPE ResTrack_Dx12::hkReset(ID3D12GraphicsCommandList* This,
+                                                ID3D12CommandAllocator* allocator,
+                                                ID3D12PipelineState* initialState)
+{
+    const HRESULT result = o_TsrReset(This, allocator, initialState);
+    tsr::integration::Submissions().NotifyReset(This, SUCCEEDED(result));
+    return result;
+}
+
 HRESULT ResTrack_Dx12::hkClose(ID3D12GraphicsCommandList* This)
 {
     auto fg = State::Instance().currentFG;
@@ -1867,44 +1884,33 @@ void ResTrack_Dx12::HookCommandList(ID3D12Device* InDevice)
 
 void ResTrack_Dx12::HookToQueue(ID3D12Device* InDevice)
 {
-    if (o_ExecuteCommandLists != nullptr)
-        return;
+    EnsureTsrSubmissionHooks(InDevice);
+}
 
-    ID3D12CommandQueue* queue = nullptr;
-    D3D12_COMMAND_QUEUE_DESC queueDesc = {};
-    queueDesc.Type = D3D12_COMMAND_LIST_TYPE_DIRECT;
-    queueDesc.Flags = D3D12_COMMAND_QUEUE_FLAG_NONE;
-    queueDesc.NodeMask = 0;
-    queueDesc.Priority = D3D12_COMMAND_QUEUE_PRIORITY_NORMAL;
-
-    auto hr = InDevice->CreateCommandQueue(&queueDesc, IID_PPV_ARGS(&queue));
-
-    if (hr == S_OK)
-    {
-        ID3D12CommandQueue* realQueue = nullptr;
-        if (!CheckForRealObject(__FUNCTION__, queue, (IUnknown**) &realQueue))
-            realQueue = queue;
-
-        // Get the vtable pointer
-        PVOID* pVTable = *(PVOID**) realQueue;
-
-        o_ExecuteCommandLists = (PFN_ExecuteCommandLists) pVTable[10];
-
-        DetourTransactionBegin();
-        DetourUpdateThread(GetCurrentThread());
-
-        if (o_ExecuteCommandLists != nullptr)
-            DetourAttach(&(PVOID&) o_ExecuteCommandLists, hkExecuteCommandLists);
-
-        auto detourResult = DetourTransactionCommit();
-        if (detourResult != NO_ERROR)
-        {
-            LOG_ERROR("Failed to hook CommandList methods: {:X}", detourResult);
-            o_ExecuteCommandLists = nullptr;
-        }
-
-        queue->Release();
-    }
+bool ResTrack_Dx12::EnsureTsrSubmissionHooks(ID3D12Device* device)
+{
+    static std::mutex installMutex;
+    std::scoped_lock lock(installMutex);
+    if(TsrSubmissionHooksReady())return true;
+    if(!device)return false;
+    ID3D12Device* realDevice=nullptr;
+    if(!CheckForRealObject(__FUNCTION__,device,(IUnknown**)&realDevice))realDevice=device;
+    Microsoft::WRL::ComPtr<ID3D12CommandAllocator> allocator;
+    Microsoft::WRL::ComPtr<ID3D12GraphicsCommandList> list;
+    Microsoft::WRL::ComPtr<ID3D12CommandQueue> queue;
+    auto hr=realDevice->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT,IID_PPV_ARGS(&allocator));
+    if(SUCCEEDED(hr))hr=realDevice->CreateCommandList(0,D3D12_COMMAND_LIST_TYPE_DIRECT,allocator.Get(),nullptr,IID_PPV_ARGS(&list));
+    D3D12_COMMAND_QUEUE_DESC desc{};desc.Type=D3D12_COMMAND_LIST_TYPE_DIRECT;
+    if(SUCCEEDED(hr))hr=realDevice->CreateCommandQueue(&desc,IID_PPV_ARGS(&queue));
+    if(FAILED(hr)){LOG_ERROR("TSR submission hooks: object creation failed hr={:X}",UINT(hr));return false;}
+    ID3D12GraphicsCommandList* realList=nullptr;ID3D12CommandQueue* realQueue=nullptr;
+    if(!CheckForRealObject(__FUNCTION__,list.Get(),(IUnknown**)&realList))realList=list.Get();
+    if(!CheckForRealObject(__FUNCTION__,queue.Get(),(IUnknown**)&realQueue))realQueue=queue.Get();
+    list->Close();
+    const auto result=tsr::integration::AttachSubmissionHooks(realList,realQueue,o_TsrReset,hkReset,o_ExecuteCommandLists,hkExecuteCommandLists);
+    tsrResetHooked=tsrQueueHooked=result==NO_ERROR;
+    LOG_INFO("TSR submission hooks: result={} reset={} execute={} independent_of_hudfix=true",result,tsrResetHooked.load(),tsrQueueHooked.load());
+    return TsrSubmissionHooksReady();
 }
 
 void ResTrack_Dx12::HookDevice(ID3D12Device* device)
@@ -2046,6 +2052,8 @@ void ResTrack_Dx12::ReleaseDeviceHooks()
 
     if (o_Close != nullptr)
         DetourDetach(&(PVOID&) o_Close, hkClose);
+    if (o_TsrReset != nullptr)
+        DetourDetach(&(PVOID&) o_TsrReset, hkReset);
 
     if (o_ExecuteBundle != nullptr)
         DetourDetach(&(PVOID&) o_ExecuteBundle, hkExecuteBundle);
@@ -2071,6 +2079,7 @@ void ResTrack_Dx12::ReleaseDeviceHooks()
 
         // Queue
         o_ExecuteCommandLists = nullptr;
+        tsrResetHooked=false;tsrQueueHooked=false;
 
         // CommandList
         o_OMSetRenderTargets = nullptr;
@@ -2080,6 +2089,7 @@ void ResTrack_Dx12::ReleaseDeviceHooks()
         o_DrawInstanced = nullptr;
         o_Dispatch = nullptr;
         o_Close = nullptr;
+        o_TsrReset = nullptr;
         o_ExecuteBundle = nullptr;
 
         // Resource

@@ -1,0 +1,23 @@
+capacity_control 1 0.014560979790985584
+capacity_control 100 0.009777333587408066
+capacity_control 200 0.010819857008755207
+capacity_control 300 0.010608283802866936
+capacity_control 400 0.007162549998611212
+capacity_control 500 0.00778912054374814
+capacity_control 600 0.008528097532689571
+capacity_control 700 0.008079968392848969
+capacity_control 800 0.007889023050665855
+{
+  "mean": {
+    "mae": 0.009332393761724234,
+    "mse": 0.0001851633199597321,
+    "identity_mae": 0.012223785510286689,
+    "analytic_heuristic_mae": 0.010264412849210203,
+    "confidence_mae": 0.056554259111483894,
+    "gradient_mae": 0.001851820750744082,
+    "ui_target_mae": 0.0,
+    "fog_target_mae": 0.006229111924767494,
+    "protected_max_change": 0.0
+  },
+  "candidate_improvement_percent": 3.0357245235718144
+}

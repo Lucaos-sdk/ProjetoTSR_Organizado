@@ -1,0 +1,598 @@
+
+  pch.cpp
+  Nvngx_Combo.cpp
+  FSR4Upgrade.cpp
+  GpuTime_Dx11.cpp
+  GpuTime_Dx12.cpp
+  Amdxc64_Hooks.cpp
+  DLSSG_Dx12.cpp
+  FSRFG_Dx12.cpp
+  IFGFeature.cpp
+  IFGFeature_Dx12.cpp
+  Nvngx_FG.cpp
+  FSR4ModelSelection.cpp
+  D3D12_Hooks.cpp
+  DxgiFactory_Hooks.cpp
+  DxgiFactory_WrappedCalls.cpp
+  Dxgi_Hooks.cpp
+  FG_Hooks.cpp
+  Kernel_Hooks.cpp
+  LibraryLoad_Hooks.cpp
+  VulkanwDx12_Hooks.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\framegen\nvngx\Nvngx_FFX.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_framegeneration.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/framegen/nvngx/Nvngx_Combo.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/fsr4/FSR4Upgrade.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/framegen/ffx/FSRFG_Dx12.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/FG_Hooks.cpp')
+  
+  Xell_Hooks.cpp
+  Streamline_Inputs_Sl1_Dx12.cpp
+  device_info.cpp
+  Upscaler_Inputs_Dx11wDx12.cpp
+  input_common.cpp
+  input_reflex.cpp
+  input_xell.cpp
+  input_antilag2.cpp
+  Magnifier_Dx11.cpp
+  input_system.cpp
+  input_system_cursor.cpp
+  input_system_detours.cpp
+  input_system_directinput.cpp
+  input_system_gameinput.cpp
+  input_system_hid.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/low_latency/input/input_antilag2.cpp')
+  
+  input_system_messages.cpp
+  input_system_raw.cpp
+  input_system_window.cpp
+  input_system_windows_hooks.cpp
+  input_system_xinput.cpp
+  IdentifyGpu.cpp
+  FSR2_Dx11.cpp
+  FSR2_Vk.cpp
+  XeSS_Dx11.cpp
+  ll_util.cpp
+  log.cpp
+  low_latency.cpp
+  low_latency_d3d.cpp
+  ll_antilag2.cpp
+  ll_antilag_vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\framegen\nvngx\Nvngx_FFX.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_framegeneration.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/framegen/nvngx/Nvngx_FG.cpp')
+  
+  ll_latencyflex.cpp
+  ll_xell.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(408,75): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(408,99): error C2143: erro de sintaxe: ',' ausente antes de '*' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2065: 'PFN_vkCmdCudaLaunchKernelNV': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2923: 'std::is_same_v': 'PFN_vkCmdCudaLaunchKernelNV' não é um argumento do tipo modelo válido para o parâmetro '<unnamed-symbol>' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5):
+      consulte a declaração de 'PFN_vkCmdCudaLaunchKernelNV'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2062: tipo '<erro>' inesperado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2238: token(s) inesperado(s) precedendo ';' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+  low_latency_vk.cpp
+  nvapi_calls.cpp
+  Nvngx_FFX.cpp
+  Nvngx_Nukems.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\framegen\nvngx\Nvngx_FFX.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_framegeneration.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/framegen/nvngx/Nvngx_FFX.cpp')
+  
+  Nvngx_Arturs.cpp
+  NVNGX_Parameter.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(223,8): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(223,36): error C2146: erro de sintaxe: ';' ausente antes do identificador 'o_vkCmdCudaLaunchKernelNV' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(223,62): error C2059: erro de sintaxe: '=' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(4349,78): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(4349,102): error C2143: erro de sintaxe: ',' ausente antes de '*' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(4366,42): error C2065: 'pLaunchInfo': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(4366,5): error C3861: 'o_vkCmdCudaLaunchKernelNV': identificador não encontrado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+  Nvngx_DllProxy.cpp
+  OptiTypes.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(9025,13): error C2065: 'o_vkCmdCudaLaunchKernelNV': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(9026,13): error C2065: 'o_vkCmdCudaLaunchKernelNV': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(9026,71): error C2146: erro de sintaxe: ';' ausente antes do identificador 'original' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+  DI_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(10080,5): error C2065: 'o_vkCmdCudaLaunchKernelNV': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(10080,63): error C2146: erro de sintaxe: ';' ausente antes do identificador 'GetProcAddress' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(10835,13): error C2065: 'o_vkCmdCudaLaunchKernelNV': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(10836,36): error C2065: 'o_vkCmdCudaLaunchKernelNV': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.cpp(11278,13): error C2065: 'o_vkCmdCudaLaunchKernelNV': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/VulkanwDx12_Hooks.cpp')
+  
+  HCC_Dx12.cpp
+  HudCopy_Dx12.cpp
+  DT_Vk.cpp
+  Magnifier_Common.cpp
+  Magnifier_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\shaders\magnifier\Magnifier_Common.cpp(40,51): warning C4244: '=': conversão de 'LONG' para 'float', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/shaders/magnifier/Magnifier_Common.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\shaders\magnifier\Magnifier_Common.cpp(41,51): warning C4244: '=': conversão de 'LONG' para 'float', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/shaders/magnifier/Magnifier_Common.cpp')
+  
+  Magnifier_Vk.cpp
+  OS_Vk.cpp
+  RCAS_Common.cpp
+  RCAS_Vk.cpp
+  Shader_Common.cpp
+  RUI_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/LibraryLoad_Hooks.cpp')
+  
+  RC_Vk.cpp
+  Shader_Dx12.cpp
+  Shader_Vk.cpp
+  SkipSpoof.cpp
+  Shader_Dx11.cpp
+  Dxgi_Spoofing.cpp
+  User32_Spoofing.cpp
+  Vulkan_Spoofing.cpp
+  input_uell.cpp
+  FSR2Feature_VkOnDx12_212.cpp
+  FFXFeature_VkOn12.cpp
+  FSR31Feature.cpp
+  IFeature_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_upscale.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr31/FSR31Feature.cpp')
+  
+  IFeature_VkwDx12.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244: 'inicializando': conversão de 'int64_t' para 'unsigned int', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/low_latency/input/input_uell.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17):
+      o contexto de instanciação do modelo (o mais antigo primeiro) é
+          C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\low_latency\input\input_uell.cpp(44,60):
+          consulte a referência à instanciação 'std::optional<UINT>::optional<int64_t&,0>(_Ty2) noexcept' do modelo que está sendo compilada
+          with
+          [
+              _Ty2=int64_t &
+          ]
+              C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\low_latency\input\input_uell.cpp(44,17):
+              veja a primeira referência a 'std::optional<UINT>::optional' em 'InputUeLowLatency::tickStart'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(307,18):
+          consulte a referência à instanciação 'std::_Optional_construct_base<_Ty>::_Optional_construct_base<int64_t&>(std::in_place_t,int64_t &)' do modelo que está sendo compilada
+          with
+          [
+              _Ty=UINT
+          ]
+          C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\low_latency\input\input_uell.cpp(82,1):
+          consulte a referência à instanciação 'std::_Optional_destruct_base<_Ty,true>::_Optional_destruct_base<int64_t&>(std::in_place_t,int64_t &) noexcept' do modelo que está sendo compilada
+          with
+          [
+              _Ty=UINT
+          ]
+  
+  UpscalerTime_Vk.cpp
+  dx11_with_dx12.cpp
+  with_dx12.cpp
+  dx11_with_dx12_sc.cpp
+  wrapped_factory.cpp
+  FSR3_Dx12_FG.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FSR3_Dx12_FG.cpp')
+  
+  Streamline_Inputs_Dx12.cpp
+  XeFG_Dx12.cpp
+  Streamline_Hooks.cpp
+  Hudfix_Dx12.cpp
+  FfxApiExe_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FfxApiExe_Dx12.cpp')
+  
+  FfxApi_Dx12_FG.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FG\FfxApi_Dx12_FG.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FG/FfxApi_Dx12_FG.cpp')
+  
+  FfxApi_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Vk.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FfxApi_Vk.cpp')
+  
+  Upscaler_Inputs_Dx12.cpp
+  XeSS_Base.cpp
+  XeSS_Common.cpp
+  XeSS_Dbg.cpp
+  XeSS_Vulkan.cpp
+  FrameLimit.cpp
+  fakenvapi.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/nvapi/fakenvapi.cpp')
+  
+  NvApiHooks.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(408,75): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/spoofing/Vulkan_Spoofing.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(408,99): error C2143: erro de sintaxe: ',' ausente antes de '*' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/spoofing/Vulkan_Spoofing.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2065: 'PFN_vkCmdCudaLaunchKernelNV': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/spoofing/Vulkan_Spoofing.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2923: 'std::is_same_v': 'PFN_vkCmdCudaLaunchKernelNV' não é um argumento do tipo modelo válido para o parâmetro '<unnamed-symbol>' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/spoofing/Vulkan_Spoofing.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5):
+      consulte a declaração de 'PFN_vkCmdCudaLaunchKernelNV'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2062: tipo '<erro>' inesperado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/spoofing/Vulkan_Spoofing.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2238: token(s) inesperado(s) precedendo ';' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/spoofing/Vulkan_Spoofing.cpp')
+  
+  NvApiTypes.cpp
+  Reflex_Hooks.cpp
+  ResTrack_dx12.cpp
+  HC_Dx12.cpp
+  RF_Dx12.cpp
+  DS_Dx12.cpp
+  DT_Dx11.cpp
+  DLSSDFeature.cpp
+  DLSSDFeature_Dx11.cpp
+  DLSSDFeature_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_upscale.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_VkOn12.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_VkOnDx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_VkOnDx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  DLSSDFeature_Vk.cpp
+  DLSSFeature.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(408,75): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/IFeature_VkwDx12.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(408,99): error C2143: erro de sintaxe: ',' ausente antes de '*' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/IFeature_VkwDx12.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2065: 'PFN_vkCmdCudaLaunchKernelNV': identificador não declarado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/IFeature_VkwDx12.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2923: 'std::is_same_v': 'PFN_vkCmdCudaLaunchKernelNV' não é um argumento do tipo modelo válido para o parâmetro '<unnamed-symbol>' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/IFeature_VkwDx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5):
+      consulte a declaração de 'PFN_vkCmdCudaLaunchKernelNV'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2062: tipo '<erro>' inesperado [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/IFeature_VkwDx12.cpp')
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\VulkanwDx12_Hooks.h(776,5): error C2238: token(s) inesperado(s) precedendo ';' [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/IFeature_VkwDx12.cpp')
+  
+  DLSSFeature_Dx11.cpp
+  DLSSFeature_Dx12.cpp
+  DLSSFeature_Vk.cpp
+  FeatureProvider_Dx11.cpp
+  FeatureProvider_Dx12.cpp
+  FeatureProvider_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\hooks\Streamline_Hooks.cpp(246,63): warning C4267: '=': conversão de 'size_t' para 'uint32_t', possível perda de dados [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/hooks/Streamline_Hooks.cpp')
+  
+  FSR2Feature_212.cpp
+  FSR2Feature_Dx11On12_212.cpp
+  FSR2Feature_Dx12_212.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlssd/DLSSDFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+  FSR2Feature_Vk_212.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/dlss/DLSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  FFXFeature.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_upscale.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature.cpp')
+  
+  FSR31Feature_Dx11.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_upscale.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr31/FSR31Feature_Dx11.cpp')
+  
+  FFXFeature_Dx11On12.cpp
+  FFXFeature_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Dx12.cpp')
+  
+  FFXFeature_Vk.cpp
+  IFeature_Dx11.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx11On12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2_212/FSR2Feature_Dx11On12_212.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  IFeature_Dx11wDx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Vk.cpp')
+  
+  Config.cpp
+  FSR2Feature.cpp
+  FSR2Feature_Dx11.cpp
+  FSR2Feature_Dx11On12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_upscale.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+  
+  FSR2Feature_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr31\FSR31Feature.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_upscale.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+  
+  FSR2Feature_Vk.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_upscale.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/ffx/FFXFeature_Dx11On12.cpp')
+  
+  IFeature.cpp
+  IFeature_Dx12.cpp
+  FfxApi_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/FfxApi_Dx12.cpp')
+  
+  FSR2_Dx12.cpp
+  FSR3_Dx12.cpp
+  D3D11_Hooks.cpp
+  Vulkan_Hooks.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+      consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+      consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  menu_common.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11On12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/fsr2/FSR2Feature_Dx11On12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  menu_dx_base.cpp
+  menu_dx11.cpp
+  menu_dx12.cpp
+  menu_overlay_base.cpp
+  menu_overlay_dx.cpp
+  menu_overlay_vk.cpp
+  wrapped_swapchain.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/menu/menu_common.cpp')
+  
+  Logger.cpp
+  NVNGX.cpp
+  NVNGX_DLSS_Dx11.cpp
+  NVNGX_DLSS_Dx12.cpp
+  dllmain.cpp
+  NVNGX_DLSS_Vk.cpp
+  XeSSFeature.cpp
+  XeSSFeature_Dx11.cpp
+  XeSSFeature_Dx11on12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\ffx\FFXFeature.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_upscale.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/FeatureProvider_Vk.cpp')
+  
+  XeSSFeature_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx11on12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx11on12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  scanner.cpp
+  Bias_Dx11.cpp
+  Bias_Dx12.cpp
+  FT_Dx12.cpp
+  OS_Dx11.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+  OS_Dx12.cpp
+  RCAS_Dx11.cpp
+  RCAS_Dx12.cpp
+  XeSSFeature_Vk.cpp
+  Util.cpp
+  version_check.cpp
+  XeSS_Debug.cpp
+  XeSS_Dx12.cpp
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/NVNGX_DLSS_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+      consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/inputs/NVNGX_DLSS_Dx12.cpp')
+      C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+      consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+  
+C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\inputs\FfxApi_Dx12.h(3,10): error C1083: Não é possível abrir arquivo incluir: 'ffx_api.h': No such file or directory [C:\Users\Administrator\Documents\ProjetoTSR_Organizado\_OptiScaler_Source\OptiScaler\OptiScaler.vcxproj]
+  (compilando o arquivo fonte '/dllmain.cpp')
+  

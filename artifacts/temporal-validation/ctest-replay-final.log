@@ -1,0 +1,17 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+    Start  1: frame_slots
+1/6 Test  #1: frame_slots ......................   Passed    0.01 sec
+    Start  2: submission_observer
+2/6 Test  #2: submission_observer ..............   Passed    0.01 sec
+    Start 10: command_list_lifetime_warp
+3/6 Test #10: command_list_lifetime_warp .......   Passed    0.10 sec
+    Start 16: gpu_context_warp
+4/6 Test #16: gpu_context_warp .................   Passed    0.17 sec
+    Start 17: gpu_context_fp16_warp
+5/6 Test #17: gpu_context_fp16_warp ............   Passed    0.16 sec
+    Start 18: frame_slots_warp
+6/6 Test #18: frame_slots_warp .................   Passed    0.20 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =   0.65 sec

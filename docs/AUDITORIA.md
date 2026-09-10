@@ -1,5 +1,7 @@
 # Auditoria técnica — base cfa3641aa4c3bb1cf11e714e3cfca0977ea71c0f
 
+Atualização local posterior: o baseline foi compilado no Windows e validado na RX 7600 com debug layer, tanto em buffers quanto em Texture2D. O [contrato de quadros e a evidência atual](FRAME_CONTRACT.md) detalham essa etapa. As menções abaixo ao ambiente Linux e à ausência de build Windows descrevem a auditoria original; não representam o estado atual do harness. DirectML e integração no jogo continuam sem validação.
+
 A arquitetura híbrida é uma hipótese de pesquisa razoável. O código inicial, porém, não implementa o pipeline descrito. A revisão atual corrige a exportação e contém a integração inválida; não entrega uma rede treinada nem uma DLL funcional de TSR.
 
 ## Problemas confirmados

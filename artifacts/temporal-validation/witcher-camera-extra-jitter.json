@@ -1,0 +1,483 @@
+{
+  "valid_projection_pairs": [
+    {
+      "call": 600,
+      "camera_frame": 1528,
+      "xess_jitter": [
+        -0.36145404,
+        -0.46972656
+      ],
+      "camera_jitter": [
+        -0.02812066999999996,
+        0.48339844
+      ],
+      "delta": [
+        -0.33333337,
+        -0.953125
+      ]
+    },
+    {
+      "call": 1200,
+      "camera_frame": 2128,
+      "xess_jitter": [
+        -0.4529035,
+        -0.43017578
+      ],
+      "camera_jitter": [
+        -0.11957016000000004,
+        0.38232422
+      ],
+      "delta": [
+        -0.33333334,
+        -0.8125
+      ]
+    },
+    {
+      "call": 1800,
+      "camera_frame": 2728,
+      "xess_jitter": [
+        -0.22610882,
+        -0.4506836
+      ],
+      "camera_jitter": [
+        0.10722451999999999,
+        0.4555664
+      ],
+      "delta": [
+        -0.33333334,
+        -0.90625
+      ]
+    },
+    {
+      "call": 2400,
+      "camera_frame": 3328,
+      "xess_jitter": [
+        -0.28585583,
+        -0.39282227
+      ],
+      "camera_jitter": [
+        0.04747754000000004,
+        0.41967773
+      ],
+      "delta": [
+        -0.33333337,
+        -0.8125
+      ]
+    },
+    {
+      "call": 3000,
+      "camera_frame": 3928,
+      "xess_jitter": [
+        -0.48704466,
+        -0.49536133
+      ],
+      "camera_jitter": [
+        -0.15371132000000004,
+        0.49291992
+      ],
+      "delta": [
+        -0.33333334,
+        -0.98828125
+      ]
+    },
+    {
+      "call": 3600,
+      "camera_frame": 4528,
+      "xess_jitter": [
+        -0.24561802,
+        -0.4206543
+      ],
+      "camera_jitter": [
+        0.08771526000000002,
+        0.3918457
+      ],
+      "delta": [
+        -0.33333328,
+        -0.8125
+      ]
+    },
+    {
+      "call": 4200,
+      "camera_frame": 5128,
+      "xess_jitter": [
+        -0.34804145,
+        -0.45324707
+      ],
+      "camera_jitter": [
+        -0.014708109999999996,
+        0.45300293
+      ],
+      "delta": [
+        -0.33333334,
+        -0.90625
+      ]
+    },
+    {
+      "call": 4800,
+      "camera_frame": 5728,
+      "xess_jitter": [
+        -0.40778846,
+        -0.38000488
+      ],
+      "camera_jitter": [
+        -0.07445512000000004,
+        0.43249512
+      ],
+      "delta": [
+        -0.33333334,
+        -0.8125
+      ]
+    },
+    {
+      "call": 5400,
+      "camera_frame": 6328,
+      "xess_jitter": [
+        -0.17001978,
+        -0.4810791
+      ],
+      "camera_jitter": [
+        0.1633135,
+        0.4720459
+      ],
+      "delta": [
+        -0.33333328,
+        -0.953125
+      ]
+    },
+    {
+      "call": 6000,
+      "camera_frame": 6928,
+      "xess_jitter": [
+        -0.37120864,
+        -0.42541504
+      ],
+      "camera_jitter": [
+        -0.03787533999999998,
+        0.38708496
+      ],
+      "delta": [
+        -0.3333333,
+        -0.8125
+      ]
+    },
+    {
+      "call": 6600,
+      "camera_frame": 7528,
+      "xess_jitter": [
+        -0.42607832,
+        -0.4437256
+      ],
+      "camera_jitter": [
+        -0.09274502000000001,
+        0.4625244
+      ],
+      "delta": [
+        -0.3333333,
+        -0.90625
+      ]
+    },
+    {
+      "call": 7200,
+      "camera_frame": 8128,
+      "xess_jitter": [
+        -0.2338312,
+        -0.40563965
+      ],
+      "camera_jitter": [
+        0.09950208000000002,
+        0.40686035
+      ],
+      "delta": [
+        -0.33333328,
+        -0.8125
+      ]
+    },
+    {
+      "call": 7800,
+      "camera_frame": 8728,
+      "xess_jitter": [
+        -0.29235888,
+        -0.48620605
+      ],
+      "camera_jitter": [
+        0.04097442000000001,
+        0.49035645
+      ],
+      "delta": [
+        -0.3333333,
+        -0.9765625
+      ]
+    },
+    {
+      "call": 8400,
+      "camera_frame": 9328,
+      "xess_jitter": [
+        -0.49354774,
+        -0.4102173
+      ],
+      "camera_jitter": [
+        -0.16021440000000003,
+        0.4022827
+      ],
+      "delta": [
+        -0.33333334,
+        -0.8125
+      ]
+    },
+    {
+      "call": 9000,
+      "camera_frame": 9928,
+      "xess_jitter": [
+        -0.25699842,
+        -0.46588135
+      ],
+      "camera_jitter": [
+        0.07633488,
+        0.44036865
+      ],
+      "delta": [
+        -0.3333333,
+        -0.90625
+      ]
+    },
+    {
+      "call": 9600,
+      "camera_frame": 10528,
+      "xess_jitter": [
+        -0.32650003,
+        -0.38531494
+      ],
+      "camera_jitter": [
+        0.006833309999999981,
+        0.42718506
+      ],
+      "delta": [
+        -0.33333334,
+        -0.8125
+      ]
+    },
+    {
+      "call": 10200,
+      "camera_frame": 11128,
+      "xess_jitter": [
+        -0.4142915,
+        -0.47613525
+      ],
+      "camera_jitter": [
+        -0.08095816,
+        0.47698975
+      ],
+      "delta": [
+        -0.33333334,
+        -0.953125
+      ]
+    },
+    {
+      "call": 10800,
+      "camera_frame": 11728,
+      "xess_jitter": [
+        -0.18749681,
+        -0.43585205
+      ],
+      "camera_jitter": [
+        0.14583652999999996,
+        0.37664795
+      ],
+      "delta": [
+        -0.33333334,
+        -0.8125
+      ]
+    },
+    {
+      "call": 11400,
+      "camera_frame": 12328,
+      "xess_jitter": [
+        -0.37893105,
+        -0.44610596
+      ],
+      "camera_jitter": [
+        -0.045597710000000014,
+        0.46014404
+      ],
+      "delta": [
+        -0.33333334,
+        -0.90625
+      ]
+    },
+    {
+      "call": 12000,
+      "camera_frame": 12928,
+      "xess_jitter": [
+        -0.44843265,
+        -0.39630127
+      ],
+      "camera_jitter": [
+        -0.11509931000000001,
+        0.41619873
+      ],
+      "delta": [
+        -0.33333334,
+        -0.8125
+      ]
+    },
+    {
+      "call": 12600,
+      "camera_frame": 27250,
+      "xess_jitter": [
+        -0.3147471,
+        -0.09921265
+      ],
+      "camera_jitter": [
+        0.018586270000000016,
+        0.15078735
+      ],
+      "delta": [
+        -0.33333337,
+        -0.25
+      ]
+    }
+  ],
+  "sequence_hypotheses": [
+    {
+      "x_base": 3,
+      "y_base": 2,
+      "x_sign": 1,
+      "y_sign": -1,
+      "matching_pairs": 21,
+      "matches": [
+        {
+          "call": 600,
+          "camera_index": 544,
+          "xess_index": 543,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 1200,
+          "camera_index": 1144,
+          "xess_index": 1143,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 1800,
+          "camera_index": 1744,
+          "xess_index": 1743,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 2400,
+          "camera_index": 2344,
+          "xess_index": 2343,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 3000,
+          "camera_index": 2944,
+          "xess_index": 2943,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 3600,
+          "camera_index": 3544,
+          "xess_index": 3543,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 4200,
+          "camera_index": 4144,
+          "xess_index": 4143,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 4800,
+          "camera_index": 4744,
+          "xess_index": 4743,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 5400,
+          "camera_index": 5344,
+          "xess_index": 5343,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 6000,
+          "camera_index": 5944,
+          "xess_index": 5943,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 6600,
+          "camera_index": 6544,
+          "xess_index": 6543,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 7200,
+          "camera_index": 7144,
+          "xess_index": 7143,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 7800,
+          "camera_index": 7744,
+          "xess_index": 7743,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 8400,
+          "camera_index": 8344,
+          "xess_index": 8343,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 9000,
+          "camera_index": 8944,
+          "xess_index": 8943,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 9600,
+          "camera_index": 9544,
+          "xess_index": 9543,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 10200,
+          "camera_index": 10144,
+          "xess_index": 10143,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 10800,
+          "camera_index": 10744,
+          "xess_index": 10743,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 11400,
+          "camera_index": 11344,
+          "xess_index": 11343,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 12000,
+          "camera_index": 11944,
+          "xess_index": 11943,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 12600,
+          "camera_index": 26266,
+          "xess_index": 26265,
+          "xess_minus_camera": -1
+        }
+      ]
+    }
+  ],
+  "tolerance": 2e-06,
+  "tested_indices": [
+    0,
+    65535
+  ],
+  "limitation": "A Halton fit describes numeric phase only; it does not prove resource/frame/viewport identity or authorize inference."
+}

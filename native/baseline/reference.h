@@ -6,6 +6,8 @@
 #include <stdexcept>
 #include <string>
 #include <limits>
+#include <sstream>
+#include <iomanip>
 #include <vector>
 
 namespace tsr {
@@ -18,15 +20,16 @@ inline size_t Count(Size s) {
     return size_t(s.width) * s.height;
 }
 // Double-precision reference, center-aligned coordinates and edge clamping.
-inline std::vector<Pixel> Bilinear(const std::vector<Pixel>& input, Size src, Size dst) {
+inline std::vector<Pixel> Bilinear(const std::vector<Pixel>& input, Size src, Size dst,
+                                   std::array<float, 2> jitter = {0,0}) {
     if (input.size() != Count(src)) throw std::invalid_argument("Input size mismatch");
     std::vector<Pixel> output(Count(dst));
     for (uint32_t y = 0; y < dst.height; ++y) {
-        const double py = (double(y) + .5) * src.height / dst.height - .5;
+        const double py = (double(y) + .5) * src.height / dst.height - .5 - jitter[1];
         const int y0 = int(std::floor(py));
         const double fy = py - y0;
         for (uint32_t x = 0; x < dst.width; ++x) {
-            const double px = (double(x) + .5) * src.width / dst.width - .5;
+            const double px = (double(x) + .5) * src.width / dst.width - .5 - jitter[0];
             const int x0 = int(std::floor(px));
             const double fx = px - x0;
             auto get = [&](int xx, int yy, size_t c) {
@@ -55,8 +58,15 @@ inline double Verify(const std::vector<Pixel>& actual, const std::vector<Pixel>&
     for (size_t i=0; i<actual.size(); ++i)
         for (size_t c=0; c<4; ++c) {
             const double error = std::abs(double(actual[i][c])-expected[i][c]);
-            if (!std::isfinite(actual[i][c]) || error > .0005 + .00005*std::abs(expected[i][c]))
-                throw std::runtime_error("GPU/reference mismatch at pixel " + std::to_string(i));
+            const double tolerance = .0005 + .00005*std::abs(expected[i][c]);
+            if (!std::isfinite(actual[i][c]) || error > tolerance) {
+                std::ostringstream message;
+                message << std::setprecision(10) << "GPU/reference mismatch at pixel " << i
+                        << ", channel " << c << ": actual=" << actual[i][c]
+                        << ", expected=" << expected[i][c] << ", abs_error=" << error
+                        << ", tolerance=" << tolerance;
+                throw std::runtime_error(message.str());
+            }
             maxError = std::max(maxError, error);
         }
     return maxError;

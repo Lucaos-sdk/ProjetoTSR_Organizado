@@ -1,0 +1,5 @@
+Adapter: AMD Radeon RX 7600 [hardware]
+Resource path: Texture2D RGBA32F
+CreateContext result=0
+maxSupportedInterpolations=1 maximum_total_multiplier=2 supports_MFG=false
+PASS capability query only; interpolation/presentation not tested

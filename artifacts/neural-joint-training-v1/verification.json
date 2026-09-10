@@ -1,0 +1,53 @@
+{
+  "Sources": [
+    {
+      "File": "_IA_Python/neural_joint_training.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_lighting_temporal.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_lighting_scene.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_lighting_model.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_lighting_diagnostics.py",
+      "Match": true
+    },
+    {
+      "File": "_IA_Python/neural_intervention_training.py",
+      "Match": true
+    },
+    {
+      "File": "tools/train_neural_joint.py",
+      "Match": true
+    },
+    {
+      "File": "tools/train_neural_interventions.py",
+      "Match": true
+    },
+    {
+      "File": "tests/test_neural_joint_training.py",
+      "Match": true
+    }
+  ],
+  "Weights": [
+    {
+      "File": "paired.pt",
+      "Match": true
+    },
+    {
+      "File": "joint.pt",
+      "Match": true
+    }
+  ],
+  "NeuralTestsPassed": 19,
+  "GameDllSha256": "9B3992A1FD4337A1C235DC3401D59F8BC81614E29585F3F20546B4C9BC6D47D0",
+  "Passed": true
+}

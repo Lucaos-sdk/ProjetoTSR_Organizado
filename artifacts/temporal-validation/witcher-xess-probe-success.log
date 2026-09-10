@@ -1,0 +1,1021 @@
+[13:50:28.025678] [W] OptiScaler v10.0.0-dev (07af11e) (20260906_084407) loaded
+[13:50:28.025726] [W] ---------------------------------
+[13:50:28.025734] [W] OptiScaler is freely downloadable from
+[13:50:28.025739] [W] GitHub : https://github.com/optiscaler/OptiScaler/releases
+[13:50:28.025743] [W] Nexus  : https://www.nexusmods.com/site/mods/986
+[13:50:28.025748] [W] If you paid for these files, you've been scammed!
+[13:50:28.025752] [W] DO NOT USE IN MULTIPLAYER GAMES
+[13:50:28.025756] [I] 
+[13:50:28.025764] [I] LogLevel: 2
+[13:50:28.025769] [I] 
+[13:50:28.025787] [I] Windows version: Windows 11 (10.0.26200)
+[13:50:28.025793] [I] 
+[13:50:28.025798] [I] Config parameters:
+[13:50:28.025803] [I] Upscalers.Dx12Upscaler: tsr_probe
+[13:50:28.025807] [I] OptiFG.HUDFix: true
+[13:50:28.025813] [I] OptiFG.HUDFixRelaxedResolutionCheck: true
+[13:50:28.025819] [I] Log.LogToFile: true
+[13:50:28.025823] [I] Log.LogLevel: 2
+[13:50:28.025828] [I] Log.LogFileName: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\TSR_Probe.log
+[13:50:28.025833] [I] Magnifier.Size: 11.000000
+[13:50:28.025838] [I] Magnifier.BorderSize: 0.730000
+[13:50:28.025843] [I] 
+[13:50:28.025848] [I] Setting DllPath to C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler
+[13:50:28.025852] [I] 
+[13:50:28.025884] [I] 
+[13:50:28.025900] [W] IsRunningOnWine Wine not detected
+[13:50:28.025945] [I] 
+[13:50:28.025950] [I] Check for DLSS files
+[13:50:28.026105] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[13:50:28.027042] [I] Util::FindFilePath nvngx_dlssg.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[13:50:28.027054] [I] 
+[13:50:28.027231] [I] CheckQuirks Game's Exe: witcher3.exe
+[13:50:28.027242] [I] CheckQuirks Game Name: The Witcher 3
+[13:50:28.027247] [I] CheckQuirks Game Version: 4.0.0.103190(Build Machine)
+[13:50:28.027251] [I] CheckQuirks Game Engine: Other
+[13:50:28.027350] [I] Quirk: Dxgi spoofing disabled by default
+[13:50:28.027357] [I] Quirk: Create SL on the 2nd device
+[13:50:28.027362] [I] 
+[13:50:28.027940] [I] CheckWorkingMode OptiScaler working as dxgi.dll, system dll loaded
+[13:50:28.027991] [W] Config::CheckUpscalerFiles nvngx.dll not found!
+[13:50:28.028012] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12
+[13:50:28.028024] [I] Config::CheckUpscalerFiles libxess.dll found in game folder
+[13:50:28.028898] [I] StreamlineHooks::hookInterposer Streamline version: 1.0.0
+[13:50:28.028915] [I] StreamlineHooks::hookInterposer SL1 exports - slInit: true, slSetTag: true, slSetConstants: true, slEvaluateFeature: true
+[13:50:28.032201] [I] Util::LoadProxyLibrary libxess.dll already loaded at memory: 7FFFA8B70000
+[13:50:28.037817] [I] Util::LoadProxyLibrary libxess.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[13:50:28.037856] [I] XeSSProxy::InitXeSS Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess.dll
+[13:50:28.038156] [I] XeSSProxy::InitXeSS LoadResult: true
+[13:50:28.038378] [I] 
+[13:50:28.039444] [I] Util::LoadProxyLibrary amd_fidelityfx_loader_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[13:50:28.039468] [I] FfxApiProxy::InitFfxDx12 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[13:50:28.039515] [I] 
+[13:50:28.041830] [I] Util::LoadProxyLibrary amd_fidelityfx_upscaler_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_upscaler_dx12.dll
+[13:50:28.044201] [I] FfxApiProxy::InitFfxDx12_SR Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_upscaler_dx12.dll
+[13:50:28.044340] [I] FfxApiProxy::InitFfxDx12_SR LoadResult: true
+[13:50:28.044351] [I] 
+[13:50:28.045262] [I] Util::LoadProxyLibrary amd_fidelityfx_framegeneration_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[13:50:28.045276] [I] FfxApiProxy::InitFfxDx12_FG Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[13:50:28.045306] [I] FfxApiProxy::InitFfxDx12_FG LoadResult: true
+[13:50:28.045311] [I] 
+[13:50:28.045611] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[13:50:28.045623] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[13:50:28.045628] [I] 
+[13:50:28.045841] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[13:50:28.045854] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[13:50:28.045859] [I] FfxApiProxy::InitFfxDx12 LoadResult: true
+[13:50:28.045865] [I] 
+[13:50:28.046071] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[13:50:28.046079] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[13:50:28.046084] [I] 
+[13:50:28.046284] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[13:50:28.046292] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[13:50:28.046606] [I] Util::LoadProxyLibrary libxess_dx11.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[13:50:28.046618] [I] XeSSProxy::InitXeSSDx11 Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_dx11.dll
+[13:50:28.046685] [I] XeSSProxy::InitXeSSDx11 LoadResult: true
+[13:50:28.048364] [I] Util::LoadProxyLibrary libxess_fg.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_fg.dll
+[13:50:28.048378] [I] XeFGProxy::InitXeFG Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxess_fg.dll
+[13:50:28.048384] [I] 
+[13:50:28.048397] [I] XeFGProxy::HookXeFG LoadResult: true
+[13:50:28.048760] [I] Util::LoadProxyLibrary libxell.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxell.dll
+[13:50:28.048772] [I] XeLLProxy::InitXeLLProper Loaded from C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler\libxell.dll
+[13:50:28.048777] [I] 
+[13:50:28.048787] [I] XeLLProxy::HookXeLL LoadResult: true
+[13:50:28.048853] [I] NVNGXProxy::InitNVNGX 
+[13:50:28.049079] [W] Util::LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!
+[13:50:28.049285] [W] Util::LoadProxyLibrary Can't find nvngx.dll, returning nullptr!
+[13:50:28.049293] [I] Util::NvngxPath trying to load nvngx from registry path!
+[13:50:28.049317] [I] 
+[13:50:28.049340] [I] HookFSR2ExeInputs Trying to hook FSR2 methods
+[13:50:28.049430] [I] HookFSR3ExeInputs Trying to hook FSR3 methods
+[13:50:28.049485] [I] 
+[13:50:28.049490] [I] Init done
+[13:50:28.049494] [I] ---------------------------------------------
+[13:50:28.049499] [I] 
+[13:50:28.064872] [I] LibraryLoadHooks::LoadLibraryCheckW Calling CreateDxgiFactory methods for overlay!
+[13:50:28.100921] [I] Amdxc64Hooks::Init amdxc64.dll loaded
+[13:50:28.103503] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[13:50:28.119586] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:1108[PluginManager] Streamline v1.5.6.0c67e1bd - built on Mon May 15 11:13:07 2023
+[13:50:28.119680] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:410[findPlugins] Looking for plugins in C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\ ...
+[13:50:28.162753] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]commoninterface.cpp:127[getGPUInfo] Enumerating up to 8 adapters but only one of them can be used to create a device - no mGPU support in this SDK
+[13:50:28.166055] [W] DxgiSpoofing::AttachToAdapter DxgiSpoofing and DxgiVRAM is disabled, skipping hooking
+[13:50:28.168175] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]commonentry.cpp:1235[getOSVersionAndUpdateTimerResolution] Changed high resolution timer resolution to 5000 [100 ns units]
+[13:50:28.168224] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]commonentry.cpp:1278[updateEmbeddedJSON] Detected Windows OS version 10.0.26200
+[13:50:28.168815] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.common' - version 1.5.6.0c67e1bd - id 4294967295 - priority 0 - adapter mask 0x1 - interposer 'no'
+[13:50:28.179607] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][warn]dlssentry.cpp:185[updateEmbeddedJSON] Failed to obtain DLSS min spec requirements from NGX, using SL defaults
+[13:50:28.179774] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss' - version 1.5.6.0c67e1bd - id 0 - priority 1 - adapter mask 0x1 - interposer 'no'
+[13:50:28.189488] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][warn]dlss_gentry.cpp:513[updateEmbeddedJSON] Failed to obtain DLSS-G min spec requirements from NGX, using SL defaults
+[13:50:28.189527] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][warn]dlss_gentry.cpp:582[updateEmbeddedJSON] Disabling DLSS-G since it is not supported on current hardware
+[13:50:28.189757] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.dlss_g' - version 1.5.6.0c67e1bd - id 1000 - priority 100 - adapter mask 0x0 - interposer 'no'
+[13:50:28.199026] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:593[mapPlugins] Loaded plugin 'sl.reflex' - version 1.5.6.0c67e1bd - id 3 - priority 1 - adapter mask 0x1 - interposer 'no'
+[13:50:28.199064] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][warn]pluginmanager.cpp:704[loadPlugins] Ignoring plugin 'sl.dlss_g' since it is not supported on this platform
+[13:50:28.199166] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:805[loadPlugins] Plugin execution order based on priority:
+[13:50:28.199179] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:808[loadPlugins] P0 - sl.common
+[13:50:28.199189] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.dlss
+[13:50:28.199199] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][info]pluginmanager.cpp:808[loadPlugins] P1 - sl.reflex
+[13:50:28.199617] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[13:50:28.201267] [W] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-28][streamline][warn]dxgi.cpp:334[CreateDXGIFactoryInternal] Streamline interposer has been disabled
+[13:50:28.203469] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[13:50:28.212968] [I] Detected GPUs:
+                      AMD Radeon RX 7600
+                          vendorId: 1002, deviceId: 7480, VRAM: 8150MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: int8, dlss: false
+                      Microsoft Basic Render Driver
+                          vendorId: 1414, deviceId: 8C, VRAM: 0MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: false, dlss: false
+
+[13:50:28.431980] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[13:50:29.350466] [I] `anonymous-namespace'::RunVersionCheck OptiScaler is up to date (current 10.0.0)
+[13:50:34.610089] [I] XeSSProxy::Version XeSS Version: v2.0.2
+[13:50:34.622222] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[13:50:34.642310] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 7600
+[13:50:34.763284] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[13:50:34.763332] [I] NvApiHooks::Hook NvAPI_QueryInterface found, hooking!
+[13:50:34.783845] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:986[initializePlugins] Initializing plugins - api 0.0.1 - application ID 100883811
+[13:50:34.784686] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel fonts.cs:main hash 10788421720787293069
+[13:50:34.784724] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.fontTexture), m_allocCount=1, currentSize 0.0 MB, totalSize 0.0 MB
+[13:50:34.785286] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicText), m_allocCount=2, currentSize 0.0 MB, totalSize 0.0 MB
+[13:50:34.786036] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]generic.cpp:564[createBuffer] Buffer (sl.chi.dynamicTextUpload), m_allocCount=3, currentSize 0.0 MB, totalSize 0.0 MB
+[13:50:34.786689] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel copy_to_buffer.cs:main hash 12564409127886710297
+[13:50:34.786714] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]commonentry.cpp:869[slOnPluginStartup] At least one plugin requires NGX, trying to initialize ...
+[13:50:34.844064] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[13:50:34.845519] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]commonentry.cpp:995[slOnPluginStartup] NGX loaded - app id 100883811 - application data path C:\Users\ADMINI~1\AppData\Local\Temp\
+[13:50:34.845592] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCreateImage:after - skipped
+[13:50:34.845609] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkPresent:before - skipped
+[13:50:34.845624] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindPipeline:after - skipped
+[13:50:34.845638] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkCmdBindDescriptorSets:after - skipped
+[13:50:34.845652] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:881[processPluginHooks] Hook sl.common:slHookVkBeginCommandBuffer:after - skipped
+[13:50:34.845668] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookResizeSwapChainPre:before - OK
+[13:50:34.845683] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent:before - OK
+[13:50:34.845698] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:905[processPluginHooks] Hook sl.common:slHookPresent1:before - OK
+[13:50:34.845785] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]d3d12.cpp:1067[createKernel] Creating DXBC kernel mvec.cs:main hash 6390113509883505821
+[13:50:34.892703] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\nvngx.dll, returning this dll!
+[13:50:34.893202] [I] NVSDK_NGX_UpdateFeature Update ApplicationId: 6035D63
+[13:50:34.893243] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.dlss:slSetConstants:0x7ff80f940d30
+[13:50:34.893261] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.dlss:slGetSettings:0x7ff80f942df0
+[13:50:34.893273] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.dlss:slAllocateResources:0x7ff80f943180
+[13:50:34.893283] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.dlss:slFreeResources:0x7ff80f943210
+[13:50:34.893299] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.dlss' has no registered hooks
+[13:50:34.893363] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:1057[mapPluginCallbacks] Callback sl.reflex:slSetConstants:0x7fff91d9f1b0
+[13:50:34.893375] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:1058[mapPluginCallbacks] Callback sl.reflex:slGetSettings:0x7ff80eea0300
+[13:50:34.893386] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:1059[mapPluginCallbacks] Callback sl.reflex:slAllocateResources:0x0
+[13:50:34.893399] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:1060[mapPluginCallbacks] Callback sl.reflex:slFreeResources:0x0
+[13:50:34.893412] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-50-34][streamline][info]pluginmanager.cpp:866[processPluginHooks] Plugin 'sl.reflex' has no registered hooks
+[13:50:34.898329] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[13:50:34.903033] [I] AntiLag2::init FSR Anti-Lag 2.0 DX12 initialized
+[13:50:34.903048] [I] LowLatency::update_low_latency_tech LowLatency algo: FSR Anti-Lag 2.0
+[13:50:35.255181] [W] FGHooks::CreateSwapChainForHwnd Can't init FG Feature or invalid FGOutput setting!
+[13:50:35.269136] [I] WrappedIDXGISwapChain4::WrappedIDXGISwapChain4 1 created, real: BD7368300, refCount: 2
+[13:50:35.289801] [I] IFeature::SetHandle Handle: 1000000
+[13:50:35.291172] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[13:50:35.291189] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[13:50:35.291196] [I] IFeature::SetInitParameters Init Flag IsHdr: true
+[13:50:35.291203] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[13:50:35.291210] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[13:50:35.291217] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: false
+[13:50:35.291656] [I] IFeature::SetInitParameters Render Resolution: 1280x720, Display Resolution 1920x1080, Quality: 2
+[13:50:35.825667] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=1 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:50:35.825693] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:50:35.825701] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1920x1080 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:50:35.825707] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1920x1080 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:50:35.825713] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:50:35.827128] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:50:35.827652] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.244856
+[13:50:35.827692] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.1484375
+[13:50:35.827701] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:50:35.827708] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:50:35.827715] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:50:35.827722] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:50:35.827729] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:50:35.827736] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:50:35.827744] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:50:35.827753] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:50:35.827761] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:50:35.827767] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:50:35.827772] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:50:35.827777] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:50:35.827782] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:50:35.827787] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:50:35.827792] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:50:35.827797] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:50:35.827802] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:50:35.827979] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=1 fsr_evaluate_returned=true
+[13:50:35.831507] [I] OptiInput::Initialize Initialize requested target:0xed0a88 input:0x0 isUwp:0 useSubclass:1 currentPid:16452
+[13:50:35.831530] [I] OptiInput::SetTargetWindow target window set hwnd:0xed0a88 root:0xed0a88 pid:16452 tid:11768 currentPid:16452 external:0 isUwp:0 useSubclass:1
+[13:50:35.831537] [I] OptiInput::SetInputWindow input window set hwnd:0xed0a88 root:0xed0a88 pid:16452 tid:11768 explicitInput:0 useSubclass:1
+[13:50:35.831550] [I] OptiInput::InstallWindowSubclass subclass installed hwnd:0xed0a88 previousWndProc:140699666384112 optiWndProc:140735639925264
+[13:50:35.831559] [I] OptiInput::InstallHooks installing Win32 input hooks currentPid:16452 targetPid:16452 inputPid:16452
+[13:50:35.831600] [I] OptiInput::InstallHooks Win32 message hooks installed
+[13:50:35.831624] [I] OptiInput::InstallHooks Win32 key state hooks installed
+[13:50:35.831654] [I] OptiInput::InstallHooks Win32 GetMessagePos hooks installed
+[13:50:35.831672] [I] OptiInput::InstallHooks Win32 clip cursor hooks installed
+[13:50:35.831711] [I] OptiInput::InstallHooks Win32 message hooks installed
+[13:50:35.831732] [I] OptiInput::InstallHooks Win32 raw input hooks installed
+[13:50:35.831754] [I] OptiInput::InstallHooks Win32 windows input hooks installed
+[13:50:35.831775] [I] OptiInput::InstallHooks Win32 position input hooks installed
+[13:50:35.831781] [I] OptiInput::Initialize Initialize completed hooksInstalled:1 target:0xed0a88 targetPid:16452 input:0xed0a88 inputPid:16452 externalTarget:0 subclassed:1
+[13:50:35.831818] [I] OptiInput::UpdateXInputIntegrationLocked XInput hooks installed module:0x7fffca980000 getState:1 getStateEx:1 getKeystroke:1 setState:1
+[13:50:35.831847] [I] OptiInput::`anonymous-namespace'::InstallDirectInputExportHookLocked DirectInput8Create hook installed module:0x7fffc1620000
+[13:50:35.842962] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=2 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:50:35.843001] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:50:35.843008] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1920x1080 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:50:35.843027] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1920x1080 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:50:35.843035] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:50:35.843067] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:50:35.843075] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.244856
+[13:50:35.843080] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.1484375
+[13:50:35.843085] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:50:35.843090] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:50:35.843095] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:50:35.843100] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:50:35.843105] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:50:35.843110] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:50:35.843116] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:50:35.843121] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:50:35.843127] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:50:35.843131] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:50:35.843136] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:50:35.843141] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:50:35.843146] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:50:35.843151] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:50:35.843156] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:50:35.843161] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:50:35.843166] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:50:35.843257] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=2 fsr_evaluate_returned=true
+[13:50:35.843402] [I] CreateRenderTargetDx12 done!
+[13:50:35.969341] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=3 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:50:35.969373] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:50:35.969379] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1920x1080 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:50:35.969385] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1920x1080 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:50:35.969396] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:50:35.969427] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:50:35.969436] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.244856
+[13:50:35.969441] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.1484375
+[13:50:35.969447] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:50:35.969452] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:50:35.969457] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:50:35.969462] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:50:35.969466] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:50:35.969471] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:50:35.969476] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:50:35.969482] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:50:35.969487] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:50:35.969493] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:50:35.969498] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:50:35.969503] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:50:35.969507] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:50:35.969512] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:50:35.969517] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:50:35.969522] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:50:35.969527] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:50:35.969580] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=3 fsr_evaluate_returned=true
+[13:50:35.979246] [I] CreateRenderTargetDx12 done!
+[13:51:20.526517] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=60 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:51:20.526588] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:20.526600] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:51:20.526608] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:20.526617] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:20.526657] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:51:20.526667] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.38888896
+[13:51:20.526674] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.4375
+[13:51:20.526679] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:51:20.526684] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:51:20.526690] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:51:20.526697] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:51:20.526807] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:51:20.526827] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:51:20.526835] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:51:20.526841] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:51:20.526846] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:51:20.526851] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:51:20.526856] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:51:20.526861] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:51:20.526867] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:51:20.526872] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:51:20.526876] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:51:20.526881] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:51:20.526886] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:51:20.526959] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=60 fsr_evaluate_returned=true
+[13:51:22.080894] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=180 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:51:22.080940] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:22.080952] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:51:22.080960] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:22.080970] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:22.081005] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:51:22.081018] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.25720167
+[13:51:22.081027] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.49609375
+[13:51:22.081035] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:51:22.081043] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:51:22.081052] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:51:22.081060] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:51:22.081067] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:51:22.081076] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:51:22.081086] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:51:22.081095] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:51:22.081105] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:51:22.081113] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:51:22.081121] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:51:22.081129] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:51:22.081230] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:51:22.081244] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:51:22.081251] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:51:22.081258] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:51:22.081265] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:51:22.081349] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=180 fsr_evaluate_returned=true
+[13:51:27.106304] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=600 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:51:27.106354] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:27.106362] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:51:27.106367] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:27.106373] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:27.106411] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:51:27.106420] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.41632378
+[13:51:27.106426] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.35839844
+[13:51:27.106431] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:51:27.106437] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:51:27.106442] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:51:27.106447] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:51:27.106452] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:51:27.106457] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:51:27.106463] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:51:27.106471] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:51:27.106478] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:51:27.106486] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:51:27.106493] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:51:27.106500] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:51:27.106505] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:51:27.106510] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:51:27.106515] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:51:27.106521] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:51:27.106526] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:51:27.106584] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=600 fsr_evaluate_returned=true
+[13:51:28.204049] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0xed0a88 target:0xed0a88
+[13:51:28.204137] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0xed0a88 target:0xed0a88
+[13:51:28.221065] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xed0a88 foreground:0xed0a88 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[13:51:33.662323] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=1200 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:51:33.662371] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:33.662378] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:51:33.662384] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:33.662390] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:33.662423] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:51:33.662432] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.32487422
+[13:51:33.662438] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.25732422
+[13:51:33.662444] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:51:33.662449] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:51:33.662454] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:51:33.662459] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:51:33.662464] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:51:33.662469] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:51:33.662474] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:51:33.662480] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:51:33.662485] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:51:33.662490] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:51:33.662495] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:51:33.662500] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:51:33.662505] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:51:33.662510] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:51:33.662515] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:51:33.662520] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:51:33.662525] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:51:33.662584] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=1200 fsr_evaluate_returned=true
+[13:51:34.037807] [I] Config::SaveIni Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[13:51:34.615725] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xed0a88 foreground:0xed0a88 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[13:51:35.434552] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0xed0a88 target:0xed0a88
+[13:51:35.434607] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:0 deferredNull:0 hasSaved:1 savedActive:0
+[13:51:40.215098] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=1800 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:51:40.215165] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:40.215172] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:51:40.215178] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:40.215186] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:40.215229] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:51:40.215240] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.2553727
+[13:51:40.215248] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.3305664
+[13:51:40.215256] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:51:40.215265] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:51:40.215274] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:51:40.215280] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:51:40.215291] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:51:40.215301] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:51:40.215308] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:51:40.215313] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:51:40.215319] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:51:40.215324] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:51:40.215329] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:51:40.215334] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:51:40.215341] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:51:40.215346] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:51:40.215351] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:51:40.215358] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:51:40.215363] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:51:40.215485] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=1800 fsr_evaluate_returned=true
+[13:51:46.819123] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=2400 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:51:46.819159] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:46.819168] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:51:46.819174] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:46.819180] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:46.819220] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:51:46.819231] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.49192202
+[13:51:46.819238] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.29467773
+[13:51:46.819244] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:51:46.819249] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:51:46.819254] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:51:46.819259] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:51:46.819264] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:51:46.819269] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:51:46.819275] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:51:46.819280] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:51:46.819285] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:51:46.819290] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:51:46.819296] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:51:46.819301] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:51:46.819306] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:51:46.819311] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:51:46.819316] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:51:46.819321] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:51:46.819327] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:51:46.819401] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=2400 fsr_evaluate_returned=true
+[13:51:53.160245] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=3000 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:51:53.160301] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:53.160309] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:51:53.160314] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:53.160320] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:51:53.160354] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:51:53.160363] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.2907331
+[13:51:53.160368] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.36791992
+[13:51:53.160374] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:51:53.160379] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:51:53.160384] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:51:53.160389] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:51:53.160393] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:51:53.160399] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:51:53.160414] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:51:53.160423] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:51:53.160428] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:51:53.160433] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:51:53.160438] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:51:53.160443] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:51:53.160448] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:51:53.160453] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:51:53.160458] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:51:53.160463] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:51:53.160468] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:51:53.160551] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=3000 fsr_evaluate_returned=true
+[13:52:00.171891] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=3600 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:52:00.172155] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:00.172168] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:52:00.172174] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:00.172183] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:00.172232] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:52:00.172242] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.23586339
+[13:52:00.172250] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.2668457
+[13:52:00.172256] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:52:00.172261] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:52:00.172266] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:52:00.172271] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:52:00.172276] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:52:00.172282] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:52:00.172287] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:52:00.172293] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:52:00.172299] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:52:00.172304] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:52:00.172309] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:52:00.172315] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:52:00.172320] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:52:00.172335] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:52:00.172345] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:52:00.172350] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:52:00.172355] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:52:00.172424] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=3600 fsr_evaluate_returned=true
+[13:52:07.751782] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=4200 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:52:07.751823] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:07.751830] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:52:07.751836] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:07.751842] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:07.751871] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:52:07.751880] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.42973638
+[13:52:07.751886] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.32800293
+[13:52:07.751891] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:52:07.751896] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:52:07.751901] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:52:07.751906] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:52:07.751911] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:52:07.751916] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:52:07.751921] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:52:07.751927] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:52:07.751932] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:52:07.751937] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:52:07.751942] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:52:07.751947] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:52:07.751952] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:52:07.751957] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:52:07.751962] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:52:07.751967] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:52:07.751972] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:52:07.752025] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=4200 fsr_evaluate_returned=true
+[13:52:15.313570] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=4800 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:52:15.313621] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:15.313642] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:52:15.313654] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:15.313663] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:15.313699] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:52:15.313712] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.36998934
+[13:52:15.313720] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.30749512
+[13:52:15.313728] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:52:15.313735] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:52:15.313742] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:52:15.313749] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:52:15.313756] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:52:15.313771] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:52:15.313779] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:52:15.313787] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:52:15.313794] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:52:15.313801] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:52:15.313809] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:52:15.313816] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:52:15.313823] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:52:15.313830] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:52:15.313837] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:52:15.313844] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:52:15.313851] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:52:15.313926] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=4800 fsr_evaluate_returned=true
+[13:52:21.932107] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=5400 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:52:21.932152] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:21.932159] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:52:21.932165] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:21.932171] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:21.932203] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:52:21.932211] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.16880047
+[13:52:21.932217] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=0.3470459
+[13:52:21.932223] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:52:21.932228] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:52:21.932248] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:52:21.932256] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:52:21.932260] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:52:21.932266] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:52:21.932271] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:52:21.932277] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:52:21.932285] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:52:21.932292] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:52:21.932300] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:52:21.932307] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:52:21.932314] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:52:21.932322] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:52:21.932329] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:52:21.932336] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:52:21.932343] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:52:21.932419] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=5400 fsr_evaluate_returned=true
+[13:52:32.196210] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=6000 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:52:32.196291] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:32.196299] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:52:32.196304] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:32.196310] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:32.196365] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:52:32.196379] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=-0.14624298
+[13:52:32.196386] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.34606934
+[13:52:32.196393] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:52:32.196401] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:52:32.196408] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:52:32.196415] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:52:32.196422] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:52:32.196430] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:52:32.196436] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:52:32.196444] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:52:32.196450] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:52:32.196457] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:52:32.196477] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:52:32.196491] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:52:32.196498] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:52:32.196505] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:52:32.196511] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:52:32.196518] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:52:32.196524] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:52:32.196654] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=6000 fsr_evaluate_returned=true
+[13:52:38.440139] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=6600 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:52:38.440186] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:38.440193] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:52:38.440199] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:38.440205] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:38.440238] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:52:38.440247] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.0898999
+[13:52:38.440253] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.3079834
+[13:52:38.440259] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:52:38.440264] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:52:38.440269] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:52:38.440274] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:52:38.440279] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:52:38.440285] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:52:38.440290] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:52:38.440295] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:52:38.440300] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:52:38.440306] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:52:38.440311] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:52:38.440316] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:52:38.440321] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:52:38.440326] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:52:38.440331] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:52:38.440336] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:52:38.440341] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:52:38.440397] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=6600 fsr_evaluate_returned=true
+[13:52:44.684517] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=7200 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:52:44.684576] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:44.684585] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:52:44.684592] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:44.684601] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:44.684703] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:52:44.684735] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=-0.0125234425
+[13:52:44.684744] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.32702637
+[13:52:44.684752] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:52:44.684760] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:52:44.684768] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:52:44.684776] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:52:44.684784] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:52:44.684792] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:52:44.684799] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:52:44.684809] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:52:44.684818] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:52:44.684825] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:52:44.684833] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:52:44.684841] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:52:44.684850] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:52:44.684857] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:52:44.684865] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:52:44.684872] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:52:44.684880] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:52:44.685080] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=7200 fsr_evaluate_returned=true
+[13:52:50.769323] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=7800 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:52:50.769427] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:50.769439] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:52:50.769447] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:50.769456] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:50.769524] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:52:50.769566] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=-0.07105115
+[13:52:50.769583] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.26568604
+[13:52:50.769590] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:52:50.769597] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:52:50.769604] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:52:50.769611] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:52:50.769618] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:52:50.769627] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:52:50.769634] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:52:50.769641] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:52:50.769648] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:52:50.769655] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:52:50.769662] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:52:50.769668] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:52:50.769674] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:52:50.769680] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:52:50.769687] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:52:50.769693] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:52:50.769699] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:52:50.769832] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=7800 fsr_evaluate_returned=true
+[13:52:56.704345] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=8400 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:52:56.704412] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:56.704422] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:52:56.704429] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:56.704437] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:52:56.704487] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:52:56.704499] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.1545242
+[13:52:56.704508] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.3682251
+[13:52:56.704515] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:52:56.704522] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:52:56.704529] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:52:56.704535] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:52:56.704542] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:52:56.704550] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:52:56.704557] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:52:56.704581] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:52:56.704594] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:52:56.704601] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:52:56.704608] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:52:56.704614] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:52:56.704621] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:52:56.704630] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:52:56.704638] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:52:56.704644] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:52:56.704651] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:52:56.704745] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=8400 fsr_evaluate_returned=true
+[13:53:02.490046] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=9000 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:02.490148] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:02.490159] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:02.490166] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:02.490174] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:02.490245] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:02.490260] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=-0.0320327
+[13:53:02.490269] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.29351807
+[13:53:02.490277] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:02.490285] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:02.490292] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:02.490299] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:02.490305] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:02.490313] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:02.490322] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:02.490329] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:02.490337] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:02.490344] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:02.490351] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:02.490358] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:02.490364] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:02.490371] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:02.490402] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:02.490418] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:02.490425] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:02.490558] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=9000 fsr_evaluate_returned=true
+[13:53:08.347418] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=9600 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:08.347494] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:08.347504] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:08.347511] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:08.347519] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:08.347565] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:08.347578] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=-0.10153428
+[13:53:08.347585] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.331604
+[13:53:08.347593] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:08.347600] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:08.347607] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:08.347613] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:08.347620] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:08.347627] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:08.347634] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:08.347641] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:08.347648] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:08.347655] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:08.347661] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:08.347668] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:08.347675] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:08.347682] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:08.347689] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:08.347696] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:08.347703] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:08.347807] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=9600 fsr_evaluate_returned=true
+[13:53:14.299314] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=10200 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:14.299385] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:14.299395] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:14.299415] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:14.299429] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:14.299471] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:14.299485] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.10331249
+[13:53:14.299495] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.25616455
+[13:53:14.299502] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:14.299509] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:14.299514] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:14.299519] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:14.299525] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:14.299530] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:14.299535] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:14.299542] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:14.299547] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:14.299552] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:14.299557] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:14.299562] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:14.299567] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:14.299572] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:14.299577] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:14.299582] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:14.299587] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:14.299653] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=10200 fsr_evaluate_returned=true
+[13:53:20.880258] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=10800 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:20.880294] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:20.880301] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:20.880307] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:20.880313] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:20.880342] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:20.880351] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.03259158
+[13:53:20.880357] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.3587036
+[13:53:20.880362] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:20.880367] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:20.880373] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:20.880387] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:20.880396] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:20.880401] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:20.880409] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:20.880414] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:20.880420] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:20.880425] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:20.880430] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:20.880435] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:20.880440] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:20.880445] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:20.880450] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:20.880455] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:20.880460] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:20.880513] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=10800 fsr_evaluate_returned=true
+[13:53:27.381500] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=11400 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:27.381623] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:27.381635] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:27.381642] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:27.381651] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:27.381721] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:27.381735] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=-0.15762332
+[13:53:27.381743] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.29864502
+[13:53:27.381750] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:27.381760] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:27.381768] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:27.381775] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:27.381783] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:27.381792] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:27.381801] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:27.381809] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:27.381816] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:27.381824] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:27.381830] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:27.381861] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:27.381876] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:27.381883] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:27.381890] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:27.381896] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:27.381903] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:27.382039] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=11400 fsr_evaluate_returned=true
+[13:53:33.250680] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=12000 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:33.250755] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:33.250765] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:33.250773] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:33.250782] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:33.250834] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:33.250846] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.06917137
+[13:53:33.250856] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.31658936
+[13:53:33.250863] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:33.250870] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:33.250878] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:33.250884] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:33.250891] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:33.250899] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:33.250905] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:33.250913] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:33.250920] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:33.250926] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:33.250933] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:33.250939] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:33.250945] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:33.250952] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:33.250958] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:33.250966] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:33.250972] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:33.251105] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=12000 fsr_evaluate_returned=true
+[13:53:38.821194] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=12600 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:38.821315] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:38.821327] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:38.821334] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:38.821343] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:38.821406] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:38.821418] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.014301717
+[13:53:38.821425] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.27850342
+[13:53:38.821432] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:38.821439] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:38.821446] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:38.821453] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:38.821460] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:38.821467] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:38.821474] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:38.821482] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:38.821488] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:38.821495] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:38.821503] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:38.821510] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:38.821517] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:38.821524] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:38.821530] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:38.821536] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:38.821543] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:38.821637] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=12600 fsr_evaluate_returned=true
+[13:53:44.889151] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=13200 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:44.889199] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:44.889207] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:44.889213] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:44.889219] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:44.889251] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:44.889264] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=-0.08974749
+[13:53:44.889280] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.3619995
+[13:53:44.889290] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:44.889295] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:44.889300] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:44.889305] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:44.889310] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:44.889315] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:44.889320] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:44.889326] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:44.889331] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:44.889336] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:44.889341] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:44.889346] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:44.889351] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:44.889356] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:44.889361] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:44.889366] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:44.889371] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:44.889429] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=13200 fsr_evaluate_returned=true
+[13:53:47.629362] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0xed0a88 target:0xed0a88
+[13:53:47.629404] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0xed0a88 target:0xed0a88
+[13:53:47.629423] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xed0a88 foreground:0xed0a88 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[13:53:50.974095] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=13800 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:50.974180] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:50.974193] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:50.974200] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:50.974209] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:50.974266] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:50.974280] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=0.14802116
+[13:53:50.974288] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.28875732
+[13:53:50.974295] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:50.974302] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:50.974326] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:50.974339] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:50.974345] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:50.974353] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:50.974360] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:50.974366] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:50.974372] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:50.974378] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:50.974385] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:50.974391] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:50.974397] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:50.974403] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:50.974409] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:50.974415] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:50.974422] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:50.974525] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=13800 fsr_evaluate_returned=true
+[13:53:51.500497] [I] AntiLag2::deinit FSR Anti-Lag 2.0 DX12 deinitialized
+[13:53:51.502184] [I] LatencyFlex::init LatencyFleX initialized
+[13:53:51.502634] [I] LowLatency::update_low_latency_tech LowLatency algo: LatencyFlex
+[13:53:51.502186] [I] LatencyFlex::init LatencyFleX initialized
+[13:53:51.502659] [I] LowLatency::update_low_latency_tech LowLatency algo: LatencyFlex
+[13:53:51.510875] [I] ReflexHooks::setFPSLimit Set FPS Limit to: 0
+[13:53:53.586297] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xed0a88 foreground:0xed0a88 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[13:53:53.645922] [I] Config::SaveIni Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[13:53:54.820664] [I] Config::SaveIni Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[13:53:55.383019] [I] Config::SaveIni Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[13:53:56.942648] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=14400 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:53:56.942756] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:56.942768] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:53:56.942775] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:56.942784] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:53:56.942838] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:53:56.942854] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=-0.0531677
+[13:53:56.942862] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.34222412
+[13:53:56.942883] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:53:56.942896] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:53:56.942903] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:53:56.942910] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:53:56.942917] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:53:56.942925] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:53:56.942932] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:53:56.942940] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:53:56.942947] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:53:56.942954] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:53:56.942961] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:53:56.942967] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:53:56.942974] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:53:56.942981] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:53:56.942988] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:53:56.942995] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:53:56.943003] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:53:56.943112] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=14400 fsr_evaluate_returned=true
+[13:53:58.884419] [I] LatencyFlex::deinit LatencyFlex deinitialized
+[13:53:58.889852] [I] AntiLag2::init FSR Anti-Lag 2.0 DX12 initialized
+[13:53:58.889867] [I] LowLatency::update_low_latency_tech LowLatency algo: FSR Anti-Lag 2.0
+[13:53:58.890331] [I] AntiLag2::init FSR Anti-Lag 2.0 DX12 initialized
+[13:53:58.890342] [I] LowLatency::update_low_latency_tech LowLatency algo: FSR Anti-Lag 2.0
+[13:53:58.898068] [I] ReflexHooks::setFPSLimit Set FPS Limit to: 0
+[13:53:59.677328] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0xed0a88 foreground:0xed0a88 focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[13:54:00.092651] [I] Config::SaveIni Trying to save ini to: C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\bin\x64_dx12\OptiScaler.ini
+[13:54:01.638175] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0xed0a88 target:0xed0a88
+[13:54:01.638258] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:0 deferredNull:0 hasSaved:1 savedActive:0
+[13:54:03.071199] [I] TsrProbeFeature::Capture TSR_PROBE v1 evaluation=15000 renderer=FSR2.1.2 custom_temporal=false neural=false flags=75 render=1280x720 target=1920x1080 display=1920x1080
+[13:54:03.071268] [I] TsrProbeFeature::Capture TSR_PROBE resource=Color size=1280x720 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:54:03.071276] [I] TsrProbeFeature::Capture TSR_PROBE resource=Depth size=1280x720 format=19 dimension=3 mips=1 layers=1 samples=1 flags=2
+[13:54:03.071281] [I] TsrProbeFeature::Capture TSR_PROBE resource=MotionVectors size=1280x720 format=34 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:54:03.071287] [I] TsrProbeFeature::Capture TSR_PROBE resource=Output size=1920x1080 format=10 dimension=3 mips=1 layers=1 samples=1 flags=37
+[13:54:03.071328] [I] TsrProbeFeature::Capture TSR_PROBE resource=ExposureTexture missing
+[13:54:03.071340] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.X available=true value=-0.11291471
+[13:54:03.071345] [I] TsrProbeFeature::Capture TSR_PROBE scalar=Jitter.Offset.Y available=true value=-0.25872803
+[13:54:03.071350] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.X available=true value=1280
+[13:54:03.071356] [I] TsrProbeFeature::Capture TSR_PROBE scalar=MV.Scale.Y available=true value=720
+[13:54:03.071361] [I] TsrProbeFeature::Capture TSR_PROBE scalar=DLSS.Pre.Exposure available=false value=0
+[13:54:03.071366] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraNear available=false value=0
+[13:54:03.071371] [I] TsrProbeFeature::Capture TSR_PROBE scalar=FSR.cameraFar available=false value=0
+[13:54:03.071376] [I] TsrProbeFeature::Capture TSR_PROBE integer=Reset available=true value=0
+[13:54:03.071381] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Width available=true value=1280
+[13:54:03.071387] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Render.Subrect.Dimensions.Height available=true value=720
+[13:54:03.071392] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.X available=true value=0
+[13:54:03.071397] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Color.Subrect.Base.Y available=true value=0
+[13:54:03.071402] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.X available=true value=0
+[13:54:03.071407] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.Depth.Subrect.Base.Y available=true value=0
+[13:54:03.071412] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.X available=true value=0
+[13:54:03.071417] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Input.MV.Subrect.Base.Y available=true value=0
+[13:54:03.071422] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.X available=true value=0
+[13:54:03.071427] [I] TsrProbeFeature::Capture TSR_PROBE integer=DLSS.Output.Subrect.Base.Y available=true value=0
+[13:54:03.071432] [I] TsrProbeFeature::Capture TSR_PROBE configured_barriers color=-1 depth=-1 motion=-1 (-1 means unknown, not measured GPU state)
+[13:54:03.071488] [I] TsrProbeFeature::EvaluateInternal TSR_PROBE evaluation=15000 fsr_evaluate_returned=true
+[13:54:06.011904] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]pluginmanager.cpp:817[unloadPlugins] Unloading all plugins ...
+[13:54:06.012232] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel mvec.cs
+[13:54:06.013660] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]commonentry.cpp:1090[slOnPluginShutdown] Shutting down NGX
+[13:54:06.013688] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]d3d12.cpp:1100[destroyKernel] Destroying kernel copy_to_buffer.cs
+[13:54:06.013761] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]d3d12.cpp:820[shutdown] Destroying kernel fonts.cs
+[13:54:06.013954] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d078d10(sl.chi.fontTexture) at frame 3 (current frame 0)
+[13:54:06.013974] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d0a1ef0(sl.chi.dynamicText) at frame 3 (current frame 0)
+[13:54:06.013988] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]generic.cpp:689[destroyResource] Scheduled to destroy 0xb9d0a22b0(sl.chi.dynamicTextUpload) at frame 3 (current frame 0)
+[13:54:06.015205] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d078d10(sl.chi.fontTexture) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.03MB
+[13:54:06.015574] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d0a1ef0(sl.chi.dynamicText) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.02MB
+[13:54:06.015925] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]generic.cpp:735[collectGarbage] Destroyed 0xb9d0a22b0(sl.chi.dynamicTextUpload) - scheduled at frame 0 - finished frame 0 - forced yes - ref count 0 - total vram 0.00MB
+[13:54:06.015944] [I] StreamlineHooks::streamlineLogCallback_sl1 [06.09.2026 13-54-06][streamline][info]generic.cpp:285[shutdown] Delayed destroy resource list count 0
+[13:54:06.041326] [I] 
+[13:54:06.041345] [I] DLL_PROCESS_DETACH
+[13:54:06.041351] [I] Unloading OptiScaler

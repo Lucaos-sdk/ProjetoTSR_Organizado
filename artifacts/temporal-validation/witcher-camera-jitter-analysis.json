@@ -1,0 +1,219 @@
+{
+  "valid_projection_pairs": [
+    {
+      "call": 600,
+      "camera_frame": 1336,
+      "xess_jitter": [
+        0.3587106,
+        0.053710938
+      ],
+      "camera_jitter": [
+        -0.19684500000000005,
+        -0.446289062
+      ],
+      "delta": [
+        0.5555556,
+        0.5
+      ]
+    },
+    {
+      "call": 1200,
+      "camera_frame": 1936,
+      "xess_jitter": [
+        0.20141745,
+        0.10498047
+      ],
+      "camera_jitter": [
+        -0.35413805,
+        -0.39501953
+      ],
+      "delta": [
+        0.5555555,
+        0.5
+      ]
+    },
+    {
+      "call": 1800,
+      "camera_frame": 2536,
+      "xess_jitter": [
+        0.39529043,
+        0.0024414062
+      ],
+      "camera_jitter": [
+        -0.45656150999999995,
+        -0.4975585938
+      ],
+      "delta": [
+        0.85185194,
+        0.5
+      ]
+    },
+    {
+      "call": 2400,
+      "camera_frame": 3136,
+      "xess_jitter": [
+        0.33554333,
+        0.083740234
+      ],
+      "camera_jitter": [
+        -0.22001217,
+        -0.41625976600000003
+      ],
+      "delta": [
+        0.5555555,
+        0.5
+      ]
+    },
+    {
+      "call": 3000,
+      "camera_frame": 3736,
+      "xess_jitter": [
+        0.26604176,
+        0.039794922
+      ],
+      "camera_jitter": [
+        -0.28951384,
+        -0.460205078
+      ],
+      "delta": [
+        0.5555556,
+        0.5
+      ]
+    },
+    {
+      "call": 3600,
+      "camera_frame": 4336,
+      "xess_jitter": [
+        0.4745466,
+        0.123291016
+      ],
+      "camera_jitter": [
+        -0.4760707,
+        -0.37670898399999997
+      ],
+      "delta": [
+        0.9506173,
+        0.5
+      ]
+    },
+    {
+      "call": 4200,
+      "camera_frame": 4936,
+      "xess_jitter": [
+        0.30627954,
+        0.02331543
+      ],
+      "camera_jitter": [
+        -0.24927606000000002,
+        -0.47668457
+      ],
+      "delta": [
+        0.5555556,
+        0.5
+      ]
+    },
+    {
+      "call": 4800,
+      "camera_frame": 5536,
+      "xess_jitter": [
+        0.21361071,
+        0.07312012
+      ],
+      "camera_jitter": [
+        -0.34194479,
+        -0.42687988
+      ],
+      "delta": [
+        0.5555555,
+        0.5
+      ]
+    },
+    {
+      "call": 5400,
+      "camera_frame": 6217,
+      "xess_jitter": [
+        0.44452065,
+        -0.47912598
+      ],
+      "camera_jitter": [
+        -0.40733115000000003,
+        0.47399902
+      ],
+      "delta": [
+        0.8518518,
+        -0.953125
+      ]
+    }
+  ],
+  "sequence_hypotheses": [
+    {
+      "x_base": 3,
+      "y_base": 2,
+      "x_sign": 1,
+      "y_sign": -1,
+      "matching_pairs": 9,
+      "matches": [
+        {
+          "call": 600,
+          "camera_index": 591,
+          "xess_index": 590,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 1200,
+          "camera_index": 1191,
+          "xess_index": 1190,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 1800,
+          "camera_index": 1791,
+          "xess_index": 1790,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 2400,
+          "camera_index": 2391,
+          "xess_index": 2390,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 3000,
+          "camera_index": 2991,
+          "xess_index": 2990,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 3600,
+          "camera_index": 3591,
+          "xess_index": 3590,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 4200,
+          "camera_index": 4191,
+          "xess_index": 4190,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 4800,
+          "camera_index": 4791,
+          "xess_index": 4790,
+          "xess_minus_camera": -1
+        },
+        {
+          "call": 5400,
+          "camera_index": 5472,
+          "xess_index": 5471,
+          "xess_minus_camera": -1
+        }
+      ]
+    }
+  ],
+  "tolerance": 2e-06,
+  "tested_indices": [
+    0,
+    65535
+  ],
+  "limitation": "A Halton fit describes numeric phase only; it does not prove resource/frame/viewport identity or authorize inference."
+}

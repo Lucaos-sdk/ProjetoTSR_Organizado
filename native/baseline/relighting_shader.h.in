@@ -1,0 +1,2 @@
+#pragma once
+inline constexpr char kRelightingShader[]=R"TSRSHADER(@RELIGHTING_SOURCE@)TSRSHADER";

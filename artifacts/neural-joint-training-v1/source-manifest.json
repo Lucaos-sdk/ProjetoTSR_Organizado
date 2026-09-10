@@ -1,0 +1,11 @@
+{
+  "_IA_Python/neural_joint_training.py": "aba0621353b8f3a63baff47c29edfb9ee91aa4ae93bbd719adac4ad377d92fff",
+  "_IA_Python/neural_lighting_temporal.py": "f905beabe2c2ca7f9db3dbd8d847d84df8223a2772ea50cd681f1f06cf1f9f52",
+  "_IA_Python/neural_lighting_scene.py": "f6cd3354ab99567ca3881f8511420823862ed5d22e8f1e985bba8786c3110516",
+  "_IA_Python/neural_lighting_model.py": "fff80068e3016d8d81bd46cb86ee5de0a0dfcd7f018167eb1a0f11cd64511d98",
+  "_IA_Python/neural_lighting_diagnostics.py": "eb13f322ffe951fbcca6d19ced0ecf08767b414b7afb78e4d0f9478d2adc3722",
+  "_IA_Python/neural_intervention_training.py": "5b0718e6be8ffa655c0c155b23668d07effd1351b10bcb9a34e1dbc972fec942",
+  "tools/train_neural_joint.py": "150e11f5f49d1c90e7ccb04bbaa331c26ef67a665307ea1c989ccfcd7e238394",
+  "tools/train_neural_interventions.py": "98613bc159090679fa3ec5c1c5986e18421d2d7dbcfc09b97b8a7245228d8589",
+  "tests/test_neural_joint_training.py": "37d9a4126dd4897cb4a7ddeaec537c69364719800035b230a8e383aec983c103"
+}

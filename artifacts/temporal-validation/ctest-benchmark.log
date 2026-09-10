@@ -1,0 +1,45 @@
+Test project C:/Users/Administrator/Documents/ProjetoTSR_Organizado/build/native-rx7600
+      Start  1: reference
+ 1/20 Test  #1: reference ........................   Passed    0.01 sec
+      Start  2: frame_contract
+ 2/20 Test  #2: frame_contract ...................   Passed    0.01 sec
+      Start  3: temporal_reference
+ 3/20 Test  #3: temporal_reference ...............   Passed    0.01 sec
+      Start  4: reconstruction
+ 4/20 Test  #4: reconstruction ...................   Passed    0.01 sec
+      Start  5: output_history_reference
+ 5/20 Test  #5: output_history_reference .........   Passed    0.01 sec
+      Start  6: runtime_options
+ 6/20 Test  #6: runtime_options ..................   Passed    0.01 sec
+      Start  7: benchmark_output_history_warp
+ 7/20 Test  #7: benchmark_output_history_warp ....   Passed    0.17 sec
+      Start  8: benchmark_bilinear_warp
+ 8/20 Test  #8: benchmark_bilinear_warp ..........   Passed    0.14 sec
+      Start  9: temporal_warp
+ 9/20 Test  #9: temporal_warp ....................   Passed    0.20 sec
+      Start 10: temporal_warp_full
+10/20 Test #10: temporal_warp_full ...............   Passed    4.25 sec
+      Start 11: temporal_cubic_warp
+11/20 Test #11: temporal_cubic_warp ..............   Passed    0.20 sec
+      Start 12: temporal_cubic_warp_full
+12/20 Test #12: temporal_cubic_warp_full .........   Passed   21.07 sec
+      Start 13: output_history_warp
+13/20 Test #13: output_history_warp ..............   Passed    0.23 sec
+      Start 14: output_history_warp_full
+14/20 Test #14: output_history_warp_full .........   Passed    6.05 sec
+      Start 15: output_history_1080p_warp
+15/20 Test #15: output_history_1080p_warp ........   Passed    1.64 sec
+      Start 16: output_history_fractional_wide
+16/20 Test #16: output_history_fractional_wide ...   Passed    0.21 sec
+      Start 17: dx12_warp
+17/20 Test #17: dx12_warp ........................   Passed    0.13 sec
+      Start 18: dx12_warp_full
+18/20 Test #18: dx12_warp_full ...................   Passed    0.74 sec
+      Start 19: dx12_texture_warp
+19/20 Test #19: dx12_texture_warp ................   Passed    0.12 sec
+      Start 20: dx12_texture_warp_full
+20/20 Test #20: dx12_texture_warp_full ...........   Passed    0.67 sec
+
+100% tests passed, 0 tests failed out of 20
+
+Total Test time (real) =  36.08 sec

@@ -1,0 +1,33 @@
+{
+  "kind": "FSR 4.1.1 API integration test",
+  "changes": {
+    "FrameGen.FGOutput": "nofg",
+    "FrameGen.FGInput": "nofg",
+    "Sharpness.Shader": "rcas",
+    "FSR.UpscalerIndex": "0",
+    "CAS.ContrastEnabled": "false",
+    "CAS.MotionSharpnessEnabled": "false",
+    "Log.LogFileName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Witcher 3\\bin\\x64_dx12\\TSR_FSR411.log",
+    "FSR.Fsr4ForceModel": "auto",
+    "Log.LogToFile": "true",
+    "Libraries.FfxDx12SRPath": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\artifacts\\game-test\\witcher3-fsr411\\amd_fidelityfx_upscaler_dx12.dll",
+    "FrameGen.Enabled": "false",
+    "CAS.SharpenerDebug": "false",
+    "Log.LogLevel": "2",
+    "Sharpness.OverrideSharpness": "true",
+    "CAS.Enabled": "false",
+    "Upscalers.Dx12Upscaler": "ffx",
+    "Sharpness.Sharpness": "0.0"
+  },
+  "localPackagePath": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\artifacts\\game-test\\witcher3-fsr411",
+  "target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Witcher 3\\bin\\x64_dx12",
+  "hashes": {
+    "dxgi.dll": "73FBB708A38C4410D84D892F5875EFB57CDA661DE9D345D588A896F1A23EA474",
+    "amd_fidelityfx_upscaler_dx12.dll": "D0DCCCC74A43C44BA435B7A369B456E0970D8A4464E4BD683119B374F2C9FB46",
+    "OptiScaler.ini": "766BF022A07FE478AB37BCADAC44218F65A95838193966FA540FD46497114E68"
+  },
+  "customNeural": false,
+  "sdkSigner": "CN=Advanced Micro Devices, O=Advanced Micro Devices, S=California, C=US",
+  "created": "2026-09-06T14:34:11.3833864-03:00",
+  "neuralModelOwner": "AMD"
+}

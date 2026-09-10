@@ -1,0 +1,22 @@
+{
+  "name": "witcher3-relighting-world-v22",
+  "settingsPreserved": true,
+  "hotkey": "F8",
+  "worldAnchored": true,
+  "created": "2026-09-08T06:38:06.761113-03:00",
+  "gameValidation": "pending",
+  "smoothingDefault": 1,
+  "strength": 0.35,
+  "ownModel": "world_v2",
+  "hashes": {
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348",
+    "dxgi.dll": "52A9F1677F84BB0D59782A258CAE01CDCE7C1567FA0F053FE74CCFEAAC2B40F4"
+  },
+  "cameraAssociation": "unique_jitter_experimental",
+  "originalGameHashes": {
+    "OptiScaler.ini": "6C4AF8272437A9B6DAA88BA199E56B4B4032456DD0F3F32A673EE2ABD97DF348",
+    "dxgi.dll": "211A8296918FCA4BF2237636BD5948AD68F996EF662C58F581D5F44A1426FB63"
+  },
+  "shaderImplementation": "world_v22_color_composition",
+  "colorTransferDefault": 0
+}

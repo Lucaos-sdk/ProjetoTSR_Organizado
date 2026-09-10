@@ -1,0 +1,68 @@
+{
+  "scene_ids": [
+    21000,
+    21001,
+    21002,
+    21003
+  ],
+  "families": [
+    "baseline",
+    "boxes",
+    "distant",
+    "source_light"
+  ],
+  "resolutions": [
+    [
+      96,
+      64
+    ],
+    [
+      192,
+      128
+    ],
+    [
+      384,
+      256
+    ]
+  ],
+  "yaws": [
+    -0.04,
+    0.0,
+    0.04
+  ],
+  "checkpoints": {
+    "20260911_paired": "450c5872ea6a122036037d0557bfb30a6202ee29809e6b4a013e001012bf51d7",
+    "20260911_t025": "bbc0f8abdd0ef39c5f077ba98d57bd3a02438460b39148733c0ab05f38fcac49",
+    "20260912_paired": "8df327e6c307cc4c26ec8c0779618cbb0f4c12edcbebd13163dc3f98e64c6b41",
+    "20260912_t025": "4d56f29cc64afc20d6019d333322b9ddbe3b9bc495e7048dfbb2669acb4421f6"
+  },
+  "training": false,
+  "selection": false,
+  "depth_noise": 0.0,
+  "geometry_states": [
+    "base",
+    "remove_all"
+  ],
+  "static_metrics": "middle camera pose only",
+  "camera_metrics": "both static geometry states, consecutive poses; nearest visible correspondence",
+  "input": "original 8 channels with normals reconstructed from observed depth; direct inference at each raster size",
+  "target": "same fixed target lighting; source_light changes only the input light rig",
+  "factors": "baseline geometry; replace alternating spheres with boxes; move spheres +4 in z; alter source light",
+  "minimum_response": {
+    "changed_pixels": 100,
+    "affected_scenes": 2
+  },
+  "gates": {
+    "image_max": 1.05,
+    "temporal_max": 0.8,
+    "response_max": 1.05,
+    "response_vs_zero": 0.8,
+    "unchanged_max": 0.003,
+    "protected_exact": true,
+    "shadow_max": 1.05,
+    "edge_max": 1.05,
+    "gradient_max": 1.05
+  },
+  "warning": "diagnostic with four scenes only; ratios within same family/resolution, never across different raster sizes",
+  "game_integration_allowed": false
+}

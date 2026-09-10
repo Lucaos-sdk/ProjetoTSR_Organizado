@@ -4,6 +4,10 @@
 #include <proxies/FfxApi_Proxy.h>
 #include "FFXFeature_Dx12.h"
 #include "MathUtils.h"
+#include "../../../../native/integration/fsr_upscale_version.h"
+#include <resource_tracking/ResTrack_dx12.h>
+#include <upscalers/tsr/TsrCameraBridge.h>
+#include <upscalers/tsr/TsrRelightingControls.h>
 
 using namespace OptiMath;
 
@@ -30,6 +34,8 @@ FFXFeatureDx12::FFXFeatureDx12(unsigned int InHandleId, NVSDK_NGX_Parameter* InP
 bool FFXFeatureDx12::InitInternal(ID3D12GraphicsCommandList* InCommandList, NVSDK_NGX_Parameter* InParameters)
 {
     LOG_DEBUG("FFXFeatureDx12::Init");
+    // Submission lifetime is needed even when HUD fix / frame generation is off.
+    ResTrack_Dx12::EnsureTsrSubmissionHooks(Device);
 
     if (IsInited())
         return true;
@@ -137,7 +143,7 @@ bool FFXFeatureDx12::EvaluateInternal(ID3D12GraphicsCommandList* InCommandList, 
 
     params.commandList = InCommandList;
 
-    ID3D12Resource* paramColor;
+    ID3D12Resource* paramColor = nullptr;
     if (InParameters->Get(NVSDK_NGX_Parameter_Color, &paramColor) != NVSDK_NGX_Result_Success)
         InParameters->Get(NVSDK_NGX_Parameter_Color, (void**) &paramColor);
 
@@ -232,7 +238,7 @@ bool FFXFeatureDx12::EvaluateInternal(ID3D12GraphicsCommandList* InCommandList, 
         return false;
     }
 
-    ID3D12Resource* paramVelocity;
+    ID3D12Resource* paramVelocity = nullptr;
     if (InParameters->Get(NVSDK_NGX_Parameter_MotionVectors, &paramVelocity) != NVSDK_NGX_Result_Success)
         InParameters->Get(NVSDK_NGX_Parameter_MotionVectors, (void**) &paramVelocity);
 
@@ -263,7 +269,7 @@ bool FFXFeatureDx12::EvaluateInternal(ID3D12GraphicsCommandList* InCommandList, 
         return false;
     }
 
-    ID3D12Resource* paramOutput;
+    ID3D12Resource* paramOutput = nullptr;
     if (InParameters->Get(NVSDK_NGX_Parameter_Output, &paramOutput) != NVSDK_NGX_Result_Success)
         InParameters->Get(NVSDK_NGX_Parameter_Output, (void**) &paramOutput);
 
@@ -284,7 +290,7 @@ bool FFXFeatureDx12::EvaluateInternal(ID3D12GraphicsCommandList* InCommandList, 
         return false;
     }
 
-    ID3D12Resource* paramDepth;
+    ID3D12Resource* paramDepth = nullptr;
     if (InParameters->Get(NVSDK_NGX_Parameter_Depth, &paramDepth) != NVSDK_NGX_Result_Success)
         InParameters->Get(NVSDK_NGX_Parameter_Depth, (void**) &paramDepth);
 
@@ -578,6 +584,63 @@ bool FFXFeatureDx12::EvaluateInternal(ID3D12GraphicsCommandList* InCommandList, 
         params.upscaleSize.height = TargetHeight();
     }
 
+    // Experimental learned relighting of the actual native XeSS input, before FSR.
+    // The AMD model and original input texture are never modified.
+    tsr::game::RelightingHotkey();
+    bool tsrActive=false;
+    std::string tsrReason=tsrFailed?"runtime_error":"disabled";
+    const float tsrStrength=tsr::game::relightingStrength.load();
+    const float tsrSmoothing=tsr::game::relightingSmoothing.load();
+    const float tsrColorTransfer=tsr::game::relightingColorTransfer.load();
+    const bool tsrSceneryProtection=tsr::game::relightingSceneryProtection.load();
+    const float tsrReach=tsr::game::relightingReach.load();
+    const auto anchorRevision=tsr::game::relightingAnchorRevision.load();
+    const auto& binding=tsr::game::relightingBinding;
+    if(tsr::game::relightingEnabled && tsrStrength>0 && !tsrFailed) {
+        tsrReason="camera_or_resources_unmatched";
+        if(binding.list==InCommandList&&binding.color==paramColor&&binding.depth==paramDepth&&binding.camera&&
+           binding.width==params.renderSize.width&&binding.height==params.renderSize.height) {
+            const bool nonlinear=cfg.FsrNonLinearColorSpace.value_or_default()||cfg.FsrNonLinearSRGB.value_or_default()||cfg.FsrNonLinearPQ.value_or_default();
+            tsrReason=nonlinear?"nonlinear_color":"submission_hooks_unavailable";
+            if(!nonlinear&&ResTrack_Dx12::TsrSubmissionHooksReady()) {
+                auto projection=tsr::integration::ReadCameraProjection(binding.camera->camera,binding.width,binding.height);
+                if(projection)try {
+                    const bool newAnchor=!tsrLightAnchor||tsrAnchorRevision!=anchorRevision||
+                        tsrLightAnchor->source!=binding.camera->camera.source||tsrLightAnchor->viewport!=binding.camera->camera.viewport;
+                    const auto& anchor=newAnchor?binding.camera->camera:*tsrLightAnchor;
+                    auto lighting=tsr::integration::MakeLightingFrame(binding.camera->camera,anchor,tsrSmoothing);
+                    if(!lighting)throw std::runtime_error("Invalid camera-to-anchor basis");
+                    lighting->colorTransfer=tsrColorTransfer;
+                    lighting->sceneryProtection=tsrSceneryProtection?1.f:0.f;
+                    lighting->fadeStart=tsrReach*.25f;lighting->fadeEnd=tsrReach;
+                    if(!tsrRelighting)tsrRelighting=std::make_unique<tsr::integration::GameRelighting>(Device);
+                    if(auto* lit=tsrRelighting->Record(InCommandList,paramColor,paramDepth,binding.width,binding.height,
+                                                     *projection,tsrStrength,tsrReason,*lighting)) {
+                        if(newAnchor){
+                            tsrLightAnchor=binding.camera->camera;tsrAnchorRevision=anchorRevision;params.reset=true;
+                            LOG_INFO("TSR light anchor: revision={} camera_frame={} source={} viewport={} mode=world_fixed",
+                                anchorRevision,tsrLightAnchor->frame,tsrLightAnchor->source,tsrLightAnchor->viewport);
+                        }
+                        params.color=ffxApiGetResourceDX12(lit,FFX_API_RESOURCE_STATE_COMPUTE_READ);
+                        tsrActive=true;++tsr::game::relightingFrames;
+                    }
+                    tsr::game::relightingGpuMs=tsrRelighting->lastGpuMs;
+                }catch(const std::exception& e){tsrFailed=true;tsrReason="runtime_error";LOG_ERROR("TSR relighting disabled: {}",e.what());}
+            }
+        }
+    }
+    const bool tsrSettingsChanged=tsrStrength!=tsrLastStrength||tsrSmoothing!=tsrLastSmoothing||tsrColorTransfer!=tsrLastColorTransfer||
+        tsrSceneryProtection!=tsrLastSceneryProtection||tsrReach!=tsrLastReach;
+    if(tsrActive!=tsrWasActive || (tsrActive&&tsrSettingsChanged))params.reset=true;
+    ++tsrCalls;
+    if(tsrCalls<=3||tsrCalls%600==0||tsrActive!=tsrWasActive||tsrSettingsChanged)
+        LOG_INFO("TSR graphical relighting: call={} active={} reason={} strength={} recorded_frames={} gpu_ms={} hooks_ready={} nonlinear={} srgb={} pq={} smoothing={} anchor_revision={} camera_detail={} list_match={} color_match={} depth_match={} color_transfer={} scenery_protection={} effect_reach={} camera_match=unique_jitter_experimental model=world_v2 composition=v23 placement=pre_fsr",
+            tsrCalls,tsrActive,tsrReason,tsrStrength,tsr::game::relightingFrames.load(),tsr::game::relightingGpuMs.load(),
+            ResTrack_Dx12::TsrSubmissionHooksReady(),cfg.FsrNonLinearColorSpace.value_or_default(),cfg.FsrNonLinearSRGB.value_or_default(),cfg.FsrNonLinearPQ.value_or_default(),tsrSmoothing,tsrAnchorRevision,
+            binding.reason,binding.list==InCommandList,binding.color==paramColor,binding.depth==paramDepth,tsrColorTransfer,tsrSceneryProtection,tsrReach);
+    tsr::game::SetRelightingStatus(tsrReason);
+    tsrWasActive=tsrActive;tsrLastStrength=tsrStrength;tsrLastSmoothing=tsrSmoothing;tsrLastColorTransfer=tsrColorTransfer;tsr::game::relightingActive=tsrActive;
+    tsrLastSceneryProtection=tsrSceneryProtection;tsrLastReach=tsrReach;
     LOG_DEBUG("Dispatch!!");
     auto result = FfxApiProxy::D3D12_Dispatch(&_context, &params.header);
 
@@ -620,6 +683,12 @@ bool FFXFeatureDx12::EvaluateInternal(ID3D12GraphicsCommandList* InCommandList, 
                         (D3D12_RESOURCE_STATES) Config::Instance()->MaskResourceBarrier.value());
 
     _frameCount++;
+    if(_frameCount<=3 || (_frameCount<=18000 && _frameCount%600==0)) {
+        LOG_INFO("TSR FFX dispatch: provider={}.{}.{} frame={} result=OK render={}x{} output={}x{} auto_exposure={} pre_exposure={} depth_dxgi={} own_neural={}",
+                 Version().major,Version().minor,Version().patch,_frameCount,
+                 params.renderSize.width,params.renderSize.height,params.upscaleSize.width,params.upscaleSize.height,
+                 AutoExposure(),params.preExposure,paramDepth?int(paramDepth->GetDesc().Format):-1,tsrActive);
+    }
 
     return true;
 }
@@ -645,6 +714,12 @@ bool FFXFeatureDx12::InitFFX(const NVSDK_NGX_Parameter* InParameters)
 
         QueryVersionsDx12(Device);
 
+        if(State::Instance().ffxUpscalerVersionIds.empty() ||
+           State::Instance().ffxUpscalerVersionIds.size()!=State::Instance().ffxUpscalerVersionNames.size()) {
+            LOG_ERROR("TSR FFX: no valid upscaler providers; refusing invalid provider access");
+            return false;
+        }
+
         InitFlags();
 
         ffxCreateBackendDX12Desc backendDesc = { 0 };
@@ -663,12 +738,24 @@ bool FFXFeatureDx12::InitFFX(const NVSDK_NGX_Parameter* InParameters)
             State::Instance().ffxUpscalerVersionIds[Config::Instance()->FfxUpscalerIndex.value_or_default()];
         backendDesc.header.pNext = &override.header;
 
+        // SDK 2.1 requires explicit upscale API version negotiation. Keep this
+        // extension local to SR; the old frame-generation API stays independent.
+        const auto selectedName=State::Instance().ffxUpscalerVersionNames[Config::Instance()->FfxUpscalerIndex.value_or_default()];
+        feature_version selectedVersion{};
+        if(!selectedName){LOG_ERROR("TSR FFX: provider has no version name");return false;}
+        selectedVersion.parse_version(selectedName);
+        tsr::integration::UpscaleVersion apiVersion(&backendDesc.header);
+        if(selectedVersion>=feature_version(4,1,1))_contextDesc.header.pNext=&apiVersion.header;
+        LOG_INFO("TSR FFX: selected provider={} explicit_upscale_api_4_1_1={} (provider identity, not a quality claim)",
+                 selectedName,selectedVersion>=feature_version(4,1,1));
+
         LOG_DEBUG("_createContext!");
 
         {
             ScopedSkipHeapCapture skipHeapCapture {};
 
             auto ret = FfxApiProxy::D3D12_CreateContext(&_context, &_contextDesc.header, NULL);
+            _contextDesc.header.pNext=nullptr; // Never retain stack descriptors.
 
             if (ret != FFX_API_RETURN_OK)
             {

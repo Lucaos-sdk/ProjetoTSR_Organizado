@@ -1,0 +1,34 @@
+{
+  "changes": {
+    "XeFG.IgnoreInitChecks": "false",
+    "FrameGen.FGOutput": "xefg",
+    "FrameGen.Enabled": "true",
+    "XeFG.DepthInverted": "true",
+    "XeFG.JitteredMV": "false",
+    "Log.LogLevel": "2",
+    "OptiFG.DisableHUDFix": "true",
+    "XeFG.DebugView": "false",
+    "Libraries.XeLLPath": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\artifacts\\game-test\\witcher3-framegen-2x\\libxell.dll",
+    "FrameGen.FGInput": "upscaler",
+    "Log.LogFileName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Witcher 3\\bin\\x64_dx12\\TSR_FrameGen.log",
+    "XeFG.UIComposition": "false",
+    "Log.LogToFile": "true",
+    "OptiFG.HUDFix": "false",
+    "XeFG.HighResMV": "false",
+    "FSRFG.AllowAsync": "false",
+    "Libraries.XeFGPath": "C:\\Users\\Administrator\\Documents\\ProjetoTSR_Organizado\\artifacts\\game-test\\witcher3-framegen-2x\\libxess_fg.dll",
+    "XeFG.InterpolationCount": "1"
+  },
+  "interpolationOwner": "Intel",
+  "maxGeneratedFramesQueriedOnRX7600": 1,
+  "created": "2026-09-06T20:26:04.0304536-03:00",
+  "target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Witcher 3\\bin\\x64_dx12",
+  "hashes": {
+    "libxell.dll": "D2030DCD694FDA8F2EC7E044B13E6DB8F0B56D4BA9113A5EFAD334E3F3DED8C7",
+    "libxess_fg.dll": "EC5E0C65E075570C6EDE72618BB666D0BE0C2E10B2EA9762C0FE8CB8E375AB27",
+    "OptiScaler.ini": "D3E5E905FC157356B4723E0756F90E290E03C66EDA0F54E87161F80912C96536",
+    "dxgi.dll": "9D3D6644828C7883785EDEEAFCB66B6E7CDDC4271E1760000D00EC7A69E19EE8"
+  },
+  "kind": "FSR 4.1.1 + XeFG 2x integration test",
+  "multiFrameGeneration": false
+}

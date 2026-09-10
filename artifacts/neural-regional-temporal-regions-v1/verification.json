@@ -1,0 +1,29 @@
+{
+  "SourcesChecked": 6,
+  "MatchesEarlierEvaluation": [
+    {
+      "Model": "20260911_frozen",
+      "OriginalMean": 0.0052617916749221495,
+      "LocalizedMean": 0.0052617917442423804,
+      "Match": true
+    },
+    {
+      "Model": "20260911_joint",
+      "OriginalMean": 0.004876085752818075,
+      "LocalizedMean": 0.004876085752053619,
+      "Match": true
+    },
+    {
+      "Model": "20260912_frozen",
+      "OriginalMean": 0.004116177053998174,
+      "LocalizedMean": 0.004116177057856268,
+      "Match": true
+    },
+    {
+      "Model": "20260912_joint",
+      "OriginalMean": 0.004907967199385152,
+      "LocalizedMean": 0.004907967165275766,
+      "Match": true
+    }
+  ]
+}

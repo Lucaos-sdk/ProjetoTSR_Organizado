@@ -1,0 +1,17 @@
+{
+  "raw_cpu": {
+    "frames": 16,
+    "mean_mse_linear_rgb": 0.0039004675825,
+    "mean_residual_delta_mse_excluding_first": 0.004243977392
+  },
+  "stable_spatial_cpu": {
+    "frames": 16,
+    "mean_mse_linear_rgb": 0.003004106046375,
+    "mean_residual_delta_mse_excluding_first": 0.0036739624236
+  },
+  "temporal_gpu": {
+    "frames": 16,
+    "mean_mse_linear_rgb": 0.002602477881625,
+    "mean_residual_delta_mse_excluding_first": 0.0012458965958666668
+  }
+}

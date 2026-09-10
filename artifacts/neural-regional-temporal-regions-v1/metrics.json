@@ -1,0 +1,5262 @@
+{
+  "protocol": {
+    "ids": [
+      25000,
+      25001,
+      25002,
+      25003,
+      25004,
+      25005,
+      25006,
+      25007
+    ],
+    "families": [
+      "baseline",
+      "boxes"
+    ],
+    "resolution": [
+      384,
+      256
+    ],
+    "depth_noise": 0.0,
+    "yaws": [
+      -0.04,
+      0.0,
+      0.04
+    ],
+    "checkpoints": {
+      "20260911_frozen": "bbc0f8abdd0ef39c5f077ba98d57bd3a02438460b39148733c0ab05f38fcac49",
+      "20260911_joint": "dc74d87ebf4efa6dcc7f7b1d0bf4faeec6964e936e0a26d250b4877677957983",
+      "20260912_frozen": "4d56f29cc64afc20d6019d333322b9ddbe3b9bc495e7048dfbb2669acb4421f6",
+      "20260912_joint": "77d1f1c5e0644f0dbd0ce478a13cf51697946a754839a42bdd143c8b4e7f2c4b"
+    },
+    "nature": "post-hoc diagnostic on already evaluated scenes, not an independent test or model selection",
+    "partition": "visible correspondences: union of 2-pixel dilated geometry boundary in both frames; remaining ground; remaining objects",
+    "limitations": "Location alone does not identify the source of error or predict effects of a new reconstruction operator."
+  },
+  "summary": {
+    "20260911_frozen": {
+      "boundary": {
+        "samples": 122634,
+        "error_sum": 691.5027061998844,
+        "mean": 0.005638751946441317,
+        "error_fraction": 0.028552917141264778,
+        "sample_fraction": 0.026644105843804975
+      },
+      "ground": {
+        "samples": 4426017,
+        "error_sum": 23164.471466064453,
+        "mean": 0.005233705940592739,
+        "error_fraction": 0.9564868343415329,
+        "sample_fraction": 0.9616196602449578
+      },
+      "objects": {
+        "samples": 54018,
+        "error_sum": 362.31157341599464,
+        "mean": 0.006707237835832401,
+        "error_fraction": 0.014960248517202252,
+        "sample_fraction": 0.011736233911237154
+      }
+    },
+    "20260911_joint": {
+      "boundary": {
+        "samples": 122634,
+        "error_sum": 597.9616720080376,
+        "mean": 0.00487598603982613,
+        "error_fraction": 0.026643560992200995,
+        "sample_fraction": 0.026644105843804975
+      },
+      "ground": {
+        "samples": 4426017,
+        "error_sum": 21471.976043701172,
+        "mean": 0.0048513089858672415,
+        "error_fraction": 0.9567333996881007,
+        "sample_fraction": 0.9616196602449578
+      },
+      "objects": {
+        "samples": 54018,
+        "error_sum": 373.07101660966873,
+        "mean": 0.006906420389678787,
+        "error_fraction": 0.016623039319698288,
+        "sample_fraction": 0.011736233911237154
+      }
+    },
+    "20260912_frozen": {
+      "boundary": {
+        "samples": 122634,
+        "error_sum": 634.845939129591,
+        "mean": 0.005176753095630828,
+        "error_fraction": 0.033509238176228424,
+        "sample_fraction": 0.026644105843804975
+      },
+      "ground": {
+        "samples": 4426017,
+        "error_sum": 17929.881378173828,
+        "mean": 0.004051019546055478,
+        "error_fraction": 0.9463975880455383,
+        "sample_fraction": 0.9616196602449578
+      },
+      "objects": {
+        "samples": 54018,
+        "error_sum": 380.67322540283203,
+        "mean": 0.0070471551224190465,
+        "error_fraction": 0.020093173778233293,
+        "sample_fraction": 0.011736233911237154
+      }
+    },
+    "20260912_joint": {
+      "boundary": {
+        "samples": 122634,
+        "error_sum": 602.8331482708454,
+        "mean": 0.004915709740127904,
+        "error_fraction": 0.026686138314055287,
+        "sample_fraction": 0.026644105843804975
+      },
+      "ground": {
+        "samples": 4426017,
+        "error_sum": 21562.567962646484,
+        "mean": 0.004871777031729992,
+        "error_fraction": 0.9545289151864482,
+        "sample_fraction": 0.9616196602449578
+      },
+      "objects": {
+        "samples": 54018,
+        "error_sum": 424.34721371531487,
+        "mean": 0.007855663181075102,
+        "error_fraction": 0.018784946499496497,
+        "sample_fraction": 0.011736233911237154
+      }
+    }
+  },
+  "rows": {
+    "20260911_frozen": [
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2970,
+            "error_sum": 21.517627716064453
+          },
+          "ground": {
+            "samples": 67689,
+            "error_sum": 379.299072265625
+          },
+          "objects": {
+            "samples": 1608,
+            "error_sum": 12.925759315490723
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2598,
+            "error_sum": 17.245243072509766
+          },
+          "ground": {
+            "samples": 68292,
+            "error_sum": 364.83447265625
+          },
+          "objects": {
+            "samples": 858,
+            "error_sum": 2.419550895690918
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.03316442668437958
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 311.59490966796875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0348411500453949
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 314.8392028808594
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2301,
+            "error_sum": 21.855466842651367
+          },
+          "ground": {
+            "samples": 68658,
+            "error_sum": 406.6844482421875
+          },
+          "objects": {
+            "samples": 552,
+            "error_sum": 3.2772908210754395
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2259,
+            "error_sum": 14.670515060424805
+          },
+          "ground": {
+            "samples": 68598,
+            "error_sum": 378.7622375488281
+          },
+          "objects": {
+            "samples": 951,
+            "error_sum": 4.129519462585449
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.043124690651893616
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 314.5087585449219
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.04409879446029663
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 313.52471923828125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2403,
+            "error_sum": 9.317802429199219
+          },
+          "ground": {
+            "samples": 67854,
+            "error_sum": 374.508056640625
+          },
+          "objects": {
+            "samples": 1470,
+            "error_sum": 5.847198009490967
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2433,
+            "error_sum": 14.781818389892578
+          },
+          "ground": {
+            "samples": 67152,
+            "error_sum": 344.59210205078125
+          },
+          "objects": {
+            "samples": 2106,
+            "error_sum": 12.526334762573242
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.059331655502319336
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 327.3612976074219
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.060467347502708435
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 325.1910095214844
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3843,
+            "error_sum": 27.77692413330078
+          },
+          "ground": {
+            "samples": 64944,
+            "error_sum": 447.8559875488281
+          },
+          "objects": {
+            "samples": 3033,
+            "error_sum": 13.52614974975586
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3939,
+            "error_sum": 36.54376983642578
+          },
+          "ground": {
+            "samples": 64620,
+            "error_sum": 455.6456604003906
+          },
+          "objects": {
+            "samples": 3441,
+            "error_sum": 24.76305389404297
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07449136674404144
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 341.341064453125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07641682028770447
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 343.8103332519531
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3468,
+            "error_sum": 23.594013214111328
+          },
+          "ground": {
+            "samples": 68148,
+            "error_sum": 434.1107482910156
+          },
+          "objects": {
+            "samples": 2268,
+            "error_sum": 10.608160018920898
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3516,
+            "error_sum": 27.6503963470459
+          },
+          "ground": {
+            "samples": 67623,
+            "error_sum": 434.49505615234375
+          },
+          "objects": {
+            "samples": 2541,
+            "error_sum": 16.690441131591797
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07199129462242126
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 330.4659423828125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07361660897731781
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 331.11053466796875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1404,
+            "error_sum": 2.742166042327881
+          },
+          "ground": {
+            "samples": 70437,
+            "error_sum": 374.47601318359375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1512,
+            "error_sum": 3.7794995307922363
+          },
+          "ground": {
+            "samples": 69936,
+            "error_sum": 365.6964416503906
+          },
+          "objects": {
+            "samples": 12,
+            "error_sum": 0.04869993031024933
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.025816529989242554
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 337.737548828125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.02822984755039215
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 341.02484130859375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2079,
+            "error_sum": 7.007978916168213
+          },
+          "ground": {
+            "samples": 69102,
+            "error_sum": 348.5194091796875
+          },
+          "objects": {
+            "samples": 792,
+            "error_sum": 4.668030738830566
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2037,
+            "error_sum": 10.626753807067871
+          },
+          "ground": {
+            "samples": 69981,
+            "error_sum": 355.3128662109375
+          },
+          "objects": {
+            "samples": 291,
+            "error_sum": 1.961838960647583
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.01372992992401123
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 311.2929382324219
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.015575408935546875
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 313.7086181640625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2586,
+            "error_sum": 13.801365852355957
+          },
+          "ground": {
+            "samples": 68634,
+            "error_sum": 352.913330078125
+          },
+          "objects": {
+            "samples": 1509,
+            "error_sum": 6.479410171508789
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2424,
+            "error_sum": 11.494101524353027
+          },
+          "ground": {
+            "samples": 68763,
+            "error_sum": 347.91363525390625
+          },
+          "objects": {
+            "samples": 1263,
+            "error_sum": 5.462441444396973
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.01064695417881012
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 296.0746154785156
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.011283963918685913
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 294.6777648925781
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3258,
+            "error_sum": 41.718544006347656
+          },
+          "ground": {
+            "samples": 66795,
+            "error_sum": 485.0994873046875
+          },
+          "objects": {
+            "samples": 2130,
+            "error_sum": 12.64799976348877
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2778,
+            "error_sum": 20.362497329711914
+          },
+          "ground": {
+            "samples": 67398,
+            "error_sum": 402.5731506347656
+          },
+          "objects": {
+            "samples": 1296,
+            "error_sum": 4.761798858642578
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.03316442668437958
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 311.59490966796875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0348411500453949
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 314.8392028808594
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2832,
+            "error_sum": 43.791839599609375
+          },
+          "ground": {
+            "samples": 67596,
+            "error_sum": 435.8320007324219
+          },
+          "objects": {
+            "samples": 942,
+            "error_sum": 13.291309356689453
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2748,
+            "error_sum": 23.1497802734375
+          },
+          "ground": {
+            "samples": 67353,
+            "error_sum": 388.66412353515625
+          },
+          "objects": {
+            "samples": 1503,
+            "error_sum": 13.991066932678223
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.043124690651893616
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 314.5087585449219
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.04409879446029663
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 313.52471923828125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2529,
+            "error_sum": 11.449176788330078
+          },
+          "ground": {
+            "samples": 67794,
+            "error_sum": 373.60986328125
+          },
+          "objects": {
+            "samples": 1470,
+            "error_sum": 5.348979473114014
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2691,
+            "error_sum": 26.86170768737793
+          },
+          "ground": {
+            "samples": 66912,
+            "error_sum": 346.20904541015625
+          },
+          "objects": {
+            "samples": 2106,
+            "error_sum": 11.901640892028809
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.059331655502319336
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 327.3612976074219
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.060467347502708435
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 325.1910095214844
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 4572,
+            "error_sum": 67.58218383789062
+          },
+          "ground": {
+            "samples": 62289,
+            "error_sum": 478.0143127441406
+          },
+          "objects": {
+            "samples": 5385,
+            "error_sum": 47.804298400878906
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3837,
+            "error_sum": 47.38140106201172
+          },
+          "ground": {
+            "samples": 62184,
+            "error_sum": 637.3094482421875
+          },
+          "objects": {
+            "samples": 5499,
+            "error_sum": 45.920169830322266
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07449136674404144
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 341.341064453125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07641682028770447
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 343.8103332519531
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 4251,
+            "error_sum": 40.87258529663086
+          },
+          "ground": {
+            "samples": 65997,
+            "error_sum": 488.7567138671875
+          },
+          "objects": {
+            "samples": 3225,
+            "error_sum": 34.03668975830078
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 4125,
+            "error_sum": 34.16371154785156
+          },
+          "ground": {
+            "samples": 65685,
+            "error_sum": 455.20623779296875
+          },
+          "objects": {
+            "samples": 3462,
+            "error_sum": 23.18318748474121
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07199129462242126
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 330.4659423828125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07361660897731781
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 331.11053466796875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1824,
+            "error_sum": 11.775215148925781
+          },
+          "ground": {
+            "samples": 69987,
+            "error_sum": 381.6812438964844
+          },
+          "objects": {
+            "samples": 33,
+            "error_sum": 0.15560495853424072
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1809,
+            "error_sum": 4.9747843742370605
+          },
+          "ground": {
+            "samples": 69306,
+            "error_sum": 385.9693298339844
+          },
+          "objects": {
+            "samples": 15,
+            "error_sum": 0.16797251999378204
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.025816529989242554
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 337.737548828125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.02822984755039215
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 341.02484130859375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2382,
+            "error_sum": 11.882407188415527
+          },
+          "ground": {
+            "samples": 68736,
+            "error_sum": 350.215087890625
+          },
+          "objects": {
+            "samples": 894,
+            "error_sum": 7.195558547973633
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2286,
+            "error_sum": 14.321981430053711
+          },
+          "ground": {
+            "samples": 69633,
+            "error_sum": 354.7604064941406
+          },
+          "objects": {
+            "samples": 393,
+            "error_sum": 4.299696922302246
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.01372992992401123
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 311.2929382324219
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.015575408935546875
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 313.7086181640625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2661,
+            "error_sum": 15.793813705444336
+          },
+          "ground": {
+            "samples": 68436,
+            "error_sum": 378.39935302734375
+          },
+          "objects": {
+            "samples": 1629,
+            "error_sum": 6.705979824066162
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2487,
+            "error_sum": 9.661980628967285
+          },
+          "ground": {
+            "samples": 68637,
+            "error_sum": 360.02392578125
+          },
+          "objects": {
+            "samples": 1341,
+            "error_sum": 5.565740585327148
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.01064695417881012
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 296.0746154785156
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.011283963918685913
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 294.6777648925781
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      }
+    ],
+    "20260911_joint": [
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2970,
+            "error_sum": 18.610231399536133
+          },
+          "ground": {
+            "samples": 67689,
+            "error_sum": 321.07501220703125
+          },
+          "objects": {
+            "samples": 1608,
+            "error_sum": 8.374187469482422
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2598,
+            "error_sum": 13.692977905273438
+          },
+          "ground": {
+            "samples": 68292,
+            "error_sum": 332.75189208984375
+          },
+          "objects": {
+            "samples": 858,
+            "error_sum": 3.067946434020996
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0069338977336883545
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 299.255859375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.006848841905593872
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 319.2806396484375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2301,
+            "error_sum": 17.760602951049805
+          },
+          "ground": {
+            "samples": 68658,
+            "error_sum": 314.121826171875
+          },
+          "objects": {
+            "samples": 552,
+            "error_sum": 2.771223545074463
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2259,
+            "error_sum": 15.336376190185547
+          },
+          "ground": {
+            "samples": 68598,
+            "error_sum": 363.05584716796875
+          },
+          "objects": {
+            "samples": 951,
+            "error_sum": 6.497708320617676
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.008268699049949646
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 283.29229736328125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.007912740111351013
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 313.5211181640625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2403,
+            "error_sum": 12.911026000976562
+          },
+          "ground": {
+            "samples": 67854,
+            "error_sum": 303.2209777832031
+          },
+          "objects": {
+            "samples": 1470,
+            "error_sum": 6.047598838806152
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2433,
+            "error_sum": 16.72551155090332
+          },
+          "ground": {
+            "samples": 67152,
+            "error_sum": 319.2533874511719
+          },
+          "objects": {
+            "samples": 2106,
+            "error_sum": 10.450161933898926
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.009307831525802612
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 285.72991943359375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.008413746953010559
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 316.18408203125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3843,
+            "error_sum": 25.72435188293457
+          },
+          "ground": {
+            "samples": 64944,
+            "error_sum": 334.7054443359375
+          },
+          "objects": {
+            "samples": 3033,
+            "error_sum": 14.488960266113281
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3939,
+            "error_sum": 27.34782600402832
+          },
+          "ground": {
+            "samples": 64620,
+            "error_sum": 380.37548828125
+          },
+          "objects": {
+            "samples": 3441,
+            "error_sum": 26.113155364990234
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.01157328486442566
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 295.7618713378906
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.010538488626480103
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 327.7341613769531
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3468,
+            "error_sum": 19.826688766479492
+          },
+          "ground": {
+            "samples": 68148,
+            "error_sum": 312.9764709472656
+          },
+          "objects": {
+            "samples": 2268,
+            "error_sum": 12.397796630859375
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3516,
+            "error_sum": 22.93448829650879
+          },
+          "ground": {
+            "samples": 67623,
+            "error_sum": 367.8999328613281
+          },
+          "objects": {
+            "samples": 2541,
+            "error_sum": 18.172475814819336
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.010469555854797363
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 282.5555725097656
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.009409457445144653
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 318.802490234375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1404,
+            "error_sum": 2.3771252632141113
+          },
+          "ground": {
+            "samples": 70437,
+            "error_sum": 375.90936279296875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1512,
+            "error_sum": 1.1486246585845947
+          },
+          "ground": {
+            "samples": 69936,
+            "error_sum": 373.7674255371094
+          },
+          "objects": {
+            "samples": 12,
+            "error_sum": 0.06437614560127258
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.00616125762462616
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 360.3916015625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0061936527490615845
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 360.3163146972656
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2079,
+            "error_sum": 6.527349948883057
+          },
+          "ground": {
+            "samples": 69102,
+            "error_sum": 365.10498046875
+          },
+          "objects": {
+            "samples": 792,
+            "error_sum": 6.970469951629639
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2037,
+            "error_sum": 11.717246055603027
+          },
+          "ground": {
+            "samples": 69981,
+            "error_sum": 372.6055908203125
+          },
+          "objects": {
+            "samples": 291,
+            "error_sum": 1.6594152450561523
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.003872588276863098
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 349.80291748046875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.003988191485404968
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 347.7457580566406
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2586,
+            "error_sum": 11.027335166931152
+          },
+          "ground": {
+            "samples": 68634,
+            "error_sum": 352.6002197265625
+          },
+          "objects": {
+            "samples": 1509,
+            "error_sum": 8.977441787719727
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2424,
+            "error_sum": 9.921564102172852
+          },
+          "ground": {
+            "samples": 68763,
+            "error_sum": 347.802001953125
+          },
+          "objects": {
+            "samples": 1263,
+            "error_sum": 6.708919525146484
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0035697519779205322
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 331.6705322265625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.003529980778694153
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 327.2659912109375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3258,
+            "error_sum": 37.260826110839844
+          },
+          "ground": {
+            "samples": 66795,
+            "error_sum": 329.3419189453125
+          },
+          "objects": {
+            "samples": 2130,
+            "error_sum": 13.491361618041992
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2778,
+            "error_sum": 16.675870895385742
+          },
+          "ground": {
+            "samples": 67398,
+            "error_sum": 344.7283935546875
+          },
+          "objects": {
+            "samples": 1296,
+            "error_sum": 6.34116268157959
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0069338977336883545
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 299.255859375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.006848841905593872
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 319.2806396484375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2832,
+            "error_sum": 34.26390075683594
+          },
+          "ground": {
+            "samples": 67596,
+            "error_sum": 346.09356689453125
+          },
+          "objects": {
+            "samples": 942,
+            "error_sum": 10.211965560913086
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2748,
+            "error_sum": 20.6646728515625
+          },
+          "ground": {
+            "samples": 67353,
+            "error_sum": 370.26690673828125
+          },
+          "objects": {
+            "samples": 1503,
+            "error_sum": 12.695241928100586
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.008268699049949646
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 283.29229736328125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.007912740111351013
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 313.5211181640625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2529,
+            "error_sum": 15.498024940490723
+          },
+          "ground": {
+            "samples": 67794,
+            "error_sum": 302.3925476074219
+          },
+          "objects": {
+            "samples": 1470,
+            "error_sum": 6.2200188636779785
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2691,
+            "error_sum": 28.499853134155273
+          },
+          "ground": {
+            "samples": 66912,
+            "error_sum": 319.3701477050781
+          },
+          "objects": {
+            "samples": 2106,
+            "error_sum": 10.466257095336914
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.009307831525802612
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 285.72991943359375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.008413746953010559
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 316.18408203125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 4572,
+            "error_sum": 55.271087646484375
+          },
+          "ground": {
+            "samples": 62289,
+            "error_sum": 366.22906494140625
+          },
+          "objects": {
+            "samples": 5385,
+            "error_sum": 73.25247192382812
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3837,
+            "error_sum": 42.614131927490234
+          },
+          "ground": {
+            "samples": 62184,
+            "error_sum": 418.8268127441406
+          },
+          "objects": {
+            "samples": 5499,
+            "error_sum": 39.93828582763672
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.01157328486442566
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 295.7618713378906
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.010538488626480103
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 327.7341613769531
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 4251,
+            "error_sum": 24.887685775756836
+          },
+          "ground": {
+            "samples": 65997,
+            "error_sum": 322.02142333984375
+          },
+          "objects": {
+            "samples": 3225,
+            "error_sum": 28.502254486083984
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 4125,
+            "error_sum": 26.933250427246094
+          },
+          "ground": {
+            "samples": 65685,
+            "error_sum": 377.6182556152344
+          },
+          "objects": {
+            "samples": 3462,
+            "error_sum": 13.779769897460938
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.010469555854797363
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 282.5555725097656
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.009409457445144653
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 318.802490234375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1824,
+            "error_sum": 8.63770866394043
+          },
+          "ground": {
+            "samples": 69987,
+            "error_sum": 381.9769287109375
+          },
+          "objects": {
+            "samples": 33,
+            "error_sum": 0.08367514610290527
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1809,
+            "error_sum": 3.4338884353637695
+          },
+          "ground": {
+            "samples": 69306,
+            "error_sum": 381.9810791015625
+          },
+          "objects": {
+            "samples": 15,
+            "error_sum": 0.25466659665107727
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.00616125762462616
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 360.3916015625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0061936527490615845
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 360.3163146972656
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2382,
+            "error_sum": 8.978069305419922
+          },
+          "ground": {
+            "samples": 68736,
+            "error_sum": 365.8868408203125
+          },
+          "objects": {
+            "samples": 894,
+            "error_sum": 6.945193290710449
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2286,
+            "error_sum": 13.848044395446777
+          },
+          "ground": {
+            "samples": 69633,
+            "error_sum": 369.2467041015625
+          },
+          "objects": {
+            "samples": 393,
+            "error_sum": 2.2153515815734863
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.003872588276863098
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 349.80291748046875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.003988191485404968
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 347.7457580566406
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2661,
+            "error_sum": 15.32324504852295
+          },
+          "ground": {
+            "samples": 68436,
+            "error_sum": 353.11846923828125
+          },
+          "objects": {
+            "samples": 1629,
+            "error_sum": 8.803667068481445
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2487,
+            "error_sum": 11.348101615905762
+          },
+          "ground": {
+            "samples": 68637,
+            "error_sum": 347.02886962890625
+          },
+          "objects": {
+            "samples": 1341,
+            "error_sum": 7.10783576965332
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0035697519779205322
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 331.6705322265625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.003529980778694153
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 327.2659912109375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      }
+    ],
+    "20260912_frozen": [
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2970,
+            "error_sum": 21.631805419921875
+          },
+          "ground": {
+            "samples": 67689,
+            "error_sum": 322.70623779296875
+          },
+          "objects": {
+            "samples": 1608,
+            "error_sum": 11.578969955444336
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2598,
+            "error_sum": 20.79326057434082
+          },
+          "ground": {
+            "samples": 68292,
+            "error_sum": 322.9784240722656
+          },
+          "objects": {
+            "samples": 858,
+            "error_sum": 4.611085414886475
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.10854049026966095
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 252.22268676757812
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.11278694868087769
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 251.640869140625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2301,
+            "error_sum": 18.299673080444336
+          },
+          "ground": {
+            "samples": 68658,
+            "error_sum": 291.7198791503906
+          },
+          "objects": {
+            "samples": 552,
+            "error_sum": 3.4434874057769775
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2259,
+            "error_sum": 14.169224739074707
+          },
+          "ground": {
+            "samples": 68598,
+            "error_sum": 283.0276184082031
+          },
+          "objects": {
+            "samples": 951,
+            "error_sum": 4.3862152099609375
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.14365698397159576
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 244.04820251464844
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.1473439633846283
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 243.26364135742188
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2403,
+            "error_sum": 12.487037658691406
+          },
+          "ground": {
+            "samples": 67854,
+            "error_sum": 275.159912109375
+          },
+          "objects": {
+            "samples": 1470,
+            "error_sum": 5.310157775878906
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2433,
+            "error_sum": 19.6689453125
+          },
+          "ground": {
+            "samples": 67152,
+            "error_sum": 270.8344421386719
+          },
+          "objects": {
+            "samples": 2106,
+            "error_sum": 10.381046295166016
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.1986270546913147
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 256.51873779296875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.20334920287132263
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 256.1571044921875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3843,
+            "error_sum": 27.957971572875977
+          },
+          "ground": {
+            "samples": 64944,
+            "error_sum": 317.52191162109375
+          },
+          "objects": {
+            "samples": 3033,
+            "error_sum": 9.7877779006958
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3939,
+            "error_sum": 25.388317108154297
+          },
+          "ground": {
+            "samples": 64620,
+            "error_sum": 312.06475830078125
+          },
+          "objects": {
+            "samples": 3441,
+            "error_sum": 19.176223754882812
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.23622660338878632
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 268.77630615234375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.24248258769512177
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 268.3359375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3468,
+            "error_sum": 17.18697166442871
+          },
+          "ground": {
+            "samples": 68148,
+            "error_sum": 309.761962890625
+          },
+          "objects": {
+            "samples": 2268,
+            "error_sum": 19.154943466186523
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3516,
+            "error_sum": 22.072376251220703
+          },
+          "ground": {
+            "samples": 67623,
+            "error_sum": 315.91607666015625
+          },
+          "objects": {
+            "samples": 2541,
+            "error_sum": 14.921174049377441
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.23639996349811554
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 258.950439453125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.24209102988243103
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 257.9578552246094
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1404,
+            "error_sum": 2.6828510761260986
+          },
+          "ground": {
+            "samples": 70437,
+            "error_sum": 317.6233825683594
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1512,
+            "error_sum": 2.525970220565796
+          },
+          "ground": {
+            "samples": 69936,
+            "error_sum": 297.36871337890625
+          },
+          "objects": {
+            "samples": 12,
+            "error_sum": 0.1622181534767151
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07858480513095856
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 283.51629638671875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.08321358263492584
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 282.65118408203125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2079,
+            "error_sum": 7.242703914642334
+          },
+          "ground": {
+            "samples": 69102,
+            "error_sum": 287.8080749511719
+          },
+          "objects": {
+            "samples": 792,
+            "error_sum": 4.76834774017334
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2037,
+            "error_sum": 10.666248321533203
+          },
+          "ground": {
+            "samples": 69981,
+            "error_sum": 290.16998291015625
+          },
+          "objects": {
+            "samples": 291,
+            "error_sum": 2.2054128646850586
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0460222065448761
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 266.44354248046875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.04956988990306854
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 264.8173828125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2586,
+            "error_sum": 14.213245391845703
+          },
+          "ground": {
+            "samples": 68634,
+            "error_sum": 273.9451904296875
+          },
+          "objects": {
+            "samples": 1509,
+            "error_sum": 7.058574199676514
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2424,
+            "error_sum": 11.22442626953125
+          },
+          "ground": {
+            "samples": 68763,
+            "error_sum": 259.09930419921875
+          },
+          "objects": {
+            "samples": 1263,
+            "error_sum": 4.954959869384766
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.04689663648605347
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 232.15383911132812
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.04888416826725006
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 231.21490478515625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3258,
+            "error_sum": 42.840057373046875
+          },
+          "ground": {
+            "samples": 66795,
+            "error_sum": 340.1465759277344
+          },
+          "objects": {
+            "samples": 2130,
+            "error_sum": 16.0460262298584
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2778,
+            "error_sum": 25.75919532775879
+          },
+          "ground": {
+            "samples": 67398,
+            "error_sum": 310.76226806640625
+          },
+          "objects": {
+            "samples": 1296,
+            "error_sum": 7.81558895111084
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.10854049026966095
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 252.22268676757812
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.11278694868087769
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 251.640869140625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2832,
+            "error_sum": 26.265932083129883
+          },
+          "ground": {
+            "samples": 67596,
+            "error_sum": 286.77960205078125
+          },
+          "objects": {
+            "samples": 942,
+            "error_sum": 10.554311752319336
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2748,
+            "error_sum": 19.309654235839844
+          },
+          "ground": {
+            "samples": 67353,
+            "error_sum": 295.685791015625
+          },
+          "objects": {
+            "samples": 1503,
+            "error_sum": 14.003898620605469
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.14365698397159576
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 244.04820251464844
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.1473439633846283
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 243.26364135742188
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2529,
+            "error_sum": 14.671029090881348
+          },
+          "ground": {
+            "samples": 67794,
+            "error_sum": 280.94091796875
+          },
+          "objects": {
+            "samples": 1470,
+            "error_sum": 5.028295040130615
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2691,
+            "error_sum": 30.383928298950195
+          },
+          "ground": {
+            "samples": 66912,
+            "error_sum": 270.9071960449219
+          },
+          "objects": {
+            "samples": 2106,
+            "error_sum": 10.594874382019043
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.1986270546913147
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 256.51873779296875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.20334920287132263
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 256.1571044921875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 4572,
+            "error_sum": 50.33351135253906
+          },
+          "ground": {
+            "samples": 62289,
+            "error_sum": 364.8772277832031
+          },
+          "objects": {
+            "samples": 5385,
+            "error_sum": 70.97125244140625
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3837,
+            "error_sum": 40.6010627746582
+          },
+          "ground": {
+            "samples": 62184,
+            "error_sum": 379.0578918457031
+          },
+          "objects": {
+            "samples": 5499,
+            "error_sum": 53.07172393798828
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.23622660338878632
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 268.77630615234375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.24248258769512177
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 268.3359375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 4251,
+            "error_sum": 24.17757797241211
+          },
+          "ground": {
+            "samples": 65997,
+            "error_sum": 344.7229309082031
+          },
+          "objects": {
+            "samples": 3225,
+            "error_sum": 21.771106719970703
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 4125,
+            "error_sum": 30.633630752563477
+          },
+          "ground": {
+            "samples": 65685,
+            "error_sum": 333.7765197753906
+          },
+          "objects": {
+            "samples": 3462,
+            "error_sum": 22.841346740722656
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.23639996349811554
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 258.950439453125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.24209102988243103
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 257.9578552246094
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1824,
+            "error_sum": 10.260930061340332
+          },
+          "ground": {
+            "samples": 69987,
+            "error_sum": 309.54327392578125
+          },
+          "objects": {
+            "samples": 33,
+            "error_sum": 0.32070285081863403
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1809,
+            "error_sum": 6.589088439941406
+          },
+          "ground": {
+            "samples": 69306,
+            "error_sum": 308.343994140625
+          },
+          "objects": {
+            "samples": 15,
+            "error_sum": 0.34756314754486084
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.07858480513095856
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 283.51629638671875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.08321358263492584
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 282.65118408203125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2382,
+            "error_sum": 10.30721664428711
+          },
+          "ground": {
+            "samples": 68736,
+            "error_sum": 287.0078125
+          },
+          "objects": {
+            "samples": 894,
+            "error_sum": 6.796759605407715
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2286,
+            "error_sum": 12.360981941223145
+          },
+          "ground": {
+            "samples": 69633,
+            "error_sum": 293.45745849609375
+          },
+          "objects": {
+            "samples": 393,
+            "error_sum": 4.007540702819824
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0460222065448761
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 266.44354248046875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.04956988990306854
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 264.8173828125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2661,
+            "error_sum": 24.02288818359375
+          },
+          "ground": {
+            "samples": 68436,
+            "error_sum": 284.782958984375
+          },
+          "objects": {
+            "samples": 1629,
+            "error_sum": 8.724153518676758
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2487,
+            "error_sum": 13.66887378692627
+          },
+          "ground": {
+            "samples": 68637,
+            "error_sum": 254.04522705078125
+          },
+          "objects": {
+            "samples": 1341,
+            "error_sum": 5.877486705780029
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.04689663648605347
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 232.15383911132812
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.04888416826725006
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 231.21490478515625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      }
+    ],
+    "20260912_joint": [
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2970,
+            "error_sum": 19.420488357543945
+          },
+          "ground": {
+            "samples": 67689,
+            "error_sum": 351.78643798828125
+          },
+          "objects": {
+            "samples": 1608,
+            "error_sum": 10.544130325317383
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2598,
+            "error_sum": 16.008878707885742
+          },
+          "ground": {
+            "samples": 68292,
+            "error_sum": 368.81671142578125
+          },
+          "objects": {
+            "samples": 858,
+            "error_sum": 2.819699764251709
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.008532106876373291
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 325.83685302734375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.008272245526313782
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 328.7344665527344
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2301,
+            "error_sum": 17.781339645385742
+          },
+          "ground": {
+            "samples": 68658,
+            "error_sum": 337.6265563964844
+          },
+          "objects": {
+            "samples": 552,
+            "error_sum": 2.2761001586914062
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2259,
+            "error_sum": 12.847246170043945
+          },
+          "ground": {
+            "samples": 68598,
+            "error_sum": 326.5184631347656
+          },
+          "objects": {
+            "samples": 951,
+            "error_sum": 8.094191551208496
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.009923160076141357
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 291.15301513671875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.009465083479881287
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 300.8741455078125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2403,
+            "error_sum": 12.416406631469727
+          },
+          "ground": {
+            "samples": 67854,
+            "error_sum": 316.71630859375
+          },
+          "objects": {
+            "samples": 1470,
+            "error_sum": 5.020400047302246
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2433,
+            "error_sum": 14.862665176391602
+          },
+          "ground": {
+            "samples": 67152,
+            "error_sum": 314.0218505859375
+          },
+          "objects": {
+            "samples": 2106,
+            "error_sum": 8.944188117980957
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.011544480919837952
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 298.88006591796875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.010952159762382507
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 311.35400390625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3843,
+            "error_sum": 24.479259490966797
+          },
+          "ground": {
+            "samples": 64944,
+            "error_sum": 374.77392578125
+          },
+          "objects": {
+            "samples": 3033,
+            "error_sum": 13.48270034790039
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3939,
+            "error_sum": 28.612545013427734
+          },
+          "ground": {
+            "samples": 64620,
+            "error_sum": 381.3039855957031
+          },
+          "objects": {
+            "samples": 3441,
+            "error_sum": 14.428428649902344
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.01456819474697113
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 328.99969482421875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.013804227113723755
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 349.6242370605469
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3468,
+            "error_sum": 18.417490005493164
+          },
+          "ground": {
+            "samples": 68148,
+            "error_sum": 347.7302551269531
+          },
+          "objects": {
+            "samples": 2268,
+            "error_sum": 19.308792114257812
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3516,
+            "error_sum": 20.79529571533203
+          },
+          "ground": {
+            "samples": 67623,
+            "error_sum": 403.5760192871094
+          },
+          "objects": {
+            "samples": 2541,
+            "error_sum": 21.7593994140625
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.013600707054138184
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 306.4159240722656
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.012969925999641418
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 327.7308654785156
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1404,
+            "error_sum": 2.381356716156006
+          },
+          "ground": {
+            "samples": 70437,
+            "error_sum": 399.03265380859375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1512,
+            "error_sum": 1.1800795793533325
+          },
+          "ground": {
+            "samples": 69936,
+            "error_sum": 386.8844909667969
+          },
+          "objects": {
+            "samples": 12,
+            "error_sum": 0.05623573064804077
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.007538497447967529
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 381.527099609375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.007547557353973389
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 368.3619384765625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2079,
+            "error_sum": 7.340173244476318
+          },
+          "ground": {
+            "samples": 69102,
+            "error_sum": 348.181640625
+          },
+          "objects": {
+            "samples": 792,
+            "error_sum": 3.9370548725128174
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2037,
+            "error_sum": 11.4966459274292
+          },
+          "ground": {
+            "samples": 69981,
+            "error_sum": 358.6370544433594
+          },
+          "objects": {
+            "samples": 291,
+            "error_sum": 1.9028728008270264
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.004214838147163391
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 337.9024353027344
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0044806599617004395
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 327.8250732421875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2586,
+            "error_sum": 11.734987258911133
+          },
+          "ground": {
+            "samples": 68634,
+            "error_sum": 291.2907409667969
+          },
+          "objects": {
+            "samples": 1509,
+            "error_sum": 6.513967990875244
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2424,
+            "error_sum": 9.785065650939941
+          },
+          "ground": {
+            "samples": 68763,
+            "error_sum": 268.69207763671875
+          },
+          "objects": {
+            "samples": 1263,
+            "error_sum": 5.728174209594727
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0034077465534210205
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 281.7247009277344
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "baseline",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0033603310585021973
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 251.78903198242188
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 3258,
+            "error_sum": 40.00035858154297
+          },
+          "ground": {
+            "samples": 66795,
+            "error_sum": 364.04949951171875
+          },
+          "objects": {
+            "samples": 2130,
+            "error_sum": 16.720428466796875
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2778,
+            "error_sum": 20.12545394897461
+          },
+          "ground": {
+            "samples": 67398,
+            "error_sum": 376.3260803222656
+          },
+          "objects": {
+            "samples": 1296,
+            "error_sum": 8.633170127868652
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.008532106876373291
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 325.83685302734375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25000,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.008272245526313782
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 328.7344665527344
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2832,
+            "error_sum": 34.70636749267578
+          },
+          "ground": {
+            "samples": 67596,
+            "error_sum": 347.8372802734375
+          },
+          "objects": {
+            "samples": 942,
+            "error_sum": 8.736671447753906
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2748,
+            "error_sum": 22.540796279907227
+          },
+          "ground": {
+            "samples": 67353,
+            "error_sum": 346.43060302734375
+          },
+          "objects": {
+            "samples": 1503,
+            "error_sum": 12.49055290222168
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.009923160076141357
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 291.15301513671875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25001,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.009465083479881287
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 300.8741455078125
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2529,
+            "error_sum": 13.356053352355957
+          },
+          "ground": {
+            "samples": 67794,
+            "error_sum": 317.50738525390625
+          },
+          "objects": {
+            "samples": 1470,
+            "error_sum": 4.770777702331543
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2691,
+            "error_sum": 26.468425750732422
+          },
+          "ground": {
+            "samples": 66912,
+            "error_sum": 313.44921875
+          },
+          "objects": {
+            "samples": 2106,
+            "error_sum": 9.952499389648438
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.011544480919837952
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 298.88006591796875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25002,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.010952159762382507
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 311.35400390625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 4572,
+            "error_sum": 64.593994140625
+          },
+          "ground": {
+            "samples": 62289,
+            "error_sum": 401.5492248535156
+          },
+          "objects": {
+            "samples": 5385,
+            "error_sum": 97.24649810791016
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 3837,
+            "error_sum": 29.22334861755371
+          },
+          "ground": {
+            "samples": 62184,
+            "error_sum": 442.12030029296875
+          },
+          "objects": {
+            "samples": 5499,
+            "error_sum": 67.18399047851562
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.01456819474697113
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 328.99969482421875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25003,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.013804227113723755
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 349.6242370605469
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 4251,
+            "error_sum": 26.991369247436523
+          },
+          "ground": {
+            "samples": 65997,
+            "error_sum": 346.39288330078125
+          },
+          "objects": {
+            "samples": 3225,
+            "error_sum": 30.620868682861328
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 4125,
+            "error_sum": 29.47539520263672
+          },
+          "ground": {
+            "samples": 65685,
+            "error_sum": 405.65570068359375
+          },
+          "objects": {
+            "samples": 3462,
+            "error_sum": 21.593042373657227
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.013600707054138184
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 306.4159240722656
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25004,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.012969925999641418
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 327.7308654785156
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1824,
+            "error_sum": 8.30859661102295
+          },
+          "ground": {
+            "samples": 69987,
+            "error_sum": 416.073974609375
+          },
+          "objects": {
+            "samples": 33,
+            "error_sum": 0.10723298788070679
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1809,
+            "error_sum": 3.552279233932495
+          },
+          "ground": {
+            "samples": 69306,
+            "error_sum": 393.2674560546875
+          },
+          "objects": {
+            "samples": 15,
+            "error_sum": 0.1315818727016449
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.007538497447967529
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 381.527099609375
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25005,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.007547557353973389
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 368.3619384765625
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2382,
+            "error_sum": 9.87498950958252
+          },
+          "ground": {
+            "samples": 68736,
+            "error_sum": 350.4083251953125
+          },
+          "objects": {
+            "samples": 894,
+            "error_sum": 5.762754917144775
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2286,
+            "error_sum": 12.374136924743652
+          },
+          "ground": {
+            "samples": 69633,
+            "error_sum": 352.5661315917969
+          },
+          "objects": {
+            "samples": 393,
+            "error_sum": 2.28657865524292
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.004214838147163391
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 337.9024353027344
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25006,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0044806599617004395
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 327.8250732421875
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": false,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 2661,
+            "error_sum": 18.685443878173828
+          },
+          "ground": {
+            "samples": 68436,
+            "error_sum": 315.28375244140625
+          },
+          "objects": {
+            "samples": 1629,
+            "error_sum": 6.668937683105469
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": false,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 2487,
+            "error_sum": 12.707852363586426
+          },
+          "ground": {
+            "samples": 68637,
+            "error_sum": 260.5938720703125
+          },
+          "objects": {
+            "samples": 1341,
+            "error_sum": 6.62529182434082
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": true,
+        "pair": 0,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0034077465534210205
+          },
+          "ground": {
+            "samples": 70695,
+            "error_sum": 281.7247009277344
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      },
+      {
+        "seed": 25007,
+        "family": "boxes",
+        "remove": true,
+        "pair": 1,
+        "regions": {
+          "boundary": {
+            "samples": 1056,
+            "error_sum": 0.0033603310585021973
+          },
+          "ground": {
+            "samples": 70608,
+            "error_sum": 251.78903198242188
+          },
+          "objects": {
+            "samples": 0,
+            "error_sum": 0.0
+          }
+        }
+      }
+    ]
+  },
+  "game_integration_allowed": false
+}

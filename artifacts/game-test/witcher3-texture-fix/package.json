@@ -1,0 +1,10 @@
+{
+  "preservesCurrentIni": true,
+  "purpose": "Depth to R32_FLOAT texture descriptor correction; no visual model installed",
+  "created": "2026-09-07T00:59:57.0421425-03:00",
+  "hashes": {
+    "dxgi.dll": "BB6F082CACC0CAAEB6550D266F19D473D8323D272335C3DA294667BC321CFEA5",
+    "OptiScaler.ini": "7194A507252947460AE54BBFBFE1DEC50174F1E191B0B77531F958E2F2F5C890"
+  },
+  "validation": "37 CTests passed; RX7600 formats 19/44 allocation regression passed"
+}
